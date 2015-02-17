@@ -228,7 +228,7 @@ TUBAMEはJavaアプリケーションのスムーズな移植を支援するた�
 <ns3:title>移植性検討フェーズにおける各ツールの機能について</ns3:title>
 <ns3:mediaobject>
 <ns3:imageobject>
-<ns3:imagedata fileref="images/portability.png" width="800"/>
+<ns3:imagedata fileref="../images/portability.png" width="800"/>
 </ns3:imageobject>
 </ns3:mediaobject>
 </ns3:figure>
@@ -236,7 +236,7 @@ TUBAMEはJavaアプリケーションのスムーズな移植を支援するた�
 <ns3:title>移植フェーズにおける各ツールの機能について</ns3:title>
 <ns3:mediaobject>
 <ns3:imageobject>
-<ns3:imagedata fileref="images/make.png" width="800"/>
+<ns3:imagedata fileref="../images/make.png" width="800"/>
 </ns3:imageobject>
 </ns3:mediaobject>
 </ns3:figure>
@@ -290,7 +290,7 @@ TUBAMEはJavaアプリケーションのスムーズな移植を支援するた�
 <ns3:title>移植性検索ツールの入力と出力について</ns3:title>
 <ns3:mediaobject>
 <ns3:imageobject>
-<ns3:imagedata fileref="images/dependcy-future.png" width="500"/>
+<ns3:imagedata fileref="../images/dependcy-future.png" width="500"/>
 </ns3:imageobject>
 </ns3:mediaobject>
 </ns3:figure>
