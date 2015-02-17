@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <meta charset="utf-8">
-<title>DOCS</title>
+<title>TUBAME Documentations</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -25,10 +25,20 @@ font-size: 14px;
 line-height: 20px;
 color: #333333;
 background-color: #ffffff;
+min-height:0px
 }
 .navbar-default {
 background-color: #7b4f9d;
 border-color: #7b4f9d;
+}
+a {
+display: block;
+width: 100%;
+height: 100%;
+text-decoration:none;
+}
+a:hover {
+text-decoration: none;
 }
 </style>
 </head>
@@ -48,29 +58,48 @@ border-color: #7b4f9d;
 </div>
 <div class="container bs-docs-container">
 <div class="row">
-<div class="col-md-3">
-<div class="bs-sidebar hidden-print affix-top" role="complementary">
-<div class="well">
-<!-- TODO: Please insert the index html code that is surrounded by the <div class="toc"> html tag. -->
-<h1>工事中</h1>
-</div>
-<!-- well end -->
-</div>
-<!-- bs-sidebar hidden-print affix-top end-->
-</div>
-<div class="col-md-9" role="main">
+<div class="col-md-12" role="main">
 <!-- ===== Dropdowns ===== -->
 <div class="bs-docs-section">
-<!-- TODO: Please insert the content html code that is surrounded by <HR> and </BODY> html tag. -->
-<h1>工事中</h1>
+<div class="panel panel-default">
+<!-- Table -->
+<table class="table table-hover">
+<tr>
+<th>DOCUMENTATION</th>
+</tr>
+<tr>
+<td>
+<a href="http://tubame.github.io/migration-tool/portability_ja.html" target="_self">ナレッジベース検索ガイド</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="http://tubame.github.io/migration-tool/wsearch_ja.html" target="_self">依存性検索ガイド</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="http://tubame.github.io/migration-tool/knowhow_ja.html" target="_self">ナレッジ管理ガイド</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="http://tubame.github.io/migration-tool/reportgen_ja.html" target="_self">レポート生成ガイド</a>
+</td>
+</tr>
+<tr>
+<td>
+<a href="http://tubame.github.io/user-knowledge/docs/post_knowledge_ja.html" target="_self">TUBAMEコミュニティへのナレッジ投稿方法</a>
+</td>
+</tr>
+</table>
+</div>
 </div>
 <!-- bs-docs-section end-->
 <!-- ===== Footer ===== -->
 <footer class="bs-footer" role="contentinfo">
 <div class="container">
-<p>
-<a href="https://github.com/tubame" target="_blank">TUBAME Project</a>
-</p>
+<a href="http://tubame.github.io/ja" target="_self">TUBAME Community page</a>
 </div>
 </footer>
 <!-- JS and analytics only. -->
