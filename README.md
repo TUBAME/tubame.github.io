@@ -1,2 +1,1 @@
-This repositry is managed TUBAME's community site.
-Each tool's documentations are managed by their repositories.
+This is a repository to provide a community page using the GitHub Pages.
