@@ -22,3 +22,6 @@ target/
 jbmst/
 
 plugins/
+
+# TUBAME's ignore filse #
+work/
