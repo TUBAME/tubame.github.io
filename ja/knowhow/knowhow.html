@@ -1,12 +1,12 @@
 <HTML xmlns:knowhow="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:doc="http://docbook.org/ns/docbook">
 <HEAD>
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>オンラインクイックユーザマニュアル - ナレッジ管理ツール</title>
-<link href="css/docbook.css" type="text/css" rel="stylesheet">
+<title>ナレッジ管理ツールガイド</title>
+<link href="css/knowhow.css" type="text/css" rel="stylesheet">
 <meta content="DocBook XSL Stylesheets V1.78.1" name="generator">
 </HEAD>
 <BODY>
-<H1 class="title">オンラインクイックユーザマニュアル - ナレッジ管理ツール</H1>
+<H1 class="title">ナレッジ管理ツールガイド</H1>
 <div class="toc">
 <p>
 <b>Index</b>
@@ -54,67 +54,40 @@
 </dl>
 </dd>
 <dt>
-<span class="3."><a href="#tubame_3.">3.インストール</a></span>
+<span class="3."><a href="#tubame_3.">3.利用方法</a></span>
 </dt>
 <dd>
 <dl>
 <dt>
-<span class="3.1."><a href="#tubame_3.1.">3.1.インストール</a></span>
-</dt>
-</dl>
-</dd>
-<dt>
-<span class="4."><a href="#tubame_4.">4.利用方法</a></span>
+<span class="3.1."><a href="#tubame_3.1.">3.1.マイグレーションナレッジの準備</a></span>
 </dt>
 <dd>
 <dl>
 <dt>
-<span class="4.1."><a href="#tubame_4.1.">4.1.利用の流れ</a></span>
-</dt>
-<dd>
-<dl>
-<dt>
-<span class="4.1.1."><a href="#tubame_4.1.1.">4.1.1.Eclipseプロジェクトの作成</a></span>
+<span class="3.1.1."><a href="#tubame_3.1.1.">3.1.1.新規に作成する場合</a></span>
 </dt>
 </dl>
 </dd>
 <dd>
 <dl>
 <dt>
-<span class="4.1.2."><a href="#tubame_4.1.2.">4.1.2.ツールの起動</a></span>
+<span class="3.1.2."><a href="#tubame_3.1.2.">3.1.2.既存ファイルを更新する場合</a></span>
+</dt>
+</dl>
+</dd>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="3.2."><a href="#tubame_3.2.">3.2.アイテムの作成・編集</a></span>
 </dt>
 </dl>
 </dd>
 <dd>
 <dl>
 <dt>
-<span class="4.1.3."><a href="#tubame_4.1.3.">4.1.3.ナレッジの作成</a></span>
-</dt>
-</dl>
-</dd>
-<dd>
-<dl>
-<dt>
-<span class="4.1.4."><a href="#tubame_4.1.4.">4.1.4.ドキュメントの確認</a></span>
-</dt>
-</dl>
-</dd>
-<dd>
-<dl>
-<dt>
-<span class="4.1.5."><a href="#tubame_4.1.5.">4.1.5.ファイルの保存</a></span>
-</dt>
-</dl>
-</dd>
-</dl>
-</dd>
-<dt>
-<span class="5."><a href="#tubame_5.">5.アンイストール</a></span>
-</dt>
-<dd>
-<dl>
-<dt>
-<span class="5.1."><a href="#tubame_5.1.">5.1.アンインストール</a></span>
+<span class="3.3."><a href="#tubame_3.3.">3.3.編集内容の確認・保存</a></span>
 </dt>
 </dl>
 </dd>
@@ -124,28 +97,33 @@
 <a name="tubame_1."></a>
 <h2 class="title">1.はじめに</h2>
 <br>
-<a name="tubame_1.1."></a>
+<a name="tubame_1.1." id="category_1"></a>
 <h3 class="title">1.1.本ドキュメントの紹介</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
-<p>本マニュアルは、 <span class="application">ナレッジ管理ツール</span> を使用する為に、インストールから利用するまでの手順について簡易に説明したマニュアルです。</p>
+<p>本ガイドは、ナレッジ管理ツールの使用方法について説明したドキュメントです。</p>
 </div>
 <br>
 <br>
-<a name="tubame_1.2."></a>
+<a name="tubame_1.2." id="category_2"></a>
 <h3 class="title">1.2.本ツールの紹介</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
 <p>
-        本ツールは Eclipse プラグインとして動作し、ナレッジを GUI 上で容易に作成、管理することができるツールです。
-        ナレッジには、移植箇所を抽出するための検索条件、移植難易度、移植工数 (移植概算ライン) 等が設定可能です。
-			登録されるナレッジは XML 形式で管理されます。
-			大きく以下の情報を扱うことが可能です。
-        </p>
+			本ツールは、マイグレーションナレッジをGUI 上で容易に作成、管理することができるツールです。
+			マイグレーションナレッジは、マイグレーションに関するノウハウとして、移植箇所を抽出するための検索条件、移植難易度、移植工数
+			(移植概算ライン) 等が設定可能です。
+		</p>
+<p>
+			本ツールでは大きく以下の情報を扱うことが可能です。
+		</p>
+<p>
+			
+</p>
 <div class="table">
-<a name="N1023E"></a>
+<a name="N10267"></a>
 <p class="title">
 <b>Table&nbsp;1.&nbsp;本ツールで扱う情報</b>
 </p>
@@ -162,10 +140,16 @@
 </thead>
 <tbody>
 <tr>
-<td>ナレッジのドキュメント情報</td><td>ドキュメント情報を HTML 形式で保存できます。保存したファイルを <span class="application">ナレッジベース検索ツール</span> にコピーすれば、検索結果からリンク参照することができます。</td>
+<td>マイグレ―ションに関するノウハウガイド（HTML）</td><td>
+								マイグレーションに関するノウハウをドキュメント形式（HTML）で作成、保存できます。
+								保存したHTMLファイルをナレッジベース検索ツールから参照することにより、検索実行結果から直接リンク参照することができます。
+							</td>
 </tr>
 <tr>
-<td>移植箇所の検索情報</td><td>検索情報を XML 形式で保存できます。保存したファイルを <span class="application">ナレッジベース検索ツール</span> の入力として使用すれば、検索ロジックとして実行することができます。</td>
+<td>修正箇所の検索情報（XML）</td><td>
+								修正箇所の検索情報をナレッジアイテムとしてXML 形式で作成、保存できます。
+								保存したXMLファイルをナレッジベース検索ツールの入力情報とすることにより、検索ロジックとして利用することができます。
+							</td>
 </tr>
 </tbody>
 </table>
@@ -173,7 +157,7 @@
 </div>
 <p>
 <br class="table-break">
-      
+		
 </p>
 </div>
 <br>
@@ -181,14 +165,14 @@
 <a name="tubame_2."></a>
 <h2 class="title">2.動作環境</h2>
 <br>
-<a name="tubame_2.1."></a>
+<a name="tubame_2.1." id="category_3"></a>
 <h3 class="title">2.1.ハードウェア要件</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
 <p>本ツールは以下のハードウェア環境で動作することを確認しています。</p>
 <div class="table">
-<a name="N10267"></a>
+<a name="N1028A"></a>
 <p class="title">
 <b>Table&nbsp;1.&nbsp;ハードウェア要件</b>
 </p>
@@ -218,14 +202,14 @@
 </div>
 <br>
 <br>
-<a name="tubame_2.2."></a>
+<a name="tubame_2.2." id="category_6"></a>
 <h3 class="title">2.2.ソフトウェア要件</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
 <p>本ツールは以下のソフトウェア環境で動作することを確認しています。</p>
 <div class="table">
-<a name="N10289"></a>
+<a name="N102AC"></a>
 <p class="title">
 <b>Table&nbsp;1.&nbsp;ソフトウェア要件</b>
 </p>
@@ -262,7 +246,7 @@
 </div>
 <br>
 <br>
-<a name="tubame_2.3."></a>
+<a name="tubame_2.3." id="category_7"></a>
 <h3 class="title">2.3.前提条件</h3>
 <br>
 <div class="section">
@@ -272,200 +256,71 @@
 <br>
 <br>
 <a name="tubame_3."></a>
-<h2 class="title">3.インストール</h2>
+<h2 class="title">3.利用方法</h2>
 <br>
-<a name="tubame_3.1."></a>
-<h3 class="title">3.1.インストール</h3>
+<a name="tubame_3.1." id="category_37"></a>
+<h3 class="title">3.1.マイグレーションナレッジの準備</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
-<p>
-			事前に
-			動作環境
-			に記載されている環境等の準備を整えてください。
-			準備が整っていることを確認し、以下の手順を実施します。
+<p>編集対象のマイグレーションナレッジを準備します。</p>
+<p>新規にマイグレーションナレッジファイルを作成する場合と、既存のマイグレーションナレッジファイルを編集する場合の手順について以下で説明します。
 		</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>以降の処理は「ナレッジ管理ツール」パースペクティブを表示して実行してください。</p>
+<p> Window -&gt; Open Perspective -&gt; Other -&gt; ナレッジ管理ツール
+			</p>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<br>
+<br>
+<a name="tubame_3.1.1." id="category_38"></a>
+<h3 class="title">3.1.1.新規に作成する場合</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>マイグレーションナレッジを新規に作成する手順は以下です。</p>
 <div class="orderedlist">
 <ol class="orderedlist" type="1">
 <li class="listitem">
-<p>ダウンロード</p>
-<p>プラグインをダウンロードします</p>
-<p>
-					
-</p>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>
-							https://github.com/TUBAME/migration-tool/releases
-						</p>
-</td>
-</tr>
-</table>
-</div>
-<p>
-				
-</p>
+<p>Eclipse 上で適当なプロジェクトを生成します。</p>
+<p>	File -&gt; New -&gt; Project</p>
 </li>
 <li class="listitem">
-<p>解凍</p>
-<p>
-					ダウンロードしたファイルを解凍します。
-					解凍すると
-					<code class="filename">tubame.knowhow_*</code>
-					という名前のディレクトリが作成されます。
-					</p>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>* 部分はプラグインのバージョンによって変わります。</p>
-</td>
-</tr>
-</table>
-</div>
-<p>
-					
-</p>
-<div class="important" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Important">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Important]" src="images/important.png"></td><th align="left">Important</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>
-							Windows 上で zip を解凍する場合、パス長の制限により解凍に失敗する場合があります。
-							失敗した場合は、
-							<code class="filename">C:\temp</code>
-							のような短いパスに解凍してください。
-						</p>
-</td>
-</tr>
-</table>
-</div>
-<p>
-				
-</p>
+<p>プロジェクトを選択して、「New」ウィザードを表示します。</p>
+<p>	Project右クリック -&gt; New -&gt; Other</p>
 </li>
 <li class="listitem">
-<p>Eclipse へインストール</p>
-<p>
-					解凍したディレクトリを、Eclipse インストールディレクトリ下の
-					<code class="filename">plugins</code>
-					ディレクトリに移動またはコピーします。
-				</p>
+<p>Newウィザードで「ナレッジXMLファイル」を選択します。</p>
+<p>	Other -&gt; ナレッジXMLファイル</p>
 </li>
 <li class="listitem">
-<p>インストール確認</p>
-<p>
-					以下のように Eclipse メニューを選択します。
-				</p>
-<p>
-					
-<span class="guimenu">Help</span> &rarr; <span class="guimenuitem">About Eclipse</span> &rarr; <span class="guimenuitem">Installation Details</span> &rarr; <span class="guimenuitem">Plug-ins</span>
-				
-</p>
-<p>
-					
-<span class="guilabel">Plug-in Id</span>
-					の部分に、以下のプラグイン名
-					<span class="guilabel">tubame.knowhow</span>
-					が存在することを確認してください。
-				</p>
+<p>ナレッジXMLファイルウィザードが表示されるので、ガイドのサブジェクトや出力先を指定してください。</p>
+<p>本例ではマイグレーションナレッジファイルをプロジェクト直下に作成しています。</p>
 </li>
 <li class="listitem">
-<p>インストール完了</p>
-<p>これでインストール完了です</p>
+<p>Finish をクリックするとプロジェクト直下にマイグレーションナレッジファイル（XML）が生成されます。</p>
 </li>
 </ol>
 </div>
 </div>
 <br>
 <br>
-<a name="tubame_4."></a>
-<h2 class="title">4.利用方法</h2>
-<br>
-<a name="tubame_4.1."></a>
-<h3 class="title">4.1.利用の流れ</h3>
+<a name="tubame_3.1.2." id="category_39"></a>
+<h3 class="title">3.1.2.既存ファイルを更新する場合</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
-<p>ツールの利用の流れを解説します。</p>
-</div>
-<br>
-<br>
-<a name="tubame_4.1.1."></a>
-<h3 class="title">4.1.1.Eclipseプロジェクトの作成</h3>
-<br>
-<div class="section">
-<div class="titlepage"></div>
-<p>以下の手順を実施します。</p>
-<div class="orderedlist">
-<ol class="orderedlist" type="1">
-<li class="listitem">
-<p>Eclipse を起動</p>
-</li>
-<li class="listitem">
-<p>
-					プロジェクト作成ウィザードの起動
-				</p>
-<p>
-					
-<span class="guimenu">File</span> &rarr; <span class="guimenuitem">New</span> &rarr; <span class="guimenuitem">Project...</span>
-				
-</p>
-</li>
-<li class="listitem">
-<p>
-                
-<span class="guimenuitem">Project</span> の作成
-				</p>
-<p>
-					
-<span class="guimenu">Project</span> &rarr; <span class="guimenuitem">Next</span>
-				
-</p>
-<p>
-                    
-<span class="guilabel">New Project</span> ウィザードで、移植元の環境に応じて適宜設定を行いプロジェクトを作成します。
-				</p>
-</li>
-</ol>
-</div>
-</div>
-<br>
-<br>
-<a name="tubame_4.1.2."></a>
-<h3 class="title">4.1.2.ツールの起動</h3>
-<br>
-<div class="section">
-<div class="titlepage"></div>
-<p>以下の手順を実施します。</p>
-<div class="orderedlist">
-<ol class="orderedlist" type="1">
-<li class="listitem">
-<p>
-					パースペクティブの起動
-				</p>
-<p>
-					
-<span class="guimenu">Window</span> &rarr; <span class="guimenuitem">Open Perspecive</span> &rarr; <span class="guimenuitem">Other</span> &rarr; <span class="guimenuitem">ナレッジ管理ツール</span>
-				
-</p>
-</li>
-<li class="listitem">
-<p>ツールの初期化</p>
-<p>
-					パースペクティブを起動すると自動的にツールの初期化処理が開始されます。初期化が完了するまでお待ちください。
-					</p>
+<p>既存のマイグレーションナレッジファイルを更新する場合も適当なEclipse プロジェクト内にファイルを置いてください。</p>
 <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Note">
 <tr>
@@ -473,166 +328,79 @@
 </tr>
 <tr>
 <td valign="top" align="left">
-<p>XML のマーシャル / アンマーシャルクラスの初期化に時間を要する場合があります。</p>
+<p>GitHub 上に公開されている<span class="command"><strong><a class="command" href="https://github.com/TUBAME/migration-knowledge" target="_top">migration-knowledge リポジトリ</a></strong></span>をインポートすることで現在公開中のナレッジを編集することが可能です。</p>
+<p>Gitプロジェクトのインポート方法については、Gitドキュメントを参照ください。</p>
 </td>
 </tr>
 </table>
 </div>
-<p>
-					
-</p>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>
-							初期化処理はキャンセルできません。
-							<span class="guimenuitem">Cancel</span>
-							ボタンをクリックしても無視されます。
-						</p>
-</td>
-</tr>
-</table>
-</div>
-<p>
-				
-</p>
-</li>
-</ol>
-</div>
 </div>
 <br>
 <br>
-<a name="tubame_4.1.3."></a>
-<h3 class="title">4.1.3.ナレッジの作成</h3>
+<a name="tubame_3.2." id="category_32"></a>
+<h3 class="title">3.2.アイテムの作成・編集</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
-<p>ナレッジの作成方法を以下に記載します。</p>
+<p>ナレッジに関するアイテムの作成・編集手順は以下です。</p>
 <div class="orderedlist">
 <ol class="orderedlist" type="1">
 <li class="listitem">
 <p>
-					ナレッジ XML ファイルの新規作成
+					マイグレーションナレッジファイルのオープン
 				</p>
 <p>
-					
-<span class="guimenu">File</span> &rarr; <span class="guimenuitem">New</span> &rarr; <span class="guimenuitem">Other</span> &rarr; <span class="guimenuitem">ナレッジ XML ファイル</span>
-				
-</p>
+					準備したマイグレーションナレッジファイルを開きます。
+				</p>
 <p>
-                
-</p>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>作成済みの <code class="filename">ナレッジ XML</code> ファイルを開く場合は。該当ファイル上で右クリックして以下のようにメニューを選択してください。
-					</p>
-<p>
-						
-<span class="guimenu">Open With</span> &rarr; <span class="guimenuitem">Other</span> &rarr; <span class="guimenuitem">ナレッジエディタ</span>
-					
-</p>
-</td>
-</tr>
-</table>
-</div>
-<p>
-                
-</p>
+					XMLファイル右クリック -&gt; Open With -&gt; ナレッジエディタ
+				</p>
 </li>
 <li class="listitem">
 <p>ナレッジエントリービューの操作</p>
 <p>
-					個々のナレッジは
-					<span class="guilabel">ナレッジエントリービュー</span>
-					上で追加・参照・更新・削除します。
-					作成したナレッジはアイテムとしてドキュメント作成等に活用できます。
-					<span class="guilabel">ナレッジエントリービュー</span>
-					は、以下のいずれかの方法で起動します。
-					</p>
+					個々のアイテムはナレッジエントリービュー上で追加・参照・更新・削除します。
+					作成したアイテムはドキュメント作成等に活用できます。
+				</p>
+</li>
+<li class="listitem">
+<p>
+					ナレッジに関するアイテムの作成
+				</p>
+<p>
+					アイテムの作成は以下の手順で実施します。最初はアイテムが1つもないため、必ずカテゴリを作成することになります。
+				</p>
+<p>
+					
+</p>
 <div class="itemizedlist">
 <ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
 <p>
-								ナレッジ XML 新規作成後に自動起動
-							</p>
+								
+<span class="guilabel">カテゴリ作成</span>
+							
+</p>
+<p>ナレッジエントリビュー上で未選択の状態で右クリック -&gt; カテゴリ登録</p>
 </li>
 <li class="listitem">
 <p>
-								Eclipse のビュー表示メニューからの起動
-							</p>
-<p>
 								
-<span class="guimenu">Window</span> &rarr; <span class="guimenuitem">Show View</span> &rarr; <span class="guimenuitem">Other</span> &rarr; <span class="guimenuitem">ナレッジ管理ツール</span> &rarr; <span class="guimenuitem">ナレッジエントリービュー</span>
+<span class="guilabel">ナレッジ作成</span>
 							
 </p>
+<p>カテゴリ右クリック -&gt; ナレッジ登録</p>
 </li>
 </ul>
 </div>
 <p>
 				
 </p>
-</li>
-<li class="listitem">
 <p>
-					ナレッジを構成するアイテム群の作成
-				</p>
-<p>
-					アイテムの作成は以下の手順で実施します。最初はアイテムが 1 つもないため、必ず
-					<span class="guilabel">カテゴリ</span>
-					を作成することになります。
-				</p>
-<p>
-					
-<span class="guimenu">(アイテムの選択)</span> &rarr; <span class="guimenuitem">右クリック</span> &rarr; <span class="guimenuitem">任意の登録メニュー</span> &rarr; <span class="guimenuitem">登録Wizard起動</span>
-					
-</p>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>
-							アイテムを未選択の場合は
-							<span class="guilabel">カテゴリ</span>
-							のみ作成可能です。
-						</p>
-</td>
-</tr>
-</table>
-</div>
-<p>
-					
-</p>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>上記の他に、コピー&amp;ペーストによる作成も可能です。</p>
-</td>
-</tr>
-</table>
-</div>
-<p>
-
-					ナレッジを構成するアイテムは、以下の種類があります。
-					以下に各アイテムの説明を記載します。
+					アイテムは、以下の種類があります。
 					</p>
 <div class="table">
-<a name="N103F8"></a>
+<a name="N103E0"></a>
 <p class="title">
 <b>Table&nbsp;1.&nbsp;アイテムの種類</b>
 </p>
@@ -649,7 +417,8 @@
 </thead>
 <tbody>
 <tr>
-<td>カテゴリ</td><td>ドキュメント構成の章・節にタイトルに相当すアイテムです。タイトル情報のみ保持します。</td>
+<td>カテゴリ</td><td>ドキュメント構成の章・節にタイトルに相当するアイテムです。タイトル情報のみ保持します。
+									</td>
 </tr>
 <tr>
 <td>ナレッジ</td><td>
@@ -660,19 +429,12 @@
 </tr>
 <tr>
 <td>チェックアイテム</td><td>
-										該当ナレッジの移植判断情報を保持するアイテムです。
-										<span class="guilabel">検索手順</span>
-										、
-										<span class="guilabel">移植要因</span>
-										、
-										<span class="guilabel">難易度</span>
-										などの情報を保持します。
+										該当ナレッジの移植判断情報を保持するアイテムです。検索手順、移植要因、難易度などの情報を保持します。
 									</td>
 </tr>
 <tr>
 <td>検索情報</td><td>
-										<span class="application">ナレッジベース検索ツール</span>
-										が検索の際に使用する検索ロジックとなるアイテムです。
+										ナレッジベース検索ツールが検索の際に使用する検索ロジックとなるアイテムです。
 									</td>
 </tr>
 </tbody>
@@ -686,16 +448,14 @@
 </li>
 <li class="listitem">
 <p>
-					ナレッジエディタの操作
+					ナレッジ管理エディタの操作
 				</p>
 <p>
-					登録されたアイテムの編集や、ドキュメント構成の作成を行います。
-					<span class="guilabel">ナレッジエディタ</span>
-					には以下の種類のタブがあります。
-					以下に各タブの説明を記載します。
+					登録されたアイテムの編集やドキュメント構成の作成を行います。
+					ナレッジ管理エディタには以下の種類のタブがあります。
 					</p>
 <div class="table">
-<a name="N10430"></a>
+<a name="N10409"></a>
 <p class="title">
 <b>Table&nbsp;2.&nbsp;タブの種類</b>
 </p>
@@ -713,18 +473,14 @@
 <tbody>
 <tr>
 <td>ドキュメンテーション</td><td>
-										作成する HTML ドキュメントの章構成を編集することができます。
-										見出しを作成後、
-										<span class="guilabel">ナレッジエントリービュー</span>
-										から
-										<span class="guilabel">カテゴリ</span> をドラッグ&amp;ドロップすることでドキュメントを構成していきます。
+										作成するHTML ドキュメントの章構成を編集することができます。
+										見出しを作成後、ナレッジエントリービューからカテゴリをドラッグ&amp;ドロップすることでドキュメントを構成していきます。
 									</td>
 </tr>
 <tr>
 <td>ナレッジ詳細</td><td>
-										ナレッジのコンテンツを
-										<code class="sgmltag-element">DocBook#Article</code>
-										形式で編集するエディタです。エディタ上で右クリックを行い、タグのテンプレートを挿入することもできます。
+										ナレッジのコンテンツをDocBook#Article 形式で編集するエディタです。
+										エディタ上で右クリックを行い、タグのテンプレートを挿入することもできます。
 										<div class="important" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Important">
 <tr>
@@ -746,12 +502,7 @@
 </tr>
 <tr>
 <td>チェックアイテム</td><td>
-										<span class="guilabel">ナレッジエントリービュー</span>
-										で選択している
-										<span class="guilabel">チェックアイテム情報</span>
-										および
-										<span class="guilabel">検索情報</span>
-										を編集することができます。
+										ナレッジエントリービューで選択しているチェックアイテム情報および検索情報を編集することができます。
 									</td>
 </tr>
 </tbody>
@@ -760,15 +511,10 @@
 </div>
 <p>
 <br class="table-break">
-					以下に
-					<span class="guilabel">チェックアイテム</span>
-					タブで編集する
-					<span class="guilabel">チェックアイテム情報</span> および
-					<span class="guilabel">検索情報</span>
-					の各入力項目の説明をします。
+					以下にチェックアイテムタブで編集するチェックアイテム情報および検索情報の各入力項目の説明をします。
 					</p>
 <div class="table">
-<a name="N1046E"></a>
+<a name="N1042C"></a>
 <p class="title">
 <b>Table&nbsp;3.&nbsp;チェックアイテム情報</b>
 </p>
@@ -790,8 +536,7 @@
 </tr>
 <tr>
 <td>検索実施</td><td>
-										<span class="application">ナレッジベース検索ツール</span>
-										で検索する際に、実際に検索対象とする場合はチェックを有効にします。
+										ナレッジベース検索ツールで検索する際に、実際に検索対象とする場合はチェックを有効にします。
 									</td>
 </tr>
 <tr>
@@ -800,7 +545,6 @@
 <tr>
 <td>難易度</td><td>
 										移植作業の難易度を選択します。
-
 										<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Note">
 <tr>
@@ -813,41 +557,41 @@
 <ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
 <p>
-    
+														
 <span class="guilabel">高</span>
-
+													
 </p>
 <p>実装内容の大規模な修正が必要で、実装や設定等の大幅な見直しが必要</p>
 </li>
 <li class="listitem">
 <p>
-    
+														
 <span class="guilabel">中</span>
-
+													
 </p>
 <p>実装内容を考慮した小規模な修正が必要</p>
 </li>
 <li class="listitem">
 <p>
-    
+														
 <span class="guilabel">低</span>
-
+													
 </p>
 <p>実装内容を考慮せず軽微な修正で対応可能</p>
 </li>
 <li class="listitem">
 <p>
-    
+														
 <span class="guilabel">不明</span>
-
+													
 </p>
 <p>難易度不明</p>
 </li>
 <li class="listitem">
 <p>
-    
+														
 <span class="guilabel">移植不可</span>
-
+													
 </p>
 <p>移植不可</p>
 </li>
@@ -861,8 +605,8 @@
 </td>
 </tr>
 <tr>
-<td>難易度詳細</td><td>移植作業の詳細な難易度を選択します。
-
+<td>難易度詳細</td><td>
+										移植作業の詳細な難易度を選択します。
 										<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Note">
 <tr>
@@ -875,59 +619,87 @@
 <ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
 <p>
-    
+														
 <span class="guilabel">高</span>
-
+													
 </p>
-<p>難易度が <span class="guilabel">高</span> であるもの</p>
+<p>
+														難易度が
+														<span class="guilabel">高</span>
+														であるもの
+													</p>
 </li>
 <li class="listitem">
 <p>
-    
+														
 <span class="guilabel">中</span>
-
+													
 </p>
-<p>難易度が <span class="guilabel">中</span> であるもの</p>
+<p>
+														難易度が
+														<span class="guilabel">中</span>
+														であるもの
+													</p>
 </li>
 <li class="listitem">
 <p>
-    
+														
 <span class="guilabel">低1</span>
-
+													
 </p>
-<p>難易度が <span class="guilabel">低</span> であり、置換レベルで対応不可能であるもの</p>
+<p>
+														難易度が
+														<span class="guilabel">低</span>
+														であり、置換レベルで対応不可能であるもの
+													</p>
 </li>
 <li class="listitem">
 <p>
-    
+														
 <span class="guilabel">低2</span>
-
+													
 </p>
-<p>難易度が <span class="guilabel">低</span> であり、置換レベルで対応可能であるもの</p>
+<p>
+														難易度が
+														<span class="guilabel">低</span>
+														であり、置換レベルで対応可能であるもの
+													</p>
 </li>
 <li class="listitem">
 <p>
-    
+														
 <span class="guilabel">不明1</span>
-
+													
 </p>
-<p>難易度が <span class="guilabel">不明</span> であり、JBossにて該当機能がなく難易度を判断できないもの</p>
+<p>
+														難易度が
+														<span class="guilabel">不明</span>
+														であり、移行先環境にて該当機能がなく難易度を判断できないもの
+													</p>
 </li>
 <li class="listitem">
 <p>
-    
+														
 <span class="guilabel">不明2</span>
-
+													
 </p>
-<p>難易度が <span class="guilabel">不明</span> であり、JBossに該当機能があるかどうかも不明で難易度を判断できないもの</p>
+<p>
+														難易度が
+														<span class="guilabel">不明</span>
+														であり、移行先環境に該当機能があるかどうかも不明で難易度を判断できないもの
+													</p>
 </li>
 <li class="listitem">
 <p>
-    
+														
 <span class="guilabel">移植不可</span>
-
+													
 </p>
-<p>難易度が <span class="guilabel">移植不可</span> であるもの</p>
+<p>
+														難易度が
+														<span class="guilabel">移植不可</span>
+														であるもの
+													</p>
 </li>
 </ul>
 </div>
@@ -935,7 +707,7 @@
 </tr>
 </table>
 </div>
-    
+									
 </td>
 </tr>
 <tr>
@@ -955,7 +727,7 @@
 					
 </p>
 <div class="table">
-<a name="N10520"></a>
+<a name="N104DB"></a>
 <p class="title">
 <b>Table&nbsp;4.&nbsp;検索情報</b>
 </p>
@@ -976,73 +748,89 @@
 									</td>
 </tr>
 <tr>
-<td>検索キーワード 1</td><td>検索モジュールに渡すパラメータを入力します。正規表現や XPath での入力も可能です。<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<td>検索キーワード 1</td><td>
+										検索モジュールに渡すパラメータを入力します。正規表現や XPath での入力も可能です。
+										<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Note">
 <tr>
 <td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
 </tr>
 <tr>
 <td valign="top" align="left">
-<p>入力するパラメータについては、検索モジュールによって変わります。検索モジュール概要を参考にパラメータを入力してください。</p>
+<p>入力するパラメータについては、検索モジュールによって変わります。検索モジュール概要を参考にパラメータを入力してください。
+											</p>
 </td>
 </tr>
 </table>
 </div>
-    
+									
 </td>
 </tr>
 <tr>
-<td>検索キーワード 2</td><td>検索モジュールに渡すパラメータを入力します。正規表現や XPath での入力も可能です。<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<td>検索キーワード 2</td><td>
+										検索モジュールに渡すパラメータを入力します。正規表現や XPath での入力も可能です。
+										<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Note">
 <tr>
 <td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
 </tr>
 <tr>
 <td valign="top" align="left">
-<p>入力するパラメータについては、検索モジュールによって変わります。検索モジュール概要を参考にパラメータを入力してください。</p>
+<p>入力するパラメータについては、検索モジュールによって変わります。検索モジュール概要を参考にパラメータを入力してください。
+											</p>
 </td>
 </tr>
 </table>
 </div>
-    
+									
 </td>
 </tr>
 <tr>
-<td>検索モジュール</td><td>検索モジュール概要を参考に検索したいモジュールを選択します。<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<td>検索モジュール</td><td>
+										検索モジュール概要を参考に検索したいモジュールを選択します。
+										<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Note">
 <tr>
 <td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
 </tr>
 <tr>
 <td valign="top" align="left">
-<p>未選択の場合は、標準検索機能により検索が実行されます。標準検索機能は、<span class="guilabel">検索対象ファイル</span>でヒットしたファイルに対して
-    <span class="guilabel">検索キーワード 1</span> で検索後、 <span class="guilabel">検索キーワード 2</span> でさらに検索を行います。</p>
+<p>
+												未選択の場合は、標準検索機能により検索が実行されます。標準検索機能は、検索対象ファイルでヒットしたファイルに対して検索キーワード
+												1で検索後、検索キーワード 2でさらに検索を行います。
+											</p>
 </td>
 </tr>
 </table>
 </div>
-    
+									
 </td>
 </tr>
 <tr>
 <td>検索モジュール概要</td><td>検索モジュールの概要説明が表示されます。</td>
 </tr>
 <tr>
-<td>ライン数算出</td><td>検索にヒットした場合に <span class="guilabel">ライン数</span> に入力した値を移植工数として加算する場合はチェックを有効にします。</td>
+<td>ライン数算出</td><td>
+										検索にヒットした場合にライン数に入力した値を移植工数として加算する場合はチェックを有効にします。
+									</td>
 </tr>
 <tr>
 <td>非算出理由</td><td>
-        <span class="guilabel">ライン数算出</span> を無効にする場合は、その理由を入力します。</td>
+										ライン数算出を無効にする場合は、その理由を入力します。
+									</td>
 </tr>
 <tr>
 <td>不明 / TODO</td><td>
-        <span class="guilabel">ライン数</span> が不確定な場合に、該当する項目を選択します。</td>
+										ライン数が不確定な場合に、該当する項目を選択します。
+									</td>
 </tr>
 <tr>
 <td>ライン数</td><td>移植に要するおおよその修正ライン数を入力します。</td>
 </tr>
 <tr>
-<td>ライン数根拠</td><td>入力した <span class="guilabel">ライン数</span> の根拠を入力します。</td>
+<td>ライン数根拠</td><td>
+										入力したライン数の根拠を入力します。
+									</td>
 </tr>
 <tr>
 <td>調査内容</td><td>修正ライン数を算出するための調査方法等を入力します。</td>
@@ -1061,60 +849,24 @@
 </div>
 <br>
 <br>
-<a name="tubame_4.1.4."></a>
-<h3 class="title">4.1.4.ドキュメントの確認</h3>
+<a name="tubame_3.3." id="category_35"></a>
+<h3 class="title">3.3.編集内容の確認・保存</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
-<p>作成したナレッジドキュメントを Eclipse 標準ブラウザで確認することができます。
-			以下の 2 種類の確認方法があります。
-		</p>
+<p>編集したマイグレーションナレッジファイルを確認、保存します。</p>
 <div class="itemizedlist">
 <ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
-<p>ドキュメント全体での確認</p>
+<p>HTML プレビュー</p>
 <p>
-					ツールバー上の
-					<span class="guimenu">HTML プレビュー</span>
-					ボタンで、
-					<span class="guilabel">ドキュメンテーション</span>
-					タブにて構成したドキュメント全体を確認できます。
+					ツールバー上の「HTML プレビュー」ボタンをクリックすると、ドキュメンテーションタブにて構成したドキュメントを確認することができます。
 				</p>
 </li>
-<li class="listitem">
-<p>アイテム単体での確認</p>
-<p>
-					
-<span class="guilabel">ナレッジ詳細</span>
-					タブにて作成したアイテム単体でのドキュメントを確認できます。
-				</p>
-<p>
-					
-<span class="guimenu">ナレッジ詳細</span> &rarr; <span class="guimenuitem">右クリック</span> &rarr; <span class="guimenuitem">HTML プレビュー</span>
-				
-</p>
-</li>
-</ul>
-</div>
-</div>
-<br>
-<br>
-<a name="tubame_4.1.5."></a>
-<h3 class="title">4.1.5.ファイルの保存</h3>
-<br>
-<div class="section">
-<div class="titlepage"></div>
-<p>作成したナレッジをファイルとして保存できます。
-			以下の 2 種類の確認方法があります。
-		</p>
-<div class="itemizedlist">
-<ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
 <p>XML 保存</p>
 <p>
-					ツールバー上の
-					<span class="guimenu">XML 保存</span>
-					ボタンで、 XML 形式でファイルを保存することができます。
+					ツールバー上の「XML 保存」ボタンをクリックすると、マイグレーションナレッジファイルをXML 形式で保存することができます。
 				</p>
 <p>
                 
@@ -1126,7 +878,7 @@
 </tr>
 <tr>
 <td valign="top" align="left">
-<p>保存したファイルは、 <span class="application">ナレッジ管理ツール</span> で再度編集することができます。</p>
+<p>保存したXMLファイルは、ナレッジ管理ツールで再度編集することができます。</p>
 </td>
 </tr>
 </table>
@@ -1144,7 +896,7 @@
 </tr>
 <tr>
 <td valign="top" align="left">
-<p>保存したファイルは、 <span class="application">ナレッジベース検索ツール</span> の入力ファイルとして利用できます。</p>
+<p>保存したXMLファイルは、ナレッジベース検索ツールの入力情報として利用できます。</p>
 </td>
 </tr>
 </table>
@@ -1156,9 +908,7 @@
 <li class="listitem">
 <p>HTML 保存</p>
 <p>
-					ツールバー上の
-					<span class="guimenu">HTML 保存</span>
-					ボタンで、 HTML 形式でファイルを保存することができます。
+					ツールバー上の「HTML 保存」ボタンをクリックすると、マイグレーションナレッジファイルに含まれるドキュメント情報をHTML 形式で保存することができます。
 				</p>
 <div class="important" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Important">
@@ -1167,7 +917,7 @@
 </tr>
 <tr>
 <td valign="top" align="left">
-<p>保存したファイルは、 <span class="application">ナレッジ管理ツール</span> で再度エディットすることはできません。</p>
+<p>保存したHTMLファイルは、ナレッジ管理ツールで再度編集することはできません。マイグレーションナレッジXMLファイルを編集し、再度HTML 保存する必要があります。</p>
 </td>
 </tr>
 </table>
@@ -1182,7 +932,7 @@
 </tr>
 <tr>
 <td valign="top" align="left">
-<p>保存したファイルは、 <span class="application">ナレッジベース検索ツール</span> のリンク先ファイルとして利用できます。</p>
+<p>保存したHTMLファイルは、ナレッジベース検索ツールのガイド参照として利用できます。</p>
 </td>
 </tr>
 </table>
@@ -1193,56 +943,6 @@
 </li>
 </ul>
 </div>
-</div>
-<br>
-<br>
-<a name="tubame_5."></a>
-<h2 class="title">5.アンイストール</h2>
-<br>
-<a name="tubame_5.1."></a>
-<h3 class="title">5.1.アンインストール</h3>
-<br>
-<div class="section">
-<div class="titlepage"></div>
-<p>
-			インストールした
-			<code class="filename">tubame.knowhow_*</code>
-			を削除してください。以上で、アンインストールは完了です。
-			</p>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>* 部分はプラグインのバージョンによって変わります。</p>
-</td>
-</tr>
-</table>
-</div>
-<p>
-			
-</p>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>
-					削除した後にEclipseを起動する際は
-					<span class="command"><strong>-clean</strong></span>
-					のオプションを付与して起動してください。
-				</p>
-</td>
-</tr>
-</table>
-</div>
-<p>
-		
-</p>
 </div>
 <br>
 <br>
