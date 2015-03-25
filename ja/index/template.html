@@ -25,59 +25,48 @@ font-size: 14px;
 line-height: 20px;
 color: #333333;
 background-color: #ffffff;
-min-height:0px
+min-height: 0px;
+padding-top: 100px;
 }
 </style>
 </head>
 <body>
 <!-- Static navbar -->
-<div class="navbar navbar-default navbar-static-top bsnavbar">
+<div class="navbar navbar-default navbar-fixed-top">
 <div class="container">
 <div class="navbar-header">
 <div class="navbar-brand">
 <h1>TUBAME</h1>
 </div>
 </div>
-<div class="collapse navbar-collapse">
-<div class="navbar-right"></div>
-</div>
 </div>
 </div>
 <div class="container bs-docs-container">
 <div class="row">
-<div class="col-md-3">
-<div class="bs-sidebar hidden-print affix-top" role="complementary">
-<div class="well">
-<!-- TODO: Please insert the index html code that is surrounded by the <div class="toc"> html tag. -->
-</div>
-<!-- well end -->
-</div>
-<!-- bs-sidebar hidden-print affix-top end-->
-</div>
-<div class="col-md-9" role="main">
+<div class="col-xs-12 col-md-12" role="main">
 <!-- ===== Tiles ===== -->
 <div class="bs-docs-section">
 <div class="page-header">
 <h2 id="tubame">TUBAME will carry happiness to your migration</h2>
 <div class="bs-example">
 <div class="row">
-<div class="col-sm-2 col-md-2">
+<div class="col-xs-6 col-md-2">
 <div class="thumbnail tile tile-medium">
 <a href="#">
 <h3 class="tile-text">TUBAME</h3>
-<img src="images/TUBAME.png" width="66%" height="66%"/>
+<img src="images/TUBAME.png" width="66%" height="66%" />
 </a>
 </div>
 </div>
-<div class="col-sm-2 col-md-2">
+<div class="col-xs-6 col-md-2">
 <div class="thumbnail tile tile-medium tile-red">
 <a href="http://tubame.github.io/ja/quickstart/quickstart.html" class="fa-links">
-<h3 class="tile-text">QUICKSTART</h3>
+<h3 class="tile-text">TUTORIAL</h3>
 <i class="fa fa-play-circle fa-3x"></i>
 </a>
 </div>
 </div>
-<div class="col-sm-2 col-md-2">
+<div class="col-xs-6 col-md-2">
 <div class="thumbnail tile tile-medium tile-purple">
 <a href="http://tubame.github.io/ja/docs/docs.html" class="fa-links">
 <h3 class="tile-text">DOCS</h3>
@@ -85,23 +74,23 @@ min-height:0px
 </a>
 </div>
 </div>
-<div class="col-sm-2 col-md-2">
+<div class="col-xs-6 col-md-2">
 <div class="thumbnail tile tile-medium tile-pink">
-<a href="http://tubame.github.io/knowledge/knowledge.html" class="fa-links">
+<a href="http://tubame.github.io/ja/knowledge/knowledge.html" class="fa-links">
 <h3 class="tile-text">KNOWLEDGE</h3>
 <i class="fa fa-question-circle fa-3x"></i>
 </a>
 </div>
 </div>
-<div class="col-sm-2 col-md-2">
+<div class="col-xs-6 col-md-2">
 <div class="thumbnail tile tile-medium tile-yellow">
-<a href="https://github.com/TUBAME/migration-tool/releases" class="fa-links">
-<h3 class="tile-text">DOWNLOAD</h3>
-<i class="fa fa-cloud-download fa-3x"></i>
+<a href="https://github.com/TUBAME/migration-tool" class="fa-links">
+<h3 class="tile-text">CODE</h3>
+<i class="fa fa-github fa-3x"></i>
 </a>
 </div>
 </div>
-<div class="col-sm-2 col-md-2">
+<div class="col-xs-6 col-md-2">
 <div class="thumbnail tile tile-medium tile-green">
 <a href="https://groups.google.com/forum/#!forum/tubame-users" class="fa-links">
 <h3 class="tile-text">FORUM</h3>
@@ -117,52 +106,8 @@ min-height:0px
 <!-- ===== Dropdowns ===== -->
 <div class="bs-docs-section">
 <!-- TODO: Please insert the content html code that is surrounded by <HR> and </BODY> html tag. -->
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
 </div>
 <!-- bs-docs-section end-->
-<!-- ===== Footer ===== -->
-<footer class="bs-footer" role="contentinfo">
-<div class="container">
-<p>
-<a href="https://github.com/tubame" target="_blank">TUBAME GitHub Page</a>
-</p>
-</div>
-</footer>
 <!-- JS and analytics only. -->
 <!-- ===== Bootstrap core JavaScript ===== -->
 <!-- Placed at the end of the document so the pages load faster -->
@@ -170,14 +115,23 @@ min-height:0px
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/application.js"></script>
 <script type="text/javascript" src="js/jquery.validate.js"></script>
-<script type="text/javascript" src="js/jquery.validate.unobtrusive.js"></script>
+<script type="text/javascript"
+src="js/jquery.validate.unobtrusive.js"></script>
 <script type="text/javascript" src="js/jquery.unobtrusive-ajax.js"></script>
 <script type="text/javascript" src="js/metro-docs.js"></script>
 <script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+(function(i, s, o, g, r, a, m) {
+i['GoogleAnalyticsObject'] = r;
+i[r] = i[r] || function() {
+(i[r].q = i[r].q || []).push(arguments)
+}, i[r].l = 1 * new Date();
+a = s.createElement(o),
+m = s.getElementsByTagName(o)[0];
+a.async = 1;
+a.src = g;
+m.parentNode.insertBefore(a, m)
+})(window, document, 'script',
+'//www.google-analytics.com/analytics.js', 'ga');
 ga('create', 'UA-56818328-1', 'auto');
 ga('send', 'pageview');
 </script>
