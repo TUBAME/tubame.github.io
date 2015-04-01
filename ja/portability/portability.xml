@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PortabilityKnowhow xmlns="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:ns2="http://docbook.org/ns/docbook">
-    <PortabilityKnowhowTitle>オンラインクイックユーザマニュアル - ナレッジベース検索ツール</PortabilityKnowhowTitle>
+<PortabilityKnowhow xmlns="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:ns2="http://docbook.org/ns/docbook" xmlns:ns3="http://www.w3.org/1999/xlink">
+    <PortabilityKnowhowTitle>ナレッジベース検索ツールユーザマニュアル</PortabilityKnowhowTitle>
     <EntryViewList>
         <EntryCategory>
             <EntryCategoryRefKey>category_1</EntryCategoryRefKey>
@@ -43,6 +43,21 @@
             <ChildEntry>
                 <EntryCategoryRefKey>category_26</EntryCategoryRefKey>
             </ChildEntry>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_36</EntryCategoryRefKey>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_38</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_40</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_39</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_37</EntryCategoryRefKey>
+                </ChildEntry>
+            </ChildEntry>
         </EntryCategory>
         <EntryCategory>
             <EntryCategoryRefKey>category_13</EntryCategoryRefKey>
@@ -81,85 +96,53 @@
         </Chapter>
         <Chapter>
             <ChapterNo>2.</ChapterNo>
-            <ChapterName>動作環境</ChapterName>
-            <ChildChapter>
-                <ChildCapterNo>2.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_3</ChapterCategoryRefKey>
-            </ChildChapter>
-            <ChildChapter>
-                <ChildCapterNo>2.2.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_6</ChapterCategoryRefKey>
-            </ChildChapter>
-            <ChildChapter>
-                <ChildCapterNo>2.3.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_7</ChapterCategoryRefKey>
-            </ChildChapter>
-        </Chapter>
-        <Chapter>
-            <ChapterNo>3.</ChapterNo>
-            <ChapterName>インストール</ChapterName>
-            <ChildChapter>
-                <ChildCapterNo>3.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_8</ChapterCategoryRefKey>
-            </ChildChapter>
-        </Chapter>
-        <Chapter>
-            <ChapterNo>4.</ChapterNo>
             <ChapterName>利用方法</ChapterName>
             <ChildChapter>
-                <ChildCapterNo>4.1.</ChildCapterNo>
+                <ChildCapterNo>2.1.</ChildCapterNo>
                 <ChapterCategoryRefKey>category_10</ChapterCategoryRefKey>
                 <ChildChapter>
-                    <ChildCapterNo>4.1.1.</ChildCapterNo>
+                    <ChildCapterNo>2.1.1.</ChildCapterNo>
                     <ChapterCategoryRefKey>category_11</ChapterCategoryRefKey>
                     <ChildChapter>
-                        <ChildCapterNo>4.1.1.1.</ChildCapterNo>
+                        <ChildCapterNo>2.1.1.1.</ChildCapterNo>
                         <ChapterCategoryRefKey>category_15</ChapterCategoryRefKey>
                     </ChildChapter>
                     <ChildChapter>
-                        <ChildCapterNo>4.1.1.2.</ChildCapterNo>
+                        <ChildCapterNo>2.1.1.2.</ChildCapterNo>
                         <ChapterCategoryRefKey>category_17</ChapterCategoryRefKey>
                     </ChildChapter>
                 </ChildChapter>
                 <ChildChapter>
-                    <ChildCapterNo>4.1.2.</ChildCapterNo>
+                    <ChildCapterNo>2.1.2.</ChildCapterNo>
                     <ChapterCategoryRefKey>category_12</ChapterCategoryRefKey>
                     <ChildChapter>
-                        <ChildCapterNo>4.1.2.1.</ChildCapterNo>
+                        <ChildCapterNo>2.1.2.1.</ChildCapterNo>
                         <ChapterCategoryRefKey>category_18</ChapterCategoryRefKey>
                     </ChildChapter>
                     <ChildChapter>
-                        <ChildCapterNo>4.1.2.2.</ChildCapterNo>
+                        <ChildCapterNo>2.1.2.2.</ChildCapterNo>
                         <ChapterCategoryRefKey>category_19</ChapterCategoryRefKey>
                     </ChildChapter>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.3.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_36</ChapterCategoryRefKey>
                     <ChildChapter>
-                        <ChildCapterNo>4.1.2.3.</ChildCapterNo>
-                        <ChapterCategoryRefKey>category_26</ChapterCategoryRefKey>
+                        <ChildCapterNo>2.1.3.1.</ChildCapterNo>
+                        <ChapterCategoryRefKey>category_38</ChapterCategoryRefKey>
                     </ChildChapter>
-                </ChildChapter>
-            </ChildChapter>
-        </Chapter>
-        <Chapter>
-            <ChapterNo>5.</ChapterNo>
-            <ChapterName>アンイストール</ChapterName>
-            <ChildChapter>
-                <ChildCapterNo>5.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_29</ChapterCategoryRefKey>
-            </ChildChapter>
-        </Chapter>
-        <Chapter>
-            <ChapterNo>6.</ChapterNo>
-            <ChapterName>付録</ChapterName>
-            <ChildChapter>
-                <ChildCapterNo>6.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_30</ChapterCategoryRefKey>
-                <ChildChapter>
-                    <ChildCapterNo>6.1.1.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_31</ChapterCategoryRefKey>
-                </ChildChapter>
-                <ChildChapter>
-                    <ChildCapterNo>6.1.2.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_32</ChapterCategoryRefKey>
+                    <ChildChapter>
+                        <ChildCapterNo>2.1.3.2.</ChildCapterNo>
+                        <ChapterCategoryRefKey>category_39</ChapterCategoryRefKey>
+                    </ChildChapter>
+                    <ChildChapter>
+                        <ChildCapterNo>2.1.3.3.</ChildCapterNo>
+                        <ChapterCategoryRefKey>category_40</ChapterCategoryRefKey>
+                    </ChildChapter>
+                    <ChildChapter>
+                        <ChildCapterNo>2.1.3.4.</ChildCapterNo>
+                        <ChapterCategoryRefKey>category_37</ChapterCategoryRefKey>
+                    </ChildChapter>
                 </ChildChapter>
             </ChildChapter>
         </Chapter>
@@ -220,6 +203,26 @@
         <Category categoryId="category_26" appropriate="true">
             <CategoryName>編集結果の保存</CategoryName>
             <KnowhowRefKey>knowhow_25</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_36" appropriate="true">
+            <CategoryName>その他機能</CategoryName>
+            <KnowhowRefKey>knowhow_33</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_38" appropriate="true">
+            <CategoryName>検索該当箇所の参照機能</CategoryName>
+            <KnowhowRefKey>knowhow_35</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_40" appropriate="true">
+            <CategoryName>移植方法参照機能</CategoryName>
+            <KnowhowRefKey>knowhow_37</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_39" appropriate="true">
+            <CategoryName>折り畳み表示機能</CategoryName>
+            <KnowhowRefKey>knowhow_36</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_37" appropriate="true">
+            <CategoryName>CSV出力機能</CategoryName>
+            <KnowhowRefKey>knowhow_34</KnowhowRefKey>
         </Category>
         <Category categoryId="category_13" appropriate="true">
             <CategoryName>変換機能</CategoryName>
@@ -307,6 +310,26 @@
             <KnowhowNo>1</KnowhowNo>
             <KnowhowName>body</KnowhowName>
         </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_33" knowhowDetailRefKey="knowhowDetail_33">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_35" knowhowDetailRefKey="knowhowDetail_35">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_37" knowhowDetailRefKey="knowhowDetail_37">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_36" knowhowDetailRefKey="knowhowDetail_36">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_34" knowhowDetailRefKey="knowhowDetail_34">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
         <KnowhowInfomation knowhowId="knowhow_12" knowhowDetailRefKey="knowhowDetail_12">
             <KnowhowNo>1</KnowhowNo>
             <KnowhowName>body</KnowhowName>
@@ -343,7 +366,7 @@
                     <ns2:title>body</ns2:title>
                 </ns2:info>
                 <ns2:section>
-                    <ns2:para>本マニュアルは、ナレッジベース検索ツールを使用する為に、インストールから利用するまでの手順について簡易に説明したマニュアルです。</ns2:para>
+                    <ns2:para>本マニュアルは、ナレッジベース検索ツールの利用手順について簡易に説明したマニュアルです。</ns2:para>
                 </ns2:section>
             </ns2:article>
         </DocBook>
@@ -354,9 +377,8 @@
                 </ns2:info>
                 <ns2:section>
                     <ns2:para>
-			本ツールは Eclipse プラグインとして動作し、 JBoss への移植を行う人向けに、
-			移植に必要な概算修正規模等を算出するツールです。
-			主に以下の機能を有します。
+			商用製品のJavaアプリケーションサーバからOSS製品のJavaアプリケーションサーバへの移行やOSS製品(Tomcat,JBoss)のバージョンアップ、Webアプリケーションフレームワーク移行の検討を行う人向けに、
+			移植に必要な概算修正規模等を算出するツールです。 主に以下の機能を有します。
 			<ns2:table>
                             <ns2:title>本ツールの主な機能</ns2:title>
                             <ns2:tgroup cols="2">
@@ -369,7 +391,7 @@
 <ns2:tbody>
     <ns2:row>
         <ns2:entry>検索機能</ns2:entry>
-        <ns2:entry>JBoss への移植において修正が必要な箇所を検索する機能です。
+        <ns2:entry>TUBAMEコミュニティで提供しているナレッジ(修正箇所を検索するためのキーワードや修正工数、修正難易度、移植方法などを含むXML)を利用して修正が必要な箇所を検索する機能です。
 							</ns2:entry>
     </ns2:row>
     <ns2:row>
@@ -377,6 +399,12 @@
         <ns2:entry>検索結果を視覚的に表示し編集する機能です。
 								検索結果に対して、個別に移植要否の調整ができます。
 								アプリケーション個別な要件を踏まえ、移植規模の抽出精度の向上を可能にします。
+							</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>移植方法の参照機能</ns2:entry>
+        <ns2:entry>該当する移植項目(検索結果)に対する移植方法について表示する機能です。
+							実際に移植する際は、この内容を参考にして移植します。
 							</ns2:entry>
     </ns2:row>
 </ns2:tbody>
@@ -593,7 +621,7 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
                     <ns2:title>body</ns2:title>
                 </ns2:info>
                 <ns2:section>
-                    <ns2:para>JBoss への移植において修正が必要な箇所を検索します。</ns2:para>
+                    <ns2:para>ナレッジ(修正箇所を検索するためのキーワードや修正工数、修正難易度、移植方法などを含むXML)を利用して、修正が必要な箇所を検索します。</ns2:para>
                 </ns2:section>
             </ns2:article>
         </DocBook>
@@ -607,40 +635,79 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 			その箇所を目視または、ヒアリングすることで移植要否を確定していきます。
 			最終的に移植要否が全て確定できれば完了となります。
 		</ns2:para>
-                    <ns2:para>以下の手順を実施します。</ns2:para>
+                    <ns2:para>検索結果として保存した jbm ファイルをダブルクリックして開き、検索結果編集画面より以下の手順を実施します。</ns2:para>
                     <ns2:orderedlist>
                         <ns2:listitem>
-                            <ns2:para>検索結果ファイルを開く</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>ソース該当箇所のチェック</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
                             <ns2:para>目視確認項目のチェック</ns2:para>
+                            <ns2:para>
+					検索結果編集画面の"目視状況"項目が「未」のものについて、目視確認を行う。チェックリスト情報ビューの”目視確認内容”の内容に従い、移植項目か確認を行い、目視確認した結果は、「確認済
+					(移植不要)」 又は「確認済(移植要) 」に設定します。手順は、
+					<ns2:command ns3:href="#visualCheckItem">目視状況のチェック</ns2:command>
+					を参照。
+				</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>ヒアリング確認項目のチェック</ns2:para>
+                            <ns2:para>
+					検索結果編集画面の"ヒアリング状況"項目が「未」のものについて、ヒアリングを行います。チェックリスト情報ビューの”ヒアリング確認内容”の内容に従いプロジェクトにヒアリングを行い、
+					移植項目か確認を行い、「確認済 (移植不要)」 又は「確認済(移植要) 」に設定します。手順は、
+					<ns2:command ns3:href="#hearingCheckItem">ヒアリング状況のチェック</ns2:command>
+					を参照。
+				</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
-                            <ns2:para>移植ガイドラインへのリンク</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>チェックリストの情報表示</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>移植不要項目の削除</ns2:para>
+                            <ns2:para>不明/TODO:SE手動算出項目のチェック</ns2:para>
+                            <ns2:para>
+					検索結果編集画面の表示項目「ライン数」が「TODO:SE 手動算出
+					」は「ガイド章」をクリックし、修正内容を確認して、ライン数を手動で設定します。手順は、
+					<ns2:command ns3:href="#stepSetting">ステップ数の設定</ns2:command>
+					を参照。
+				</ns2:para>
+                            <ns2:warning>
+<ns2:para>
+						難易度が「不明」で移植方法が不明となる項目となるため、移植方法を別途検討する必要があります。移植検討の対象外とする場合は、
+						<ns2:command ns3:href="#deleteItemFromCheckList">移植不要項目の削除</ns2:command>
+						機能で、項目自体を削除することも可能です。
+					</ns2:para>
+                            </ns2:warning>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>作業状況情報の表示</ns2:para>
+                            <ns2:para>
+					作業ビューより作業状況を確認します。以下の作業状況を表示します。手順は、
+					<ns2:command ns3:href="#workView">作業状況ビューによる作業状況の確認</ns2:command>
+					を参照。
+
+					<ns2:itemizedlist>
+    <ns2:listitem>
+        <ns2:para>目視/ヒアリング確認項目</ns2:para>
+    </ns2:listitem>
+    <ns2:listitem>
+        <ns2:para>不明/TODO:SE手動算出項目</ns2:para>
+    </ns2:listitem>
+</ns2:itemizedlist>
+
+					<ns2:warning>
+    <ns2:para>作業項目がすべて完了すると、「確認項目作業が完了しました」と表示されるので、各作業項目の残数が0になるまで、確認項目作業を行います。
+						</ns2:para>
+</ns2:warning>
+
+				</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
-                            <ns2:para>合計ラインの算出</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>ヒット数表示/全件表示</ns2:para>
+                            <ns2:para>移植不要項目の削除</ns2:para>
+                            <ns2:warning>
+<ns2:para>
+						<ns2:command ns3:href="#deleteItemFromCheckList">移植不要項目の削除</ns2:command>
+						を実施しない場合、レポート生成機能でレポート出力した際に、移植不要項目も移植工数として計上されるため、移植不要項目は必ず削除する必要があります。
+
+					</ns2:para>
+                            </ns2:warning>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>報告書の出力</ns2:para>
+                            <ns2:para>レポート生成機能を利用して、移植性検討レポートを生成します。詳細は、レポート生成機能をご確認ください。
+				</ns2:para>
                         </ns2:listitem>
                     </ns2:orderedlist>
                 </ns2:section>
@@ -747,17 +814,74 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
     <ns2:guimenuitem>ナレッジベース検索</ns2:guimenuitem>
 </ns2:menuchoice>
 				</ns2:para>
+                            <ns2:figure>
+<ns2:title>ナレッジベース検索実行メニュー</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="png" fileref="images/tubame_menu.png" width="800"/>
+    </ns2:imageobject>
+    <ns2:textobject>
+        <ns2:phrase>ナレッジベース検索実行メニュー</ns2:phrase>
+    </ns2:textobject>
+</ns2:mediaobject>
+                            </ns2:figure>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>検索条件の設定</ns2:para>
                             <ns2:para>
 					以下の入力項目を設定します。
-					<ns2:simplelist>
-    <ns2:member>
-                            <ns2:guilabel>ナレッジ XML ファイル選択</ns2:guilabel>: 検索の元とする<ns2:filename>ナレッジ XML</ns2:filename>ファイルを指定します。</ns2:member>
-    <ns2:member>
-                            <ns2:guilabel>結果出力先</ns2:guilabel>: 検索結果の出力先として <ns2:filename>jbm</ns2:filename> ファイルを指定します。</ns2:member>
-</ns2:simplelist>
+
+					<ns2:itemizedlist>
+    <ns2:listitem>
+        <ns2:para>
+								ナレッジ
+							</ns2:para>
+        <ns2:para>
+								<ns2:guilabel>インポート</ns2:guilabel>
+								ボタンを実行し、 プルダウンメニューより
+								<ns2:guilabel>ナレッジ</ns2:guilabel>
+								を選択します。
+
+								<ns2:note>
+                <ns2:para>
+										インポートはナレッジベース検索ツールに組み込まれているナレッジを利用します。任意のナレッジXMLを利用する場合は、
+										<ns2:guilabel>参照</ns2:guilabel>
+										ボタンより指定します。
+									</ns2:para>
+            </ns2:note>
+							</ns2:para>
+        <ns2:figure>
+            <ns2:title>インポートメニュー</ns2:title>
+            <ns2:mediaobject>
+                <ns2:imageobject condition="web">
+                    <ns2:imagedata format="png" fileref="images/knowledge_import.png" width="800"/>
+                </ns2:imageobject>
+                <ns2:textobject>
+                    <ns2:phrase>&gt;インポートメニュー</ns2:phrase>
+                </ns2:textobject>
+            </ns2:mediaobject>
+        </ns2:figure>
+    </ns2:listitem>
+</ns2:itemizedlist>
+
+				</ns2:para>
+                            <ns2:para>
+					以下の出力項目を設定します。
+
+					<ns2:itemizedlist>
+    <ns2:listitem>
+        <ns2:para>
+								出力先の
+								<ns2:filename>jbm</ns2:filename>
+								ファイル
+							</ns2:para>
+        <ns2:para>
+								<ns2:guilabel>参照</ns2:guilabel>
+								ボタンを実行し、出力先を指定してださい。
+							</ns2:para>
+    </ns2:listitem>
+</ns2:itemizedlist>
+
 				</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
@@ -766,6 +890,17 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 					<ns2:guimenuitem>Finish</ns2:guimenuitem>
 					をクリックすると検索が開始されます。
 				</ns2:para>
+                            <ns2:figure>
+<ns2:title>ナレッジベース検索実行メニュー</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="png" fileref="images/finish.png" width="800"/>
+    </ns2:imageobject>
+    <ns2:textobject>
+        <ns2:phrase>ナレッジベース検索実行メニュー</ns2:phrase>
+    </ns2:textobject>
+</ns2:mediaobject>
+                            </ns2:figure>
                         </ns2:listitem>
                     </ns2:orderedlist>
                 </ns2:section>
@@ -790,7 +925,7 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 					ファイルをダブルクリックして開きます。
 				</ns2:para>
                             <ns2:para>
-                <ns2:note>
+					<ns2:note>
     <ns2:para>検索機能実行後は自動的に検索結果ファイルが開かれるため、本作業は不要です。</ns2:para>
 </ns2:note>
 				</ns2:para>
@@ -800,13 +935,17 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
                             <ns2:para>検索結果編集画面では、移植が必要な可能性のある項目が一覧で表示されます。各表示項目の概要を以下に記載します。
 					任意の行をダブルクリックすると、拡張子に関連付けされているエディタを開き、該当ファイルを表示することができます。
 				</ns2:para>
-                            <ns2:note>
-<ns2:para>
-						Eclipse ツールバーの
-						<ns2:guimenuitem>表示切替</ns2:guimenuitem>
-						ボタンで検索項目全件表示 / ヒット項目表示を切り替えることができます。
-					</ns2:para>
-                            </ns2:note>
+                            <ns2:figure>
+<ns2:title>検索結果編集画面</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="png" fileref="images/editor_open.png" width="1000"/>
+    </ns2:imageobject>
+    <ns2:textobject>
+        <ns2:phrase>検索結果編集画面</ns2:phrase>
+    </ns2:textobject>
+</ns2:mediaobject>
+                            </ns2:figure>
                             <ns2:table>
 <ns2:title>検索結果編集画面の表示項目</ns2:title>
 <ns2:tgroup cols="2">
@@ -822,16 +961,58 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
             <ns2:entry>検索した条件の項番です。</ns2:entry>
         </ns2:row>
         <ns2:row>
-            <ns2:entry>ヒット数</ns2:entry>
-            <ns2:entry>検索条件にヒットした数です。</ns2:entry>
-        </ns2:row>
-        <ns2:row>
             <ns2:entry>大項目</ns2:entry>
             <ns2:entry>-</ns2:entry>
         </ns2:row>
         <ns2:row>
             <ns2:entry>中項目</ns2:entry>
             <ns2:entry>-</ns2:entry>
+        </ns2:row>
+        <ns2:row>
+            <ns2:entry>難易度</ns2:entry>
+            <ns2:entry>
+									移植の為の難易度を難易度アイコン別に表示します。
+
+									<ns2:note>
+                    <ns2:para>以下の種類があります。</ns2:para>
+                    <ns2:itemizedlist>
+                        <ns2:listitem>
+                            <ns2:para>
+													<ns2:guilabel>High</ns2:guilabel>
+												</ns2:para>
+                            <ns2:para>実装内容の大規模な修正が必要で、実装や設定等の大幅な見直しが必要</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>
+													<ns2:guilabel>Middle</ns2:guilabel>
+												</ns2:para>
+                            <ns2:para>実装内容を考慮した小規模な修正が必要</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>
+													<ns2:guilabel>Low</ns2:guilabel>
+												</ns2:para>
+                            <ns2:para>実装内容を考慮せず軽微な修正で対応可能</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>
+													<ns2:guilabel>Unknown</ns2:guilabel>
+												</ns2:para>
+                            <ns2:para>難易度不明</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>
+													<ns2:guilabel>NOT_TRN</ns2:guilabel>
+												</ns2:para>
+                            <ns2:para>移植不可</ns2:para>
+                        </ns2:listitem>
+                    </ns2:itemizedlist>
+                </ns2:note>
+								</ns2:entry>
+        </ns2:row>
+        <ns2:row>
+            <ns2:entry>ヒット数</ns2:entry>
+            <ns2:entry>検索条件にヒットした数です。</ns2:entry>
         </ns2:row>
         <ns2:row>
             <ns2:entry>ファイル名</ns2:entry>
@@ -842,46 +1023,53 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
             <ns2:entry>対象ファイルの行番号です。</ns2:entry>
         </ns2:row>
         <ns2:row>
-            <ns2:entry>難易度</ns2:entry>
+            <ns2:entry>ライン数</ns2:entry>
             <ns2:entry>
-									移植の為の難易度を難易度アイコン別に表示します。
-
-                            <ns2:note>
+									移植に必要な概算修正ライン数です。
+									<ns2:note>
                     <ns2:para>以下の種類があります。</ns2:para>
                     <ns2:itemizedlist>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>High</ns2:guilabel>
-                            </ns2:para>
-                            <ns2:para>実装内容の大規模な修正が必要で、実装や設定等の大幅な見直しが必要</ns2:para>
+													<ns2:guilabel>数値</ns2:guilabel>
+												</ns2:para>
+                            <ns2:para>移植に必要な概算修正ライン数</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>Middle</ns2:guilabel>
-                            </ns2:para>
-                            <ns2:para>実装内容を考慮した小規模な修正が必要</ns2:para>
+													<ns2:guilabel>TODO:SE 手動算出</ns2:guilabel>
+												</ns2:para>
+                            <ns2:para>解説に基づき個別に算出すべき項目</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>Low</ns2:guilabel>
-                            </ns2:para>
-                            <ns2:para>実装内容を考慮せず軽微な修正で対応可能</ns2:para>
+													<ns2:guilabel>不明</ns2:guilabel>
+												</ns2:para>
+                            <ns2:para>ライン数不明なため独自に算出すべき項目</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>Unknown</ns2:guilabel>
-                            </ns2:para>
-                            <ns2:para>難易度不明</ns2:para>
+													<ns2:guilabel>確認済 (移植不要)</ns2:guilabel>
+												</ns2:para>
+                            <ns2:para>ヒアリング確認が完了している (問題なしと判断した項目)</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>NOT_TRN</ns2:guilabel>
-                            </ns2:para>
-                            <ns2:para>移植不可</ns2:para>
+													<ns2:guilabel>確認済 (移植要)</ns2:guilabel>
+												</ns2:para>
+                            <ns2:para>ヒアリング確認が完了している(移植が必要と判断した項目)</ns2:para>
                         </ns2:listitem>
                     </ns2:itemizedlist>
                 </ns2:note>
 								</ns2:entry>
+        </ns2:row>
+        <ns2:row>
+            <ns2:entry>ライン数根拠</ns2:entry>
+            <ns2:entry>移植に必要な概算ライン数の根拠です。</ns2:entry>
+        </ns2:row>
+        <ns2:row>
+            <ns2:entry>合計ライン</ns2:entry>
+            <ns2:entry>ヒット数×ライン数です。</ns2:entry>
         </ns2:row>
         <ns2:row>
             <ns2:entry>ガイド章</ns2:entry>
@@ -890,19 +1078,8 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 									<ns2:para>項目をクリックすると、移植性検討ガイドラインにリンクすることができます。</ns2:para>
 									<ns2:note>
                     <ns2:para>
-											本機能を利用するには、
-											<ns2:application>ナレッジ管理ツール</ns2:application>
-											で作成された HTML を
-											<ns2:filename>resources/guide/index.html</ns2:filename>
-											に配置する必要があります。
-										</ns2:para>
-                    <ns2:para>
-											配置場所は
-											<ns2:filename>resources/properties/application*.properties
-											</ns2:filename>
-											の
-											<ns2:parameter>GUIDE_FILE_PATH</ns2:parameter>
-											パラメータで変更できます。
+											ガイドの配置場所はTUBAMEのリファレンスページより、確認・変更できます。
+
 										</ns2:para>
                 </ns2:note>
 								</ns2:entry>
@@ -918,43 +1095,44 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
         <ns2:row>
             <ns2:entry>目視状況</ns2:entry>
             <ns2:entry>
-									目視確認の現在の状況です。<ns2:note>
+									目視確認の現在の状況です。
+									<ns2:note>
                     <ns2:para>以下の種類があります。</ns2:para>
                     <ns2:itemizedlist>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>空白</ns2:guilabel>
-                            </ns2:para>
+													<ns2:guilabel>空白</ns2:guilabel>
+												</ns2:para>
                             <ns2:para>目視確認する必要なし</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>未</ns2:guilabel>
-                            </ns2:para>
+													<ns2:guilabel>未</ns2:guilabel>
+												</ns2:para>
                             <ns2:para>目視確認する項目がまだ存在している</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>未確認</ns2:guilabel>
-                            </ns2:para>
+													<ns2:guilabel>未確認</ns2:guilabel>
+												</ns2:para>
                             <ns2:para>目視確認が未実施である</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>済</ns2:guilabel>
-                            </ns2:para>
+													<ns2:guilabel>済</ns2:guilabel>
+												</ns2:para>
                             <ns2:para>目視確認が完了している</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>確認済 (移植不要)</ns2:guilabel>
-                            </ns2:para>
+													<ns2:guilabel>確認済 (移植不要)</ns2:guilabel>
+												</ns2:para>
                             <ns2:para>目視確認が完了している (問題なしと判断した項目)</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>確認済(移植要)</ns2:guilabel>
-                            </ns2:para>
+													<ns2:guilabel>確認済(移植要)</ns2:guilabel>
+												</ns2:para>
                             <ns2:para>目視確認が完了している (移植が必要と判断した項目)</ns2:para>
                         </ns2:listitem>
                     </ns2:itemizedlist>
@@ -965,97 +1143,48 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
             <ns2:entry>ヒアリング状況</ns2:entry>
             <ns2:entry>
 									ヒアリング確認の現在の状況です。
-                            <ns2:note>
+									<ns2:note>
                     <ns2:para>以下の種類があります。</ns2:para>
                     <ns2:itemizedlist>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>空白</ns2:guilabel>
-                            </ns2:para>
+													<ns2:guilabel>空白</ns2:guilabel>
+												</ns2:para>
                             <ns2:para>ヒアリング確認する必要なし</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>未</ns2:guilabel>
-                            </ns2:para>
+													<ns2:guilabel>未</ns2:guilabel>
+												</ns2:para>
                             <ns2:para>ヒアリング確認する項目がまだ存在している</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>未確認</ns2:guilabel>
-                            </ns2:para>
+													<ns2:guilabel>未確認</ns2:guilabel>
+												</ns2:para>
                             <ns2:para>目視確認が未実施である</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>済</ns2:guilabel>
-                            </ns2:para>
+													<ns2:guilabel>済</ns2:guilabel>
+												</ns2:para>
                             <ns2:para>ヒアリング確認が完了している</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>確認済 (移植不要)</ns2:guilabel>
-                            </ns2:para>
+													<ns2:guilabel>確認済 (移植不要)</ns2:guilabel>
+												</ns2:para>
                             <ns2:para>ヒアリング確認が完了している (問題なしと判断した項目)</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>確認済 (移植要)</ns2:guilabel>
-                            </ns2:para>
+													<ns2:guilabel>確認済 (移植要)</ns2:guilabel>
+												</ns2:para>
                             <ns2:para>ヒアリング確認が完了している(移植が必要と判断した項目)</ns2:para>
                         </ns2:listitem>
                     </ns2:itemizedlist>
                 </ns2:note>
 								</ns2:entry>
-        </ns2:row>
-        <ns2:row>
-            <ns2:entry>ライン数</ns2:entry>
-            <ns2:entry>
-									移植に必要な概算修正ライン数です。
-                            <ns2:note>
-                    <ns2:para>以下の種類があります。</ns2:para>
-                    <ns2:itemizedlist>
-                        <ns2:listitem>
-                            <ns2:para>
-<ns2:guilabel>数値</ns2:guilabel>
-                            </ns2:para>
-                            <ns2:para>移植に必要な概算修正ライン数</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>
-<ns2:guilabel>TODO:SE 手動算出</ns2:guilabel>
-                            </ns2:para>
-                            <ns2:para>解説に基づき個別に算出すべき項目</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>
-<ns2:guilabel>不明</ns2:guilabel>
-                            </ns2:para>
-                            <ns2:para>ライン数不明なため独自に算出すべき項目</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>
-<ns2:guilabel>確認済 (移植不要)</ns2:guilabel>
-                            </ns2:para>
-                            <ns2:para>ヒアリング確認が完了している (問題なしと判断した項目)</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>
-<ns2:guilabel>確認済 (移植要)</ns2:guilabel>
-                            </ns2:para>
-                            <ns2:para>ヒアリング確認が完了している(移植が必要と判断した項目)</ns2:para>
-                        </ns2:listitem>
-                    </ns2:itemizedlist>
-                </ns2:note>
-								</ns2:entry>
-        </ns2:row>
-        <ns2:row>
-            <ns2:entry>ライン数根拠</ns2:entry>
-            <ns2:entry>移植に必要な概算ライン数の根拠です。</ns2:entry>
-        </ns2:row>
-        <ns2:row>
-            <ns2:entry>合計ライン</ns2:entry>
-            <ns2:entry>ヒット数×ライン数です。</ns2:entry>
         </ns2:row>
     </ns2:tbody>
 </ns2:tgroup>
@@ -1093,7 +1222,8 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
         </ns2:row>
         <ns2:row>
             <ns2:entry>ヒアリング確認内容</ns2:entry>
-            <ns2:entry>開発元に確認しなければ移植の必要性が判断できない項目の場合の開発元への確認内容です。</ns2:entry>
+            <ns2:entry>開発元に確認しなければ移植の必要性が判断できない項目の場合の開発元への確認内容です。
+								</ns2:entry>
         </ns2:row>
         <ns2:row>
             <ns2:entry>検索手順</ns2:entry>
@@ -1139,50 +1269,54 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
     <ns2:tbody>
         <ns2:row>
             <ns2:entry>現在の作業状況</ns2:entry>
-            <ns2:entry>現在の作業状況が表示されます。
-                            <ns2:note>
+            <ns2:entry>
+									現在の作業状況が表示されます。
+									<ns2:note>
                     <ns2:para>以下の種類があります。</ns2:para>
                     <ns2:itemizedlist>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>確認項目作業が完了しました。</ns2:guilabel>
-                            </ns2:para>
+													<ns2:guilabel>確認項目作業が完了しました。</ns2:guilabel>
+												</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>目視/ヒアリング確認項目を確認して下さい。</ns2:guilabel>
-                            </ns2:para>
+													<ns2:guilabel>目視/ヒアリング確認項目を確認して下さい。</ns2:guilabel>
+												</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>不明/TODO:SE手動算出項目を確認して下さい。</ns2:guilabel>
-                            </ns2:para>
+													<ns2:guilabel>不明/TODO:SE手動算出項目を確認して下さい。</ns2:guilabel>
+												</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>
-<ns2:guilabel>ファイルを上書きしてください。</ns2:guilabel>
-                            </ns2:para>
+													<ns2:guilabel>ファイルを上書きしてください。</ns2:guilabel>
+												</ns2:para>
                         </ns2:listitem>
                     </ns2:itemizedlist>
                 </ns2:note>
-            </ns2:entry>
+								</ns2:entry>
         </ns2:row>
         <ns2:row>
             <ns2:entry>現在の目視確認 / ヒアリング確認状況</ns2:entry>
-            <ns2:entry>検索結果編集画面に表示されている
-							<ns2:guilabel>目視確認状況</ns2:guilabel>
-							および
-							<ns2:guilabel>ヒアリング確認状況</ns2:guilabel>
-							の残件数 / 全件数を表示します。</ns2:entry>
+            <ns2:entry>
+									検索結果編集画面に表示されている
+									<ns2:guilabel>目視確認状況</ns2:guilabel>
+									および
+									<ns2:guilabel>ヒアリング確認状況</ns2:guilabel>
+									の残件数 / 全件数を表示します。
+								</ns2:entry>
         </ns2:row>
         <ns2:row>
             <ns2:entry>不明 / TODO：SE手動算出項目修正状況</ns2:entry>
             <ns2:entry>
-							検索結果編集画面に表示されている
-							<ns2:guilabel>不明項目修正状況</ns2:guilabel>
-							および
-							<ns2:guilabel>SE手動算出項目修正状況</ns2:guilabel>
-							の残件数 / 全件数を表示します。</ns2:entry>
+									検索結果編集画面に表示されている
+									<ns2:guilabel>不明項目修正状況</ns2:guilabel>
+									および
+									<ns2:guilabel>SE手動算出項目修正状況</ns2:guilabel>
+									の残件数 / 全件数を表示します。
+								</ns2:entry>
         </ns2:row>
     </ns2:tbody>
 </ns2:tgroup>
@@ -1203,7 +1337,7 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 		</ns2:para>
                     <ns2:orderedlist>
                         <ns2:listitem>
-                            <ns2:para>目視状況のチェック</ns2:para>
+                            <ns2:para xml:id="visualCheckItem">目視状況のチェック</ns2:para>
                             <ns2:para>
 					<ns2:guilabel>目視状況</ns2:guilabel>
 					が
@@ -1239,6 +1373,17 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
     </ns2:itemizedlist>
 </ns2:note>
 				</ns2:para>
+                            <ns2:figure>
+<ns2:title>目視状況のステータス変更画面</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="png" fileref="images/knowledge-visual-check1.png" width="1300"/>
+    </ns2:imageobject>
+    <ns2:textobject>
+        <ns2:phrase>目視状況のステータス変更画面</ns2:phrase>
+    </ns2:textobject>
+</ns2:mediaobject>
+                            </ns2:figure>
                             <ns2:para>
 					<ns2:note>
     <ns2:para>ShiftキーやCtrlキーにより複数選択することができます。 (
@@ -1248,7 +1393,7 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 				</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
-                            <ns2:para>ヒアリング状況のチェック</ns2:para>
+                            <ns2:para xml:id="hearingCheckItem">ヒアリング状況のチェック</ns2:para>
                             <ns2:para>
 					<ns2:guilabel>ヒアリング状況</ns2:guilabel>
 					が
@@ -1284,16 +1429,42 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
     </ns2:itemizedlist>
 </ns2:note>
 				</ns2:para>
+                            <ns2:figure>
+<ns2:title>ヒアリング状況のステータス変更画面</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="png" fileref="images/knowledge-hearing-check2.png" width="1300"/>
+    </ns2:imageobject>
+    <ns2:textobject>
+        <ns2:phrase>ヒアリング状況のステータス変更画面</ns2:phrase>
+    </ns2:textobject>
+</ns2:mediaobject>
+                            </ns2:figure>
                             <ns2:para>
-				<ns2:note>
+					<ns2:note>
     <ns2:para>ShiftキーやCtrlキーにより複数選択することができます。 (
-						ただし、選択範囲に目視確認項目ではない行が含まれていた場合、上記のメニューは表示されません)
-					</ns2:para>
+							ただし、選択範囲に目視確認項目ではない行が含まれていた場合、上記のメニューは表示されません)
+						</ns2:para>
 </ns2:note>
 				</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
-                            <ns2:para>移植不要項目の削除</ns2:para>
+                            <ns2:para xml:id="workView">作業状況ビューによる作業状況の確認</ns2:para>
+                            <ns2:para>作業状況ビューにより、作業状況を確認できます。</ns2:para>
+                            <ns2:figure>
+<ns2:title>作業状況ビュー画面</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="png" fileref="images/knowledge-workview.png" width="1300"/>
+    </ns2:imageobject>
+    <ns2:textobject>
+        <ns2:phrase>作業状況ビュー画面</ns2:phrase>
+    </ns2:textobject>
+</ns2:mediaobject>
+                            </ns2:figure>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para xml:id="deleteItemFromCheckList">移植不要項目の削除</ns2:para>
                             <ns2:para>移植に関係しない項目など、画面上から項目を削除することができます。
 					個別に行を選択して削除する方法と、一括削除する方法の2つがあります。
 				</ns2:para>
@@ -1309,20 +1480,62 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
     <ns2:tbody>
         <ns2:row>
             <ns2:entry>選択行削除</ns2:entry>
-            <ns2:entry>Eclipse ツールバーの <ns2:guimenuitem>行削除</ns2:guimenuitem>
-						ボタンをクリックして選択行を削除します。</ns2:entry>
+            <ns2:entry>
+									Eclipse ツールバーの
+									<ns2:guimenuitem>行削除</ns2:guimenuitem>
+									ボタンをクリックして選択行を削除します。
+								</ns2:entry>
         </ns2:row>
         <ns2:row>
             <ns2:entry>一括行削除</ns2:entry>
-            <ns2:entry>Eclipse ツールバーの <ns2:guimenuitem>チェック済みの移植不要項目の削除</ns2:guimenuitem>
-						ボタンをクリックして一括削除します。</ns2:entry>
+            <ns2:entry>
+									Eclipse ツールバーの
+									<ns2:guimenuitem>チェック済みの移植不要項目の削除</ns2:guimenuitem>
+									ボタンをクリックして一括削除します。
+								</ns2:entry>
         </ns2:row>
     </ns2:tbody>
 </ns2:tgroup>
                             </ns2:table>
+                            <ns2:figure>
+<ns2:title>チェック済みの移植不要項目の削除の実行画面</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="png" fileref="images/knowledge-checked-item-delete.png" width="1300"/>
+    </ns2:imageobject>
+    <ns2:textobject>
+        <ns2:phrase>チェック済みの移植不要項目の削除の実行画面</ns2:phrase>
+    </ns2:textobject>
+</ns2:mediaobject>
+                            </ns2:figure>
                             <ns2:note>
+<ns2:para>行削除は、移植不要項目の削除ボタンの右のボタンを実行します。</ns2:para>
 <ns2:para>ShiftキーやCtrlキーにより複数選択することができます。</ns2:para>
                             </ns2:note>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para xml:id="stepSetting">ステップ数の設定</ns2:para>
+                            <ns2:para>
+					<ns2:guilabel>ステップ数</ns2:guilabel>
+					が
+					<ns2:guimenuitem>TODO:SE 手動算出</ns2:guimenuitem>
+					になっている項目は、
+					<ns2:guimenuitem>TODO:SE 手動算出</ns2:guimenuitem>
+					にカーソルを合わせることで、ステップ数が個別に入力可能となりますので、
+					<ns2:guimenuitem>ガイド章</ns2:guimenuitem>
+					をクリックして移植方法などを確認して、ステップ数を入力します。
+				</ns2:para>
+                            <ns2:figure>
+<ns2:title>ステップ数の設定画面</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="png" fileref="images/knowledge-todose-check3.png" width="1300"/>
+    </ns2:imageobject>
+    <ns2:textobject>
+        <ns2:phrase>ステップ数の設定画面</ns2:phrase>
+    </ns2:textobject>
+</ns2:mediaobject>
+                            </ns2:figure>
                         </ns2:listitem>
                     </ns2:orderedlist>
                 </ns2:section>
@@ -1351,6 +1564,9 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 				</ns2:para>
                         </ns2:listitem>
                     </ns2:orderedlist>
+                    <ns2:note>
+                        <ns2:para>TUBAMEでは、CSV出力のほかに、自動的に、レポート生成する機能も提供しています。詳細はレポート生成機能をご確認ください。</ns2:para>
+                    </ns2:note>
                 </ns2:section>
             </ns2:article>
         </DocBook>
@@ -1538,6 +1754,206 @@ $ su -
                             <ns2:para>ダウンロードしたlxml-3.2.4.*-py2.7.exeを実行し、ウィザードに従ってインストールを行う。</ns2:para>
                         </ns2:listitem>
                     </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_33">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			検索結果を編集する際に利用するその他機能について示します。
+			<ns2:itemizedlist>
+                            <ns2:listitem>
+<ns2:para>検索該当箇所の参照</ns2:para>
+<ns2:para>
+						検索結果編集画面で表示されている項目の検索該当箇所は「ソースコードビュー」より該当箇所を確認します。手順は
+						<ns2:command ns3:href="#sourceCodeView">検索該当箇所の参照機能</ns2:command>
+						を参照
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>チェックリストの情報表示</ns2:para>
+<ns2:para>
+						検索結果編集画面で表示されている項目の検索条件、難易度詳細、目視およびヒアリング項目の確認内容などの情報を表示します。
+						<ns2:note>
+        <ns2:para>
+								難易度詳細は、難易度が低のみ、以下のようにさらに詳細に分類しています。
+
+								<ns2:itemizedlist>
+                <ns2:listitem>
+                    <ns2:para>低1</ns2:para>
+                    <ns2:para>置換レベルで対応できる軽微な修正項目</ns2:para>
+                </ns2:listitem>
+                <ns2:listitem>
+                    <ns2:para>低2</ns2:para>
+                    <ns2:para>置き換えでは対応できず、移植該当箇所の前後を確認して修正を行う軽微な修正項目</ns2:para>
+                </ns2:listitem>
+            </ns2:itemizedlist>
+							</ns2:para>
+    </ns2:note>
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>移植方法の参照</ns2:para>
+<ns2:para>
+						手順については
+						<ns2:command ns3:href="#migrationGuide">移植方法参照機能</ns2:command>
+						を参照
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>折り畳み表示機能</ns2:para>
+<ns2:para>
+						検索結果編集画面で表示されている項目を折り畳み表示、展開表示します。手順は
+						<ns2:command ns3:href="#expand">折り畳み表示機能</ns2:command>
+						を参照。
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>CSV結果保存</ns2:para>
+<ns2:para>検索結果編集画面で表示されているデータをCSV出力します。手順は
+						<ns2:command ns3:href="#csvout">CSV出力機能</ns2:command>
+						を参照。</ns2:para>
+                            </ns2:listitem>
+                        </ns2:itemizedlist>
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_34">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para xml:id="csvout">編集結果をCSVとして保存することで、集計や最終レポート作成に活用することができます。</ns2:para>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>保存</ns2:para>
+                            <ns2:para>
+					Eclipse メニューの
+					<ns2:guimenuitem>CSV保存</ns2:guimenuitem>
+					を選択し、CSVファイルを出力します。
+				</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>CSVファイルの分析</ns2:para>
+                            <ns2:para>CSVファイルの分析ツールは本ツールでは提供していません。
+					利用者側で分析ツールを作成するなど適宜対応してください。
+				</ns2:para>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                    <ns2:note>
+                        <ns2:para>TUBAMEでは、CSV出力のほかに、自動的に、レポート生成する機能も提供しています。詳細はレポート生成機能をご確認ください。</ns2:para>
+                    </ns2:note>
+                    <ns2:figure>
+                        <ns2:title>CSV出力画面</ns2:title>
+                        <ns2:mediaobject>
+                            <ns2:imageobject condition="web">
+<ns2:imagedata format="png" fileref="images/knowledge-csv.png" width="1000"/>
+                            </ns2:imageobject>
+                            <ns2:textobject>
+<ns2:phrase>CSV出力画面</ns2:phrase>
+                            </ns2:textobject>
+                        </ns2:mediaobject>
+                    </ns2:figure>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_35">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para xml:id="sourceCodeView">検索該当箇所はソースコードビューより参照します</ns2:para>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>
+                    検索結果編集画面より行番号が表示されているアイテムを選択し、右クリックより<ns2:guimenuitem>ソースコードビューを開く</ns2:guimenuitem>
+					を選択します</ns2:para>
+                            <ns2:figure>
+<ns2:title>ソースコードビュー画面</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="png" fileref="images/knowledge-codeview.png" width="1000"/>
+    </ns2:imageobject>
+    <ns2:textobject>
+        <ns2:phrase>ソースコードビュー画面</ns2:phrase>
+    </ns2:textobject>
+</ns2:mediaobject>
+                            </ns2:figure>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_36">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para xml:id="expand">折り畳み機能により、検索結果編集画面で表示されているアイテムを折り畳み・展開表示します。</ns2:para>
+                    <ns2:itemizedlist>
+                        <ns2:listitem>
+                            <ns2:para>
+                    検索結果編集画面よりNoが表示されているアイテムの列"No"を右クリックし、表示されるメニューより表示を制御します</ns2:para>
+                            <ns2:figure>
+<ns2:title>折り畳み表示制御画面</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="png" fileref="images/knowledge-expand.png" width="1000"/>
+    </ns2:imageobject>
+    <ns2:textobject>
+        <ns2:phrase>折り畳み表示制御画面</ns2:phrase>
+    </ns2:textobject>
+</ns2:mediaobject>
+                            </ns2:figure>
+                        </ns2:listitem>
+                    </ns2:itemizedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_37">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para xml:id="migrationGuide">検索結果(移植項目)に対して、移植方法を表示することができます。</ns2:para>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>
+					<ns2:filename>jbm</ns2:filename>
+					ファイルのオープン
+				</ns2:para>
+                            <ns2:para>
+					検索結果として保存した
+					<ns2:filename>jbm</ns2:filename>
+					ファイルをダブルクリックして開きます。
+				</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>移植方法表示</ns2:para>
+                            <ns2:para>検索結果編集画面より、検索結果に対応する<ns2:guimenuitem>ガイド章番号</ns2:guimenuitem>をクリックし、HTMLガイドビューより移植方法を確認できます。
+				</ns2:para>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                    <ns2:figure>
+                        <ns2:title>HTMLガイドビュー画面</ns2:title>
+                        <ns2:mediaobject>
+                            <ns2:imageobject condition="web">
+<ns2:imagedata format="png" fileref="images/knowledge-guideview.png" width="1000"/>
+                            </ns2:imageobject>
+                            <ns2:textobject>
+<ns2:phrase>HTMLガイドビュー</ns2:phrase>
+                            </ns2:textobject>
+                        </ns2:mediaobject>
+                    </ns2:figure>
                 </ns2:section>
             </ns2:article>
         </DocBook>
