@@ -1,6 +1,6 @@
 body {
 	color: #000;
-	font-size: 11pt;
+	font-size: 14pt;
 	font-family: "trebuchet ms", helvetica, sans-serif;
 	background-color: #F9F9F9;
 	margin-left: 50px;
@@ -11,7 +11,7 @@ body {
 body {
 	font-family: "ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ÉÅÉCÉäÉI",
 		Meiryo, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif;
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 18px;
 	color: #333333;
 	background-color: #ffffff;
@@ -94,6 +94,8 @@ p {
       text-shadow: 0 1px 2px #999;
 }
 
+
+
 a,a:active,a:visited {
       color: #2554C7;
       text-decoration: none;
@@ -114,3 +116,109 @@ a:hover {
 
 /* prettify.css */
 .pln{color:#000}@media screen{.str{color:#080}.kwd{color:#008}.com{color:#800}.typ{color:#606}.lit{color:#066}.pun,.opn,.clo{color:#660}.tag{color:#008}.atn{color:#606}.atv{color:#080}.dec,.var{color:#606}.fun{color:red}}@media print,projection{.str{color:#060}.kwd{color:#006;font-weight:bold}.com{color:#600;font-style:italic}.typ{color:#404;font-weight:bold}.lit{color:#044}.pun,.opn,.clo{color:#440}.tag{color:#006;font-weight:bold}.atn{color:#404}.atv{color:#060}}pre.programlisting{padding:2px;border:1px solid #888}ol.linenums{margin-top:0;margin-bottom:0}li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8{list-style-type:none}li.L1,li.L3,li.L5,li.L7,li.L9{background:#eee}
+
+
+h1.title {
+  padding: 5px 5px 5px 10px;
+}
+
+h2.title {
+  padding: 3px 3px 3px 5px;
+}
+
+h3.title {
+  padding: 3px 3px 3px 5px;
+
+}
+
+h4.title {
+  padding: 3px 3px 3px 5px;
+
+}
+
+div.article {
+  margin: 30px 30px 30px 30px;
+}
+
+div.screen {
+  border-width: 1px;
+  border-color: gray;
+  border-style: solid;
+  color: black;
+  background-color: lightgray;
+}
+
+code.filename {
+  color: brown;
+  font-style: italic;
+}
+
+span.application {
+  color: navy;
+  font-style: italic;
+}
+
+span.guimenu {
+  color: navy;
+  font-style: italic;
+}
+
+span.guimenuitem {
+  color: navy;
+  font-style: italic;
+}
+
+span.guilabel {
+  color: navy;
+  font-style: italic;
+}
+
+span.guimenu {
+  color: navy;
+  font-style: italic;
+}
+
+em.parameter {
+  color: navy;
+  font-style: italic;
+}
+
+code.sgmltag-element {
+  color: navy;
+  font-style: italic;
+}
+
+.table-contents table {
+    border-collapse: collapse;
+    border: 1px solid gray;
+}
+.table-contents th {
+    background-color:lightgray;
+    padding: 5px 5px;
+}
+.table-contents td {
+    padding: 5px 5px;
+}
+
+li {
+margin-bottom: 2px;
+}
+
+.listitem p {
+	-webkit-margin-after: 0.5em;
+} 
+
+.note table {
+	border:none;
+}
+
+.note table tr {
+	border:none;
+	-webkit-margin-before: -0.7em;
+	-webkit-margin-after: -0.5em;
+}
+.note th {
+    background-color:white;
+    border:hidden;
+    padding: 1px 1px;
+}
