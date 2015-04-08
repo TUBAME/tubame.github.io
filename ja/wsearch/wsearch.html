@@ -1,12 +1,12 @@
 <HTML xmlns:knowhow="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:doc="http://docbook.org/ns/docbook">
 <HEAD>
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>オンラインクイックユーザマニュアル - 依存性検索ツール</title>
-<link href="css/docbook.css" type="text/css" rel="stylesheet">
+<title>依存性検索ツールガイド</title>
+<link href="css/knowhow.css" type="text/css" rel="stylesheet">
 <meta content="DocBook XSL Stylesheets V1.78.1" name="generator">
 </HEAD>
 <BODY>
-<H1 class="title">オンラインクイックユーザマニュアル - 依存性検索ツール</H1>
+<H1 class="title">依存性検索ツールガイド</H1>
 <div class="toc">
 <p>
 <b>Index</b>
@@ -30,92 +30,69 @@
 </dl>
 </dd>
 <dt>
-<span class="2."><a href="#tubame_2.">2.動作環境</a></span>
+<span class="2."><a href="#tubame_2.">2.利用方法</a></span>
 </dt>
 <dd>
 <dl>
 <dt>
-<span class="2.1."><a href="#tubame_2.1.">2.1.ハードウェア要件</a></span>
+<span class="2.1."><a href="#tubame_2.1.">2.1.利用の流れ</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="2.1.1."><a href="#tubame_2.1.1.">2.1.1.Eclipseプロジェクトの作成</a></span>
 </dt>
 </dl>
 </dd>
 <dd>
 <dl>
 <dt>
-<span class="2.2."><a href="#tubame_2.2.">2.2.ソフトウェア要件</a></span>
+<span class="2.1.2."><a href="#tubame_2.1.2.">2.1.2.準備</a></span>
 </dt>
 </dl>
 </dd>
 <dd>
 <dl>
 <dt>
-<span class="2.3."><a href="#tubame_2.3.">2.3.前提条件</a></span>
-</dt>
-</dl>
-</dd>
-<dt>
-<span class="3."><a href="#tubame_3.">3.インストール</a></span>
-</dt>
-<dd>
-<dl>
-<dt>
-<span class="3.1."><a href="#tubame_3.1.">3.1.インストール</a></span>
-</dt>
-</dl>
-</dd>
-<dt>
-<span class="4."><a href="#tubame_4.">4.利用方法</a></span>
-</dt>
-<dd>
-<dl>
-<dt>
-<span class="4.1."><a href="#tubame_4.1.">4.1.利用の流れ</a></span>
-</dt>
-<dd>
-<dl>
-<dt>
-<span class="4.1.1."><a href="#tubame_4.1.1.">4.1.1.Eclipseプロジェクトの作成</a></span>
+<span class="2.1.3."><a href="#tubame_2.1.3.">2.1.3.検索の実行</a></span>
 </dt>
 </dl>
 </dd>
 <dd>
 <dl>
 <dt>
-<span class="4.1.2."><a href="#tubame_4.1.2.">4.1.2.準備</a></span>
+<span class="2.1.4."><a href="#tubame_2.1.4.">2.1.4.結果の確認</a></span>
 </dt>
 </dl>
 </dd>
 <dd>
 <dl>
 <dt>
-<span class="4.1.3."><a href="#tubame_4.1.3.">4.1.3.検索の実行</a></span>
+<span class="2.1.5."><a href="#tubame_2.1.5.">2.1.5.ビューメニューの操作</a></span>
 </dt>
 </dl>
 </dd>
 <dd>
 <dl>
 <dt>
-<span class="4.1.4."><a href="#tubame_4.1.4.">4.1.4.結果の確認</a></span>
+<span class="2.1.6."><a href="#tubame_2.1.6.">2.1.6.プリファレンス設定</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="2.1.6.1."><a href="#tubame_2.1.6.1.">2.1.6.1.移行先ライブラリ設定</a></span>
 </dt>
 </dl>
 </dd>
 <dd>
 <dl>
 <dt>
-<span class="4.1.5."><a href="#tubame_4.1.5.">4.1.5.ビューメニューの操作</a></span>
+<span class="2.1.6.2."><a href="#tubame_2.1.6.2.">2.1.6.2.検索対象設定</a></span>
 </dt>
 </dl>
 </dd>
 </dl>
 </dd>
-<dt>
-<span class="5."><a href="#tubame_5.">5.アンイストール</a></span>
-</dt>
-<dd>
-<dl>
-<dt>
-<span class="5.1."><a href="#tubame_5.1.">5.1.アンインストール</a></span>
-</dt>
 </dl>
 </dd>
 </dl>
@@ -124,46 +101,35 @@
 <a name="tubame_1."></a>
 <h2 class="title">1.はじめに</h2>
 <br>
-<a name="tubame_1.1."></a>
+<a name="tubame_1.1." id="category_1"></a>
 <h3 class="title">1.1.本ドキュメントの紹介</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
-<p>本マニュアルは、 <span class="application">依存性検索ツール</span> を使用する為に、インストールから利用するまでの手順について簡易に説明したマニュアルです。</p>
+<p>
+						本マニュアルは、
+						<span class="application">依存性検索ツール</span>
+						の利用手順について簡易に説明したマニュアルです。
+					</p>
 </div>
 <br>
 <br>
-<a name="tubame_1.2."></a>
+<a name="tubame_1.2." id="category_2"></a>
 <h3 class="title">1.2.本ツールの紹介</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
 <p>
-			本ツールは Eclipse プラグインとして動作し、移植先の環境から必要な情報を自動的に抽出して、移植が必要な箇所を抽出するツールです。
-			</p>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>検索に必要な情報は移植先の環境から自動的に抽出されるため、特定のプラットフォームに依存することなく、あらゆるプラットフォームで移植が必要な箇所を抽出可能です。</p>
-<p>なお、<span class="application">JBoss EAP6</span>への移植で必要な検索情報はツールに組み込まれているため、移植先の環境としてツールに指定する必要はありません。</p>
-</td>
-</tr>
-</table>
-</div>
-<p>
-        
-</p>
+						本ツールはソースコードの依存情報を抽出し、指定された移行先ライブラリ情報を利用して、移行先環境で利用できない箇所（移植が必要な箇所)を抽出するツールです。
+
+						</p>
 <div class="table">
-<a name="N10247"></a>
+<a name="N10258"></a>
 <p class="title">
-<b>Table&nbsp;1.&nbsp;対象となるリソース</b>
+<b>Table&nbsp;1.&nbsp;検索対象となるリソース</b>
 </p>
 <div class="table-contents">
-<table summary="対象となるリソース" border="1">
+<table summary="検索対象となるリソース" border="1">
 <colgroup>
 <col>
 <col>
@@ -175,13 +141,18 @@
 </thead>
 <tbody>
 <tr>
-<td>Java ファイル</td><td>Java ファイル群で使用している全クラス情報と、移植先で使用可能なライブラリ情報とを比較し、使用できないクラスや非推奨となるクラスなどの情報を抽出します。</td>
+<td>Java ファイル</td><td>Java
+											ファイル群で使用している全クラス情報と、移植先で使用可能なライブラリ情報とを比較し、使用できないクラスや非推奨となるクラスなどの情報を抽出します。
+										</td>
 </tr>
 <tr>
-<td>JSP ファイル</td><td>JSP ファイルで使用している Java クラス情報、タグライブラリ情報と、移植先で使用可能なライブラリ情報とを比較し、使用できないクラスや非推奨となるクラスなどの情報を抽出します。</td>
+<td>JSP ファイル</td><td>JSP ファイルで使用している Java
+											クラス情報、タグライブラリ情報と、移植先で使用可能なライブラリ情報とを比較し、使用できないクラスや非推奨となるクラスなどの情報を抽出します。
+										</td>
 </tr>
 <tr>
-<td>XML ファイル</td><td>XML の DTD や XSD 情報と、移植先で使用可能な DTD や XSD 情報とを比較し、移植が必要な XML ファイルを抽出します。</td>
+<td>XML ファイル</td><td>XML の DTD や XSD 情報と、移植先で使用可能な DTD や XSD
+											情報とを比較し、移植が必要な XML ファイルを抽出します。</td>
 </tr>
 </tbody>
 </table>
@@ -189,245 +160,16 @@
 </div>
 <p>
 <br class="table-break">
-      
+					
 </p>
 </div>
 <br>
 <br>
 <a name="tubame_2."></a>
-<h2 class="title">2.動作環境</h2>
+<h2 class="title">2.利用方法</h2>
 <br>
-<a name="tubame_2.1."></a>
-<h3 class="title">2.1.ハードウェア要件</h3>
-<br>
-<div class="section">
-<div class="titlepage"></div>
-<p>本ツールは以下のハードウェア環境で動作することを確認しています。</p>
-<div class="table">
-<a name="N1026F"></a>
-<p class="title">
-<b>Table&nbsp;1.&nbsp;ハードウェア要件</b>
-</p>
-<div class="table-contents">
-<table summary="ハードウェア要件" border="1">
-<colgroup>
-<col>
-<col>
-</colgroup>
-<thead>
-<tr>
-<th>項目</th><th>要件</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>CPU</td><td>Pentium(R) Dual-Core CPU E5400 @2.70GHz(2 CPU) 相当</td>
-</tr>
-<tr>
-<td>RAM</td><td>2012MB RAM 相当</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<br class="table-break">
-</div>
-<br>
-<br>
-<a name="tubame_2.2."></a>
-<h3 class="title">2.2.ソフトウェア要件</h3>
-<br>
-<div class="section">
-<div class="titlepage"></div>
-<p>本ツールは以下のソフトウェア環境で動作することを確認しています。</p>
-<div class="table">
-<a name="N10291"></a>
-<p class="title">
-<b>Table&nbsp;1.&nbsp;ソフトウェア要件</b>
-</p>
-<div class="table-contents">
-<table summary="ソフトウェア要件" border="1">
-<colgroup>
-<col>
-<col>
-</colgroup>
-<thead>
-<tr>
-<th>項目</th><th>要件</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>OS</td><td>Windows XP/7, RHEL6(※)他同等Linuxで互換性有</td>
-</tr>
-<tr>
-<td>JavaVM</td><td>
-							Oracle JRE 1.6 以上
-						</td>
-</tr>
-<tr>
-<td>IDE</td><td>
-							Eclipse 3.7 Indigo or Eclipse 4.3 Kepler
-						</td>
-</tr>
-</tbody>
-</table>
-</div>
-</div>
-<br class="table-break">
-</div>
-<br>
-<br>
-<a name="tubame_2.3."></a>
-<h3 class="title">2.3.前提条件</h3>
-<br>
-<div class="section">
-<div class="titlepage"></div>
-<p>
-        特になし。
-			</p>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>検索対象をコンパイルに成功する状態にする必要はありません。検索対象のファイルさえあれば検索可能です。</p>
-</td>
-</tr>
-</table>
-</div>
-<p>
-                    
-</p>
-</div>
-<br>
-<br>
-<a name="tubame_3."></a>
-<h2 class="title">3.インストール</h2>
-<br>
-<a name="tubame_3.1."></a>
-<h3 class="title">3.1.インストール</h3>
-<br>
-<div class="section">
-<div class="titlepage"></div>
-<p>
-			事前に
-			動作環境
-			に記載されている環境等の準備を整えてください。
-			準備が整っていることを確認し、以下の手順を実施します。
-		</p>
-<div class="orderedlist">
-<ol class="orderedlist" type="1">
-<li class="listitem">
-<p>ダウンロード</p>
-<p>プラグインをダウンロードします</p>
-<p>
-					
-</p>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>
-							https://github.com/TUBAME/migration-tool/releases
-						</p>
-</td>
-</tr>
-</table>
-</div>
-<p>
-				
-</p>
-</li>
-<li class="listitem">
-<p>解凍</p>
-<p>
-					ダウンロードしたファイルを解凍します。
-					解凍すると
-					<code class="filename">tubame.wsearch_*</code>
-					という名前のディレクトリが作成されます。
-					</p>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>* 部分はプラグインのバージョンによって変わります。</p>
-</td>
-</tr>
-</table>
-</div>
-<p>
-					
-</p>
-<div class="important" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Important">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Important]" src="images/important.png"></td><th align="left">Important</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>
-							Windows 上で zip を解凍する場合、パス長の制限により解凍に失敗する場合があります。
-							失敗した場合は、
-							<code class="filename">C:\temp</code>
-							のような短いパスに解凍してください。
-						</p>
-</td>
-</tr>
-</table>
-</div>
-<p>
-				
-</p>
-</li>
-<li class="listitem">
-<p>Eclipse へインストール</p>
-<p>
-					解凍したディレクトリを、Eclipse インストールディレクトリ下の
-					<code class="filename">plugins</code>
-					ディレクトリに移動またはコピーします。
-				</p>
-</li>
-<li class="listitem">
-<p>インストール確認</p>
-<p>
-					以下のように Eclipse メニューを選択します。
-				</p>
-<p>
-					
-<span class="guimenu">Help</span> &rarr; <span class="guimenuitem">About Eclipse</span> &rarr; <span class="guimenuitem">Installation Details</span> &rarr; <span class="guimenuitem">Plug-ins</span>
-				
-</p>
-<p>
-					
-<span class="guilabel">Plug-in Id</span>
-					の部分に、以下のプラグイン名
-					<span class="guilabel">tubame.wsearch</span>
-					が存在することを確認してください。
-				</p>
-</li>
-<li class="listitem">
-<p>インストール完了</p>
-<p>これでインストール完了です</p>
-</li>
-</ol>
-</div>
-</div>
-<br>
-<br>
-<a name="tubame_4."></a>
-<h2 class="title">4.利用方法</h2>
-<br>
-<a name="tubame_4.1."></a>
-<h3 class="title">4.1.利用の流れ</h3>
+<a name="tubame_2.1." id="category_10"></a>
+<h3 class="title">2.1.利用の流れ</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
@@ -435,8 +177,8 @@
 </div>
 <br>
 <br>
-<a name="tubame_4.1.1."></a>
-<h3 class="title">4.1.1.Eclipseプロジェクトの作成</h3>
+<a name="tubame_2.1.1." id="category_30"></a>
+<h3 class="title">2.1.1.Eclipseプロジェクトの作成</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
@@ -448,48 +190,32 @@
 </li>
 <li class="listitem">
 <p>
-					プロジェクト作成ウィザードの起動
-				</p>
+								プロジェクト作成ウィザードの起動
+							</p>
 <p>
-					
+								
 <span class="guimenu">File</span> &rarr; <span class="guimenuitem">New</span> &rarr; <span class="guimenuitem">Project...</span>
-				
+							
 </p>
 </li>
 <li class="listitem">
 <p>
-                
-<span class="guimenuitem">Java Project</span>の作成
-				</p>
+								
+<span class="guimenuitem">Java Project</span>
+								の作成
+							</p>
 <p>
-					
+								
 <span class="guimenu">Java Project</span> &rarr; <span class="guimenuitem">Next</span>
-				
+							
 </p>
 <p>
-                    
-<span class="guilabel">New Java Project</span> ウィザードで、移植元の環境に応じて適宜設定を行いプロジェクトを作成します。
-				</p>
+								
+<span class="guilabel">New Java Project</span>
+								ウィザードで、移植元の環境に応じて適宜設定を行いプロジェクトを作成します。
+							</p>
 <p>
-                
-</p>
-<div class="important" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Important">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Important]" src="images/important.png"></td><th align="left">Important</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>必ず<span class="guilabel">Java Project</span>を作成してください。<span class="guilabel">Java Project</span>以外はツールが正常に動作しません。</p>
-</td>
-</tr>
-</table>
-</div>
-<p>
-                
-</p>
-<p>
-                
+								
 </p>
 <div class="important" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Important">
@@ -498,16 +224,22 @@
 </tr>
 <tr>
 <td valign="top" align="left">
-<p>検索対象とする Java ファイルは必ず、<span class="guilabel">Eclipse Source Folder</span>配下に配置するようにしてください。</p>
+<p>
+										必ず
+										<span class="guilabel">Java Project</span>
+										を作成してください。
+										<span class="guilabel">Java Project</span>
+										以外はツールが正常に動作しません。
+									</p>
 </td>
 </tr>
 </table>
 </div>
 <p>
-                
+							
 </p>
 <p>
-                
+								
 </p>
 <div class="important" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Important">
@@ -516,13 +248,36 @@
 </tr>
 <tr>
 <td valign="top" align="left">
-<p>配置するソースファイルは、 Java で扱える名称であればディレクトリ名、ファイル名は問いません。逆に、 Java で扱えない名称が含まれる(ハイフンなど)場合は検索に失敗する場合があります。</p>
+<p>
+										検索対象とする Java ファイルは必ず、
+										<span class="guilabel">Eclipse Source Folder</span>
+										配下に配置するようにしてください。
+									</p>
 </td>
 </tr>
 </table>
 </div>
 <p>
-                
+							
+</p>
+<p>
+								
+</p>
+<div class="important" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Important">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Important]" src="images/important.png"></td><th align="left">Important</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>配置するソースファイルは、 Java で扱える名称であればディレクトリ名、ファイル名は問いません。逆に、
+										Java で扱えない名称が含まれる(ハイフンなど)場合は検索に失敗する場合があります。</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+							
 </p>
 </li>
 </ol>
@@ -530,122 +285,39 @@
 </div>
 <br>
 <br>
-<a name="tubame_4.1.2."></a>
-<h3 class="title">4.1.2.準備</h3>
+<a name="tubame_2.1.2." id="category_31"></a>
+<h3 class="title">2.1.2.準備</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
-<p>以下の手順を実施します。</p>
-<div class="orderedlist">
-<ol class="orderedlist" type="1">
-<li class="listitem">
-<p>
-					検索に関わる各種情報の設定
-				</p>
-<p>
-                検索に関わる各種情報の設定を行います。
-				</p>
-<p>
-					
-<span class="guimenu">Window</span> &rarr; <span class="guimenuitem">Preferences</span> &rarr; <span class="guimenuitem">依存性検索ツール</span> &rarr; <span class="guimenuitem">ライブラリ設定</span>
-				
-</p>
-<p>
-               以下の情報が設定できます。
+<p>検索実行前に、検索に関わる以下の項目についてプリファレンスページより設定を行うことができます。
 					</p>
 <div class="itemizedlist">
 <ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
+<p>移行先ライブラリ</p>
 <p>
-								ライブラリ設定
+								移行先ライブラリは、デフォルトでJBossEAP6.2(eap6.2)、Tomcat8(tomcat8)、SpringMVC4(springmvc4)が組み込まています。
+								本資料では、JBossEAP6.2(eap6.2)を利用する方法について説明します。移行先ライブラリ情報を追加登録する場合は、
+								<span class="command"><strong><a class="command" href="#librarySetting">移行先ライブラリ設定</a></strong></span>
+								を参考に設定変更してください。
 							</p>
-<p>
-                            検索の際に使用するライブラリ情報を管理します。チェックボックスが有効なライブラリが、移植先で利用可能なライブラリとみなされて検索されます。
-							</p>
-<p>
-                            
-</p>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>設定項目は以下となります。</p>
-<div class="itemizedlist">
-<ul class="itemizedlist" style="list-style-type: circle; ">
-<li class="listitem">
-<p>
-                        
-<span class="guilabel">名前</span>
-                    
-</p>
-<p>画面表示名称。任意の名前を入力します。</p>
 </li>
 <li class="listitem">
+<p>検索対象設定</p>
 <p>
-                        
-<span class="guilabel">ライブラリ種別</span>
-                    
-</p>
-<p>ライブラリが圧縮ファイル (Zip 形式 ) かディレクトリ形式かを選択します。</p>
-</li>
-<li class="listitem">
-<p>
-                        
-<span class="guilabel">パス</span>
-                    
-</p>
-<p>ライブラリへのパスを設定します。</p>
-</li>
-<li class="listitem">
-<p>
-                        
-<span class="guilabel">タイプ</span>
-                    
-</p>
-<p>ライブラリが Maven リポジトリ形式の場合はチェックを有効にします。</p>
-</li>
-<li class="listitem">
-<p>
-                        
-<span class="guilabel">説明</span>
-                    
-</p>
-<p>ライブラリに関する説明を入力します。</p>
-</li>
-</ul>
-</div>
-</td>
-</tr>
-</table>
-</div>
-<p>
-                            
-</p>
-</li>
-<li class="listitem">
-<p>
-								キャッシュ
-							</p>
-<p>
-                            ライブラリ情報の抽出は、実際には検索開始後に実施されます。やや重い処理となるため、検索結果のキャッシュ機能が備わっています。そのキャッシュを利用するかを設定します。初めて検索する際はキャッシュが存在しないため、キャッシュを有効にしていてもライブラリ情報の抽出処理は実行されます。
+								検索対象設定を事前にフィルタすることができます。本資料ではフィルター設定は実施しません。検索対象設定を変更する場合は、
+								<span class="command"><strong><a class="command" href="#searchTargetSetting" title="1.&nbsp;">検索対象設定</a></strong></span>
+								を参考に設定変更してください。
 							</p>
 </li>
 </ul>
 </div>
-<p>
-				
-</p>
-</li>
-</ol>
-</div>
 </div>
 <br>
 <br>
-<a name="tubame_4.1.3."></a>
-<h3 class="title">4.1.3.検索の実行</h3>
+<a name="tubame_2.1.3." id="category_32"></a>
+<h3 class="title">2.1.3.検索の実行</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
@@ -656,53 +328,111 @@
 <p>検索リソースの選択</p>
 <p>検索したいリソース上で右クリックし、以下のメニューを選択します。</p>
 <p>
-					
+								
 <span class="guimenuitem">tubame</span> &rarr; <span class="guimenuitem">依存性検索</span>
-				
+
+								
+</p>
+<div class="figure">
+<a name="N103CE"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;依存性検索メニュー画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/wsearch_menu.png" alt="依存性検索メニュー画面"></div>
+</div>
+</div>
+<p>
+<br class="figure-break">
+							
 </p>
 </li>
 <li class="listitem">
 <p>検索条件の設定</p>
 <p>
-					以下の入力項目を設定します。
-					</p>
+
+								
+</p>
 <table border="0" summary="Simple list" class="simplelist">
 <tr>
 <td>
-                            <span class="guilabel">結果出力先</span>: 検索結果の出力先として <code class="filename">gjbm</code> ファイルを指定します。</td>
+										<span class="guilabel">結果出力先</span>
+										: 検索結果の出力先として
+										<code class="filename">gjbm</code>
+										ファイルを指定します。
+									</td>
 </tr>
 </table>
 <p>
-				
+
+								
+</p>
+<div class="figure">
+<a name="N103EA"></a>
+<p class="title">
+<b>Figure&nbsp;2.&nbsp;依存性検索ウィザード画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/wsearch_wizard.png" alt="依存性検索メニュー画面"></div>
+</div>
+</div>
+<p>
+<br class="figure-break">
+							
 </p>
 </li>
 <li class="listitem">
 <p>検索の実行</p>
 <p>
-					
+								
 <span class="guimenuitem">Finish</span>
-					をクリックすると検索が開始されます。
-				</p>
+								をクリックすると検索が開始されます。
+							</p>
 </li>
 </ol>
 </div>
 </div>
 <br>
 <br>
-<a name="tubame_4.1.4."></a>
-<h3 class="title">4.1.4.結果の確認</h3>
+<a name="tubame_2.1.4." id="category_33"></a>
+<h3 class="title">2.1.4.結果の確認</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
-<p>検索が完了すると、 Eclipse の作業ビューエリアに<span class="guilabel">依存性検索結果ビュー</span>が表示されます。
-			また、検索結果ファイルである<code class="filename">gjbm</code>ファイルをダブルクリックすることでも<span class="guilabel">依存性検索結果ビュー</span>を表示することができます。
-		</p>
 <p>
-            
-<span class="guilabel">依存性検索結果ビュー</span>の各表示項目の説明を以下に記載します。
-		</p>
+						検索が完了すると、 Eclipse の作業ビューエリアに
+						<span class="guilabel">依存性検索結果ビュー</span>
+						が表示されます。
+						また、検索結果ファイルである
+						<code class="filename">gjbm</code>
+						ファイルをダブルクリックすることでも
+						<span class="guilabel">依存性検索結果ビュー</span>
+						を表示することができます。
+
+						</p>
+<div class="figure">
+<a name="N10414"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;依存性検索結果ビュー</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/wsearch_view.png" alt="依存性検索結果ビュー"></div>
+</div>
+</div>
+<p>
+<br class="figure-break">
+					
+</p>
+<p>
+						
+<span class="guilabel">依存性検索結果ビュー</span>
+						の各表示項目の説明を以下に記載します。
+					</p>
 <div class="table">
-<a name="N1042A"></a>
+<a name="N10426"></a>
 <p class="title">
 <b>Table&nbsp;1.&nbsp;依存性検索結果ビュー表示項目</b>
 </p>
@@ -720,25 +450,37 @@
 <tbody>
 <tr>
 <td>ヘッダ領域</td><td>
-        <span class="guilabel">error</span>件数、<span class="guilabel">warn</span>件数、結果ファイルパスの情報を表示します。
-                        <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+										<span class="guilabel">error</span>
+										件数、
+										<span class="guilabel">warn</span>
+										件数、結果ファイルパスの情報を表示します。
+										<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Note">
 <tr>
 <td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
 </tr>
 <tr>
 <td valign="top" align="left">
-<p>デフォルトで<span class="guilabel">error</span>、<span class="guilabel">warn</span>それぞれ最大<em class="parameter"><code>100</code></em>件ずつ表示され、以降の結果は表示されません。</p>
+<p>
+												デフォルトで
+												<span class="guilabel">error</span>
+												、
+												<span class="guilabel">warn</span>
+												それぞれ最大
+												<em class="parameter"><code>100</code></em>
+												件ずつ表示され、以降の結果は表示されません。
+											</p>
 </td>
 </tr>
 </table>
 </div>
-    
+									
 </td>
 </tr>
 <tr>
-<td>結果</td><td>移植元と移植先を比較した結果を表示します。
-                            <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<td>結果</td><td>
+										移植元と移植先を比較した結果を表示します。
+										<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Note">
 <tr>
 <td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
@@ -750,17 +492,17 @@
 <ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
 <p>
-                        
+														
 <span class="guilabel">error</span>
-                    
+													
 </p>
 <p>移植が必要と考えられる箇所。</p>
 </li>
 <li class="listitem">
 <p>
-                        
+														
 <span class="guilabel">warn</span>
-                    
+													
 </p>
 <p>移植が推奨されるか、必要性を確認する必要がある箇所。</p>
 </li>
@@ -770,12 +512,13 @@
 </tr>
 </table>
 </div>
-                        
+									
 </td>
 </tr>
 <tr>
-<td>カテゴリ</td><td>検出した移植元のカテゴリを表示します。
-                            <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<td>カテゴリ</td><td>
+										検出した移植元のカテゴリを表示します。
+										<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Note">
 <tr>
 <td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
@@ -787,23 +530,23 @@
 <ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
 <p>
-                        
+														
 <span class="guilabel">Java</span>
-                    
+													
 </p>
 </li>
 <li class="listitem">
 <p>
-                        
+														
 <span class="guilabel">XML</span>
-                    
+													
 </p>
 </li>
 <li class="listitem">
 <p>
-                        
+														
 <span class="guilabel">JSP</span>
-                    
+													
 </p>
 </li>
 </ul>
@@ -812,20 +555,26 @@
 </tr>
 </table>
 </div>
-                        
+									
 </td>
 </tr>
 <tr>
-<td>パッケージ</td><td>検出したものが Java ファイルの場合はパッケージ名を、それ以外の場合は<span class="quote">&ldquo;<span class="quote">-</span>&rdquo;</span>を表示します。</td>
+<td>パッケージ</td><td>
+										検出したものが Java ファイルの場合はパッケージ名を、それ以外の場合は
+										<span class="quote">&ldquo;<span class="quote">-</span>&rdquo;</span>
+										を表示します。
+									</td>
 </tr>
 <tr>
 <td>移植元ライブラリ</td><td>検出した移植元ライブラリ名を表示します。</td>
 </tr>
 <tr>
-<td>移植先ライブラリ</td><td>検出した移植先ライブラリ名を表示します。複数ヒットする場合は、カンマ区切りで表示します。</td>
+<td>移植先ライブラリ</td><td>検出した移植先ライブラリ名を表示します。複数ヒットする場合は、カンマ区切りで表示します。
+									</td>
 </tr>
 <tr>
-<td>クラス</td><td>検出したものに応じて、クラス名、名前空間、タグライブラリパス、スキーマパスなどを表示します。</td>
+<td>クラス</td><td>検出したものに応じて、クラス名、名前空間、タグライブラリパス、スキーマパスなどを表示します。
+									</td>
 </tr>
 <tr>
 <td>ヒット数</td><td>検出した件数をパッケージ単位、クラス単位で表示します。</td>
@@ -850,17 +599,33 @@
 </div>
 <br>
 <br>
-<a name="tubame_4.1.5."></a>
-<h3 class="title">4.1.5.ビューメニューの操作</h3>
+<a name="tubame_2.1.5." id="category_36"></a>
+<h3 class="title">2.1.5.ビューメニューの操作</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
 <p>
-            
-<span class="guilabel">依存性検索結果ビュー</span>に表示されている内容に対して、ビューメニューより以下のような操作を行うことができます。
-		</p>
+						
+<span class="guilabel">依存性検索結果ビュー</span>
+						に表示されている内容に対して、ビューメニューより以下のような操作を行うことができます。
+
+						</p>
+<div class="figure">
+<a name="N104BF"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;依存性検索結果ビューメニュー</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/wsearch_viewmenu.png" alt="依存性検索結果ビューメニュー"></div>
+</div>
+</div>
+<p>
+<br class="figure-break">
+					
+</p>
 <div class="table">
-<a name="N104C3"></a>
+<a name="N104CC"></a>
 <p class="title">
 <b>Table&nbsp;1.&nbsp;ビューメニュー項目</b>
 </p>
@@ -893,12 +658,21 @@
 </tr>
 <tr>
 <td>CSV出力</td><td>
-        <span class="guilabel">依存性検索結果ビュー</span>に表示されている項目を CSV 形式で保存できます。</td>
+										<span class="guilabel">依存性検索結果ビュー</span>
+										に表示されている項目を CSV 形式で保存できます。
+									</td>
 </tr>
 <tr>
 <td>表示件数設定</td><td>
-        <span class="guilabel">依存性検索結果ビュー</span>に表示する最大件数を設定します。設定値は、<span class="guilabel">結果</span>列の<span class="guilabel">error</span>、<span class="guilabel">warn</span>それぞれの最大表示件数となります。
-                        </td>
+										<span class="guilabel">依存性検索結果ビュー</span>
+										に表示する最大件数を設定します。設定値は、
+										<span class="guilabel">結果</span>
+										列の
+										<span class="guilabel">error</span>
+										、
+										<span class="guilabel">warn</span>
+										それぞれの最大表示件数となります。
+									</td>
 </tr>
 </tbody>
 </table>
@@ -908,33 +682,29 @@
 </div>
 <br>
 <br>
-<a name="tubame_5."></a>
-<h2 class="title">5.アンイストール</h2>
+<a name="tubame_2.1.6." id="category_40"></a>
+<h3 class="title">2.1.6.プリファレンス設定</h3>
 <br>
-<a name="tubame_5.1."></a>
-<h3 class="title">5.1.アンインストール</h3>
+<br>
+<a name="tubame_2.1.6.1." id="category_41"></a>
+<h3 class="title">2.1.6.1.移行先ライブラリ設定</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
 <p>
-			インストールした
-			<code class="filename">tubame.wsearch_*</code>
-			を削除してください。以上で、アンインストールは完了です。
-			</p>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>* 部分はプラグインのバージョンによって変わります。</p>
-</td>
-</tr>
-</table>
-</div>
+<a name="librarySetting"></a>検索に関わる移行先ライブラリの追加登録を行います。本例では、移行先ライブラリとして、Strut2のライブラリをstrut2-libとして追加登録し、利用する方法について示します。
+					</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
 <p>
-			
+								プリファレンスページより、移行先ライブラリの設定を行います。
+							</p>
+<p>
+								
+<span class="guimenu">Window</span> &rarr; <span class="guimenuitem">Preferences</span> &rarr; <span class="guimenuitem">依存性検索ツール</span> &rarr; <span class="guimenuitem">ライブラリ設定</span>
+
+							
 </p>
 <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Note">
@@ -944,17 +714,255 @@
 <tr>
 <td valign="top" align="left">
 <p>
-					削除した後にEclipseを起動する際は
-					<span class="command"><strong>-clean</strong></span>
-					のオプションを付与して起動してください。
-				</p>
+									ライブラリ設定では、以下の情報が設定できます。
+									</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>
+												ライブラリ設定
+											</p>
+<p>
+												検索の際に使用するライブラリ情報を管理します。チェックボックスが有効なライブラリが、移植先で利用可能なライブラリとみなされて検索されます。
+											</p>
+<p>
+
+											
+</p>
+</li>
+<li class="listitem">
+<p>
+												キャッシュ
+											</p>
+<p>
+												ライブラリ情報の抽出は、実際には検索開始後に実施されます。やや重い処理となるため、検索結果のキャッシュ機能が備わっています。そのキャッシュを利用するかを設定します。初めて検索する際はキャッシュが存在しないため、キャッシュを有効にしていてもライブラリ情報の抽出処理は実行されます。
+											</p>
+</li>
+</ul>
+</div>
+<p>
+								
+</p>
+<div class="figure">
+<a name="N10538"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;ライブラリ設定画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/wsearch_lib_setting.png" alt="ライブラリ設定画面"></div>
+</div>
+</div>
+<br class="figure-break">
 </td>
 </tr>
 </table>
 </div>
+</li>
+<li class="listitem">
+<p>ライブラリ設定画面の追加ボタンより、移行先ライブラリを新規追加します</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>設定項目は以下となります。</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
 <p>
-		
+											
+<span class="guilabel">名前</span>
+										
 </p>
+<p>画面表示名称。任意の名前を入力します。</p>
+</li>
+<li class="listitem">
+<p>
+											
+<span class="guilabel">ライブラリ種別</span>
+										
+</p>
+<p>ライブラリが圧縮ファイル (Zip 形式 ) かディレクトリ形式かを選択します。</p>
+</li>
+<li class="listitem">
+<p>
+											
+<span class="guilabel">パス</span>
+										
+</p>
+<p>ライブラリへのパスを設定します。</p>
+</li>
+<li class="listitem">
+<p>
+											
+<span class="guilabel">タイプ</span>
+										
+</p>
+<p>ライブラリが Maven リポジトリ形式の場合はチェックを有効にします。</p>
+</li>
+<li class="listitem">
+<p>
+											
+<span class="guilabel">説明</span>
+										
+</p>
+<p>ライブラリに関する説明を入力します。</p>
+</li>
+</ul>
+</div>
+<div class="figure">
+<a name="N10573"></a>
+<p class="title">
+<b>Figure&nbsp;2.&nbsp;新規ライブラリリポジトリ画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/wsearch_lib_setting_add.png" alt="新規ライブラリリポジトリ画面"></div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>ライブラリ設定画面のライブラリ一覧より、依存性検索で利用するライブラリをチェックします。</p>
+<p>
+								利用する移行先ライブラリをチェック後に、以下を実施します。
+								<span class="guimenu">Apply</span> &rarr; <span class="guimenuitem">OK</span>
+							
+</p>
+<div class="figure">
+<a name="N1058A"></a>
+<p class="title">
+<b>Figure&nbsp;3.&nbsp;設定変更後のライブラリ一覧</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/wsearch_lib_setting_add_after.png" alt="設定変更後のライブラリ一覧"></div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+<li class="listitem">
+<p>依存性検索ウィザード画面にて依存性検索で利用する移行先ライブラリを確認します。検索したいリソース上で右クリックし、以下のメニューを選択します。
+							</p>
+<p>
+								
+<span class="guimenuitem">tubame</span> &rarr; <span class="guimenuitem">依存性検索</span>
+							
+</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>本例の場合は、struts2-libを設定したので、移行先ライブラリに"struts2-lib"が表示されていることを確認します。
+								</p>
+<div class="figure">
+<a name="N105A4"></a>
+<p class="title">
+<b>Figure&nbsp;4.&nbsp;依存性検索ウィザード画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/wsearch_lib_setting_add_after_search.png" alt="依存性検索ウィザード画面"></div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ol>
+</div>
+</div>
+<br>
+<br>
+<a name="tubame_2.1.6.2." id="category_42"></a>
+<h3 class="title">2.1.6.2.検索対象設定</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>検索対象設定では、依存性検索の検索対象をフィルターすることができます。</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>プリファレンスページより、検索対象設定の設定を行います。</p>
+<p>
+								
+<span class="guimenu">Window</span> &rarr; <span class="guimenuitem">Preferences</span> &rarr; <span class="guimenuitem">依存性検索ツール</span> &rarr; <span class="guimenuitem">検索対象設定</span>
+							
+</p>
+<div class="figure">
+<a name="N105CD"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;検索対象設定画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/wsearch_target.png" alt="検索対象設定画面"></div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+<li class="listitem">
+<p>検索対象設定を行います</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+									以下の項目の設定変更が可能です。
+									</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>検索対象設定</p>
+<p>検索対象の拡張子を変更できます。</p>
+</li>
+<li class="listitem">
+<p>詳細設定</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: circle; ">
+<li class="listitem">
+<p>java</p>
+<p>packageを除去対象として追加できます</p>
+</li>
+<li class="listitem">
+<p>jsp</p>
+<p>package及び、jspで参照しているスキーマ定義を、除去対象として追加できます
+													</p>
+</li>
+<li class="listitem">
+<p>xml</p>
+<p>xmlで参照しているスキーマ定義を、除去対象として追加できます</p>
+</li>
+</ul>
+</div>
+</li>
+</ul>
+</div>
+<p>
+								
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ol>
+</div>
 </div>
 <br>
 <br>
