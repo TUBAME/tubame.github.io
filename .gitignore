@@ -23,5 +23,8 @@ jbmst/
 
 plugins/
 
-# TUBAME's ignore filse #
+# TUBAME's ignore files #
 work/
+
+# Windows's files #
+Thumbs.db
