@@ -1,51 +1,143 @@
+body {
+	color: #000;
+	font-size: 14pt;
+	font-family: "trebuchet ms", helvetica, sans-serif;
+	background-color: #F9F9F9;
+	margin-left: 50px;
+	margin-right: 100px;
+}
+
+/* jpn font */
+body {
+	font-family: "ÉqÉâÉMÉmäpÉS Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "ÉÅÉCÉäÉI",
+		Meiryo, "ÇlÇr ÇoÉSÉVÉbÉN", "MS PGothic", sans-serif;
+	font-size: 16px;
+	line-height: 18px;
+	color: #333333;
+	background-color: #ffffff;
+}
+
+pre {
+	background: #EEEEFF;
+	color: #000;
+	border: 1px solid #BBBBFF;
+	padding: 5px;
+}
+
+h2 {
+	font-size: 25px;
+	text-shadow: 0 1px 2px #999;
+	margin-bottom: 10px;
+	padding: 10px;
+	line-height: 1.1;
+	color: #302226;
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+h3 {
+      font-size: 22px;
+      text-shadow: 0 1px 2px #999;
+      border-bottom: 1px solid #CCC;
+      margin-bottom: 10px;
+      padding: 10px;
+      line-height: 1.1;
+      color: #302226;
+      font-weight: bold;
+      margin-top: 15px;
+      max-width: 800px;
+}
+
+dl {
+      -webkit-margin-before: 0em ;
+      -webkit-margin-after: 0em;
+}
+
+dl a {
+	font-size: 17px;
+}
+
+dt {
+	margin-left: 15px;
+	margin-top: 0px;
+}
+
+dd {
+	margin-left: 30px;
+}
+
+.toc p {
+      font-size: 20px;
+}
+
+.listitem p {
+      -webkit-margin-before: 0em;
+      -webkit-margin-after: 0em;
+}
+
+.author {
+      font-size: 12px;
+      border: none;
+}
+
+p {
+	-webkit-margin-before: 0.7em;
+	-webkit-margin-after: 0.7em;
+}
+
+.literallayout p {
+      -webkit-margin-before: -1.5em;
+      -webkit-margin-after: 0em;
+}
+
+.toc p {
+      text-shadow: 0 1px 2px #999;
+}
+
+
+
+a,a:active,a:visited {
+      color: #2554C7;
+      text-decoration: none;
+      outline: none;
+      font-weight: bold;
+}
+
+a:hover {
+      color: #003366;
+}
+
+.literal {
+	font-family: monospace;
+	background: #EEECF4;
+	padding: 2px;
+	border-radius: 4px;
+}
+
+/* prettify.css */
+.pln{color:#000}@media screen{.str{color:#080}.kwd{color:#008}.com{color:#800}.typ{color:#606}.lit{color:#066}.pun,.opn,.clo{color:#660}.tag{color:#008}.atn{color:#606}.atv{color:#080}.dec,.var{color:#606}.fun{color:red}}@media print,projection{.str{color:#060}.kwd{color:#006;font-weight:bold}.com{color:#600;font-style:italic}.typ{color:#404;font-weight:bold}.lit{color:#044}.pun,.opn,.clo{color:#440}.tag{color:#006;font-weight:bold}.atn{color:#404}.atv{color:#060}}pre.programlisting{padding:2px;border:1px solid #888}ol.linenums{margin-top:0;margin-bottom:0}li.L0,li.L1,li.L2,li.L3,li.L5,li.L6,li.L7,li.L8{list-style-type:none}li.L1,li.L3,li.L5,li.L7,li.L9{background:#eee}
+
+
 h1.title {
   padding: 5px 5px 5px 10px;
-  color: white;
-  background: dimgray;
 }
 
 h2.title {
   padding: 3px 3px 3px 5px;
-  color: white;
-  background: dimgray;
 }
 
 h3.title {
   padding: 3px 3px 3px 5px;
-  border-bottom: 2px solid gray;
+
 }
 
 h4.title {
   padding: 3px 3px 3px 5px;
-  border-bottom: 2px solid gray;
+
 }
 
 div.article {
   margin: 30px 30px 30px 30px;
-}
-
-div.caution {
-  background: mistyrose;
-}
-div.warning {
-  background: mistyrose;
-}
-div.important {
-  background: mistyrose;
-}
-div.note {
-  background: cornsilk;
-}
-div.tip {
-  background: cornsilk;
-}
-
-pre.programlisting {
-  border-width: 1px;
-  border-color: gray;
-  border-style: solid;
-  color: black;
-  background-color: lightgray;
 }
 
 div.screen {
@@ -102,26 +194,31 @@ code.sgmltag-element {
 }
 .table-contents th {
     background-color:lightgray;
-    border: 1px solid gray;
     padding: 5px 5px;
 }
 .table-contents td {
-    border: 1px solid gray;
     padding: 5px 5px;
 }
-.table-contents .note table, .table-contents .note th, .table-contents .note td,
-.table-contents .tip table, .table-contents .tip th, .table-contents .tip td {
-    border: none;
-    background-color: cornsilk;
-}
-.table-contents .warning table, .table-contents .warning th, .table-contents .warning td,
-.table-contents .caution table, .table-contents .caution th, .table-contents .caution td,
-.table-contents .important table, .table-contents .important th, .table-contents .important td {
-    border: none;
-    background-color: mistyrose;
+
+li {
+margin-bottom: 2px;
 }
 
-body {
-  font-family: gill, helvetica, sans-serif;
-  font-size: 12pt;
+.listitem p {
+	-webkit-margin-after: 0.5em;
+} 
+
+.note table {
+	border:none;
+}
+
+.note table tr {
+	border:none;
+	-webkit-margin-before: -0.7em;
+	-webkit-margin-after: -0.5em;
+}
+.note th {
+    background-color:white;
+    border:hidden;
+    padding: 1px 1px;
 }
