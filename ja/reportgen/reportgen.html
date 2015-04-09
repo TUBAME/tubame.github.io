@@ -1,110 +1,121 @@
 <HTML xmlns:knowhow="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:doc="http://docbook.org/ns/docbook">
 <HEAD>
 <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>ナレッジベース検索レポート</title>
-<link href="css/docbook.css" type="text/css" rel="stylesheet">
+<title>移植性検討レポート生成ガイド</title>
+<link href="css/knowhow.css" type="text/css" rel="stylesheet">
 <meta content="DocBook XSL Stylesheets V1.78.1" name="generator">
 </HEAD>
 <BODY>
-<H1 class="title">ナレッジベース検索レポート</H1>
+<H1 class="title">移植性検討レポート生成ガイド</H1>
 <div class="toc">
 <p>
 <b>Index</b>
 </p>
 <dl class="toc">
 <dt>
-<span class="1."><a href="#tubame_1.">1.TUBAMEレポート</a></span>
+<span class="1."><a href="#tubame_1.">1.はじめに</a></span>
 </dt>
 <dd>
 <dl>
 <dt>
-<span class="1.1."><a href="#tubame_1.1.">1.1.前提条件</a></span>
+<span class="1.1."><a href="#tubame_1.1.">1.1.本ドキュメントの紹介</a></span>
 </dt>
 </dl>
 </dd>
 <dd>
 <dl>
 <dt>
-<span class="1.2."><a href="#tubame_1.2.">1.2.レポート出力方法</a></span>
+<span class="1.2."><a href="#tubame_1.2.">1.2.本機能の紹介</a></span>
 </dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="1.3."><a href="#tubame_1.3.">1.3.前提条件</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="2."><a href="#tubame_2.">2.利用方法</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="2.1."><a href="#tubame_2.1.">2.1.利用の流れ</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="2.1.1."><a href="#tubame_2.1.1.">2.1.1.プロジェクトの選択</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="2.1.2."><a href="#tubame_2.1.2.">2.1.2.レポート生成の実行</a></span>
+</dt>
+</dl>
+</dd>
 </dl>
 </dd>
 </dl>
 </div>
 <HR>
 <a name="tubame_1."></a>
-<h2 class="title">1.TUBAMEレポート</h2>
+<h2 class="title">1.はじめに</h2>
 <br>
-<a name="tubame_1.1."></a>
-<h3 class="title">1.1.前提条件</h3>
+<a name="tubame_1.1." id="category_6"></a>
+<h3 class="title">1.1.本ドキュメントの紹介</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>本マニュアルはTUBAMEを利用して、移植性検討レポートを作成する手順ついて、簡易に説明したマニュアルです。</p>
+</div>
+<br>
+<br>
+<a name="tubame_1.2." id="category_5"></a>
+<h3 class="title">1.2.本機能の紹介</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>移植性検討レポート作成機能は、TUBAMEが提供するナレッジベース検索、依存性検索の出力を元にレポート(HTML)を作成します。   </p>
+</div>
+<br>
+<br>
+<a name="tubame_1.3." id="category_2"></a>
+<h3 class="title">1.3.前提条件</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
 <p>
-			前提条件を以下に示す
+			移植性検討レポートを作成するにあたり、TUBAMEを利用した以下の検索機能のいづれかが完了している必要があります。
 
 			</p>
 <div class="itemizedlist">
 <ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
-<p>ナレッジベース検索ツール</p>
-<div class="itemizedlist">
-<ul class="itemizedlist" style="list-style-type: circle; ">
-<li class="listitem">
-<p>ナレッジベース検索ツールの作業状況ビューより以下のタスクが完了していること。</p>
-<div class="orderedlist">
-<ol class="orderedlist" type="1">
-<li class="listitem">
-<p>目視確認項目の確認</p>
-</li>
-<li class="listitem">
-<p>ヒアリング確認項目の確認</p>
-</li>
-<li class="listitem">
-<p>不明項目(ライン数が不明となっている項目)の確認</p>
-</li>
-<li class="listitem">
-<p>SE手動算出項目(ライン数をSEが設定する項目)の確認</p>
-</li>
-</ol>
-</div>
-<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Warning">
+<p>ナレッジベース検索</p>
+<p>ナレッジベース検索の出力であるjbmファイルが必要となります。</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
 <tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
 </tr>
 <tr>
 <td valign="top" align="left">
-<p>作業状況ビューにより、残項目が存在しないことを確認してください</p>
-<div class="figure">
-<a name="N100A8"></a>
-<p class="title">
-<b>Figure&nbsp;1.&nbsp;作業状況ビュー </b>
-</p>
-<div class="figure-contents">
-<div class="mediaobject">
-<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="200">
-<tr>
-<td><img src="images/status.JPG" width="200" alt="作業状況ビュー"></td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-<br class="figure-break">
-</td>
-</tr>
-</table>
-</div>
-</li>
-<li class="listitem">
+<p>ナレッジベース検索ツールの作業状況ビューで示されているタスクがすべて完了していない場合でも、レポート生成可能ですが、
+							基本的には作業ビューで示されているタスクがすべて完了してから、レポート作成を行ってください。
+						</p>
 <p>
-								ナレッジベース検索ツールの作業状況ビューのタスクがすべて完了後、「チェック済みの移植不要項目の削除」を実行済みであること
-								</p>
+							ナレッジベース検索ツールの作業状況ビューのタスクがすべて完了している場合、必ず「チェック済みの移植不要項目の削除」を実行してください。
+							この作業を実施しないと、チェック済みの移植不要項目も、移植項目として集計されます。
+							</p>
 <div class="figure">
-<a name="N100B3"></a>
+<a name="N10155"></a>
 <p class="title">
-<b>Figure&nbsp;2.&nbsp;ナレッジベース検索ツールの「チェック済みの移植不要項目の削除」ボタンについて</b>
+<b>Figure&nbsp;1.&nbsp;ナレッジベース検索ツールの「チェック済みの移植不要項目の削除」ボタンについて</b>
 </p>
 <div class="figure-contents">
 <div class="mediaobject">
@@ -118,172 +129,48 @@
 </div>
 <p>
 <br class="figure-break">
-							
+						
 </p>
-</li>
-<li class="listitem">
-<p>「CSV保存ボタン」を実行し、ファイル出力すること.本例ではknowhow_result.csvとして出力する
-							</p>
-<div class="figure">
-<a name="N100BF"></a>
-<p class="title">
-<b>Figure&nbsp;3.&nbsp;ナレッジベース検索ツールの「CSV保存」ボタンについて</b>
-</p>
-<div class="figure-contents">
-<div class="mediaobject">
-<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="600">
-<tr>
-<td><img src="images/save_csv.JPG" width="600" alt="ナレッジベース検索ツールの「CSV保存」ボタンについて"></td>
+</td>
 </tr>
 </table>
 </div>
-</div>
-</div>
-<br class="figure-break">
-</li>
-</ul>
-</div>
 </li>
 <li class="listitem">
-<p>依存性検索ツール</p>
-<div class="figure">
-<a name="N100CA"></a>
-<p class="title">
-<b>Figure&nbsp;4.&nbsp;依存性検索検索結果ビューより「CSV出力」を実施していること。本例ではdepends_result.csvとして出力する
-						</b>
-</p>
-<div class="figure-contents">
-<div class="mediaobject">
-<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="600">
-<tr>
-<td><img src="images/depends_save_csv.JPG" width="600" alt="依存性検索検索結果ビューより「CSV出力」を実施していること。本例ではdepends_result.csvとして出力する"></td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-<br class="figure-break">
-<p></p>
+<p>依存性検索</p>
+<p>依存性検索の出力であるgjbmファイルが必要となります。</p>
 </li>
 </ul>
 </div>
 <p>
-
-
 		
 </p>
 </div>
 <br>
 <br>
-<a name="tubame_1.2."></a>
-<h3 class="title">1.2.レポート出力方法</h3>
+<a name="tubame_2."></a>
+<h2 class="title">2.利用方法</h2>
+<br>
+<a name="tubame_2.1." id="category_4"></a>
+<h3 class="title">2.1.利用の流れ</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
-<div class="orderedlist">
-<ol class="orderedlist" type="1">
-<li class="listitem">
-<p>ナレッジベース検索ツールまたは、依存性検索ツールでCSV出力した２つのファイルをEclipseのプロジェクト内にコピーしてださい
-				</p>
-<div class="important" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Important">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Important]" src="images/important.png"></td><th align="left">Important</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>ナレッジベース検索ツールの結果をレポートする場合は、eclipse/plugins/tubame.portability-*/resources/xml/checkListInformation_ja.xmlも必要となるため、CSVファイルに加え、checkListInformation_ja.xmlファイルもEclipseのプロジェクト内の同じ場所にコピーしてださい
-					</p>
-</td>
-</tr>
-</table>
+<p>
+			利用の流れを解説します。
+		</p>
 </div>
-<div class="important" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Important">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Important]" src="images/important.png"></td><th align="left">Important</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>汎用検索検索ツールの結果をレポートする場合は、前提条件にあるように、かならずCSV出力したものをEclipseのプロジェクト内にコピーしてださい。
-					</p>
-</td>
-</tr>
-</table>
-</div>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>ここではナレッジベース検索ツールで出力したファイルをknowhow_result.csv、依存性検索ツールで出力したファイルをdepends_result.csvとして保存する
-					</p>
-<p>保存先はプロジェクト内であれば、任意ですが、この例ではreport_inputディレクトリにCSVファイルを保存する
-					</p>
-</td>
-</tr>
-</table>
-</div>
-</li>
-<li class="listitem">
-<p>CSVファイルの拡張子を変更する</p>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>ナレッジベース検索ツールで出力したCSVファイルの拡張子をjbmに変更する( knowhow_result.csv
-						-&gt;
-						knowhow_result.jbm )
-					</p>
-<p>依存性検索ツールで出力したCSVファイルの拡張子をgjbmに変更する( depends_result.csv -&gt;
-						depends_result.gjbm )
-					</p>
-</td>
-</tr>
-</table>
-</div>
-</li>
-<li class="listitem">
-<p>TubameReportGenerator.xmlを取得する</p>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>TubameReportGenerator.xmlについては以下より取得可能です</p>
-<p>https://github.com/TUBAME/migration-knowledge/releases/download/report-generator/tubame-report-knowledge.zip
-					</p>
-</td>
-</tr>
-</table>
-</div>
-</li>
-<li class="listitem">
-<p>ナレッジXMLにTubameReportGenerator.xmlを指定して、ナレッジベース検索を実行する。本例の場合は、report_inputディレクトリを右クリックして、ナレッジベース検索を実行する
-				</p>
-<div class="figure">
-<a name="N10100"></a>
-<p class="title">
-<b>Figure&nbsp;1.&nbsp;ナレッジベース検索メニュー </b>
-</p>
-<div class="figure-contents">
-<div class="mediaobject">
-<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="300">
-<tr>
-<td><img src="images/tubame_menu.JPG" width="300" alt="ナレッジベース検索メニュー"></td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-<br class="figure-break">
+<br>
+<br>
+<a name="tubame_2.1.1." id="category_8"></a>
+<h3 class="title">2.1.1.プロジェクトの選択</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+			移植性検討レポート作成するために、ナレッジベース検索、依存性検索を実施したプロジェクトを選択します。
+
+			</p>
 <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Warning">
 <tr>
@@ -291,26 +178,125 @@
 </tr>
 <tr>
 <td valign="top" align="left">
-<p>以下の点に注意してください</p>
 <div class="itemizedlist">
 <ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
-<p>検索対象に必ずナレッジベース検索ツールまたは依存性検索ツールで出力したCSVファイル(本例ではknowhow_result.jbm及びdepends_result.gjbm)が格納されていることを確認してください
+<p>プロジェクトには、ナレッジベース検索または、依存性検索で出力されるjbmファイル、またはgjbmファイルが存在することを確認してください。
+						</p>
+</li>
+<li class="listitem">
+<p>
+							検索を実施したプロジェクト以外で、レポートを生成する場合は、それぞれの検索で出力されたファイルを、プロジェクトにコピーしてください。
+
 							</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: circle; ">
+<li class="listitem">
+<p>ナレッジベース検索</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>jbmファイル</p>
 </li>
 <li class="listitem">
-<p>ナレッジベース検索ツールの結果をレポートする場合は、eclipse/plugins/tubame.portability-*/resources/xml/checkListInformation_ja.xmlも必要となるため、CSVファイルに加え、checkListInformation_ja.xmlファイルもknowhow_result.jbmと同じ場所に配置されていることを確認してください
+<p>.checkListInformation_ja.xml</p>
+</li>
+</ol>
+</div>
+</li>
+<li class="listitem">
+<p>依存性検索</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>gjbmファイル</p>
+</li>
+</ol>
+</div>
+</li>
+</ul>
+</div>
+<p>
+						
+</p>
+</li>
+</ul>
+</div>
+<p>
+				
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+
+		
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_2.1.2." id="category_7"></a>
+<h3 class="title">2.1.2.レポート生成の実行</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+
+			
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>検索リソースの選択</p>
+<p>
+						検索したいプロジェクト上で右クリックし、以下のメニューを選択します。
+						<span class="guimenu">tubame</span> &rarr; <span class="guimenuitem">レポート生成</span>
+						
+</p>
+<div class="figure">
+<a name="N101F2"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;ナレッジベース検索メニュー </b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/report_menu.png" alt="ナレッジベース検索メニュー"></div>
+</div>
+</div>
+<p>
+<br class="figure-break">
+					
+</p>
+</li>
+<li class="listitem">
+<p>レポート生成条件を設定する</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: circle; ">
+<li class="listitem">
+<p>レポート出力先</p>
+<p>
+								
+<span class="guimenuitem">参照</span>
+								ボタンより、レポート出力先を指定します。
 							</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: square; ">
+<li class="listitem">
+<p>レポート出力先は以下のフォルダになります</p>
+<p>&lt;レポート出力先&gt;/tubame_report/index.html</p>
 </li>
 <li class="listitem">
-<p>ナレッジXMLはTubameReportGenerator.xmlを指定してください</p>
-</li>
-<li class="listitem">
-<p>検索対象は、レポート対象のjbmやgjbmファイルが存在するディレクトリを指定してください。本例の場合は、report_inputディレクトリを右クリックして、ナレッジベース検索を実行する</p>
-</li>
-<li class="listitem">
-<p>結果出力先ファイルは上書きされないように出力先のファイル名はreport_search_result.jbm等に変更するようにしてください。
-							</p>
+<p>ナレッジベース検索で、ナレッジをインポートして検索を実施している場合は、マイグレーションガイドも以下のフォルダに出力されます
+										</p>
+<p>&lt;レポート出力先&gt;/tubame_report/guide/index.html</p>
 </li>
 </ul>
 </div>
@@ -320,7 +306,16 @@
 </div>
 </li>
 <li class="listitem">
-<p>出力されたレポートの確認</p>
+<p>レポートテンプレート</p>
+<p>
+								レポート生成で利用するテンプレートを指定します。以下の種類があります。
+
+								</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>アプリケーションサーバ用テンプレート</p>
+<p>アプリケーションサーバの移行検討の際は、このテンプレートを利用します。</p>
 <div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Note">
 <tr>
@@ -328,21 +323,71 @@
 </tr>
 <tr>
 <td valign="top" align="left">
+<p>アプリケーションサーバ用テンプレートは、WebLogicからJBoss移行を前提として作成されているため、、レポート中に"WebLogic"や"JBoss"といったキーワードが埋め込まれています。
+												WebLogicからJBoss移行ではない場合、適宜HTMLファイルを修正してご利用ください。
+											</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>MVCフレームワーク用テンプレート</p>
+<p>MVCフレームワークの移行検討の際は、このテンプレートを利用します。</p>
+</li>
+</ol>
+</div>
 <p>
-						レポートはデフォルトではeclipse\plugins\tubame.knowhow-*/report配下に出力されます。
-						出力先を変更したい場合は、TubameReportGenerator.xmlをナレッジ管理ツールで開き、チェックアイテム「search-csv」の検索キーワード1に出力先ディレクトリをフルパスで指定してください
-
-					</p>
+								
+</p>
 <div class="figure">
-<a name="N10121"></a>
+<a name="N10227"></a>
 <p class="title">
-<b>Figure&nbsp;2.&nbsp;TUBAMEレポートイメージ</b>
+<b>Figure&nbsp;2.&nbsp;レポート生成ウィザード</b>
 </p>
 <div class="figure-contents">
 <div class="mediaobject">
-<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="600">
+<img src="images/report_wizard.png" alt="レポート生成ウィザード"></div>
+</div>
+</div>
+<p>
+<br class="figure-break">
+
+
+							
+</p>
+</li>
+</ul>
+</div>
+</li>
+<li class="listitem">
+<p>
+						
+<span class="guimenuitem">Finish</span>
+						をクリックすると、ナレッジベース検索、依存性検索ツールで出力されたファイルを検索し、該当ファイルが検出された場合、レポートを生成します。
+					</p>
+</li>
+<li class="listitem">
+<p>出力されたレポートの確認</p>
+<p>作際されたレポートのHTMLファイルは、Eclipse上のWebBrowserでは表示が崩れてしまうため、Firefoxや、ChromeなどのWebブラウザで表示してください。
+					</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
 <tr>
-<td><img src="images/tubame_report_image.png" width="600" alt="TUBAMEレポートイメージ"></td>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<div class="figure">
+<a name="N1023C"></a>
+<p class="title">
+<b>Figure&nbsp;3.&nbsp;TUBAMEレポートイメージ</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="800">
+<tr>
+<td><img src="images/tubame_report_sample.png" width="800" alt="TUBAMEレポートイメージ"></td>
 </tr>
 </table>
 </div>
@@ -353,22 +398,13 @@
 </tr>
 </table>
 </div>
-<div class="important" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Important">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25"><img alt="[Important]" src="images/important.png"></td><th align="left">Important</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>レポート出力後に再度jbmファイルエディタで参照、編集する場合は、プロジェクト内にコピーしたファイルのcheckListInformation_ja.xmlをeclipse/plugins/tubame.portability-*/resources/xml/配下にコピーする必要があります
-					</p>
-</td>
-</tr>
-</table>
-</div>
 </li>
-</ol>
+</ul>
 </div>
+<p>
+
+		
+</p>
 </div>
 <br>
 <br>

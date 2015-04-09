@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PortabilityKnowhow xmlns="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:ns2="http://docbook.org/ns/docbook">
-    <PortabilityKnowhowTitle>ナレッジベース検索レポート</PortabilityKnowhowTitle>
+<PortabilityKnowhow xmlns="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:ns2="http://docbook.org/ns/docbook" xmlns:ns3="http://www.w3.org/1999/xlink">
+    <PortabilityKnowhowTitle>移植性検討レポート生成ガイド</PortabilityKnowhowTitle>
     <EntryViewList>
         <EntryCategory>
             <EntryCategoryRefKey>category_2</EntryCategoryRefKey>
@@ -8,18 +8,53 @@
         <EntryCategory>
             <EntryCategoryRefKey>category_3</EntryCategoryRefKey>
         </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_4</EntryCategoryRefKey>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_8</EntryCategoryRefKey>
+            </ChildEntry>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_7</EntryCategoryRefKey>
+            </ChildEntry>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_5</EntryCategoryRefKey>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_6</EntryCategoryRefKey>
+        </EntryCategory>
     </EntryViewList>
     <ChapterList>
         <Chapter>
             <ChapterNo>1.</ChapterNo>
-            <ChapterName>TUBAMEレポート</ChapterName>
+            <ChapterName>はじめに</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>1.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_2</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_6</ChapterCategoryRefKey>
             </ChildChapter>
             <ChildChapter>
                 <ChildCapterNo>1.2.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_3</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_5</ChapterCategoryRefKey>
+            </ChildChapter>
+            <ChildChapter>
+                <ChildCapterNo>1.3.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_2</ChapterCategoryRefKey>
+            </ChildChapter>
+        </Chapter>
+        <Chapter>
+            <ChapterNo>2.</ChapterNo>
+            <ChapterName>利用方法</ChapterName>
+            <ChildChapter>
+                <ChildCapterNo>2.1.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_4</ChapterCategoryRefKey>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_8</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.2.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_7</ChapterCategoryRefKey>
+                </ChildChapter>
             </ChildChapter>
         </Chapter>
     </ChapterList>
@@ -31,6 +66,26 @@
         <Category categoryId="category_3" appropriate="true">
             <CategoryName>レポート出力方法</CategoryName>
             <KnowhowRefKey>knowhow_3</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_4" appropriate="true">
+            <CategoryName>利用の流れ</CategoryName>
+            <KnowhowRefKey>knowhow_4</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_8" appropriate="true">
+            <CategoryName>プロジェクトの選択</CategoryName>
+            <KnowhowRefKey>knowhow_8</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_7" appropriate="true">
+            <CategoryName>レポート生成の実行</CategoryName>
+            <KnowhowRefKey>knowhow_7</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_5" appropriate="true">
+            <CategoryName>本機能の紹介</CategoryName>
+            <KnowhowRefKey>knowhow_5</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_6" appropriate="true">
+            <CategoryName>本ドキュメントの紹介</CategoryName>
+            <KnowhowRefKey>knowhow_6</KnowhowRefKey>
         </Category>
     </CategoryList>
     <KnowhowList>
@@ -52,6 +107,26 @@
                 <HearingConfirm></HearingConfirm>
             </CheckItem>
         </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_4" knowhowDetailRefKey="knowhowDetail_4">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_8" knowhowDetailRefKey="knowhowDetail_8">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_7" knowhowDetailRefKey="knowhowDetail_7">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_5" knowhowDetailRefKey="knowhowDetail_5">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_6" knowhowDetailRefKey="knowhowDetail_6">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
     </KnowhowList>
     <DocBookList>
         <DocBook articleId="knowhowDetail_2">
@@ -61,83 +136,35 @@
                 </ns2:info>
                 <ns2:section>
                     <ns2:para>
-			前提条件を以下に示す
+			移植性検討レポートを作成するにあたり、TUBAMEを利用した以下の検索機能のいづれかが完了している必要があります。
 
 			<ns2:itemizedlist>
                             <ns2:listitem>
-<ns2:para>ナレッジベース検索ツール</ns2:para>
-<ns2:itemizedlist>
-    <ns2:listitem>
-        <ns2:para>ナレッジベース検索ツールの作業状況ビューより以下のタスクが完了していること。</ns2:para>
-        <ns2:orderedlist>
-            <ns2:listitem>
-                <ns2:para>目視確認項目の確認</ns2:para>
-            </ns2:listitem>
-            <ns2:listitem>
-                <ns2:para>ヒアリング確認項目の確認</ns2:para>
-            </ns2:listitem>
-            <ns2:listitem>
-                <ns2:para>不明項目(ライン数が不明となっている項目)の確認</ns2:para>
-            </ns2:listitem>
-            <ns2:listitem>
-                <ns2:para>SE手動算出項目(ライン数をSEが設定する項目)の確認</ns2:para>
-            </ns2:listitem>
-        </ns2:orderedlist>
-        <ns2:warning>
-            <ns2:para>作業状況ビューにより、残項目が存在しないことを確認してください</ns2:para>
-            <ns2:figure>
-                <ns2:title>作業状況ビュー </ns2:title>
-                <ns2:mediaobject>
-                    <ns2:imageobject>
-                        <ns2:imagedata fileref="images/status.JPG" width="200"/>
-                    </ns2:imageobject>
-                </ns2:mediaobject>
-            </ns2:figure>
-        </ns2:warning>
-    </ns2:listitem>
-    <ns2:listitem>
-        <ns2:para>
-								ナレッジベース検索ツールの作業状況ビューのタスクがすべて完了後、「チェック済みの移植不要項目の削除」を実行済みであること
-								<ns2:figure>
-                <ns2:title>ナレッジベース検索ツールの「チェック済みの移植不要項目の削除」ボタンについて</ns2:title>
-                <ns2:mediaobject>
-                    <ns2:imageobject>
-                        <ns2:imagedata fileref="images/delete_checkedItem.JPG" width="600"/>
-                    </ns2:imageobject>
-                </ns2:mediaobject>
-            </ns2:figure>
-							</ns2:para>
-    </ns2:listitem>
-    <ns2:listitem>
-        <ns2:para>「CSV保存ボタン」を実行し、ファイル出力すること.本例ではknowhow_result.csvとして出力する
-							</ns2:para>
-        <ns2:figure>
-            <ns2:title>ナレッジベース検索ツールの「CSV保存」ボタンについて</ns2:title>
+<ns2:para>ナレッジベース検索</ns2:para>
+<ns2:para>ナレッジベース検索の出力であるjbmファイルが必要となります。</ns2:para>
+<ns2:note>
+    <ns2:para>ナレッジベース検索ツールの作業状況ビューで示されているタスクがすべて完了していない場合でも、レポート生成可能ですが、
+							基本的には作業ビューで示されているタスクがすべて完了してから、レポート作成を行ってください。
+						</ns2:para>
+    <ns2:para>
+							ナレッジベース検索ツールの作業状況ビューのタスクがすべて完了している場合、必ず「チェック済みの移植不要項目の削除」を実行してください。
+							この作業を実施しないと、チェック済みの移植不要項目も、移植項目として集計されます。
+							<ns2:figure>
+            <ns2:title>ナレッジベース検索ツールの「チェック済みの移植不要項目の削除」ボタンについて</ns2:title>
             <ns2:mediaobject>
                 <ns2:imageobject>
-                    <ns2:imagedata fileref="images/save_csv.JPG" width="600"/>
+                    <ns2:imagedata fileref="images/delete_checkedItem.JPG" width="600"/>
                 </ns2:imageobject>
             </ns2:mediaobject>
         </ns2:figure>
-    </ns2:listitem>
-</ns2:itemizedlist>
+						</ns2:para>
+</ns2:note>
                             </ns2:listitem>
                             <ns2:listitem>
-<ns2:para>依存性検索ツール</ns2:para>
-<ns2:figure>
-    <ns2:title>依存性検索検索結果ビューより「CSV出力」を実施していること。本例ではdepends_result.csvとして出力する
-						</ns2:title>
-    <ns2:mediaobject>
-        <ns2:imageobject>
-            <ns2:imagedata fileref="images/depends_save_csv.JPG" width="600"/>
-        </ns2:imageobject>
-    </ns2:mediaobject>
-</ns2:figure>
-<ns2:para/>
+<ns2:para>依存性検索</ns2:para>
+<ns2:para>依存性検索の出力であるgjbmファイルが必要となります。</ns2:para>
                             </ns2:listitem>
                         </ns2:itemizedlist>
-
-
 		</ns2:para>
                 </ns2:section>
             </ns2:article>
@@ -194,7 +221,7 @@
 <ns2:title>ナレッジベース検索メニュー </ns2:title>
 <ns2:mediaobject>
     <ns2:imageobject>
-        <ns2:imagedata fileref="images/tubame_menu.JPG" width="300"/>
+        <ns2:imagedata fileref="images/tubame_menu.JPG"/>
     </ns2:imageobject>
 </ns2:mediaobject>
                             </ns2:figure>
@@ -213,7 +240,8 @@
         <ns2:para>ナレッジXMLはTubameReportGenerator.xmlを指定してください</ns2:para>
     </ns2:listitem>
     <ns2:listitem>
-        <ns2:para>検索対象は、レポート対象のjbmやgjbmファイルが存在するディレクトリを指定してください。本例の場合は、report_inputディレクトリを右クリックして、ナレッジベース検索を実行する</ns2:para>
+        <ns2:para>検索対象は、レポート対象のjbmやgjbmファイルが存在するディレクトリを指定してください。本例の場合は、report_inputディレクトリを右クリックして、ナレッジベース検索を実行する
+							</ns2:para>
     </ns2:listitem>
     <ns2:listitem>
         <ns2:para>結果出力先ファイルは上書きされないように出力先のファイル名はreport_search_result.jbm等に変更するようにしてください。
@@ -225,26 +253,215 @@
                         <ns2:listitem>
                             <ns2:para>出力されたレポートの確認</ns2:para>
                             <ns2:note>
-<ns2:para>
-						レポートはデフォルトではeclipse\plugins\tubame.knowhow-*/report配下に出力されます。
-						出力先を変更したい場合は、TubameReportGenerator.xmlをナレッジ管理ツールで開き、チェックアイテム「search-csv」の検索キーワード1に出力先ディレクトリをフルパスで指定してください
-
-					</ns2:para>
 <ns2:figure>
     <ns2:title>TUBAMEレポートイメージ</ns2:title>
     <ns2:mediaobject>
         <ns2:imageobject>
-            <ns2:imagedata fileref="images/tubame_report_image.png" width="600"/>
+            <ns2:imagedata fileref="images/tubame_report_sample.png" width="600"/>
         </ns2:imageobject>
     </ns2:mediaobject>
 </ns2:figure>
                             </ns2:note>
-                            <ns2:important>
-<ns2:para>レポート出力後に再度jbmファイルエディタで参照、編集する場合は、プロジェクト内にコピーしたファイルのcheckListInformation_ja.xmlをeclipse/plugins/tubame.portability-*/resources/xml/配下にコピーする必要があります
-					</ns2:para>
-                            </ns2:important>
                         </ns2:listitem>
                     </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_4">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			利用の流れを解説します。
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_5">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>移植性検討レポート作成機能は、TUBAMEが提供するナレッジベース検索、依存性検索の出力を元にレポート(HTML)を作成します。   </ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_6">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>本マニュアルはTUBAMEを利用して、移植性検討レポートを作成する手順ついて、簡易に説明したマニュアルです。</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_7">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+
+			<ns2:itemizedlist>
+                            <ns2:listitem>
+<ns2:para>検索リソースの選択</ns2:para>
+<ns2:para>
+						検索したいプロジェクト上で右クリックし、以下のメニューを選択します。
+						<ns2:menuchoice>
+        <ns2:guimenu>tubame</ns2:guimenu>
+        <ns2:guimenuitem>レポート生成</ns2:guimenuitem>
+    </ns2:menuchoice>
+						<ns2:figure>
+        <ns2:title>ナレッジベース検索メニュー </ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject>
+                <ns2:imagedata fileref="images/report_menu.png"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>レポート生成条件を設定する</ns2:para>
+<ns2:itemizedlist>
+    <ns2:listitem>
+        <ns2:para>レポート出力先</ns2:para>
+        <ns2:para>
+								<ns2:menuchoice>
+                <ns2:guimenuitem>参照</ns2:guimenuitem>
+            </ns2:menuchoice>
+								ボタンより、レポート出力先を指定します。
+							</ns2:para>
+        <ns2:note>
+            <ns2:itemizedlist>
+                <ns2:listitem>
+                    <ns2:para>レポート出力先は以下のフォルダになります</ns2:para>
+                    <ns2:para>&lt;レポート出力先&gt;/tubame_report/index.html</ns2:para>
+                </ns2:listitem>
+                <ns2:listitem>
+                    <ns2:para>ナレッジベース検索で、ナレッジをインポートして検索を実施している場合は、マイグレーションガイドも以下のフォルダに出力されます
+										</ns2:para>
+                    <ns2:para>&lt;レポート出力先&gt;/tubame_report/guide/index.html</ns2:para>
+                </ns2:listitem>
+            </ns2:itemizedlist>
+        </ns2:note>
+    </ns2:listitem>
+    <ns2:listitem>
+        <ns2:para>レポートテンプレート</ns2:para>
+        <ns2:para>
+								レポート生成で利用するテンプレートを指定します。以下の種類があります。
+
+								<ns2:orderedlist>
+                <ns2:listitem>
+                    <ns2:para>アプリケーションサーバ用テンプレート</ns2:para>
+                    <ns2:para>アプリケーションサーバの移行検討の際は、このテンプレートを利用します。</ns2:para>
+                    <ns2:note>
+                        <ns2:para>アプリケーションサーバ用テンプレートは、WebLogicからJBoss移行を前提として作成されているため、、レポート中に"WebLogic"や"JBoss"といったキーワードが埋め込まれています。
+												WebLogicからJBoss移行ではない場合、適宜HTMLファイルを修正してご利用ください。
+											</ns2:para>
+                    </ns2:note>
+                </ns2:listitem>
+                <ns2:listitem>
+                    <ns2:para>MVCフレームワーク用テンプレート</ns2:para>
+                    <ns2:para>MVCフレームワークの移行検討の際は、このテンプレートを利用します。</ns2:para>
+                </ns2:listitem>
+            </ns2:orderedlist>
+								<ns2:figure>
+                <ns2:title>レポート生成ウィザード</ns2:title>
+                <ns2:mediaobject>
+                    <ns2:imageobject>
+                        <ns2:imagedata fileref="images/report_wizard.png"/>
+                    </ns2:imageobject>
+                </ns2:mediaobject>
+            </ns2:figure>
+
+
+							</ns2:para>
+    </ns2:listitem>
+</ns2:itemizedlist>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+						<ns2:menuchoice>
+        <ns2:guimenuitem>Finish</ns2:guimenuitem>
+    </ns2:menuchoice>
+						をクリックすると、ナレッジベース検索、依存性検索ツールで出力されたファイルを検索し、該当ファイルが検出された場合、レポートを生成します。
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>出力されたレポートの確認</ns2:para>
+<ns2:para>作際されたレポートのHTMLファイルは、Eclipse上のWebBrowserでは表示が崩れてしまうため、Firefoxや、ChromeなどのWebブラウザで表示してください。
+					</ns2:para>
+<ns2:note>
+    <ns2:figure>
+        <ns2:title>TUBAMEレポートイメージ</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject>
+                <ns2:imagedata fileref="images/tubame_report_sample.png" width="800"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+</ns2:note>
+                            </ns2:listitem>
+                        </ns2:itemizedlist>
+
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_8">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			移植性検討レポート作成するために、ナレッジベース検索、依存性検索を実施したプロジェクトを選択します。
+
+			<ns2:warning>
+                            <ns2:itemizedlist>
+<ns2:listitem>
+    <ns2:para>プロジェクトには、ナレッジベース検索または、依存性検索で出力されるjbmファイル、またはgjbmファイルが存在することを確認してください。
+						</ns2:para>
+</ns2:listitem>
+<ns2:listitem>
+    <ns2:para>
+							検索を実施したプロジェクト以外で、レポートを生成する場合は、それぞれの検索で出力されたファイルを、プロジェクトにコピーしてください。
+
+							<ns2:itemizedlist>
+            <ns2:listitem>
+                <ns2:para>ナレッジベース検索</ns2:para>
+                <ns2:orderedlist>
+                    <ns2:listitem>
+                        <ns2:para>jbmファイル</ns2:para>
+                    </ns2:listitem>
+                    <ns2:listitem>
+                        <ns2:para>.checkListInformation_ja.xml</ns2:para>
+                    </ns2:listitem>
+                </ns2:orderedlist>
+            </ns2:listitem>
+            <ns2:listitem>
+                <ns2:para>依存性検索</ns2:para>
+                <ns2:orderedlist>
+                    <ns2:listitem>
+                        <ns2:para>gjbmファイル</ns2:para>
+                    </ns2:listitem>
+                </ns2:orderedlist>
+            </ns2:listitem>
+        </ns2:itemizedlist>
+						</ns2:para>
+</ns2:listitem>
+                            </ns2:itemizedlist>
+                            <ns2:para>
+				</ns2:para>
+                        </ns2:warning>
+
+		</ns2:para>
                 </ns2:section>
             </ns2:article>
         </DocBook>
