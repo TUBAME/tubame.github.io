@@ -26,357 +26,171 @@ line-height: 20px;
 color: #333333;
 background-color: #ffffff;
 min-height: 0px;
-padding-top: 100px;
+padding-top: 50px;
+}
+
+.navbar {
+min-height: 66px;
+}
+
+.jumbotron {
+background-color: #dbebf7;
+}
+
+.menuTabLight {
+margin: 0 0 10px 0;
+padding: 2px 8px;
+border-width: 0 0 0 5px;
+border-color: #a7d0eb;
+border-style: solid;
+background: #69aedd;
+color:;
+line-height: 140%;
+font-weight: bold;
+}
 }
 </style>
 </head>
 <body>
-<!-- Static navbar -->
-<div class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top">
 <div class="container">
 <div class="navbar-header">
-<div class="navbar-brand">
-<h1>TUBAME</h1>
+<a class="navbar-brand" href="#">
+<img style="max-width: 100px; margin-top: -15px;" src="images/TUBAME.png">
+</a>
+</div>
+<div class="collapse navbar-collapse">
+<ul class="nav navbar-nav">
+<li>
+<a href="http://tubame.github.io/ja/tutorial/tutorial.html">
+<h4>TUTORIAL</h4>
+</a>
+</li>
+<li>
+<a href="http://tubame.github.io/ja/quickstart/quickstart.html">
+<h4>QUICKSTART</h4>
+</a>
+</li>
+<li>
+<a href="http://tubame.github.io/ja/docs/docs.html">
+<h4>GUIDES</h4>
+</a>
+</li>
+<li>
+<a href="http://tubame.github.io/ja/knowledge/knowledge.html">
+<h4>KNOWLEDGES</h4>
+</a>
+</li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li>
+<a href="https://github.com/TUBAME/migration-tool" class="fa-links">
+<i class="fa fa-github fa-3x"></i>
+</a>
+</li>
+<li>
+<a href="https://groups.google.com/forum/#!forum/tubame-users" class="fa-links">
+<i class="fa fa-group fa-3x"></i>
+</a>
+</li>
+</ul>
 </div>
 </div>
-</div>
-</div>
-<div class="container bs-docs-container">
+</nav>
+<div class="jumbotron">
+<div class="container">
 <div class="row">
-<div class="col-xs-12 col-md-12" role="main">
-<!-- ===== Tiles ===== -->
-<div class="bs-docs-section">
-<div class="page-header">
-<h2 id="tubame">TUBAME will carry happiness to your migration</h2>
-<div class="bs-example">
+<div class="col-xs-12 col-md-12" role="header">
+<h2 align="center" id="tubame">TUBAME will carry happiness to your migration.</h2>
+<br />
 <div class="row">
-<div class="col-xs-6 col-md-2">
+<div class="col-xs-6 col-md-2 col-md-offset-2">
 <div class="thumbnail tile tile-medium">
-<a href="#">
-<h3 class="tile-text">TUBAME</h3>
-<img src="images/TUBAME.png" width="66%" height="66%" />
-</a>
-</div>
-</div>
-<div class="col-xs-6 col-md-2">
-<div class="thumbnail tile tile-medium tile-red">
-<a href="http://tubame.github.io/ja/quickstart/quickstart.html" class="fa-links">
-<h3 class="tile-text">TUTORIAL</h3>
-<i class="fa fa-play-circle fa-3x"></i>
-</a>
-</div>
-</div>
-<div class="col-xs-6 col-md-2">
-<div class="thumbnail tile tile-medium tile-purple">
-<a href="http://tubame.github.io/ja/docs/docs.html" class="fa-links">
-<h3 class="tile-text">DOCS</h3>
-<i class="fa fa-book fa-3x"></i>
+<a href="http://tubame.github.io/ja/tutorial/tutorial.html" class="fa-links">
+<h4 class="tile-text">TUTORIAL</h4>
+<i class="fa fa-youtube-play fa-4x"></i>
 </a>
 </div>
 </div>
 <div class="col-xs-6 col-md-2">
 <div class="thumbnail tile tile-medium tile-pink">
+<a href="http://tubame.github.io/ja/quickstart/quickstart.html" class="fa-links">
+<h4 class="tile-text">QUICKSTART</h4>
+<i class="fa fa-clock-o fa-4x"></i>
+</a>
+</div>
+</div>
+<div class="col-xs-6 col-md-2">
+<div class="thumbnail tile tile-medium tile-lime">
+<a href="http://tubame.github.io/ja/docs/docs.html" class="fa-links">
+<h4 class="tile-text">GUIDES</h4>
+<i class="fa fa-book fa-4x"></i>
+</a>
+</div>
+</div>
+<div class="col-xs-6 col-md-2">
+<div class="thumbnail tile tile-medium tile-orange">
 <a href="http://tubame.github.io/ja/knowledge/knowledge.html" class="fa-links">
-<h3 class="tile-text">KNOWLEDGE</h3>
-<i class="fa fa-question-circle fa-3x"></i>
-</a>
-</div>
-</div>
-<div class="col-xs-6 col-md-2">
-<div class="thumbnail tile tile-medium tile-yellow">
-<a href="https://github.com/TUBAME/migration-tool" class="fa-links">
-<h3 class="tile-text">CODE</h3>
-<i class="fa fa-github fa-3x"></i>
-</a>
-</div>
-</div>
-<div class="col-xs-6 col-md-2">
-<div class="thumbnail tile tile-medium tile-green">
-<a href="https://groups.google.com/forum/#!forum/tubame-users" class="fa-links">
-<h3 class="tile-text">FORUM</h3>
-<i class="fa fa-comments-o fa-3x"></i>
+<h4 class="tile-text">KNOWLEDGES</h4>
+<i class="fa fa-question-circle fa-4x"></i>
 </a>
 </div>
 </div>
 </div>
 </div>
 </div>
-<!-- /.bs-example -->
 </div>
-<!-- ===== Dropdowns ===== -->
-<div class="bs-docs-section">
-<a name="tubame_1."></a>
-<h2 class="title">1.Welcome To TUBAME</h2>
-<br>
-<a name="tubame_1.1." id="category_10"></a>
-<h3 class="title">1.1.TUBAMEとは</h3>
-<br>
-<div class="section">
-<div class="titlepage"></div>
-<p>TUBAMEはJavaアプリケーションのマイグレーション時に必要となる、修正箇所の算出や修正工数の算出を自動で行うためのツールです。自動化により作業工数の削減や人的ミスの防止が可能となり、併せてマイグレーションに関わるノウハウを提供しているため作業精度の向上にも役立ちます。 </p>
-<p>複数のサブツールを備えており、Eclipseプラグインとして利用することができます。OSS製品としてTUBAMEコミュニティで公開されておりますので是非ご活用ください。 </p>
-<p>TUBAMEはJavaアプリケーションのスムーズな移植を支援するために用意されたツールで、以下3つのツールから構成されています。 </p>
-<div class="orderedlist">
-<ol class="orderedlist" type="1">
-<li class="listitem">
+</div>
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-md-12" role="main">
+<div class="row">
+<div class="col-xs-12 col-md-10 col-md-offset-1">
+<h2 class="menuTabLight">TUBAMEってなに？</h2>
+<p>TUBAMEはJavaアプリケーションのマイグレーション時に必要となる、修正箇所の抽出や修正工数の算出を自動で行うためのツールです。</p>
+<p>自動化により作業工数の削減や人的ミスの防止が可能となり、加えてコミュニティで蓄積されたマイグレーションに関わるノウハウを提供しているため作業精度の向上にも役立ちます。</p>
+<br />
+</div>
+<div class="col-xs-12 col-md-10 col-md-offset-1">
+<h2 class="menuTabLight">TUBAMEを使うメリットは？</h2>
+<p>商用製品からOSS製品へのマイグレーションや製品のバージョンアップを検討する作業は高い精度の見積りが重要です。</p>
+<p>TUBAMEではアプリケーションのソースコードや設定ファイルを入力として、マイグレーション先の環境では利用できない箇所を自動で抽出します。</p>
+<p>さらに、移植に必要なノウハウ(修正工数や修正方法などの情報)を提供しているため、見積り時の精度向上に役立ちます。</p>
+<img src="images/migration-process.png" class="img-responsive center-block" alt="Responsive image" />
+<br />
+</div>
+<div class="col-xs-12 col-md-10 col-md-offset-1">
+<h2 class="menuTabLight">どうやって修正箇所を探すの？</h2>
+<p>TUBAMEは修正箇所を自動で検索するためのツール本体とは別に、修正箇所を検索するためのキーワードや修正工数、修正難易度などをまとめたマイグレーションナレッジを提供しています。</p>
+<p>ナレッジを切替えることにより、多様な移行パターンに対応することができます。</p>
+<p>現在、コミュニティで提供しているナレッジの一覧を
+<a href="http://tubame.github.io/ja/knowledge/knowledge.html">こちら</a>で確認できます。
+</p>
+<br />
+</div>
+<div class="col-xs-12 col-md-10 col-md-offset-1">
+<h2 class="menuTabLight">実際に実行するときのインプット／アウトプットは？</h2>
+</div>
+<div class="col-xs-12 col-md-6 col-md-offset-1">
+<p>TUBAMEはツール本体とマイグレーションナレッジを使用して修正箇所の抽出や修正工数の算出を行います。</p>
+<p>移行元のJavaアプリケーションを入力情報として検索を実行すると、修正項目の一覧が得られます。</p>
+<p>また、修正方法や修正方針などをまとめた修正ガイドラインを修正項目一覧から参照できたり、レポートを自動で生成することができます。</p>
+</div>
+<div class="col-xs-12 col-md-4">
+<img src="images/tubame-description.png" class="img-responsive center-block" alt="Responsive image" />
+<br />
+</div>
+<div class="col-xs-12 col-md-10 col-md-offset-1">
+<h2 class="menuTabLight">もっと詳しくわかりやすく教えて！</h2>
 <p>
-<span class="application">ナレッジベース検索ツール(tubame.portability) </span>
+<a href="http://tubame.github.io/ja/tutorial/tutorial.html">チュートリアル</a>や
+<a href="http://tubame.github.io/ja/quickstart/quickstart.html">クイックスタート</a>を観て、TUBAMEの良さを知ってください！
 </p>
-<div class="itemizedlist">
-<ul class="itemizedlist" style="list-style-type: disc;">
-<li class="listitem">
-<p>TUBAMEコミュニティで管理しているナレッジベースより検索します</p>
-</li>
-<li class="listitem">
-<p>修正項目毎に移植難易度や修正工数を表します</p>
-</li>
-<li class="listitem">
-<p>修正項目毎に修正ガイドラインを参照することで修正方法が確認できます</p>
-</li>
-</ul>
-</div>
-<p></p>
-</li>
-<li class="listitem">
-<p>
-<span class="application">依存性検索ツール(tubame.wsearch)</span>
-</p>
-<div class="itemizedlist">
-<ul class="itemizedlist" style="list-style-type: disc;">
-<li class="listitem">
-<p>移行先の環境(ミドルウェア)で利用できないJavaパッケージやクラス情報を自動で抽出します</p>
-</li>
-<li class="listitem">
-<p>移行先の環境として、ライブラリ情報を別途設定することで、フレームワークについても、移行先の環境で利用できないAPI情報を抽出します </p>
-</li>
-</ul>
-</div>
-<p></p>
-</li>
-<li class="listitem">
-<p>
-<span class="application">ナレッジ管理ツール(tubame.knowhow)</span>
-</p>
-<div class="itemizedlist">
-<ul class="itemizedlist" style="list-style-type: disc;">
-<li class="listitem">
-<p>ナレッジベース検索に必要なナレッジを登録及び編集できます</p>
-</li>
-<li class="listitem">
-<p>ナレッジコンテンツの作成から、検索条件の設定まで、ナレッジベース検索で必要な情報をこのツールだけで設定できます </p>
-</li>
-</ul>
-</div>
-<p></p>
-</li>
-</ol>
-</div>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25">
-<img alt="[Note]" src="images/note.png">
-</td>
-<th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<div class="itemizedlist">
-<ul class="itemizedlist" style="list-style-type: disc;">
-<li class="listitem">
-<p>なぜTUBAME?</p>
-<p>日本では、燕が家に巣を作るとその家に幸福をもたらすという言い伝えがあります。このツールを利用してあなたのJBossマイグレーションにも幸福が訪れることを祈ります！ </p>
-</li>
-</ul>
-</div>
-</td>
-</tr>
-</table>
-</div>
-</div>
-<br>
-<br>
-<a name="tubame_1.2." id="category_15"></a>
-<h3 class="title">1.2.ツール概要</h3>
-<br>
-<div class="section">
-<div class="titlepage"></div>
-<div class="orderedlist">
-<ol class="orderedlist" type="1">
-<li class="listitem">
-<p>
-<span class="command">
-<strong>
-<a class="command" href="http://tubame.github.io/ja/portability/portability.html" target="_top">ナレッジベース検索ツール</a>
-</strong>
-</span>
-</p>
-<div class="figure">
-<a name="N1019C"></a>
-<p class="title">
-<b>Figure&nbsp;1.&nbsp;ナレッジベース検索ツールの入力と出力について</b>
-</p>
-<div class="figure-contents">
-<div class="mediaobject">
-<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="500">
-<tr>
-<td>
-<img src="images/knowledge-base-future.png" width="500" alt="ナレッジベース検索ツールの入力と出力について">
-</td>
-</tr>
-</table>
+<br />
 </div>
 </div>
 </div>
-<br class="figure-break">
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25">
-<img alt="[Note]" src="images/note.png">
-</td>
-<th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<div class="itemizedlist">
-<ul class="itemizedlist" style="list-style-type: disc;">
-<li class="listitem">
-<p>マイグレーションナレッジXML</p>
-<p>ナレッジベース検索ツール使用時には必須のファイルとなります。移行ナレッジはTUBAMEコミュニティからダウンロード、または、ナレッジ管理ツールで自ら作成することもできます。 </p>
-</li>
-<li class="listitem">
-<p>マイグレーションガイド（修正ガイドライン）</p>
-<p>ナレッジベース検索ツール使用時には任意のファイルとなります。検索結果からマイグレーションガイドの参照を行う場合、TUBAMEコミュニティからダウンロードしたマイグレーションガイド（HTML）をツールに設定します。 </p>
-</li>
-</ul>
 </div>
-</td>
-</tr>
-</table>
-</div>
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25">
-<img alt="[Note]" src="images/note.png">
-</td>
-<th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<p>現在、コミュニティで公開されているマイグレーションナレッジXML及びマイグレーションガイドは 
-<span class="command">
-<strong>
-<a class="command" href="http://tubame.github.io/ja/knowledge/knowledge.html" target="_top">こちら</a>
-</strong>
-</span>よりダウンロード可能です。 
-</p>
-</td>
-</tr>
-</table>
-</div>
-</li>
-<li class="listitem">
-<p>
-<span class="command">
-<strong>
-<a class="command" href="http://tubame.github.io/ja/wsearch/wsearch.html" target="_top">移植性検索ツール</a>
-</strong>
-</span>
-</p>
-<div class="figure">
-<a name="N101BE"></a>
-<p class="title">
-<b>Figure&nbsp;2.&nbsp;移植性検索ツールの入力と出力について</b>
-</p>
-<div class="figure-contents">
-<div class="mediaobject">
-<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="500">
-<tr>
-<td>
-<img src="images/dependcy-future.png" width="500" alt="移植性検索ツールの入力と出力について">
-</td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-<br class="figure-break">
-<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
-<table border="0" summary="Note">
-<tr>
-<td valign="top" align="center" rowspan="2" width="25">
-<img alt="[Note]" src="images/note.png">
-</td>
-<th align="left">Note</th>
-</tr>
-<tr>
-<td valign="top" align="left">
-<div class="itemizedlist">
-<ul class="itemizedlist" style="list-style-type: disc;">
-<li class="listitem">
-<p>移行先環境のライブラリ情報</p>
-<p>移植性検索ツール使用時には必須の情報となります。デフォルトではJBossEAP6が移行先ライブラリとして設定されています。</p>
-<p>移行先ライブラリをデフォルトのJBossEAP6から変更したい、また、フレームワークなどの別のライブラリを追加したい場合、ライブラリ情報を追加で設定します。</p>
-</li>
-</ul>
-</div>
-</td>
-</tr>
-</table>
-</div>
-</li>
-</ol>
-</div>
-</div>
-<br>
-<br>
-<a name="tubame_1.3." id="category_14"></a>
-<h3 class="title">1.3.ユースケース</h3>
-<br>
-<div class="section">
-<div class="titlepage"></div>
-<p>TUBAMEは移行の検討段階から実際の移植フェーズまで幅広く利用できます。以下に移行検討のフェーズ及び実際の移植フェーズでのユースケースについて紹介します。 </p>
-<div class="figure">
-<a name="N1017A"></a>
-<p class="title">
-<b>Figure&nbsp;1.&nbsp;移植性検討フェーズにおける各ツールの機能について</b>
-</p>
-<div class="figure-contents">
-<div class="mediaobject">
-<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="800">
-<tr>
-<td>
-<img src="images/portability.png" width="800" alt="移植性検討フェーズにおける各ツールの機能について">
-</td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-<br class="figure-break">
-<div class="figure">
-<a name="N10182"></a>
-<p class="title">
-<b>Figure&nbsp;2.&nbsp;移植フェーズにおける各ツールの機能について</b>
-</p>
-<div class="figure-contents">
-<div class="mediaobject">
-<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="800">
-<tr>
-<td>
-<img src="images/make.png" width="800" alt="移植フェーズにおける各ツールの機能について">
-</td>
-</tr>
-</table>
-</div>
-</div>
-</div>
-<br class="figure-break">
-</div>
-<br>
-<br>
 </div>
 <!-- bs-docs-section end-->
 <!-- JS and analytics only. -->
@@ -386,8 +200,7 @@ padding-top: 100px;
 <script type="text/javascript" src="js/bootstrap.js"></script>
 <script type="text/javascript" src="js/application.js"></script>
 <script type="text/javascript" src="js/jquery.validate.js"></script>
-<script type="text/javascript"
-src="js/jquery.validate.unobtrusive.js"></script>
+<script type="text/javascript" src="js/jquery.validate.unobtrusive.js"></script>
 <script type="text/javascript" src="js/jquery.unobtrusive-ajax.js"></script>
 <script type="text/javascript" src="js/metro-docs.js"></script>
 <script type="text/javascript">
@@ -396,8 +209,7 @@ i['GoogleAnalyticsObject'] = r;
 i[r] = i[r] || function() {
 (i[r].q = i[r].q || []).push(arguments)
 }, i[r].l = 1 * new Date();
-a = s.createElement(o),
-m = s.getElementsByTagName(o)[0];
+a = s.createElement(o), m = s.getElementsByTagName(o)[0];
 a.async = 1;
 a.src = g;
 m.parentNode.insertBefore(a, m)
@@ -406,8 +218,5 @@ m.parentNode.insertBefore(a, m)
 ga('create', 'UA-56818328-1', 'auto');
 ga('send', 'pageview');
 </script>
-</div>
-</div>
-</div>
 </body>
 </html>
