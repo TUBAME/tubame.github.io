@@ -21,30 +21,38 @@ body {
 margin: 0;
 font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ",
 Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-font-size: 14px;
+font-size: 16px;
 line-height: 20px;
 color: #333333;
 background-color: #ffffff;
 min-height: 0px;
-padding-top: 50px;
+padding-top: 66px;
 }
 
 .navbar {
 min-height: 66px;
 }
 
-.jumbotron {
-background-color: #dbebf7;
-}
-
-.menuTabLight {
+.menuTab {
 margin: 0 0 10px 0;
 padding: 2px 8px;
 border-width: 0 0 0 5px;
-border-color: #a7d0eb;
+border-color: #ccbe2e;
 border-style: solid;
-background: #69aedd;
-color:;
+background: #2e8bcc;
+color: #EBF7FA;
+line-height: 140%;
+font-weight: bold;
+}
+
+.menuLine {
+margin: 0 0 10px 0;
+padding: 2px 8px;
+border-width: 0 0 5px 0;
+border-color: #ccbe2e;
+border-style: solid;
+background: #2e8bcc;
+color: #EBF7FA;
 line-height: 140%;
 font-weight: bold;
 }
@@ -55,11 +63,17 @@ font-weight: bold;
 <nav class="navbar navbar-default navbar-fixed-top">
 <div class="container">
 <div class="navbar-header">
-<a class="navbar-brand" href="#">
-<img style="max-width: 100px; margin-top: -15px;" src="images/TUBAME.png">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse">
+<span class="sr-only">Toggle navigation</span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="http://tubame.github.io/ja/index/">
+<img style="max-width: 80px; margin-top: -10px;" src="images/TUBAME.png">
 </a>
 </div>
-<div class="collapse navbar-collapse">
+<div class="collapse navbar-collapse" id="navbar-collapse">
 <ul class="nav navbar-nav">
 <li>
 <a href="http://tubame.github.io/ja/tutorial/tutorial.html">
@@ -85,22 +99,36 @@ font-weight: bold;
 <ul class="nav navbar-nav navbar-right">
 <li>
 <a href="https://github.com/TUBAME/migration-tool" class="fa-links">
-<i class="fa fa-github fa-3x"></i>
+<i class="fa fa-github fa-2x"></i>
 </a>
 </li>
 <li>
 <a href="https://groups.google.com/forum/#!forum/tubame-users" class="fa-links">
-<i class="fa fa-group fa-3x"></i>
+<i class="fa fa-group fa-2x"></i>
 </a>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+<i class="fa fa-globe fa-2x"></i>
+<b class="caret"></b>
+</a>
+<ul class="dropdown-menu">
+<li>
+<a href="http://tubame.github.io/ja/index/">Japanese</a>
+</li>
+<li>
+<a href="http://tubame.github.io/en/index/">English</a>
+</li>
+</ul>
 </li>
 </ul>
 </div>
 </div>
 </nav>
-<div class="jumbotron">
+<div class="jumbotron" style="background-color: #dbebf7;">
 <div class="container">
 <div class="row">
-<div class="col-xs-12 col-md-12" role="header">
+<div class="col-xs-12 col-md-12">
 <h2 align="center" id="tubame">TUBAME will carry happiness to your migration.</h2>
 <br />
 <div class="row">
@@ -143,16 +171,16 @@ font-weight: bold;
 </div>
 <div class="container">
 <div class="row">
-<div class="col-xs-12 col-md-12" role="main">
+<div class="col-xs-12 col-md-12">
 <div class="row">
 <div class="col-xs-12 col-md-10 col-md-offset-1">
-<h2 class="menuTabLight">TUBAMEってなに？</h2>
+<h2 class="menuTab">TUBAMEってなに？</h2>
 <p>TUBAMEはJavaアプリケーションのマイグレーション時に必要となる、修正箇所の抽出や修正工数の算出を自動で行うためのツールです。</p>
 <p>自動化により作業工数の削減や人的ミスの防止が可能となり、加えてコミュニティで蓄積されたマイグレーションに関わるノウハウを提供しているため作業精度の向上にも役立ちます。</p>
 <br />
 </div>
 <div class="col-xs-12 col-md-10 col-md-offset-1">
-<h2 class="menuTabLight">TUBAMEを使うメリットは？</h2>
+<h2 class="menuTab">TUBAMEを使うメリットは？</h2>
 <p>商用製品からOSS製品へのマイグレーションや製品のバージョンアップを検討する作業は高い精度の見積りが重要です。</p>
 <p>TUBAMEではアプリケーションのソースコードや設定ファイルを入力として、マイグレーション先の環境では利用できない箇所を自動で抽出します。</p>
 <p>さらに、移植に必要なノウハウ(修正工数や修正方法などの情報)を提供しているため、見積り時の精度向上に役立ちます。</p>
@@ -160,16 +188,16 @@ font-weight: bold;
 <br />
 </div>
 <div class="col-xs-12 col-md-10 col-md-offset-1">
-<h2 class="menuTabLight">どうやって修正箇所を探すの？</h2>
+<h2 class="menuTab">どうやって修正箇所を探すの？</h2>
 <p>TUBAMEは修正箇所を自動で検索するためのツール本体とは別に、修正箇所を検索するためのキーワードや修正工数、修正難易度などをまとめたマイグレーションナレッジを提供しています。</p>
 <p>ナレッジを切替えることにより、多様な移行パターンに対応することができます。</p>
-<p>現在、コミュニティで提供しているナレッジの一覧を
+<p>現在、コミュニティで提供しているナレッジの一覧を 
 <a href="http://tubame.github.io/ja/knowledge/knowledge.html">こちら</a>で確認できます。
 </p>
 <br />
 </div>
 <div class="col-xs-12 col-md-10 col-md-offset-1">
-<h2 class="menuTabLight">実際に実行するときのインプット／アウトプットは？</h2>
+<h2 class="menuTab">実際に実行するときのインプット／アウトプットは？</h2>
 </div>
 <div class="col-xs-12 col-md-6 col-md-offset-1">
 <p>TUBAMEはツール本体とマイグレーションナレッジを使用して修正箇所の抽出や修正工数の算出を行います。</p>
@@ -181,7 +209,7 @@ font-weight: bold;
 <br />
 </div>
 <div class="col-xs-12 col-md-10 col-md-offset-1">
-<h2 class="menuTabLight">もっと詳しくわかりやすく教えて！</h2>
+<h2 class="menuTab">もっと詳しくわかりやすく教えて！</h2>
 <p>
 <a href="http://tubame.github.io/ja/tutorial/tutorial.html">チュートリアル</a>や
 <a href="http://tubame.github.io/ja/quickstart/quickstart.html">クイックスタート</a>を観て、TUBAMEの良さを知ってください！
@@ -192,7 +220,6 @@ font-weight: bold;
 </div>
 </div>
 </div>
-<!-- bs-docs-section end-->
 <!-- JS and analytics only. -->
 <!-- ===== Bootstrap core JavaScript ===== -->
 <!-- Placed at the end of the document so the pages load faster -->
