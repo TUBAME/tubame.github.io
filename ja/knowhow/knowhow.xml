@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<PortabilityKnowhow xmlns="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:ns2="http://www.w3.org/1999/xlink" xmlns:ns3="http://docbook.org/ns/docbook">
+<PortabilityKnowhow xmlns="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:ns2="http://docbook.org/ns/docbook" xmlns:ns3="http://www.w3.org/1999/xlink">
     <PortabilityKnowhowTitle>ナレッジ管理ガイド</PortabilityKnowhowTitle>
     <EntryViewList>
         <EntryCategory>
@@ -50,6 +50,18 @@
                 <EntryCategoryRefKey>category_39</EntryCategoryRefKey>
             </ChildEntry>
         </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_40</EntryCategoryRefKey>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_41</EntryCategoryRefKey>
+            </ChildEntry>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_42</EntryCategoryRefKey>
+            </ChildEntry>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_43</EntryCategoryRefKey>
+            </ChildEntry>
+        </EntryCategory>
     </EntryViewList>
     <ChapterList>
         <Chapter>
@@ -86,6 +98,26 @@
             <ChildChapter>
                 <ChildCapterNo>2.3.</ChildCapterNo>
                 <ChapterCategoryRefKey>category_35</ChapterCategoryRefKey>
+            </ChildChapter>
+        </Chapter>
+        <Chapter>
+            <ChapterNo>3.</ChapterNo>
+            <ChapterName>FAQ</ChapterName>
+            <ChildChapter>
+                <ChildCapterNo>3.1.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_40</ChapterCategoryRefKey>
+                <ChildChapter>
+                    <ChildCapterNo>3.1.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_41</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>3.1.2.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_42</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>3.1.3.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_43</ChapterCategoryRefKey>
+                </ChildChapter>
             </ChildChapter>
         </Chapter>
     </ChapterList>
@@ -154,6 +186,22 @@
             <CategoryName>既存ファイルを更新する場合</CategoryName>
             <KnowhowRefKey>knowhow_37</KnowhowRefKey>
         </Category>
+        <Category categoryId="category_40" appropriate="false">
+            <CategoryName>ナレッジ作成時の注意事項</CategoryName>
+            <KnowhowRefKey>knowhow_42</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_41" appropriate="false">
+            <CategoryName>複数行にまたがる検索が実行できない</CategoryName>
+            <KnowhowRefKey>knowhow_39</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_42" appropriate="false">
+            <CategoryName>クラス名の前方一致防止</CategoryName>
+            <KnowhowRefKey>knowhow_40</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_43" appropriate="false">
+            <CategoryName>同名メソッドの検出防止</CategoryName>
+            <KnowhowRefKey>knowhow_41</KnowhowRefKey>
+        </Category>
     </CategoryList>
     <KnowhowList>
         <KnowhowInfomation knowhowId="knowhow_1" knowhowDetailRefKey="knowhowDetail_1">
@@ -220,959 +268,1049 @@
             <KnowhowNo>1</KnowhowNo>
             <KnowhowName>body</KnowhowName>
         </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_42" knowhowDetailRefKey="knowhowDetail_42">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_39" knowhowDetailRefKey="knowhowDetail_39">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_40" knowhowDetailRefKey="knowhowDetail_40">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_41" knowhowDetailRefKey="knowhowDetail_41">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
     </KnowhowList>
     <DocBookList>
         <DocBook articleId="knowhowDetail_1">
-            <ns3:article>
-                <ns3:info>
-                    <ns3:title>body</ns3:title>
-                </ns3:info>
-                <ns3:section>
-                    <ns3:para>本ガイドは、ナレッジ管理ツールの使用方法について説明したドキュメントです。</ns3:para>
-                </ns3:section>
-            </ns3:article>
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>本ガイドは、ナレッジ管理ツールの使用方法について説明したドキュメントです。</ns2:para>
+                </ns2:section>
+            </ns2:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_2">
-            <ns3:article>
-                <ns3:info>
-                    <ns3:title>body</ns3:title>
-                </ns3:info>
-                <ns3:section>
-                    <ns3:para>
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
 			本ツールは、マイグレーションナレッジをGUI 上で容易に作成、管理することができるツールです。
 			マイグレーションナレッジは、マイグレーションに関するノウハウとして、移植箇所を抽出するための検索条件、移植難易度、移植工数
 			(移植概算ライン) 等が設定可能です。
-		</ns3:para>
-                    <ns3:para>
+		</ns2:para>
+                    <ns2:para>
 			本ツールでは大きく以下の情報を扱うことが可能です。
-		</ns3:para>
-                    <ns3:para>
-			<ns3:table>
-                            <ns3:title>本ツールで扱う情報</ns3:title>
-                            <ns3:tgroup cols="2">
-<ns3:thead>
-    <ns3:row>
-        <ns3:entry>項目</ns3:entry>
-        <ns3:entry>説明</ns3:entry>
-    </ns3:row>
-</ns3:thead>
-<ns3:tbody>
-    <ns3:row>
-        <ns3:entry>マイグレ―ションに関するノウハウガイド（HTML）</ns3:entry>
-        <ns3:entry>
+		</ns2:para>
+                    <ns2:para>
+			<ns2:table>
+                            <ns2:title>本ツールで扱う情報</ns2:title>
+                            <ns2:tgroup cols="2">
+<ns2:thead>
+    <ns2:row>
+        <ns2:entry>項目</ns2:entry>
+        <ns2:entry>説明</ns2:entry>
+    </ns2:row>
+</ns2:thead>
+<ns2:tbody>
+    <ns2:row>
+        <ns2:entry>マイグレ―ションに関するノウハウガイド（HTML）</ns2:entry>
+        <ns2:entry>
 								マイグレーションに関するノウハウをドキュメント形式（HTML）で作成、保存できます。
 								保存したHTMLファイルをナレッジベース検索ツールから参照することにより、検索実行結果から直接リンク参照することができます。
-							</ns3:entry>
-    </ns3:row>
-    <ns3:row>
-        <ns3:entry>修正箇所の検索情報（XML）</ns3:entry>
-        <ns3:entry>
+							</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>修正箇所の検索情報（XML）</ns2:entry>
+        <ns2:entry>
 								修正箇所の検索情報をナレッジアイテムとしてXML 形式で作成、保存できます。
 								保存したXMLファイルをナレッジベース検索ツールの入力情報とすることにより、検索ロジックとして利用することができます。
-							</ns3:entry>
-    </ns3:row>
-</ns3:tbody>
-                            </ns3:tgroup>
-                        </ns3:table>
-			<ns3:figure>
-                            <ns3:title>ナレッジ管理ツール</ns3:title>
-                            <ns3:mediaobject>
-<ns3:imageobject>
-    <ns3:imagedata format="png" fileref="images/introduction.PNG" width="50%"/>
-</ns3:imageobject>
-                            </ns3:mediaobject>
-                        </ns3:figure>
-		</ns3:para>
-                </ns3:section>
-            </ns3:article>
+							</ns2:entry>
+    </ns2:row>
+</ns2:tbody>
+                            </ns2:tgroup>
+                        </ns2:table>
+			<ns2:figure>
+                            <ns2:title>ナレッジ管理ツール</ns2:title>
+                            <ns2:mediaobject>
+<ns2:imageobject>
+    <ns2:imagedata format="png" fileref="images/introduction.PNG" width="50%"/>
+</ns2:imageobject>
+                            </ns2:mediaobject>
+                        </ns2:figure>
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_4">
-            <ns3:article>
-                <ns3:info>
-                    <ns3:title>body</ns3:title>
-                </ns3:info>
-                <ns3:section>
-                    <ns3:para>本ツールは以下のハードウェア環境で動作することを確認しています。</ns3:para>
-                    <ns3:table>
-                        <ns3:title>ハードウェア要件</ns3:title>
-                        <ns3:tgroup cols="2">
-                            <ns3:thead>
-<ns3:row>
-    <ns3:entry>項目</ns3:entry>
-    <ns3:entry>要件</ns3:entry>
-</ns3:row>
-                            </ns3:thead>
-                            <ns3:tbody>
-<ns3:row>
-    <ns3:entry>CPU</ns3:entry>
-    <ns3:entry>Pentium(R) Dual-Core CPU E5400 @2.70GHz(2 CPU) 相当</ns3:entry>
-</ns3:row>
-<ns3:row>
-    <ns3:entry>RAM</ns3:entry>
-    <ns3:entry>2012MB RAM 相当</ns3:entry>
-</ns3:row>
-                            </ns3:tbody>
-                        </ns3:tgroup>
-                    </ns3:table>
-                </ns3:section>
-            </ns3:article>
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>本ツールは以下のハードウェア環境で動作することを確認しています。</ns2:para>
+                    <ns2:table>
+                        <ns2:title>ハードウェア要件</ns2:title>
+                        <ns2:tgroup cols="2">
+                            <ns2:thead>
+<ns2:row>
+    <ns2:entry>項目</ns2:entry>
+    <ns2:entry>要件</ns2:entry>
+</ns2:row>
+                            </ns2:thead>
+                            <ns2:tbody>
+<ns2:row>
+    <ns2:entry>CPU</ns2:entry>
+    <ns2:entry>Pentium(R) Dual-Core CPU E5400 @2.70GHz(2 CPU) 相当</ns2:entry>
+</ns2:row>
+<ns2:row>
+    <ns2:entry>RAM</ns2:entry>
+    <ns2:entry>2012MB RAM 相当</ns2:entry>
+</ns2:row>
+                            </ns2:tbody>
+                        </ns2:tgroup>
+                    </ns2:table>
+                </ns2:section>
+            </ns2:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_5">
-            <ns3:article>
-                <ns3:info>
-                    <ns3:title>body</ns3:title>
-                </ns3:info>
-                <ns3:section>
-                    <ns3:para>本ツールは以下のソフトウェア環境で動作することを確認しています。</ns3:para>
-                    <ns3:table>
-                        <ns3:title>ソフトウェア要件</ns3:title>
-                        <ns3:tgroup cols="2">
-                            <ns3:thead>
-<ns3:row>
-    <ns3:entry>項目</ns3:entry>
-    <ns3:entry>要件</ns3:entry>
-</ns3:row>
-                            </ns3:thead>
-                            <ns3:tbody>
-<ns3:row>
-    <ns3:entry>OS</ns3:entry>
-    <ns3:entry>Windows XP/7, RHEL6(※)他同等Linuxで互換性有</ns3:entry>
-</ns3:row>
-<ns3:row>
-    <ns3:entry>JavaVM</ns3:entry>
-    <ns3:entry>
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>本ツールは以下のソフトウェア環境で動作することを確認しています。</ns2:para>
+                    <ns2:table>
+                        <ns2:title>ソフトウェア要件</ns2:title>
+                        <ns2:tgroup cols="2">
+                            <ns2:thead>
+<ns2:row>
+    <ns2:entry>項目</ns2:entry>
+    <ns2:entry>要件</ns2:entry>
+</ns2:row>
+                            </ns2:thead>
+                            <ns2:tbody>
+<ns2:row>
+    <ns2:entry>OS</ns2:entry>
+    <ns2:entry>Windows XP/7, RHEL6(※)他同等Linuxで互換性有</ns2:entry>
+</ns2:row>
+<ns2:row>
+    <ns2:entry>JavaVM</ns2:entry>
+    <ns2:entry>
 Oracle JRE 1.6 以上
-</ns3:entry>
-</ns3:row>
-<ns3:row>
-    <ns3:entry>IDE</ns3:entry>
-    <ns3:entry>
+</ns2:entry>
+</ns2:row>
+<ns2:row>
+    <ns2:entry>IDE</ns2:entry>
+    <ns2:entry>
 Eclipse 3.7 Indigo or Eclipse 4.3 Kepler
-</ns3:entry>
-</ns3:row>
-                            </ns3:tbody>
-                        </ns3:tgroup>
-                    </ns3:table>
-                </ns3:section>
-            </ns3:article>
+</ns2:entry>
+</ns2:row>
+                            </ns2:tbody>
+                        </ns2:tgroup>
+                    </ns2:table>
+                </ns2:section>
+            </ns2:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_6">
-            <ns3:article>
-                <ns3:info>
-                    <ns3:title>body</ns3:title>
-                </ns3:info>
-                <ns3:section>
-                    <ns3:para>特になし。</ns3:para>
-                </ns3:section>
-            </ns3:article>
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>特になし。</ns2:para>
+                </ns2:section>
+            </ns2:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_7">
-            <ns3:article>
-                <ns3:info>
-                    <ns3:title>body</ns3:title>
-                </ns3:info>
-                <ns3:section>
-                    <ns3:para>
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
 事前に
-<ns3:link>動作環境</ns3:link>
+<ns2:link>動作環境</ns2:link>
 に記載されている環境等の準備を整えてください。
 準備が整っていることを確認し、以下の手順を実施します。
-</ns3:para>
-                    <ns3:orderedlist>
-                        <ns3:listitem>
-                            <ns3:para>ダウンロード</ns3:para>
-                            <ns3:para>プラグインをダウンロードします</ns3:para>
-                            <ns3:para>
-<ns3:note>
-    <ns3:para>
-<ns3:link>https://github.com/TUBAME/migration-tool/releases</ns3:link>
-</ns3:para>
-</ns3:note>
-</ns3:para>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>解凍</ns3:para>
-                            <ns3:para>
+</ns2:para>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>ダウンロード</ns2:para>
+                            <ns2:para>プラグインをダウンロードします</ns2:para>
+                            <ns2:para>
+<ns2:note>
+    <ns2:para>
+<ns2:link>https://github.com/TUBAME/migration-tool/releases</ns2:link>
+</ns2:para>
+</ns2:note>
+</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>解凍</ns2:para>
+                            <ns2:para>
 ダウンロードしたファイルを解凍します。
 解凍すると
-<ns3:filename>tubame.knowhow_*</ns3:filename>
+<ns2:filename>tubame.knowhow_*</ns2:filename>
 という名前のディレクトリが作成されます。
-<ns3:note>
-    <ns3:para>* 部分はプラグインのバージョンによって変わります。</ns3:para>
-</ns3:note>
-<ns3:important>
-    <ns3:para>
+<ns2:note>
+    <ns2:para>* 部分はプラグインのバージョンによって変わります。</ns2:para>
+</ns2:note>
+<ns2:important>
+    <ns2:para>
 Windows 上で zip を解凍する場合、パス長の制限により解凍に失敗する場合があります。
 失敗した場合は、
-<ns3:filename>C:\temp</ns3:filename>
+<ns2:filename>C:\temp</ns2:filename>
 のような短いパスに解凍してください。
-</ns3:para>
-</ns3:important>
-</ns3:para>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>Eclipse へインストール</ns3:para>
-                            <ns3:para>
+</ns2:para>
+</ns2:important>
+</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>Eclipse へインストール</ns2:para>
+                            <ns2:para>
 解凍したディレクトリを、Eclipse インストールディレクトリ下の
-<ns3:filename>plugins</ns3:filename>
+<ns2:filename>plugins</ns2:filename>
 ディレクトリに移動またはコピーします。
-</ns3:para>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>インストール確認</ns3:para>
-                            <ns3:para>
+</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>インストール確認</ns2:para>
+                            <ns2:para>
 以下のように Eclipse メニューを選択します。
-</ns3:para>
-                            <ns3:para>
-<ns3:menuchoice>
-    <ns3:guimenu>Help</ns3:guimenu>
-    <ns3:guimenuitem>About Eclipse</ns3:guimenuitem>
-    <ns3:guimenuitem>Installation Details</ns3:guimenuitem>
-    <ns3:guimenuitem>Plug-ins</ns3:guimenuitem>
-</ns3:menuchoice>
-</ns3:para>
-                            <ns3:para>
-<ns3:guilabel>Plug-in Id</ns3:guilabel>
+</ns2:para>
+                            <ns2:para>
+<ns2:menuchoice>
+    <ns2:guimenu>Help</ns2:guimenu>
+    <ns2:guimenuitem>About Eclipse</ns2:guimenuitem>
+    <ns2:guimenuitem>Installation Details</ns2:guimenuitem>
+    <ns2:guimenuitem>Plug-ins</ns2:guimenuitem>
+</ns2:menuchoice>
+</ns2:para>
+                            <ns2:para>
+<ns2:guilabel>Plug-in Id</ns2:guilabel>
 の部分に、以下のプラグイン名
-<ns3:guilabel>tubame.knowhow</ns3:guilabel>
+<ns2:guilabel>tubame.knowhow</ns2:guilabel>
 が存在することを確認してください。
-</ns3:para>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>インストール完了</ns3:para>
-                            <ns3:para>これでインストール完了です</ns3:para>
-                        </ns3:listitem>
-                    </ns3:orderedlist>
-                </ns3:section>
-            </ns3:article>
+</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>インストール完了</ns2:para>
+                            <ns2:para>これでインストール完了です</ns2:para>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_8">
-            <ns3:article>
-                <ns3:info>
-                    <ns3:title>body</ns3:title>
-                </ns3:info>
-                <ns3:section>
-                    <ns3:para>ツールの利用の流れを解説します。</ns3:para>
-                </ns3:section>
-            </ns3:article>
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>ツールの利用の流れを解説します。</ns2:para>
+                </ns2:section>
+            </ns2:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_28">
-            <ns3:article>
-                <ns3:info>
-                    <ns3:title>body</ns3:title>
-                </ns3:info>
-                <ns3:section>
-                    <ns3:para>
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
 インストールした
-<ns3:filename>tubame.knowhow_*</ns3:filename>
+<ns2:filename>tubame.knowhow_*</ns2:filename>
 を削除してください。以上で、アンインストールは完了です。
-<ns3:note>
-                            <ns3:para>* 部分はプラグインのバージョンによって変わります。</ns3:para>
-                        </ns3:note>
-<ns3:note>
-                            <ns3:para>
+<ns2:note>
+                            <ns2:para>* 部分はプラグインのバージョンによって変わります。</ns2:para>
+                        </ns2:note>
+<ns2:note>
+                            <ns2:para>
 削除した後にEclipseを起動する際は
-<ns3:command>-clean</ns3:command>
+<ns2:command>-clean</ns2:command>
 のオプションを付与して起動してください。
-</ns3:para>
-                        </ns3:note>
-</ns3:para>
-                </ns3:section>
-            </ns3:article>
+</ns2:para>
+                        </ns2:note>
+</ns2:para>
+                </ns2:section>
+            </ns2:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_29">
-            <ns3:article>
-                <ns3:info>
-                    <ns3:title>body</ns3:title>
-                </ns3:info>
-                <ns3:section>
-                    <ns3:para>以下の手順を実施します。</ns3:para>
-                    <ns3:orderedlist>
-                        <ns3:listitem>
-                            <ns3:para>Eclipse を起動</ns3:para>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>以下の手順を実施します。</ns2:para>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>Eclipse を起動</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>
 プロジェクト作成ウィザードの起動
-</ns3:para>
-                            <ns3:para>
-<ns3:menuchoice>
-    <ns3:guimenu>File</ns3:guimenu>
-    <ns3:guimenuitem>New</ns3:guimenuitem>
-    <ns3:guimenuitem>Project...</ns3:guimenuitem>
-</ns3:menuchoice>
-</ns3:para>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>
-<ns3:guimenuitem>Project</ns3:guimenuitem> の作成
-</ns3:para>
-                            <ns3:para>
-<ns3:menuchoice>
-    <ns3:guimenu>Project</ns3:guimenu>
-    <ns3:guimenuitem>Next</ns3:guimenuitem>
-</ns3:menuchoice>
-</ns3:para>
-                            <ns3:para>
-<ns3:guilabel>New Project</ns3:guilabel> ウィザードで、移植元の環境に応じて適宜設定を行いプロジェクトを作成します。
-</ns3:para>
-                        </ns3:listitem>
-                    </ns3:orderedlist>
-                </ns3:section>
-            </ns3:article>
+</ns2:para>
+                            <ns2:para>
+<ns2:menuchoice>
+    <ns2:guimenu>File</ns2:guimenu>
+    <ns2:guimenuitem>New</ns2:guimenuitem>
+    <ns2:guimenuitem>Project...</ns2:guimenuitem>
+</ns2:menuchoice>
+</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>
+<ns2:guimenuitem>Project</ns2:guimenuitem> の作成
+</ns2:para>
+                            <ns2:para>
+<ns2:menuchoice>
+    <ns2:guimenu>Project</ns2:guimenu>
+    <ns2:guimenuitem>Next</ns2:guimenuitem>
+</ns2:menuchoice>
+</ns2:para>
+                            <ns2:para>
+<ns2:guilabel>New Project</ns2:guilabel> ウィザードで、移植元の環境に応じて適宜設定を行いプロジェクトを作成します。
+</ns2:para>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_30">
-            <ns3:article>
-                <ns3:info>
-                    <ns3:title>body</ns3:title>
-                </ns3:info>
-                <ns3:section>
-                    <ns3:para>以下の手順を実施します。</ns3:para>
-                    <ns3:orderedlist>
-                        <ns3:listitem>
-                            <ns3:para>
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>以下の手順を実施します。</ns2:para>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>
 パースペクティブの起動
-</ns3:para>
-                            <ns3:para>
-<ns3:menuchoice>
-    <ns3:guimenu>Window</ns3:guimenu>
-    <ns3:guimenuitem>Open Perspecive</ns3:guimenuitem>
-    <ns3:guimenuitem>Other</ns3:guimenuitem>
-    <ns3:guimenuitem>ナレッジ管理ツール</ns3:guimenuitem>
-</ns3:menuchoice>
-</ns3:para>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>ツールの初期化</ns3:para>
-                            <ns3:para>
+</ns2:para>
+                            <ns2:para>
+<ns2:menuchoice>
+    <ns2:guimenu>Window</ns2:guimenu>
+    <ns2:guimenuitem>Open Perspecive</ns2:guimenuitem>
+    <ns2:guimenuitem>Other</ns2:guimenuitem>
+    <ns2:guimenuitem>ナレッジ管理ツール</ns2:guimenuitem>
+</ns2:menuchoice>
+</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>ツールの初期化</ns2:para>
+                            <ns2:para>
 パースペクティブを起動すると自動的にツールの初期化処理が開始されます。初期化が完了するまでお待ちください。
-<ns3:note>
-    <ns3:para>XML のマーシャル / アンマーシャルクラスの初期化に時間を要する場合があります。</ns3:para>
-</ns3:note>
-<ns3:note>
-    <ns3:para>
+<ns2:note>
+    <ns2:para>XML のマーシャル / アンマーシャルクラスの初期化に時間を要する場合があります。</ns2:para>
+</ns2:note>
+<ns2:note>
+    <ns2:para>
 初期化処理はキャンセルできません。
-<ns3:guimenuitem>Cancel</ns3:guimenuitem>
+<ns2:guimenuitem>Cancel</ns2:guimenuitem>
 ボタンをクリックしても無視されます。
-</ns3:para>
-</ns3:note>
-</ns3:para>
-                        </ns3:listitem>
-                    </ns3:orderedlist>
-                </ns3:section>
-            </ns3:article>
+</ns2:para>
+</ns2:note>
+</ns2:para>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_31">
-            <ns3:article>
-                <ns3:info>
-                    <ns3:title>body</ns3:title>
-                </ns3:info>
-                <ns3:section>
-                    <ns3:para>ナレッジに関するアイテムの作成・編集手順は以下です。</ns3:para>
-                    <ns3:orderedlist>
-                        <ns3:listitem>
-                            <ns3:para>
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>ナレッジに関するアイテムの作成・編集手順は以下です。</ns2:para>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>
 					マイグレーションナレッジファイルのオープン
-				</ns3:para>
-                            <ns3:para>
+				</ns2:para>
+                            <ns2:para>
 					準備したマイグレーションナレッジファイルを開きます。
-				</ns3:para>
-                            <ns3:para>
+				</ns2:para>
+                            <ns2:para>
 					XMLファイル右クリック -&gt; Open With -&gt; ナレッジエディタ
-				</ns3:para>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>ナレッジエントリービューの操作</ns3:para>
-                            <ns3:para>
+				</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>ナレッジエントリービューの操作</ns2:para>
+                            <ns2:para>
 					個々のアイテムはナレッジエントリービュー上で追加・参照・更新・削除します。
 					作成したアイテムはドキュメント作成等に活用できます。
-				</ns3:para>
-                            <ns3:figure>
-<ns3:title>ナレッジエントリービュー</ns3:title>
-<ns3:mediaobject>
-    <ns3:imageobject>
-        <ns3:imagedata format="png" fileref="images/knowledge-entry-view.PNG" width="50%"/>
-    </ns3:imageobject>
-</ns3:mediaobject>
-                            </ns3:figure>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>
+				</ns2:para>
+                            <ns2:figure>
+<ns2:title>ナレッジエントリービュー</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject>
+        <ns2:imagedata format="png" fileref="images/knowledge-entry-view.PNG" width="50%"/>
+    </ns2:imageobject>
+</ns2:mediaobject>
+                            </ns2:figure>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>
 					ナレッジに関するアイテムの作成
-				</ns3:para>
-                            <ns3:para>
+				</ns2:para>
+                            <ns2:para>
 					アイテムの作成は以下の手順で実施します。最初はアイテムが1つもないため、必ずカテゴリを作成することになります。
-				</ns3:para>
-                            <ns3:para>
-					<ns3:itemizedlist>
-    <ns3:listitem>
-        <ns3:para>
-								<ns3:guilabel>カテゴリ作成</ns3:guilabel>
-							</ns3:para>
-        <ns3:para>ナレッジエントリビュー上で未選択の状態で右クリック -&gt; カテゴリ登録</ns3:para>
-    </ns3:listitem>
-    <ns3:listitem>
-        <ns3:para>
-								<ns3:guilabel>ナレッジ作成</ns3:guilabel>
-							</ns3:para>
-        <ns3:para>カテゴリ右クリック -&gt; ナレッジ登録</ns3:para>
-    </ns3:listitem>
-</ns3:itemizedlist>
-				</ns3:para>
-                            <ns3:para>
+				</ns2:para>
+                            <ns2:para>
+					<ns2:itemizedlist>
+    <ns2:listitem>
+        <ns2:para>
+								<ns2:guilabel>カテゴリ作成</ns2:guilabel>
+							</ns2:para>
+        <ns2:para>ナレッジエントリビュー上で未選択の状態で右クリック -&gt; カテゴリ登録</ns2:para>
+    </ns2:listitem>
+    <ns2:listitem>
+        <ns2:para>
+								<ns2:guilabel>ナレッジ作成</ns2:guilabel>
+							</ns2:para>
+        <ns2:para>カテゴリ右クリック -&gt; ナレッジ登録</ns2:para>
+    </ns2:listitem>
+</ns2:itemizedlist>
+				</ns2:para>
+                            <ns2:para>
 					アイテムは、以下の種類があります。
-					<ns3:table>
-    <ns3:title>アイテムの種類</ns3:title>
-    <ns3:tgroup cols="2">
-        <ns3:thead>
-            <ns3:row>
-                <ns3:entry>項目</ns3:entry>
-                <ns3:entry>説明</ns3:entry>
-            </ns3:row>
-        </ns3:thead>
-        <ns3:tbody>
-            <ns3:row>
-                <ns3:entry>カテゴリ</ns3:entry>
-                <ns3:entry>ドキュメント構成の章・節にタイトルに相当するアイテムです。タイトル情報のみ保持します。
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>ナレッジ</ns3:entry>
-                <ns3:entry>
+					<ns2:table>
+    <ns2:title>アイテムの種類</ns2:title>
+    <ns2:tgroup cols="2">
+        <ns2:thead>
+            <ns2:row>
+                <ns2:entry>項目</ns2:entry>
+                <ns2:entry>説明</ns2:entry>
+            </ns2:row>
+        </ns2:thead>
+        <ns2:tbody>
+            <ns2:row>
+                <ns2:entry>カテゴリ</ns2:entry>
+                <ns2:entry>ドキュメント構成の章・節にタイトルに相当するアイテムです。タイトル情報のみ保持します。
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>ナレッジ</ns2:entry>
+                <ns2:entry>
 										ドキュメント構成の章・節に記述されるナレッジコンテンツに相当するアイテムです。
-										<ns3:tag>DocBook#Artile</ns3:tag>
+										<ns2:tag>DocBook#Artile</ns2:tag>
 										形式のコンテンツ情報のみ保持します。
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>チェックアイテム</ns3:entry>
-                <ns3:entry>
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>チェックアイテム</ns2:entry>
+                <ns2:entry>
 										該当ナレッジの移植判断情報を保持するアイテムです。検索手順、移植要因、難易度などの情報を保持します。
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>検索情報</ns3:entry>
-                <ns3:entry>
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>検索情報</ns2:entry>
+                <ns2:entry>
 										ナレッジベース検索ツールが検索の際に使用する検索ロジックとなるアイテムです。
-									</ns3:entry>
-            </ns3:row>
-        </ns3:tbody>
-    </ns3:tgroup>
-</ns3:table>
-					<ns3:figure>
-    <ns3:title>ナレッジエントリビューで表示されるアイテム</ns3:title>
-    <ns3:mediaobject>
-        <ns3:imageobject>
-            <ns3:imagedata format="png" fileref="images/item.PNG" width="25%"/>
-        </ns3:imageobject>
-    </ns3:mediaobject>
-</ns3:figure>
+									</ns2:entry>
+            </ns2:row>
+        </ns2:tbody>
+    </ns2:tgroup>
+</ns2:table>
+					<ns2:figure>
+    <ns2:title>ナレッジエントリビューで表示されるアイテム</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject>
+            <ns2:imagedata format="png" fileref="images/item.PNG" width="25%"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
 
-				</ns3:para>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>
+				</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>
 					ナレッジ管理エディタの操作
-				</ns3:para>
-                            <ns3:para>
+				</ns2:para>
+                            <ns2:para>
 					登録されたアイテムの編集やドキュメント構成の作成を行います。
 					ナレッジ管理エディタには以下の種類のタブがあります。
-					<ns3:table>
-    <ns3:title>タブの種類</ns3:title>
-    <ns3:tgroup cols="2">
-        <ns3:thead>
-            <ns3:row>
-                <ns3:entry>項目</ns3:entry>
-                <ns3:entry>説明</ns3:entry>
-            </ns3:row>
-        </ns3:thead>
-        <ns3:tbody>
-            <ns3:row>
-                <ns3:entry>ドキュメンテーション</ns3:entry>
-                <ns3:entry>
+					<ns2:table>
+    <ns2:title>タブの種類</ns2:title>
+    <ns2:tgroup cols="2">
+        <ns2:thead>
+            <ns2:row>
+                <ns2:entry>項目</ns2:entry>
+                <ns2:entry>説明</ns2:entry>
+            </ns2:row>
+        </ns2:thead>
+        <ns2:tbody>
+            <ns2:row>
+                <ns2:entry>ドキュメンテーション</ns2:entry>
+                <ns2:entry>
 										作成するHTML ドキュメントの章構成を編集することができます。
 										見出しを作成後、ナレッジエントリービューからカテゴリをドラッグ&amp;ドロップすることでドキュメントを構成していきます。
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>ナレッジ詳細</ns3:entry>
-                <ns3:entry>
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>ナレッジ詳細</ns2:entry>
+                <ns2:entry>
 										ナレッジのコンテンツをDocBook#Article 形式で編集するエディタです。
 										エディタ上で右クリックを行い、タグのテンプレートを挿入することもできます。
-										<ns3:important>
-                        <ns3:para>
+										<ns2:important>
+                        <ns2:para>
 												独自にセクションが作成され章構成が崩れるのを防ぐため、
-												<ns3:tag>&lt;section&gt;</ns3:tag>
+												<ns2:tag>&lt;section&gt;</ns2:tag>
 												タグは使用できません。
-											</ns3:para>
-                    </ns3:important>
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>チェックアイテム</ns3:entry>
-                <ns3:entry>
+											</ns2:para>
+                    </ns2:important>
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>チェックアイテム</ns2:entry>
+                <ns2:entry>
 										ナレッジエントリービューで選択しているチェックアイテム情報および検索情報を編集することができます。
-									</ns3:entry>
-            </ns3:row>
-        </ns3:tbody>
-    </ns3:tgroup>
-</ns3:table>
-					<ns3:figure>
-    <ns3:title>ドキュメンテーションタブ</ns3:title>
-    <ns3:mediaobject>
-        <ns3:imageobject>
-            <ns3:imagedata format="png" fileref="images/documentation.PNG" width="50%"/>
-        </ns3:imageobject>
-    </ns3:mediaobject>
-</ns3:figure>
-					<ns3:figure>
-    <ns3:title>ナレッジ詳細タブ</ns3:title>
-    <ns3:mediaobject>
-        <ns3:imageobject>
-            <ns3:imagedata format="png" fileref="images/knowledge-detail.PNG" width="50%"/>
-        </ns3:imageobject>
-    </ns3:mediaobject>
-</ns3:figure>
-					<ns3:figure>
-    <ns3:title>チェックアイテムタブ</ns3:title>
-    <ns3:mediaobject>
-        <ns3:imageobject>
-            <ns3:imagedata format="png" fileref="images/check-item.PNG" width="50%"/>
-        </ns3:imageobject>
-    </ns3:mediaobject>
-</ns3:figure>
+									</ns2:entry>
+            </ns2:row>
+        </ns2:tbody>
+    </ns2:tgroup>
+</ns2:table>
+					<ns2:figure>
+    <ns2:title>ドキュメンテーションタブ</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject>
+            <ns2:imagedata format="png" fileref="images/documentation.PNG" width="50%"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
+					<ns2:figure>
+    <ns2:title>ナレッジ詳細タブ</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject>
+            <ns2:imagedata format="png" fileref="images/knowledge-detail.PNG" width="50%"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
+					<ns2:figure>
+    <ns2:title>チェックアイテムタブ</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject>
+            <ns2:imagedata format="png" fileref="images/check-item.PNG" width="50%"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
 					以下にチェックアイテムタブで編集するチェックアイテム情報および検索情報の各入力項目の説明をします。
-					<ns3:table>
-    <ns3:title>チェックアイテム情報</ns3:title>
-    <ns3:tgroup cols="2">
-        <ns3:thead>
-            <ns3:row>
-                <ns3:entry>項目</ns3:entry>
-                <ns3:entry>説明</ns3:entry>
-            </ns3:row>
-        </ns3:thead>
-        <ns3:tbody>
-            <ns3:row>
-                <ns3:entry>検索手順</ns3:entry>
-                <ns3:entry>登録するナレッジとしてどのような移植箇所をどのように検索するのかの概要を文章で入力します。
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>検索実施</ns3:entry>
-                <ns3:entry>
+					<ns2:table>
+    <ns2:title>チェックアイテム情報</ns2:title>
+    <ns2:tgroup cols="2">
+        <ns2:thead>
+            <ns2:row>
+                <ns2:entry>項目</ns2:entry>
+                <ns2:entry>説明</ns2:entry>
+            </ns2:row>
+        </ns2:thead>
+        <ns2:tbody>
+            <ns2:row>
+                <ns2:entry>検索手順</ns2:entry>
+                <ns2:entry>登録するナレッジとしてどのような移植箇所をどのように検索するのかの概要を文章で入力します。
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>検索実施</ns2:entry>
+                <ns2:entry>
 										ナレッジベース検索ツールで検索する際に、実際に検索対象とする場合はチェックを有効にします。
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>移植要因</ns3:entry>
-                <ns3:entry>移植が必要となる理由として該当する項目を選択します。</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>難易度</ns3:entry>
-                <ns3:entry>
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>移植要因</ns2:entry>
+                <ns2:entry>移植が必要となる理由として該当する項目を選択します。</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>難易度</ns2:entry>
+                <ns2:entry>
 										移植作業の難易度を選択します。
-										<ns3:note>
-                        <ns3:para>選択基準は以下となります。</ns3:para>
-                        <ns3:itemizedlist>
-                            <ns3:listitem>
-<ns3:para>
-														<ns3:guilabel>高</ns3:guilabel>
-													</ns3:para>
-<ns3:para>実装内容の大規模な修正が必要で、実装や設定等の大幅な見直しが必要</ns3:para>
-                            </ns3:listitem>
-                            <ns3:listitem>
-<ns3:para>
-														<ns3:guilabel>中</ns3:guilabel>
-													</ns3:para>
-<ns3:para>実装内容を考慮した小規模な修正が必要</ns3:para>
-                            </ns3:listitem>
-                            <ns3:listitem>
-<ns3:para>
-														<ns3:guilabel>低</ns3:guilabel>
-													</ns3:para>
-<ns3:para>実装内容を考慮せず軽微な修正で対応可能</ns3:para>
-                            </ns3:listitem>
-                            <ns3:listitem>
-<ns3:para>
-														<ns3:guilabel>不明</ns3:guilabel>
-													</ns3:para>
-<ns3:para>難易度不明</ns3:para>
-                            </ns3:listitem>
-                            <ns3:listitem>
-<ns3:para>
-														<ns3:guilabel>移植不可</ns3:guilabel>
-													</ns3:para>
-<ns3:para>移植不可</ns3:para>
-                            </ns3:listitem>
-                        </ns3:itemizedlist>
-                    </ns3:note>
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>難易度詳細</ns3:entry>
-                <ns3:entry>
+										<ns2:note>
+                        <ns2:para>選択基準は以下となります。</ns2:para>
+                        <ns2:itemizedlist>
+                            <ns2:listitem>
+<ns2:para>
+														<ns2:guilabel>高</ns2:guilabel>
+													</ns2:para>
+<ns2:para>実装内容の大規模な修正が必要で、実装や設定等の大幅な見直しが必要</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+														<ns2:guilabel>中</ns2:guilabel>
+													</ns2:para>
+<ns2:para>実装内容を考慮した小規模な修正が必要</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+														<ns2:guilabel>低</ns2:guilabel>
+													</ns2:para>
+<ns2:para>実装内容を考慮せず軽微な修正で対応可能</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+														<ns2:guilabel>不明</ns2:guilabel>
+													</ns2:para>
+<ns2:para>難易度不明</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+														<ns2:guilabel>移植不可</ns2:guilabel>
+													</ns2:para>
+<ns2:para>移植不可</ns2:para>
+                            </ns2:listitem>
+                        </ns2:itemizedlist>
+                    </ns2:note>
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>難易度詳細</ns2:entry>
+                <ns2:entry>
 										移植作業の詳細な難易度を選択します。
-										<ns3:note>
-                        <ns3:para>選択基準は以下となります。</ns3:para>
-                        <ns3:itemizedlist>
-                            <ns3:listitem>
-<ns3:para>
-														<ns3:guilabel>高</ns3:guilabel>
-													</ns3:para>
-<ns3:para>
+										<ns2:note>
+                        <ns2:para>選択基準は以下となります。</ns2:para>
+                        <ns2:itemizedlist>
+                            <ns2:listitem>
+<ns2:para>
+														<ns2:guilabel>高</ns2:guilabel>
+													</ns2:para>
+<ns2:para>
 														難易度が
-														<ns3:guilabel>高</ns3:guilabel>
+														<ns2:guilabel>高</ns2:guilabel>
 														であるもの
-													</ns3:para>
-                            </ns3:listitem>
-                            <ns3:listitem>
-<ns3:para>
-														<ns3:guilabel>中</ns3:guilabel>
-													</ns3:para>
-<ns3:para>
+													</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+														<ns2:guilabel>中</ns2:guilabel>
+													</ns2:para>
+<ns2:para>
 														難易度が
-														<ns3:guilabel>中</ns3:guilabel>
+														<ns2:guilabel>中</ns2:guilabel>
 														であるもの
-													</ns3:para>
-                            </ns3:listitem>
-                            <ns3:listitem>
-<ns3:para>
-														<ns3:guilabel>低1</ns3:guilabel>
-													</ns3:para>
-<ns3:para>
+													</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+														<ns2:guilabel>低1</ns2:guilabel>
+													</ns2:para>
+<ns2:para>
 														難易度が
-														<ns3:guilabel>低</ns3:guilabel>
+														<ns2:guilabel>低</ns2:guilabel>
 														であり、置換レベルで対応不可能であるもの
-													</ns3:para>
-                            </ns3:listitem>
-                            <ns3:listitem>
-<ns3:para>
-														<ns3:guilabel>低2</ns3:guilabel>
-													</ns3:para>
-<ns3:para>
+													</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+														<ns2:guilabel>低2</ns2:guilabel>
+													</ns2:para>
+<ns2:para>
 														難易度が
-														<ns3:guilabel>低</ns3:guilabel>
+														<ns2:guilabel>低</ns2:guilabel>
 														であり、置換レベルで対応可能であるもの
-													</ns3:para>
-                            </ns3:listitem>
-                            <ns3:listitem>
-<ns3:para>
-														<ns3:guilabel>不明1</ns3:guilabel>
-													</ns3:para>
-<ns3:para>
+													</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+														<ns2:guilabel>不明1</ns2:guilabel>
+													</ns2:para>
+<ns2:para>
 														難易度が
-														<ns3:guilabel>不明</ns3:guilabel>
+														<ns2:guilabel>不明</ns2:guilabel>
 														であり、移行先環境にて該当機能がなく難易度を判断できないもの
-													</ns3:para>
-                            </ns3:listitem>
-                            <ns3:listitem>
-<ns3:para>
-														<ns3:guilabel>不明2</ns3:guilabel>
-													</ns3:para>
-<ns3:para>
+													</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+														<ns2:guilabel>不明2</ns2:guilabel>
+													</ns2:para>
+<ns2:para>
 														難易度が
-														<ns3:guilabel>不明</ns3:guilabel>
+														<ns2:guilabel>不明</ns2:guilabel>
 														であり、移行先環境に該当機能があるかどうかも不明で難易度を判断できないもの
-													</ns3:para>
-                            </ns3:listitem>
-                            <ns3:listitem>
-<ns3:para>
-														<ns3:guilabel>移植不可</ns3:guilabel>
-													</ns3:para>
-<ns3:para>
+													</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+														<ns2:guilabel>移植不可</ns2:guilabel>
+													</ns2:para>
+<ns2:para>
 														難易度が
-														<ns3:guilabel>移植不可</ns3:guilabel>
+														<ns2:guilabel>移植不可</ns2:guilabel>
 														であるもの
-													</ns3:para>
-                            </ns3:listitem>
-                        </ns3:itemizedlist>
-                    </ns3:note>
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>目視確認</ns3:entry>
-                <ns3:entry>設定したロジカルな検索条件だけでは移植項目が特定できない場合の目視による調査方法または、判定基準等を入力します。
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>ヒアリング確認</ns3:entry>
-                <ns3:entry>開発元に確認しなければ移植の必要性が判断できない項目の場合の開発元への確認内容を入力します。
-									</ns3:entry>
-            </ns3:row>
-        </ns3:tbody>
-    </ns3:tgroup>
-</ns3:table>
-					<ns3:figure>
-    <ns3:title>チェックアイテム情報</ns3:title>
-    <ns3:mediaobject>
-        <ns3:imageobject>
-            <ns3:imagedata format="png" fileref="images/check-item-info.PNG" width="25%"/>
-        </ns3:imageobject>
-    </ns3:mediaobject>
-</ns3:figure>
-					<ns3:table>
-    <ns3:title>検索情報</ns3:title>
-    <ns3:tgroup cols="2">
-        <ns3:thead>
-            <ns3:row>
-                <ns3:entry>項目</ns3:entry>
-                <ns3:entry>説明</ns3:entry>
-            </ns3:row>
-        </ns3:thead>
-        <ns3:tbody>
-            <ns3:row>
-                <ns3:entry>検索対象ファイル</ns3:entry>
-                <ns3:entry>検索対象とするファイル名を入力します。正規表現での入力が可能です。
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>検索キーワード 1</ns3:entry>
-                <ns3:entry>
+													</ns2:para>
+                            </ns2:listitem>
+                        </ns2:itemizedlist>
+                    </ns2:note>
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>目視確認</ns2:entry>
+                <ns2:entry>設定したロジカルな検索条件だけでは移植項目が特定できない場合の目視による調査方法または、判定基準等を入力します。
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>ヒアリング確認</ns2:entry>
+                <ns2:entry>開発元に確認しなければ移植の必要性が判断できない項目の場合の開発元への確認内容を入力します。
+									</ns2:entry>
+            </ns2:row>
+        </ns2:tbody>
+    </ns2:tgroup>
+</ns2:table>
+					<ns2:figure>
+    <ns2:title>チェックアイテム情報</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject>
+            <ns2:imagedata format="png" fileref="images/check-item-info.PNG" width="25%"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
+					<ns2:table>
+    <ns2:title>検索情報</ns2:title>
+    <ns2:tgroup cols="2">
+        <ns2:thead>
+            <ns2:row>
+                <ns2:entry>項目</ns2:entry>
+                <ns2:entry>説明</ns2:entry>
+            </ns2:row>
+        </ns2:thead>
+        <ns2:tbody>
+            <ns2:row>
+                <ns2:entry>検索対象ファイル</ns2:entry>
+                <ns2:entry>検索対象とするファイル名を入力します。正規表現での入力が可能です。
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>検索キーワード 1</ns2:entry>
+                <ns2:entry>
 										検索モジュールに渡すパラメータを入力します。正規表現や XPath での入力も可能です。
-										<ns3:note>
-                        <ns3:para>入力するパラメータについては、検索モジュールによって変わります。検索モジュール概要を参考にパラメータを入力してください。
-											</ns3:para>
-                    </ns3:note>
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>検索キーワード 2</ns3:entry>
-                <ns3:entry>
+										<ns2:note>
+                        <ns2:para>入力するパラメータについては、検索モジュールによって変わります。検索モジュール概要を参考にパラメータを入力してください。
+											</ns2:para>
+                    </ns2:note>
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>検索キーワード 2</ns2:entry>
+                <ns2:entry>
 										検索モジュールに渡すパラメータを入力します。正規表現や XPath での入力も可能です。
-										<ns3:note>
-                        <ns3:para>入力するパラメータについては、検索モジュールによって変わります。検索モジュール概要を参考にパラメータを入力してください。
-											</ns3:para>
-                    </ns3:note>
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>検索モジュール</ns3:entry>
-                <ns3:entry>
+										<ns2:note>
+                        <ns2:para>入力するパラメータについては、検索モジュールによって変わります。検索モジュール概要を参考にパラメータを入力してください。
+											</ns2:para>
+                    </ns2:note>
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>検索モジュール</ns2:entry>
+                <ns2:entry>
 										検索モジュール概要を参考に検索したいモジュールを選択します。
-										<ns3:note>
-                        <ns3:para>
+										<ns2:note>
+                        <ns2:para>
 												未選択の場合は、標準検索機能により検索が実行されます。標準検索機能は、検索対象ファイルでヒットしたファイルに対して検索キーワード
 												1で検索後、検索キーワード 2でさらに検索を行います。
-											</ns3:para>
-                    </ns3:note>
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>検索モジュール概要</ns3:entry>
-                <ns3:entry>検索モジュールの概要説明が表示されます。</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>ライン数算出</ns3:entry>
-                <ns3:entry>
+											</ns2:para>
+                    </ns2:note>
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>検索モジュール概要</ns2:entry>
+                <ns2:entry>検索モジュールの概要説明が表示されます。</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>ライン数算出</ns2:entry>
+                <ns2:entry>
 										検索にヒットした場合にライン数に入力した値を移植工数として加算する場合はチェックを有効にします。
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>非算出理由</ns3:entry>
-                <ns3:entry>
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>非算出理由</ns2:entry>
+                <ns2:entry>
 										ライン数算出を無効にする場合は、その理由を入力します。
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>不明 / TODO</ns3:entry>
-                <ns3:entry>
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>不明 / TODO</ns2:entry>
+                <ns2:entry>
 										ライン数が不確定な場合に、該当する項目を選択します。
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>ライン数</ns3:entry>
-                <ns3:entry>移植に要するおおよその修正ライン数を入力します。</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>ライン数根拠</ns3:entry>
-                <ns3:entry>
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>ライン数</ns2:entry>
+                <ns2:entry>移植に要するおおよその修正ライン数を入力します。</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>ライン数根拠</ns2:entry>
+                <ns2:entry>
 										入力したライン数の根拠を入力します。
-									</ns3:entry>
-            </ns3:row>
-            <ns3:row>
-                <ns3:entry>調査内容</ns3:entry>
-                <ns3:entry>修正ライン数を算出するための調査方法等を入力します。</ns3:entry>
-            </ns3:row>
-        </ns3:tbody>
-    </ns3:tgroup>
-</ns3:table>
-					<ns3:figure>
-    <ns3:title>検索情報</ns3:title>
-    <ns3:mediaobject>
-        <ns3:imageobject>
-            <ns3:imagedata format="png" fileref="images/search-info.PNG" width="25%"/>
-        </ns3:imageobject>
-    </ns3:mediaobject>
-</ns3:figure>
-				</ns3:para>
-                        </ns3:listitem>
-                    </ns3:orderedlist>
-                </ns3:section>
-            </ns3:article>
+									</ns2:entry>
+            </ns2:row>
+            <ns2:row>
+                <ns2:entry>調査内容</ns2:entry>
+                <ns2:entry>修正ライン数を算出するための調査方法等を入力します。</ns2:entry>
+            </ns2:row>
+        </ns2:tbody>
+    </ns2:tgroup>
+</ns2:table>
+					<ns2:figure>
+    <ns2:title>検索情報</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject>
+            <ns2:imagedata format="png" fileref="images/search-info.PNG" width="25%"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
+				</ns2:para>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_32">
-            <ns3:article>
-                <ns3:info>
-                    <ns3:title>body</ns3:title>
-                </ns3:info>
-                <ns3:section>
-                    <ns3:para>作成したドキュメントをHTML 形式で出力することができます。
-</ns3:para>
-                    <ns3:itemizedlist>
-                        <ns3:listitem>
-                            <ns3:para>HTML プレビュー</ns3:para>
-                            <ns3:para>
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>作成したドキュメントをHTML 形式で出力することができます。
+</ns2:para>
+                    <ns2:itemizedlist>
+                        <ns2:listitem>
+                            <ns2:para>HTML プレビュー</ns2:para>
+                            <ns2:para>
 ツールバー上の「HTML プレビュー」ボタンで、ドキュメンテーションタブで構成したドキュメントの一時確認ができます。
-</ns3:para>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>HTML 保存</ns3:para>
-                            <ns3:para>
+</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>HTML 保存</ns2:para>
+                            <ns2:para>
 ツールバー上の「HTML 保存」ボタンで、ドキュメンテーションタブで構成したドキュメントを保存することができます。
-</ns3:para>
-                        </ns3:listitem>
-                    </ns3:itemizedlist>
-                </ns3:section>
-            </ns3:article>
+</ns2:para>
+                        </ns2:listitem>
+                    </ns2:itemizedlist>
+                </ns2:section>
+            </ns2:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_34">
-            <ns3:article>
-                <ns3:info>
-                    <ns3:title>body</ns3:title>
-                </ns3:info>
-                <ns3:section>
-                    <ns3:para>編集したマイグレーションナレッジファイルを確認、保存します。</ns3:para>
-                    <ns3:itemizedlist>
-                        <ns3:listitem>
-                            <ns3:para>HTML プレビュー</ns3:para>
-                            <ns3:para>
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>編集したマイグレーションナレッジファイルを確認、保存します。</ns2:para>
+                    <ns2:itemizedlist>
+                        <ns2:listitem>
+                            <ns2:para>HTML プレビュー</ns2:para>
+                            <ns2:para>
 					ツールバー上の「HTML
 					プレビュー」ボタンをクリックすると、ドキュメンテーションタブにて構成したドキュメントを確認することができます。
-				</ns3:para>
-                            <ns3:figure>
-<ns3:title>HTMLプレビューボタン</ns3:title>
-<ns3:mediaobject>
-    <ns3:imageobject>
-        <ns3:imagedata format="png" fileref="images/html-preview.PNG" width="50%"/>
-    </ns3:imageobject>
-</ns3:mediaobject>
-                            </ns3:figure>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>XML 保存</ns3:para>
-                            <ns3:para>
+				</ns2:para>
+                            <ns2:figure>
+<ns2:title>HTMLプレビューボタン</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject>
+        <ns2:imagedata format="png" fileref="images/html-preview.PNG" width="50%"/>
+    </ns2:imageobject>
+</ns2:mediaobject>
+                            </ns2:figure>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>XML 保存</ns2:para>
+                            <ns2:para>
 					ツールバー上の「XML 保存」ボタンをクリックすると、マイグレーションナレッジファイルをXML
 					形式で保存することができます。
-				</ns3:para>
-                            <ns3:para>
-					<ns3:note>
-    <ns3:para>保存したXMLファイルは、ナレッジ管理ツールで再度編集することができます。</ns3:para>
-</ns3:note>
-				</ns3:para>
-                            <ns3:para>
-					<ns3:note>
-    <ns3:para>保存したXMLファイルは、ナレッジベース検索ツールの入力情報として利用できます。</ns3:para>
-</ns3:note>
-				</ns3:para>
-                            <ns3:figure>
-<ns3:title>XML保存ボタン</ns3:title>
-<ns3:mediaobject>
-    <ns3:imageobject>
-        <ns3:imagedata format="png" fileref="images/xml-save.PNG" width="50%"/>
-    </ns3:imageobject>
-</ns3:mediaobject>
-                            </ns3:figure>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>HTML 保存</ns3:para>
-                            <ns3:para>
+				</ns2:para>
+                            <ns2:para>
+					<ns2:note>
+    <ns2:para>保存したXMLファイルは、ナレッジ管理ツールで再度編集することができます。</ns2:para>
+</ns2:note>
+				</ns2:para>
+                            <ns2:para>
+					<ns2:note>
+    <ns2:para>保存したXMLファイルは、ナレッジベース検索ツールの入力情報として利用できます。</ns2:para>
+</ns2:note>
+				</ns2:para>
+                            <ns2:figure>
+<ns2:title>XML保存ボタン</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject>
+        <ns2:imagedata format="png" fileref="images/xml-save.PNG" width="50%"/>
+    </ns2:imageobject>
+</ns2:mediaobject>
+                            </ns2:figure>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>HTML 保存</ns2:para>
+                            <ns2:para>
 					ツールバー上の「HTML
 					保存」ボタンをクリックすると、マイグレーションナレッジファイルに含まれるドキュメント情報をHTML 形式で保存することができます。
-				</ns3:para>
-                            <ns3:important>
-<ns3:para>保存したHTMLファイルは、ナレッジ管理ツールで再度編集することはできません。マイグレーションナレッジXMLファイルを編集し、再度HTML
+				</ns2:para>
+                            <ns2:important>
+<ns2:para>保存したHTMLファイルは、ナレッジ管理ツールで再度編集することはできません。マイグレーションナレッジXMLファイルを編集し、再度HTML
 						保存する必要があります。
-					</ns3:para>
-                            </ns3:important>
-                            <ns3:para>
-					<ns3:note>
-    <ns3:para>保存したHTMLファイルは、ナレッジベース検索ツールのガイド参照として利用できます。</ns3:para>
-</ns3:note>
-				</ns3:para>
-                            <ns3:figure>
-<ns3:title>HTML保存ボタン</ns3:title>
-<ns3:mediaobject>
-    <ns3:imageobject>
-        <ns3:imagedata format="png" fileref="images/html-save.PNG" width="50%"/>
-    </ns3:imageobject>
-</ns3:mediaobject>
-                            </ns3:figure>
-                        </ns3:listitem>
-                    </ns3:itemizedlist>
-                </ns3:section>
-            </ns3:article>
+					</ns2:para>
+                            </ns2:important>
+                            <ns2:para>
+					<ns2:note>
+    <ns2:para>保存したHTMLファイルは、ナレッジベース検索ツールのガイド参照として利用できます。</ns2:para>
+</ns2:note>
+				</ns2:para>
+                            <ns2:figure>
+<ns2:title>HTML保存ボタン</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject>
+        <ns2:imagedata format="png" fileref="images/html-save.PNG" width="50%"/>
+    </ns2:imageobject>
+</ns2:mediaobject>
+                            </ns2:figure>
+                        </ns2:listitem>
+                    </ns2:itemizedlist>
+                </ns2:section>
+            </ns2:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_35">
-            <ns3:article>
-                <ns3:info>
-                    <ns3:title>body</ns3:title>
-                </ns3:info>
-                <ns3:section>
-                    <ns3:para>編集対象のマイグレーションナレッジを準備します。</ns3:para>
-                    <ns3:para>新規にマイグレーションナレッジファイルを作成する場合と、既存のマイグレーションナレッジファイルを編集する場合の手順について以下で説明します。
-</ns3:para>
-                    <ns3:note>
-                        <ns3:para>以降の処理は「ナレッジ管理ツール」パースペクティブを表示して実行してください。</ns3:para>
-                        <ns3:para> Window -&gt; Open Perspective -&gt; Other -&gt; ナレッジ管理ツール
-</ns3:para>
-                    </ns3:note>
-                </ns3:section>
-            </ns3:article>
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>編集対象のマイグレーションナレッジを準備します。</ns2:para>
+                    <ns2:para>新規にマイグレーションナレッジファイルを作成する場合と、既存のマイグレーションナレッジファイルを編集する場合の手順について以下で説明します。
+</ns2:para>
+                    <ns2:note>
+                        <ns2:para>以降の処理は「ナレッジ管理ツール」パースペクティブを表示して実行してください。</ns2:para>
+                        <ns2:para> Window -&gt; Open Perspective -&gt; Other -&gt; ナレッジ管理ツール
+</ns2:para>
+                    </ns2:note>
+                </ns2:section>
+            </ns2:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_36">
-            <ns3:article>
-                <ns3:info>
-                    <ns3:title>body</ns3:title>
-                </ns3:info>
-                <ns3:section>
-                    <ns3:para>マイグレーションナレッジを新規に作成する手順は以下です。</ns3:para>
-                    <ns3:orderedlist>
-                        <ns3:listitem>
-                            <ns3:para>Eclipse 上で適当なプロジェクトを生成します。</ns3:para>
-                            <ns3:para>	File -&gt; New -&gt; Project</ns3:para>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>プロジェクトを選択して、「New」ウィザードを表示します。</ns3:para>
-                            <ns3:para>	Project右クリック -&gt; New -&gt; Other</ns3:para>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>Newウィザードで「ナレッジXMLファイル」を選択します。</ns3:para>
-                            <ns3:para>	Other -&gt; ナレッジXMLファイル</ns3:para>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>ナレッジXMLファイルウィザードが表示されるので、ガイドのサブジェクトや出力先を指定してください。</ns3:para>
-                            <ns3:para>本例ではマイグレーションナレッジファイルをプロジェクト直下に作成しています。</ns3:para>
-                        </ns3:listitem>
-                        <ns3:listitem>
-                            <ns3:para>Finish をクリックするとプロジェクト直下にマイグレーションナレッジファイル（XML）が生成されます。</ns3:para>
-                        </ns3:listitem>
-                    </ns3:orderedlist>
-                </ns3:section>
-            </ns3:article>
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>マイグレーションナレッジを新規に作成する手順は以下です。</ns2:para>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>Eclipse 上で適当なプロジェクトを生成します。</ns2:para>
+                            <ns2:para>	File -&gt; New -&gt; Project</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>プロジェクトを選択して、「New」ウィザードを表示します。</ns2:para>
+                            <ns2:para>	Project右クリック -&gt; New -&gt; Other</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>Newウィザードで「ナレッジXMLファイル」を選択します。</ns2:para>
+                            <ns2:para>	Other -&gt; ナレッジXMLファイル</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>ナレッジXMLファイルウィザードが表示されるので、ガイドのサブジェクトや出力先を指定してください。</ns2:para>
+                            <ns2:para>本例ではマイグレーションナレッジファイルをプロジェクト直下に作成しています。</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>Finish をクリックするとプロジェクト直下にマイグレーションナレッジファイル（XML）が生成されます。</ns2:para>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
         </DocBook>
         <DocBook articleId="knowhowDetail_37">
-            <ns3:article>
-                <ns3:info>
-                    <ns3:title>body</ns3:title>
-                </ns3:info>
-                <ns3:section>
-                    <ns3:para>既存のマイグレーションナレッジファイルを更新する場合も適当なEclipse プロジェクト内にファイルを置いてください。</ns3:para>
-                    <ns3:note>
-                        <ns3:para>GitHub 上に公開されている<ns3:command ns2:href="https://github.com/TUBAME/migration-knowledge">migration-knowledge リポジトリ</ns3:command>をインポートすることで現在公開中のナレッジを編集することが可能です。</ns3:para>
-                        <ns3:para>Gitプロジェクトのインポート方法については、Gitドキュメントを参照ください。</ns3:para>
-                    </ns3:note>
-                </ns3:section>
-            </ns3:article>
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>既存のマイグレーションナレッジファイルを更新する場合も適当なEclipse プロジェクト内にファイルを置いてください。</ns2:para>
+                    <ns2:note>
+                        <ns2:para>GitHub 上に公開されている<ns2:command ns3:href="https://github.com/TUBAME/migration-knowledge">migration-knowledge リポジトリ</ns2:command>をインポートすることで現在公開中のナレッジを編集することが可能です。</ns2:para>
+                        <ns2:para>Gitプロジェクトのインポート方法については、Gitドキュメントを参照ください。</ns2:para>
+                    </ns2:note>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_39">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			現行のTUBAMEでは複数行にまたがる検索が行えない。
+			<ns2:figure>
+                            <ns2:title>複数行検索例</ns2:title>
+                            <ns2:programlisting language="text">
+					<ns2:textobject>
+    <ns2:textdata fileref="programlisting/multiLineSearch.java"/>
+</ns2:textobject>
+				</ns2:programlisting>
+                        </ns2:figure>
+			正規表現としては「log[\s]*\(」とすることで上記のlogメソッドを検索することは出来るはずであるが、
+			現行のTUBAMEでは複数行にまたがる検索が行えないため、このような正規表現を用いて検索することは出来ない。
+		</ns2:para>
+                    <ns2:para>Eclipseのフォーマット機能を利用することで「log」の後ろに「(」が来るようにすることもできるが、
+			「log」の後ろにコメントが入っている場合はフォーマット処理は行われない。
+			したがって、事前にCheckstyleなどの静的解析ツールを利用して、このようなコードが無いかチェックをし、
+			そのうえでフォーマット機能を利用するようにした方が良いと考えられる。
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_40">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>検索条件として、検索キーワード１にFQCN、検索キーワード２にメソッドや定数を指定した場合に、
+			前方一致してしまう別クラスを検出してしまう問題がある。
+		</ns2:para>
+                    <ns2:para>例えば、javax.servlet.http.HttpSessionクラスのgetValue()メソッドを検索する場合、
+			検索キーワード１に「javax\.servlet\.http\.HttpSession」、
+			検索キーワード２に「getValue\(」を設定していると、
+			javax.servlet.http.HttpSessionBindingEventクラスのgetValue()メソッドを利用してい
+			る場合に検出されてしまうと問題がある。本問題については、「HttpSession」の後ろに英数字が入らないような形での
+			キーワード指定「javax\.servlet\.http\.HttpSession[^0-9a-zA-Z]」と指定するなどが考えられる。
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_41">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>検索条件として検索キーワード１にFQCN、検索キーワード２にメソッドや定数を指定した場合に、
+			検索対象ではないクラスの同名メソッドを検出してしまう問題がある。
+		</ns2:para>
+                    <ns2:para>例えば、javax.servlet.ServletContextクラスのlog(Exception,
+			String)メソッドを検索す る場合、
+			検索キーワード１に「javax\.servlet\.ServletContext」、検索キーワード２に「log\(」を設定していると、クラス内で定義された同名のメソッドが検出されたり、log(Exception,
+			String)メソッドではなく、 log(String, Throwable)メソッドが検出されてしまう問題がある。
+			なお、本問題については現在キーワードでの防止策は確認できていないため、目視によるチェックで対応する必要がある。
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_42">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>ここでは実際にナレッジを作成する際に注意すべき事や工夫すべき事について記述する。</ns2:para>
+                </ns2:section>
+            </ns2:article>
         </DocBook>
     </DocBookList>
     <SearchInfomationList/>
