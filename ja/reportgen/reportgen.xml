@@ -295,7 +295,7 @@
                     <ns2:title>body</ns2:title>
                 </ns2:info>
                 <ns2:section>
-                    <ns2:para>本マニュアルはTUBAMEを利用して、移植性検討レポートを作成する手順ついて、簡易に説明したマニュアルです。</ns2:para>
+                    <ns2:para>本マニュアルはTUBAMEを利用して、移植性検討レポートを作成する手順ついて、説明したマニュアルです。</ns2:para>
                 </ns2:section>
             </ns2:article>
         </DocBook>
