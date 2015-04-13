@@ -87,12 +87,21 @@
             <EntryCategoryRefKey>category_29</EntryCategoryRefKey>
         </EntryCategory>
         <EntryCategory>
-            <EntryCategoryRefKey>category_30</EntryCategoryRefKey>
+            <EntryCategoryRefKey>category_47</EntryCategoryRefKey>
             <ChildEntry>
-                <EntryCategoryRefKey>category_31</EntryCategoryRefKey>
-            </ChildEntry>
-            <ChildEntry>
-                <EntryCategoryRefKey>category_32</EntryCategoryRefKey>
+                <EntryCategoryRefKey>category_48</EntryCategoryRefKey>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_49</EntryCategoryRefKey>
+                    <ChildEntry>
+                        <EntryCategoryRefKey>category_50</EntryCategoryRefKey>
+                    </ChildEntry>
+                    <ChildEntry>
+                        <EntryCategoryRefKey>category_51</EntryCategoryRefKey>
+                    </ChildEntry>
+                    <ChildEntry>
+                        <EntryCategoryRefKey>category_52</EntryCategoryRefKey>
+                    </ChildEntry>
+                </ChildEntry>
             </ChildEntry>
         </EntryCategory>
     </EntryViewList>
@@ -183,17 +192,25 @@
         </Chapter>
         <Chapter>
             <ChapterNo>3.</ChapterNo>
-            <ChapterName>付録</ChapterName>
+            <ChapterName>FAQ</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>3.1.</ChildCapterNo>
-                <ChapterCategoryRefKey>category_30</ChapterCategoryRefKey>
+                <ChapterCategoryRefKey>category_48</ChapterCategoryRefKey>
                 <ChildChapter>
                     <ChildCapterNo>3.1.1.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_31</ChapterCategoryRefKey>
-                </ChildChapter>
-                <ChildChapter>
-                    <ChildCapterNo>3.1.2.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_32</ChapterCategoryRefKey>
+                    <ChapterCategoryRefKey>category_49</ChapterCategoryRefKey>
+                    <ChildChapter>
+                        <ChildCapterNo>3.1.1.1.</ChildCapterNo>
+                        <ChapterCategoryRefKey>category_50</ChapterCategoryRefKey>
+                    </ChildChapter>
+                    <ChildChapter>
+                        <ChildCapterNo>3.1.1.2.</ChildCapterNo>
+                        <ChapterCategoryRefKey>category_51</ChapterCategoryRefKey>
+                    </ChildChapter>
+                    <ChildChapter>
+                        <ChildCapterNo>3.1.1.3.</ChildCapterNo>
+                        <ChapterCategoryRefKey>category_52</ChapterCategoryRefKey>
+                    </ChildChapter>
                 </ChildChapter>
             </ChildChapter>
         </Chapter>
@@ -311,17 +328,28 @@
             <CategoryName>アンインストール</CategoryName>
             <KnowhowRefKey>knowhow_28</KnowhowRefKey>
         </Category>
-        <Category categoryId="category_30" appropriate="false">
+        <Category categoryId="category_47" appropriate="true">
+            <CategoryName>FAQ</CategoryName>
+        </Category>
+        <Category categoryId="category_48" appropriate="true">
+            <CategoryName>Pythonのインストールについて</CategoryName>
+            <KnowhowRefKey>knowhow_46</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_49" appropriate="false">
             <CategoryName>Pythonおよびlxmlのインストール</CategoryName>
-            <KnowhowRefKey>knowhow_29</KnowhowRefKey>
+            <KnowhowRefKey>knowhow_47</KnowhowRefKey>
         </Category>
-        <Category categoryId="category_31" appropriate="true">
+        <Category categoryId="category_50" appropriate="true">
             <CategoryName>Linuxでのインストール手順</CategoryName>
-            <KnowhowRefKey>knowhow_30</KnowhowRefKey>
+            <KnowhowRefKey>knowhow_48</KnowhowRefKey>
         </Category>
-        <Category categoryId="category_32" appropriate="true">
+        <Category categoryId="category_51" appropriate="true">
             <CategoryName>Windowsでのインストール手順</CategoryName>
-            <KnowhowRefKey>knowhow_31</KnowhowRefKey>
+            <KnowhowRefKey>knowhow_49</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_52" appropriate="true">
+            <CategoryName>Pythonパス設定</CategoryName>
+            <KnowhowRefKey>knowhow_50</KnowhowRefKey>
         </Category>
     </CategoryList>
     <KnowhowList>
@@ -437,15 +465,23 @@
             <KnowhowNo>1</KnowhowNo>
             <KnowhowName>body</KnowhowName>
         </KnowhowInfomation>
-        <KnowhowInfomation knowhowId="knowhow_29" knowhowDetailRefKey="knowhowDetail_29">
+        <KnowhowInfomation knowhowId="knowhow_46" knowhowDetailRefKey="knowhowDetail_46">
             <KnowhowNo>1</KnowhowNo>
             <KnowhowName>body</KnowhowName>
         </KnowhowInfomation>
-        <KnowhowInfomation knowhowId="knowhow_30" knowhowDetailRefKey="knowhowDetail_30">
+        <KnowhowInfomation knowhowId="knowhow_47" knowhowDetailRefKey="knowhowDetail_47">
             <KnowhowNo>1</KnowhowNo>
             <KnowhowName>body</KnowhowName>
         </KnowhowInfomation>
-        <KnowhowInfomation knowhowId="knowhow_31" knowhowDetailRefKey="knowhowDetail_31">
+        <KnowhowInfomation knowhowId="knowhow_48" knowhowDetailRefKey="knowhowDetail_48">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_49" knowhowDetailRefKey="knowhowDetail_49">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_50" knowhowDetailRefKey="knowhowDetail_50">
             <KnowhowNo>1</KnowhowNo>
             <KnowhowName>body</KnowhowName>
         </KnowhowInfomation>
@@ -457,7 +493,7 @@
                     <ns2:title>body</ns2:title>
                 </ns2:info>
                 <ns2:section>
-                    <ns2:para>本マニュアルは、ナレッジベース検索ツールの利用手順について簡易に説明したマニュアルです。</ns2:para>
+                    <ns2:para>本マニュアルは、ナレッジベース検索ツールの利用手順について説明したマニュアルです。</ns2:para>
                 </ns2:section>
             </ns2:article>
         </DocBook>
@@ -1807,73 +1843,6 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
                 </ns2:section>
             </ns2:article>
         </DocBook>
-        <DocBook articleId="knowhowDetail_29">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>body</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para xml:id="pythonInstall">Pythonおよびlxmlのインストール手順を以下に記載します。</ns2:para>
-                </ns2:section>
-            </ns2:article>
-        </DocBook>
-        <DocBook articleId="knowhowDetail_30">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>body</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>RHEL（および同等Linux）ではyumを利用してインストールする手順を以下に記載します。</ns2:para>
-                    <ns2:orderedlist>
-                        <ns2:listitem>
-                            <ns2:para>インストール済みパッケージの確認</ns2:para>
-                            <ns2:para>rpmコマンドを実行し、Pythonおよびlxmlがインストール済みか確認する。インストールされていない場合はインストールを行う。</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>インストールの実施</ns2:para>
-                            <ns2:para>yumコマンドを実行し、Pythonおよびlxmlをインストールする。
-                <ns2:programlisting>
-$ su - 
-# yum install python python-lxml
-				</ns2:programlisting>
-                </ns2:para>
-                        </ns2:listitem>
-                    </ns2:orderedlist>
-                </ns2:section>
-            </ns2:article>
-        </DocBook>
-        <DocBook articleId="knowhowDetail_31">
-            <ns2:article>
-                <ns2:info>
-                    <ns2:title>body</ns2:title>
-                </ns2:info>
-                <ns2:section>
-                    <ns2:para>Windowsではインストーラを利用してインストールする手順を以下に記載します。</ns2:para>
-                    <ns2:orderedlist>
-                        <ns2:listitem>
-                            <ns2:para>インストーラのダウンロード</ns2:para>
-                            <ns2:para>以下のリンク先より自身の環境に合わせたインストーラをダウンロードする。</ns2:para>
-                            <ns2:note>
-<ns2:para>
-						Python2.7.6：<ns2:link>http://python.org/download/releases/2.7.6</ns2:link>
-					</ns2:para>
-<ns2:para>
-						lxml3.2.4：<ns2:link>https://pypi.python.org/pypi/lxml/3.2.4</ns2:link>
-					</ns2:para>
-                            </ns2:note>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>Pythonインストーラの実行</ns2:para>
-                            <ns2:para>ダウンロードしたpython-2.7.6.*.msiを実行し、ウィザードに従ってインストールを行う。</ns2:para>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>lxmlインストーラの実行</ns2:para>
-                            <ns2:para>ダウンロードしたlxml-3.2.4.*-py2.7.exeを実行し、ウィザードに従ってインストールを行う。</ns2:para>
-                        </ns2:listitem>
-                    </ns2:orderedlist>
-                </ns2:section>
-            </ns2:article>
-        </DocBook>
         <DocBook articleId="knowhowDetail_33">
             <ns2:article>
                 <ns2:info>
@@ -2183,7 +2152,7 @@ $ su -
                     <ns2:title>body</ns2:title>
                 </ns2:info>
                 <ns2:section>
-                    <ns2:para>
+                    <ns2:para xml:id="pyInstallPath">
 			TUBAME1.0.4のアップデートからPythonのインストールは必要ありませんが、このPython設定により
 			あからじめインストールされたPythonを利用して、ナレッジベース検索を実行することができます。
 
@@ -2282,6 +2251,109 @@ $ su -
                             </ns2:listitem>
                         </ns2:itemizedlist>
 		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_46">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			Pythonのインストールは必要でしょうか
+
+			<ns2:note>
+                            <ns2:para>Ans.TUBAME1.0.4より、Pythonのインストール不要となっています。
+				</ns2:para>
+                            <ns2:warning>
+<ns2:orderedlist>
+    <ns2:listitem>
+        <ns2:para>従来通りPythonをインストールして利用することも可能です。</ns2:para>
+        <ns2:para>ご利用の環境のプラットホーム上でナレッジベース検索がうまく動作しないなどトラブルが発生した場合は、<ns2:command ns3:href="#pythonInstall">Pythonおよびlxmlのインストール </ns2:command>より、Pythonをインストールしていただき、利用して頂くことで対応可能な場合があります。
+                            </ns2:para>
+    </ns2:listitem>
+</ns2:orderedlist>
+                            </ns2:warning>
+                        </ns2:note>
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_47">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para xml:id="pythonInstall">Pythonおよびlxmlのインストール手順を以下に記載します。</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_48">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>RHEL（および同等Linux）ではyumを利用してインストールする手順を以下に記載します。</ns2:para>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>インストール済みパッケージの確認</ns2:para>
+                            <ns2:para>rpmコマンドを実行し、Pythonおよびlxmlがインストール済みか確認する。インストールされていない場合はインストールを行う。</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>インストールの実施</ns2:para>
+                            <ns2:para>yumコマンドを実行し、Pythonおよびlxmlをインストールする。
+                <ns2:programlisting>
+$ su - 
+# yum install python python-lxml
+				</ns2:programlisting>
+                </ns2:para>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_49">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>Windowsではインストーラを利用してインストールする手順を以下に記載します。</ns2:para>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>インストーラのダウンロード</ns2:para>
+                            <ns2:para>以下のリンク先より自身の環境に合わせたインストーラをダウンロードする。</ns2:para>
+                            <ns2:note>
+<ns2:para>
+						Python2.7.6：<ns2:link>http://python.org/download/releases/2.7.6</ns2:link>
+					</ns2:para>
+<ns2:para>
+						lxml3.2.4：<ns2:link>https://pypi.python.org/pypi/lxml/3.2.4</ns2:link>
+					</ns2:para>
+                            </ns2:note>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>Pythonインストーラの実行</ns2:para>
+                            <ns2:para>ダウンロードしたpython-2.7.6.*.msiを実行し、ウィザードに従ってインストールを行う。</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>lxmlインストーラの実行</ns2:para>
+                            <ns2:para>ダウンロードしたlxml-3.2.4.*-py2.7.exeを実行し、ウィザードに従ってインストールを行う。</ns2:para>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_50">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>個別にインストールしたPythonを利用する場合、<ns2:command ns3:href="#pyInstallPath">Python設定</ns2:command>より、Pythonのパス設定を行ってください。</ns2:para>
                 </ns2:section>
             </ns2:article>
         </DocBook>
