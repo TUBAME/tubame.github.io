@@ -810,8 +810,8 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
                             <ns2:para>
 					移植規模を算出するために、検索結果編集画面で表示される各項目で、検索結果編集画面の難易度が「不明」となっている場合は、移植方法を別途検討する必要があります。
 					移植検討の結果、移植検討の対象外とする場合は、
-						<ns2:command ns3:href="#deleteItemFromCheckList">移植不要項目の削除</ns2:command>
-						機能で、項目自体を削除します。
+					<ns2:command ns3:href="#deleteItemFromCheckList">移植不要項目の削除</ns2:command>
+					機能で、項目自体を削除します。
 				</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
@@ -851,9 +851,26 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>報告書の出力</ns2:para>
-                            <ns2:para>レポート生成機能を利用して、移植性検討レポートを生成します。詳細は、レポート生成機能をご確認ください。
+                            <ns2:para>
+					TUBAMEでは以下の機能のいずれかを利用して、レポート生成を行います。
+
+					<ns2:itemizedlist>
+    <ns2:listitem>
+        <ns2:para>レポート自動生成</ns2:para>
+        <ns2:para>レポート生成機能を利用して、移植性検討レポートを生成します。詳細は、<ns2:command ns3:href="http://tubame.github.io/ja/reportgen/reportgen.html">移植性検討レポート生成ガイド</ns2:command>を参照。
+							</ns2:para>
+    </ns2:listitem>
+    <ns2:listitem>
+        <ns2:para>CSV出力(レポート手動生成)</ns2:para>
+        <ns2:para>
+								CSV出力したものを手動で集計して頂き、レポート生成を行う。
+								詳細は
+								<ns2:command ns3:href="#csvout">CSV出力機能</ns2:command>
+								を参照。
+							</ns2:para>
+    </ns2:listitem>
+</ns2:itemizedlist>
 				</ns2:para>
-                            <ns2:para/>
                         </ns2:listitem>
                     </ns2:orderedlist>
                 </ns2:section>
@@ -980,7 +997,7 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 					<ns2:itemizedlist>
     <ns2:listitem>
         <ns2:para>
-								ナレッジ
+								ナレッジXMLファイル選択
 							</ns2:para>
         <ns2:para>
 								<ns2:guilabel>インポート</ns2:guilabel>
@@ -990,11 +1007,11 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 
 								<ns2:note>
                 <ns2:para>
-									　　　プルダウンメニューより表示されたナレッジは、ナレッジ自動インポート機能でダウンロードされたナレッジ群を表示しています。
+										プルダウンメニューより表示されたナレッジは、ナレッジ自動インポート機能でダウンロードされたナレッジ群を表示しています。
 										任意のナレッジXMLを利用する場合は、
 										<ns2:guilabel>参照</ns2:guilabel>
 										ボタンより指定します。
-										
+
 									</ns2:para>
             </ns2:note>
 							</ns2:para>
@@ -1019,13 +1036,11 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 					<ns2:itemizedlist>
     <ns2:listitem>
         <ns2:para>
-								出力先の
-								<ns2:filename>jbm</ns2:filename>
-								ファイル
+								結果出力先
 							</ns2:para>
         <ns2:para>
 								<ns2:guilabel>参照</ns2:guilabel>
-								ボタンを実行し、出力先を指定してださい。
+								ボタンを実行し、出力先(<ns2:filename>jbm</ns2:filename>ファイル)を指定してださい。
 							</ns2:para>
     </ns2:listitem>
 </ns2:itemizedlist>
@@ -2062,14 +2077,24 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
                     <ns2:para xml:id="knowldegeAutoImport">
 			ナレッジベース検索ツールでは、ナレッジ(修正箇所を検索するためのキーワードや修正工数、修正難易度、移植方法などを含むXML)を利用して検索を実施します。ナレッジ自動インポートは、TUBAMEコミュニティのマイグレーションナレッジを自動にインポートします。
 
-		ナレッジ自動インポートは、プリファレンス設定より制御できます。デフォルトは、自動インポートが有効になっているので、
+			ナレッジ自動インポートは、プリファレンス設定より制御できます。デフォルトは、自動インポートが有効になっているので、
 			自動インポートを無効にする場合は以下のように自動インポートを無効化します。
 			<ns2:itemizedlist>
                             <ns2:listitem>
-<ns2:para>Windows -&gt; Preference</ns2:para>
+<ns2:para>
+						<ns2:menuchoice>
+        <ns2:guimenuitem>Windows</ns2:guimenuitem>
+        <ns2:guimenuitem>Preference</ns2:guimenuitem>
+    </ns2:menuchoice>
+					</ns2:para>
                             </ns2:listitem>
                             <ns2:listitem>
-<ns2:para>TUBAME -&gt; ナレッジベース検索ツール -&gt; ナレッジ設定</ns2:para>
+<ns2:para>
+						<ns2:menuchoice>
+        <ns2:guimenuitem>ナレッジベース検索ツール</ns2:guimenuitem>
+        <ns2:guimenuitem>ナレッジ設定</ns2:guimenuitem>
+    </ns2:menuchoice>
+					</ns2:para>
                             </ns2:listitem>
                             <ns2:listitem>
 <ns2:para>ナレッジインポート設定をfalseにする</ns2:para>
@@ -2102,36 +2127,49 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 			ナレッジキャッシュ設定では、ナレッジ自動インポートでダウンロードされたキャッシュの利用有無を設定します。
 
 			ナレッジ自動インポートにより、一度ダウンロードされたナレッジは、このナレッジキャッシュ設定により、再利用されます。
-			
+
 			<ns2:warning>
                             <ns2:para>
 					ナレッジ自動インポート機能でダウンロードされたナレッジは、プラグイン内部の以下のフォルダにダウンロードされ、一度ダウンロードされると、以下フォルダにあるナレッジを再利用します。
 
 					<ns2:itemizedlist>
     <ns2:listitem>
-        <ns2:para>ナレッジの保存先： eclipse/plugins/tubame.portability_*/resources/knowledge配下</ns2:para>
+        <ns2:para>ナレッジの保存先：
+								eclipse/plugins/tubame.portability_*/resources/knowledge配下
+							</ns2:para>
     </ns2:listitem>
 </ns2:itemizedlist>
 				</ns2:para>
                         </ns2:warning>
-			
+
 			一度ダウンロードした後に、TUBAMEコミュニティにあるマイグレーションナレッジを再取得したい場合は、以下のようにキャッシュ設定を無効化します。
 
 
 			<ns2:itemizedlist>
                             <ns2:listitem>
-<ns2:para>Windows -&gt; Preference</ns2:para>
+<ns2:para>
+						<ns2:menuchoice>
+        <ns2:guimenuitem>Windows</ns2:guimenuitem>
+        <ns2:guimenuitem>Preference</ns2:guimenuitem>
+    </ns2:menuchoice>
+					</ns2:para>
                             </ns2:listitem>
                             <ns2:listitem>
-<ns2:para>TUBAME -&gt; ナレッジベース検索ツール -&gt; ナレッジ設定</ns2:para>
+<ns2:para>
+						<ns2:menuchoice>
+        <ns2:guimenuitem>TUBAME</ns2:guimenuitem>
+        <ns2:guimenuitem>ナレッジベース検索ツール</ns2:guimenuitem>
+        <ns2:guimenuitem>ナレッジ設定</ns2:guimenuitem>
+    </ns2:menuchoice>
+					</ns2:para>
                             </ns2:listitem>
                             <ns2:listitem>
 <ns2:para>ナレッジキャッシュ設定をfalseにする</ns2:para>
                             </ns2:listitem>
                         </ns2:itemizedlist>
-            
-            
-            <ns2:figure>
+
+
+			<ns2:figure>
                             <ns2:title>ナレッジキャッシュ設定画面(キャシュ無効化)</ns2:title>
                             <ns2:mediaobject>
 <ns2:imageobject condition="web">
@@ -2158,10 +2196,21 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 
 			<ns2:itemizedlist>
                             <ns2:listitem>
-<ns2:para>Windows -&gt; Preference</ns2:para>
+<ns2:para>
+						<ns2:menuchoice>
+        <ns2:guimenuitem>Windows</ns2:guimenuitem>
+        <ns2:guimenuitem>Preference</ns2:guimenuitem>
+    </ns2:menuchoice>
+					</ns2:para>
                             </ns2:listitem>
                             <ns2:listitem>
-<ns2:para>TUBAME -&gt; ナレッジベース検索ツール -&gt; Python設定</ns2:para>
+<ns2:para>
+						<ns2:menuchoice>
+        <ns2:guimenuitem>TUBAME</ns2:guimenuitem>
+        <ns2:guimenuitem>ナレッジベース検索ツール</ns2:guimenuitem>
+        <ns2:guimenuitem>Python設定</ns2:guimenuitem>
+    </ns2:menuchoice>
+					</ns2:para>
                             </ns2:listitem>
                             <ns2:listitem>
 <ns2:para>「use local pyton」をtrueにし、pythonのパスを指定指定する</ns2:para>
@@ -2180,10 +2229,6 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 </ns2:textobject>
                             </ns2:mediaobject>
                         </ns2:figure>
-
-		
-		Pythonのインストール方法については、<ns2:command ns3:href="#pythonInstall">Python及びlxmlのインストール</ns2:command>を参照
-
 		</ns2:para>
                 </ns2:section>
             </ns2:article>
@@ -2201,16 +2246,27 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 
 			<ns2:itemizedlist>
                             <ns2:listitem>
-<ns2:para>Windows -&gt; Preference</ns2:para>
+<ns2:para>
+						<ns2:menuchoice>
+        <ns2:guimenuitem>Windows</ns2:guimenuitem>
+        <ns2:guimenuitem>Preference</ns2:guimenuitem>
+    </ns2:menuchoice>
+					</ns2:para>
                             </ns2:listitem>
                             <ns2:listitem>
-<ns2:para>TUBAME -&gt; ナレッジベース検索ツール -&gt; マイグレーションガイド設定</ns2:para>
+<ns2:para>
+						<ns2:menuchoice>
+        <ns2:guimenuitem>TUBAME</ns2:guimenuitem>
+        <ns2:guimenuitem>ナレッジベース検索ツール</ns2:guimenuitem>
+        <ns2:guimenuitem>マイグレーションガイド設定</ns2:guimenuitem>
+    </ns2:menuchoice>
+					</ns2:para>
                             </ns2:listitem>
                             <ns2:listitem>
 <ns2:para>参照ボタンより、マイグレーションガイドのパスを指定する</ns2:para>
                             </ns2:listitem>
                         </ns2:itemizedlist>
-			
+
 			<ns2:figure>
                             <ns2:title>マイグレーションガイドのパス設定画面</ns2:title>
                             <ns2:mediaobject>

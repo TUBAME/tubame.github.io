@@ -398,7 +398,7 @@
 				
 </p>
 <div class="figure">
-<a name="N106A8"></a>
+<a name="N106BB"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;ナレッジベース検索実行メニュー</b>
 </p>
@@ -424,7 +424,7 @@
 <ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
 <p>
-								ナレッジ
+								ナレッジXMLファイル選択
 							</p>
 <p>
 								
@@ -442,11 +442,11 @@
 <tr>
 <td valign="top" align="left">
 <p>
-									　　　プルダウンメニューより表示されたナレッジは、ナレッジ自動インポート機能でダウンロードされたナレッジ群を表示しています。
+										プルダウンメニューより表示されたナレッジは、ナレッジ自動インポート機能でダウンロードされたナレッジ群を表示しています。
 										任意のナレッジXMLを利用する場合は、
 										<span class="guilabel">参照</span>
 										ボタンより指定します。
-										
+
 									</p>
 </td>
 </tr>
@@ -456,7 +456,7 @@
 							
 </p>
 <div class="figure">
-<a name="N106CD"></a>
+<a name="N106E0"></a>
 <p class="title">
 <b>Figure&nbsp;2.&nbsp;インポートメニュー</b>
 </p>
@@ -486,14 +486,12 @@
 <ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
 <p>
-								出力先の
-								<code class="filename">jbm</code>
-								ファイル
+								結果出力先
 							</p>
 <p>
 								
 <span class="guilabel">参照</span>
-								ボタンを実行し、出力先を指定してださい。
+								ボタンを実行し、出力先(<code class="filename">jbm</code>ファイル)を指定してださい。
 							</p>
 </li>
 </ul>
@@ -511,7 +509,7 @@
 					をクリックすると検索が開始されます。
 				</p>
 <div class="figure">
-<a name="N106F2"></a>
+<a name="N10705"></a>
 <p class="title">
 <b>Figure&nbsp;3.&nbsp;ナレッジベース検索実行メニュー</b>
 </p>
@@ -577,8 +575,8 @@
 <p>
 					移植規模を算出するために、検索結果編集画面で表示される各項目で、検索結果編集画面の難易度が「不明」となっている場合は、移植方法を別途検討する必要があります。
 					移植検討の結果、移植検討の対象外とする場合は、
-						<span class="command"><strong><a class="command" href="#deleteItemFromCheckList">移植不要項目の削除</a></strong></span>
-						機能で、項目自体を削除します。
+					<span class="command"><strong><a class="command" href="#deleteItemFromCheckList">移植不要項目の削除</a></strong></span>
+					機能で、項目自体を削除します。
 				</p>
 </li>
 <li class="listitem">
@@ -645,9 +643,31 @@
 </li>
 <li class="listitem">
 <p>報告書の出力</p>
-<p>レポート生成機能を利用して、移植性検討レポートを生成します。詳細は、レポート生成機能をご確認ください。
-				</p>
-<p></p>
+<p>
+					TUBAMEでは以下の機能のいずれかを利用して、レポート生成を行います。
+
+					</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>レポート自動生成</p>
+<p>レポート生成機能を利用して、移植性検討レポートを生成します。詳細は、<span class="command"><strong><a class="command" href="http://tubame.github.io/ja/reportgen/reportgen.html" target="_top">移植性検討レポート生成ガイド</a></strong></span>を参照。
+							</p>
+</li>
+<li class="listitem">
+<p>CSV出力(レポート手動生成)</p>
+<p>
+								CSV出力したものを手動で集計して頂き、レポート生成を行う。
+								詳細は
+								<span class="command"><strong><a class="command" href="#csvout">CSV出力機能</a></strong></span>
+								を参照。
+							</p>
+</li>
+</ul>
+</div>
+<p>
+				
+</p>
 </li>
 </ol>
 </div>
@@ -698,7 +718,7 @@
 					任意の行をダブルクリックすると、拡張子に関連付けされているエディタを開き、該当ファイルを表示することができます。
 				</p>
 <div class="figure">
-<a name="N10722"></a>
+<a name="N10735"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;検索結果編集画面</b>
 </p>
@@ -714,7 +734,7 @@
 </div>
 <br class="figure-break">
 <div class="table">
-<a name="N1072F"></a>
+<a name="N10742"></a>
 <p class="title">
 <b>Table&nbsp;1.&nbsp;検索結果編集画面の表示項目</b>
 </p>
@@ -1064,7 +1084,7 @@
 					では、検索結果編集画面で選択している項目に対する詳細情報を確認することができます。以下のような情報を確認することができます。
 				</p>
 <div class="table">
-<a name="N10859"></a>
+<a name="N1086C"></a>
 <p class="title">
 <b>Table&nbsp;2.&nbsp;チェックリスト情報ビューの表示項目</b>
 </p>
@@ -1124,7 +1144,7 @@
 					では、現時点の編集作業状況を確認することができます。
 				</p>
 <div class="table">
-<a name="N1089A"></a>
+<a name="N108AD"></a>
 <p class="title">
 <b>Table&nbsp;3.&nbsp;作業状況ビューの表示項目</b>
 </p>
@@ -1290,7 +1310,7 @@
 				
 </p>
 <div class="figure">
-<a name="N1091C"></a>
+<a name="N1092F"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;目視状況のステータス変更画面</b>
 </p>
@@ -1389,7 +1409,7 @@
 				
 </p>
 <div class="figure">
-<a name="N1096C"></a>
+<a name="N1097F"></a>
 <p class="title">
 <b>Figure&nbsp;2.&nbsp;ヒアリング状況のステータス変更画面</b>
 </p>
@@ -1430,7 +1450,7 @@
 <a name="workView"></a>作業状況ビューによる作業状況の確認</p>
 <p>作業状況ビューにより、作業状況を確認できます。</p>
 <div class="figure">
-<a name="N10985"></a>
+<a name="N10998"></a>
 <p class="title">
 <b>Figure&nbsp;3.&nbsp;作業状況ビュー画面</b>
 </p>
@@ -1453,7 +1473,7 @@
 					個別に行を選択して削除する方法と、一括削除する方法の2つがあります。
 				</p>
 <div class="table">
-<a name="N10998"></a>
+<a name="N109AB"></a>
 <p class="title">
 <b>Table&nbsp;1.&nbsp;削除方法</b>
 </p>
@@ -1489,7 +1509,7 @@
 </div>
 <br class="table-break">
 <div class="figure">
-<a name="N109B4"></a>
+<a name="N109C7"></a>
 <p class="title">
 <b>Figure&nbsp;4.&nbsp;チェック済みの移植不要項目の削除の実行画面</b>
 </p>
@@ -1536,7 +1556,7 @@
 					をクリックして移植方法などを確認して、ステップ数を入力します。
 				</p>
 <div class="figure">
-<a name="N109E6"></a>
+<a name="N109F9"></a>
 <p class="title">
 <b>Figure&nbsp;5.&nbsp;ステップ数の設定画面</b>
 </p>
@@ -1668,7 +1688,7 @@
                     検索結果編集画面より行番号が表示されているアイテムを選択し、右クリックより<span class="guimenuitem">ソースコードビューを開く</span>
 					を選択します</p>
 <div class="figure">
-<a name="N10B29"></a>
+<a name="N10B3C"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;ソースコードビュー画面</b>
 </p>
@@ -1702,7 +1722,7 @@
 <p>
                     検索結果編集画面よりNoが表示されているアイテムの列"No"を右クリックし、表示されるメニューより表示を制御します</p>
 <div class="figure">
-<a name="N10B47"></a>
+<a name="N10B5A"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;折り畳み表示制御画面</b>
 </p>
@@ -1752,7 +1772,7 @@
 </ol>
 </div>
 <div class="figure">
-<a name="N10B75"></a>
+<a name="N10B88"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;HTMLガイドビュー画面</b>
 </p>
@@ -1808,7 +1828,7 @@
 </table>
 </div>
 <div class="figure">
-<a name="N10B08"></a>
+<a name="N10B1B"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;CSV出力画面</b>
 </p>
@@ -1867,16 +1887,24 @@
 <a name="knowldegeAutoImport"></a>
 			ナレッジベース検索ツールでは、ナレッジ(修正箇所を検索するためのキーワードや修正工数、修正難易度、移植方法などを含むXML)を利用して検索を実施します。ナレッジ自動インポートは、TUBAMEコミュニティのマイグレーションナレッジを自動にインポートします。
 
-		ナレッジ自動インポートは、プリファレンス設定より制御できます。デフォルトは、自動インポートが有効になっているので、
+			ナレッジ自動インポートは、プリファレンス設定より制御できます。デフォルトは、自動インポートが有効になっているので、
 			自動インポートを無効にする場合は以下のように自動インポートを無効化します。
 			</p>
 <div class="itemizedlist">
 <ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
-<p>Windows -&gt; Preference</p>
+<p>
+						
+<span class="guimenuitem">Windows</span> &rarr; <span class="guimenuitem">Preference</span>
+					
+</p>
 </li>
 <li class="listitem">
-<p>TUBAME -&gt; ナレッジベース検索ツール -&gt; ナレッジ設定</p>
+<p>
+						
+<span class="guimenuitem">ナレッジベース検索ツール</span> &rarr; <span class="guimenuitem">ナレッジ設定</span>
+					
+</p>
 </li>
 <li class="listitem">
 <p>ナレッジインポート設定をfalseにする</p>
@@ -1888,7 +1916,7 @@
 			
 </p>
 <div class="figure">
-<a name="N10B9A"></a>
+<a name="N10BB9"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;ナレッジインポート設定画面(自動インポート無効)</b>
 </p>
@@ -1914,7 +1942,7 @@
 			ナレッジキャッシュ設定では、ナレッジ自動インポートでダウンロードされたキャッシュの利用有無を設定します。
 
 			ナレッジ自動インポートにより、一度ダウンロードされたナレッジは、このナレッジキャッシュ設定により、再利用されます。
-			
+
 			</p>
 <div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
 <table border="0" summary="Warning">
@@ -1930,7 +1958,9 @@
 <div class="itemizedlist">
 <ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
-<p>ナレッジの保存先： eclipse/plugins/tubame.portability_*/resources/knowledge配下</p>
+<p>ナレッジの保存先：
+								eclipse/plugins/tubame.portability_*/resources/knowledge配下
+							</p>
 </li>
 </ul>
 </div>
@@ -1942,7 +1972,7 @@
 </table>
 </div>
 <p>
-			
+
 			一度ダウンロードした後に、TUBAMEコミュニティにあるマイグレーションナレッジを再取得したい場合は、以下のようにキャッシュ設定を無効化します。
 
 
@@ -1950,10 +1980,18 @@
 <div class="itemizedlist">
 <ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
-<p>Windows -&gt; Preference</p>
+<p>
+						
+<span class="guimenuitem">Windows</span> &rarr; <span class="guimenuitem">Preference</span>
+					
+</p>
 </li>
 <li class="listitem">
-<p>TUBAME -&gt; ナレッジベース検索ツール -&gt; ナレッジ設定</p>
+<p>
+						
+<span class="guimenuitem">TUBAME</span> &rarr; <span class="guimenuitem">ナレッジベース検索ツール</span> &rarr; <span class="guimenuitem">ナレッジ設定</span>
+					
+</p>
 </li>
 <li class="listitem">
 <p>ナレッジキャッシュ設定をfalseにする</p>
@@ -1961,12 +1999,12 @@
 </ul>
 </div>
 <p>
-            
-            
-            
+
+
+			
 </p>
 <div class="figure">
-<a name="N10BC7"></a>
+<a name="N10BF4"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;ナレッジキャッシュ設定画面(キャシュ無効化)</b>
 </p>
@@ -1996,10 +2034,18 @@
 <div class="itemizedlist">
 <ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
-<p>Windows -&gt; Preference</p>
+<p>
+						
+<span class="guimenuitem">Windows</span> &rarr; <span class="guimenuitem">Preference</span>
+					
+</p>
 </li>
 <li class="listitem">
-<p>TUBAME -&gt; ナレッジベース検索ツール -&gt; Python設定</p>
+<p>
+						
+<span class="guimenuitem">TUBAME</span> &rarr; <span class="guimenuitem">ナレッジベース検索ツール</span> &rarr; <span class="guimenuitem">Python設定</span>
+					
+</p>
 </li>
 <li class="listitem">
 <p>「use local pyton」をtrueにし、pythonのパスを指定指定する</p>
@@ -2012,7 +2058,7 @@
 			
 </p>
 <div class="figure">
-<a name="N10BEC"></a>
+<a name="N10C27"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;Python設定画面(pythonパス指定)</b>
 </p>
@@ -2023,11 +2069,8 @@
 </div>
 <p>
 <br class="figure-break">
-
 		
-		Pythonのインストール方法については、<span class="command"><strong><a class="command" href="#pythonInstall">Python及びlxmlのインストール</a></strong></span>を参照
-
-		</p>
+</p>
 </div>
 <br>
 <br>
@@ -2045,10 +2088,18 @@
 <div class="itemizedlist">
 <ul class="itemizedlist" style="list-style-type: disc; ">
 <li class="listitem">
-<p>Windows -&gt; Preference</p>
+<p>
+						
+<span class="guimenuitem">Windows</span> &rarr; <span class="guimenuitem">Preference</span>
+					
+</p>
 </li>
 <li class="listitem">
-<p>TUBAME -&gt; ナレッジベース検索ツール -&gt; マイグレーションガイド設定</p>
+<p>
+						
+<span class="guimenuitem">TUBAME</span> &rarr; <span class="guimenuitem">ナレッジベース検索ツール</span> &rarr; <span class="guimenuitem">マイグレーションガイド設定</span>
+					
+</p>
 </li>
 <li class="listitem">
 <p>参照ボタンより、マイグレーションガイドのパスを指定する</p>
@@ -2056,11 +2107,11 @@
 </ul>
 </div>
 <p>
-			
+
 			
 </p>
 <div class="figure">
-<a name="N10C14"></a>
+<a name="N10C59"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;マイグレーションガイドのパス設定画面</b>
 </p>
