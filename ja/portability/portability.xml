@@ -1958,7 +1958,9 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
                         </ns2:listitem>
                     </ns2:orderedlist>
                     <ns2:note>
-                        <ns2:para>TUBAMEでは、CSV出力のほかに、自動的に、レポート生成する機能も提供しています。詳細はレポート生成機能をご確認ください。</ns2:para>
+                        <ns2:para>TUBAMEでは、CSV出力のほかに、自動的に、レポート生成する機能も提供しています。詳細は
+									<ns2:command ns3:href="http://tubame.github.io/ja/reportgen/reportgen.html">移植性検討レポート生成ガイド</ns2:command>
+									をご確認ください。</ns2:para>
                     </ns2:note>
                     <ns2:figure>
                         <ns2:title>CSV出力画面</ns2:title>
@@ -2317,20 +2319,21 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
                 </ns2:info>
                 <ns2:section>
                     <ns2:para>
-			Pythonのインストールは必要でしょうか
-
+			Q. Pythonのインストールは必要でしょうか
+		</ns2:para>
+                    <ns2:para>
+			A. TUBAME1.0.4より、Pythonのインストール不要となっています。
 			<ns2:note>
-                            <ns2:para>Ans.TUBAME1.0.4より、Pythonのインストール不要となっています。
-				</ns2:para>
-                            <ns2:warning>
-<ns2:orderedlist>
-    <ns2:listitem>
-        <ns2:para>従来通りPythonをインストールして利用することも可能です。</ns2:para>
-        <ns2:para>ご利用の環境のプラットホーム上でナレッジベース検索がうまく動作しないなどトラブルが発生した場合は、<ns2:command ns3:href="#pythonInstall">Pythonおよびlxmlのインストール </ns2:command>より、Pythonをインストールしていただき、利用して頂くことで対応可能な場合があります。
-                            </ns2:para>
-    </ns2:listitem>
-</ns2:orderedlist>
-                            </ns2:warning>
+                            <ns2:orderedlist>
+<ns2:listitem>
+    <ns2:para>従来通りPythonをインストールして利用することも可能です。</ns2:para>
+    <ns2:para>
+							ご利用の環境のプラットホーム上でナレッジベース検索がうまく動作しないなどトラブルが発生した場合は、
+							<ns2:command ns3:href="#pythonInstall">Pythonおよびlxmlのインストール </ns2:command>
+							より、Pythonをインストールしていただき、利用して頂くことで対応可能な場合があります。
+						</ns2:para>
+</ns2:listitem>
+                            </ns2:orderedlist>
                         </ns2:note>
 		</ns2:para>
                 </ns2:section>
