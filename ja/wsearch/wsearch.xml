@@ -35,15 +35,27 @@
                 <EntryCategoryRefKey>category_33</EntryCategoryRefKey>
             </ChildEntry>
             <ChildEntry>
-                <EntryCategoryRefKey>category_36</EntryCategoryRefKey>
+                <EntryCategoryRefKey>category_43</EntryCategoryRefKey>
             </ChildEntry>
             <ChildEntry>
-                <EntryCategoryRefKey>category_40</EntryCategoryRefKey>
+                <EntryCategoryRefKey>category_59</EntryCategoryRefKey>
                 <ChildEntry>
-                    <EntryCategoryRefKey>category_41</EntryCategoryRefKey>
+                    <EntryCategoryRefKey>category_63</EntryCategoryRefKey>
+                    <ChildEntry>
+                        <EntryCategoryRefKey>category_64</EntryCategoryRefKey>
+                    </ChildEntry>
+                    <ChildEntry>
+                        <EntryCategoryRefKey>category_65</EntryCategoryRefKey>
+                    </ChildEntry>
                 </ChildEntry>
                 <ChildEntry>
-                    <EntryCategoryRefKey>category_42</EntryCategoryRefKey>
+                    <EntryCategoryRefKey>category_60</EntryCategoryRefKey>
+                    <ChildEntry>
+                        <EntryCategoryRefKey>category_61</EntryCategoryRefKey>
+                    </ChildEntry>
+                    <ChildEntry>
+                        <EntryCategoryRefKey>category_62</EntryCategoryRefKey>
+                    </ChildEntry>
                 </ChildEntry>
             </ChildEntry>
         </EntryCategory>
@@ -88,18 +100,34 @@
                 </ChildChapter>
                 <ChildChapter>
                     <ChildCapterNo>2.1.5.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_36</ChapterCategoryRefKey>
+                    <ChapterCategoryRefKey>category_43</ChapterCategoryRefKey>
                 </ChildChapter>
                 <ChildChapter>
                     <ChildCapterNo>2.1.6.</ChildCapterNo>
-                    <ChapterCategoryRefKey>category_40</ChapterCategoryRefKey>
+                    <ChapterCategoryRefKey>category_59</ChapterCategoryRefKey>
                     <ChildChapter>
                         <ChildCapterNo>2.1.6.1.</ChildCapterNo>
-                        <ChapterCategoryRefKey>category_41</ChapterCategoryRefKey>
+                        <ChapterCategoryRefKey>category_63</ChapterCategoryRefKey>
+                        <ChildChapter>
+                            <ChildCapterNo>2.1.6.1.1.</ChildCapterNo>
+                            <ChapterCategoryRefKey>category_64</ChapterCategoryRefKey>
+                        </ChildChapter>
+                        <ChildChapter>
+                            <ChildCapterNo>2.1.6.1.2.</ChildCapterNo>
+                            <ChapterCategoryRefKey>category_65</ChapterCategoryRefKey>
+                        </ChildChapter>
                     </ChildChapter>
                     <ChildChapter>
                         <ChildCapterNo>2.1.6.2.</ChildCapterNo>
-                        <ChapterCategoryRefKey>category_42</ChapterCategoryRefKey>
+                        <ChapterCategoryRefKey>category_60</ChapterCategoryRefKey>
+                        <ChildChapter>
+                            <ChildCapterNo>2.1.6.2.1.</ChildCapterNo>
+                            <ChapterCategoryRefKey>category_61</ChapterCategoryRefKey>
+                        </ChildChapter>
+                        <ChildChapter>
+                            <ChildCapterNo>2.1.6.2.2.</ChildCapterNo>
+                            <ChapterCategoryRefKey>category_62</ChapterCategoryRefKey>
+                        </ChildChapter>
                     </ChildChapter>
                 </ChildChapter>
             </ChildChapter>
@@ -150,20 +178,35 @@
             <CategoryName>結果の確認</CategoryName>
             <KnowhowRefKey>knowhow_32</KnowhowRefKey>
         </Category>
-        <Category categoryId="category_36" appropriate="true">
-            <CategoryName>ビューメニューの操作</CategoryName>
-            <KnowhowRefKey>knowhow_35</KnowhowRefKey>
+        <Category categoryId="category_43" appropriate="true">
+            <CategoryName>結果の編集</CategoryName>
+            <KnowhowRefKey>knowhow_40</KnowhowRefKey>
         </Category>
-        <Category categoryId="category_40" appropriate="true">
+        <Category categoryId="category_59" appropriate="true">
+            <CategoryName>その他</CategoryName>
+        </Category>
+        <Category categoryId="category_63" appropriate="true">
+            <CategoryName>ビューメニューの操作</CategoryName>
+            <KnowhowRefKey>knowhow_54</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_64" appropriate="true">
+            <CategoryName>パッケージフィルタ</CategoryName>
+            <KnowhowRefKey>knowhow_55</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_65" appropriate="true">
+            <CategoryName>CSV出力</CategoryName>
+            <KnowhowRefKey>knowhow_56</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_60" appropriate="true">
             <CategoryName>プリファレンス設定</CategoryName>
         </Category>
-        <Category categoryId="category_41" appropriate="true">
+        <Category categoryId="category_61" appropriate="true">
             <CategoryName>移行先ライブラリ設定</CategoryName>
-            <KnowhowRefKey>knowhow_38</KnowhowRefKey>
+            <KnowhowRefKey>knowhow_52</KnowhowRefKey>
         </Category>
-        <Category categoryId="category_42" appropriate="true">
+        <Category categoryId="category_62" appropriate="true">
             <CategoryName>検索対象設定</CategoryName>
-            <KnowhowRefKey>knowhow_39</KnowhowRefKey>
+            <KnowhowRefKey>knowhow_53</KnowhowRefKey>
         </Category>
         <Category categoryId="category_29" appropriate="true">
             <CategoryName>アンインストール</CategoryName>
@@ -215,15 +258,27 @@
             <KnowhowNo>1</KnowhowNo>
             <KnowhowName>body</KnowhowName>
         </KnowhowInfomation>
-        <KnowhowInfomation knowhowId="knowhow_35" knowhowDetailRefKey="knowhowDetail_35">
+        <KnowhowInfomation knowhowId="knowhow_40" knowhowDetailRefKey="knowhowDetail_40">
             <KnowhowNo>1</KnowhowNo>
             <KnowhowName>body</KnowhowName>
         </KnowhowInfomation>
-        <KnowhowInfomation knowhowId="knowhow_38" knowhowDetailRefKey="knowhowDetail_38">
+        <KnowhowInfomation knowhowId="knowhow_54" knowhowDetailRefKey="knowhowDetail_54">
             <KnowhowNo>1</KnowhowNo>
             <KnowhowName>body</KnowhowName>
         </KnowhowInfomation>
-        <KnowhowInfomation knowhowId="knowhow_39" knowhowDetailRefKey="knowhowDetail_39">
+        <KnowhowInfomation knowhowId="knowhow_55" knowhowDetailRefKey="knowhowDetail_55">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_56" knowhowDetailRefKey="knowhowDetail_56">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_52" knowhowDetailRefKey="knowhowDetail_52">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_53" knowhowDetailRefKey="knowhowDetail_53">
             <KnowhowNo>1</KnowhowNo>
             <KnowhowName>body</KnowhowName>
         </KnowhowInfomation>
@@ -281,7 +336,8 @@
     <ns2:row>
         <ns2:entry>XML ファイル</ns2:entry>
         <ns2:entry>XML の DTD や XSD 情報と、移植先で使用可能な DTD や XSD
-											情報とを比較し、移植が必要な XML ファイルを抽出します。</ns2:entry>
+											情報とを比較し、移植が必要な XML ファイルを抽出します。
+										</ns2:entry>
     </ns2:row>
 </ns2:tbody>
                             </ns2:tgroup>
@@ -553,7 +609,8 @@
                             <ns2:para>
 								<ns2:important>
     <ns2:para>配置するソースファイルは、 Java で扱える名称であればディレクトリ名、ファイル名は問いません。逆に、
-										Java で扱えない名称が含まれる(ハイフンなど)場合は検索に失敗する場合があります。</ns2:para>
+										Java で扱えない名称が含まれる(ハイフンなど)場合は検索に失敗する場合があります。
+									</ns2:para>
 </ns2:important>
 							</ns2:para>
                         </ns2:listitem>
@@ -582,7 +639,7 @@
                         <ns2:listitem>
                             <ns2:para>検索対象設定</ns2:para>
                             <ns2:para>
-								検索対象設定を事前にフィルタすることができます。本資料ではフィルター設定は実施しません。検索対象設定を変更する場合は、
+								検索対象設定を事前にフィルタすることができます。本資料ではフィルタ設定は実施しません。検索対象設定を変更する場合は、
 								<ns2:command ns3:href="#searchTargetSetting">検索対象設定</ns2:command>
 								を参考に設定変更してください。
 							</ns2:para>
@@ -627,7 +684,7 @@
 
 								<ns2:simplelist>
     <ns2:member>
-										<ns2:guilabel>結果出力先</ns2:guilabel>
+										<ns2:guilabel>結果ファイルの結果出力先</ns2:guilabel>
 										: 検索結果の出力先として
 										<ns2:filename>gjbm</ns2:filename>
 										ファイルを指定します。
@@ -817,7 +874,320 @@
                 </ns2:section>
             </ns2:article>
         </DocBook>
-        <DocBook articleId="knowhowDetail_35">
+        <DocBook articleId="knowhowDetail_40">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>依存性検索ツールでは出力結果のエディター機能による結果の編集はできないため、Viewが提供するフィルタ機能及び、CSV出力機能を
+			利用して編集を行います。
+		</ns2:para>
+                    <ns2:para>
+			以下の手順で実施します。
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>依存性検索ツールの結果をフィルタします。</ns2:para>
+<ns2:para>
+						Viewメニューより
+						<ns2:guilabel>結果フィルタ</ns2:guilabel>
+						、
+						<ns2:guilabel>カテゴリフィルタ</ns2:guilabel>
+						、
+						<ns2:guilabel>パッケージフィルタ</ns2:guilabel>
+						を利用して、レポート作成にむけて結果をフィルタします。
+
+						フィルタは、結果(Error,Warn)、カテゴリ(Java,jsp,xml)、パッケージでフィルタが適用できます。
+						フィルタの例として、パッケージフィルタを行う。
+						手順は
+						<ns2:command ns3:href="#packageFilter">パッケージフィルタ</ns2:command>
+						を参照
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+						フィルタを適用した状態でCSV出力します。
+					</ns2:para>
+<ns2:para>
+						手順は
+						<ns2:command ns3:href="#csvout2">CSV出力</ns2:command>
+						を参照
+
+
+					</ns2:para>
+<ns2:note>
+    <ns2:para>
+							<ns2:itemizedlist>
+            <ns2:listitem>
+                <ns2:para>拡張子をgjbmに変更したファイルは、依存性検索結果ビューで利用することができます。
+									</ns2:para>
+            </ns2:listitem>
+            <ns2:listitem>
+                <ns2:para>以下の「報告書の出力」にある手順に従って、レポートを自動生成する場合は、拡張子を<ns2:filename>gjbm</ns2:filename>に変更したファイルをEclipseのプロジェクトに保存してください。
+
+									</ns2:para>
+                <ns2:warning>
+                    <ns2:para>レポートを自動生成する際、Eclipseのプロジェクト内に<ns2:filename>gjbm</ns2:filename>ファイルが複数存在場合、意図しない<ns2:filename>gjbm</ns2:filename>ファイルを検知して、レポート生成する可能性がありますので、ご注意ください。
+										</ns2:para>
+                </ns2:warning>
+            </ns2:listitem>
+        </ns2:itemizedlist>
+						</ns2:para>
+</ns2:note>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>報告書の出力します</ns2:para>
+<ns2:para>
+						TUBAMEでは以下の機能のいずれかを利用して、レポート生成を行います。
+						<ns2:itemizedlist>
+        <ns2:listitem>
+            <ns2:para>レポート自動生成</ns2:para>
+            <ns2:para>
+									レポート生成機能を利用して、移植性検討レポートを生成します。詳細は、
+									<ns2:command ns3:href="http://tubame.github.io/ja/reportgen/reportgen.html">移植性検討レポート生成ガイド</ns2:command>
+									を参照。
+								</ns2:para>
+        </ns2:listitem>
+        <ns2:listitem>
+            <ns2:para>CSV出力(レポート手動生成)</ns2:para>
+            <ns2:para>
+									CSV出力したものを手動で集計して頂き、レポート生成を行う。
+								</ns2:para>
+        </ns2:listitem>
+    </ns2:itemizedlist>
+					</ns2:para>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_52">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para xml:id="librarySetting">検索に関わる移行先ライブラリの追加登録を行います。本例では、移行先ライブラリとして、Strut2のライブラリをstrut2-libとして追加登録し、利用する方法について示します。
+					</ns2:para>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>
+								プリファレンスページより、移行先ライブラリの設定を行います。
+							</ns2:para>
+                            <ns2:para>
+								<ns2:menuchoice>
+    <ns2:guimenu>Window</ns2:guimenu>
+    <ns2:guimenuitem>Preferences</ns2:guimenuitem>
+    <ns2:guimenuitem>依存性検索ツール</ns2:guimenuitem>
+    <ns2:guimenuitem>ライブラリ設定</ns2:guimenuitem>
+</ns2:menuchoice>
+
+							</ns2:para>
+                            <ns2:note>
+<ns2:para>
+									ライブラリ設定では、以下の情報が設定できます。
+									<ns2:itemizedlist>
+        <ns2:listitem>
+            <ns2:para>
+												ライブラリ設定
+											</ns2:para>
+            <ns2:para>
+												検索の際に使用するライブラリ情報を管理します。チェックボックスが有効なライブラリが、移植先で利用可能なライブラリとみなされて検索されます。
+											</ns2:para>
+            <ns2:para>
+
+											</ns2:para>
+        </ns2:listitem>
+        <ns2:listitem>
+            <ns2:para>
+												キャッシュ
+											</ns2:para>
+            <ns2:para>
+												ライブラリ情報の抽出は、実際には検索開始後に実施されます。やや重い処理となるため、検索結果のキャッシュ機能が備わっています。そのキャッシュを利用するかを設定します。初めて検索する際はキャッシュが存在しないため、キャッシュを有効にしていてもライブラリ情報の抽出処理は実行されます。
+											</ns2:para>
+        </ns2:listitem>
+    </ns2:itemizedlist>
+								</ns2:para>
+<ns2:figure>
+    <ns2:title>ライブラリ設定画面</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject condition="web">
+            <ns2:imagedata format="png" fileref="ja/wsearch/images/wsearch_lib_setting.png"/>
+        </ns2:imageobject>
+        <ns2:textobject>
+            <ns2:phrase>ライブラリ設定画面</ns2:phrase>
+        </ns2:textobject>
+    </ns2:mediaobject>
+</ns2:figure>
+                            </ns2:note>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>ライブラリ設定画面の追加ボタンより、移行先ライブラリを新規追加します</ns2:para>
+                            <ns2:note>
+<ns2:para>設定項目は以下となります。</ns2:para>
+<ns2:itemizedlist>
+    <ns2:listitem>
+        <ns2:para>
+											<ns2:guilabel>名前</ns2:guilabel>
+										</ns2:para>
+        <ns2:para>画面表示名称。任意の名前を入力します。</ns2:para>
+    </ns2:listitem>
+    <ns2:listitem>
+        <ns2:para>
+											<ns2:guilabel>ライブラリ種別</ns2:guilabel>
+										</ns2:para>
+        <ns2:para>ライブラリが圧縮ファイル (Zip 形式 ) かディレクトリ形式かを選択します。</ns2:para>
+    </ns2:listitem>
+    <ns2:listitem>
+        <ns2:para>
+											<ns2:guilabel>パス</ns2:guilabel>
+										</ns2:para>
+        <ns2:para>ライブラリへのパスを設定します。</ns2:para>
+    </ns2:listitem>
+    <ns2:listitem>
+        <ns2:para>
+											<ns2:guilabel>タイプ</ns2:guilabel>
+										</ns2:para>
+        <ns2:para>ライブラリが Maven リポジトリ形式の場合はチェックを有効にします。</ns2:para>
+    </ns2:listitem>
+    <ns2:listitem>
+        <ns2:para>
+											<ns2:guilabel>説明</ns2:guilabel>
+										</ns2:para>
+        <ns2:para>ライブラリに関する説明を入力します。</ns2:para>
+    </ns2:listitem>
+</ns2:itemizedlist>
+<ns2:figure>
+    <ns2:title>新規ライブラリリポジトリ画面</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject condition="web">
+            <ns2:imagedata format="png" fileref="ja/wsearch/images/wsearch_lib_setting_add.png"/>
+        </ns2:imageobject>
+        <ns2:textobject>
+            <ns2:phrase>新規ライブラリリポジトリ画面</ns2:phrase>
+        </ns2:textobject>
+    </ns2:mediaobject>
+</ns2:figure>
+                            </ns2:note>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>ライブラリ設定画面のライブラリ一覧より、依存性検索で利用するライブラリをチェックします。</ns2:para>
+                            <ns2:para>
+								利用する移行先ライブラリをチェック後に、以下を実施します。
+								<ns2:menuchoice>
+    <ns2:guimenu>Apply</ns2:guimenu>
+    <ns2:guimenuitem>OK</ns2:guimenuitem>
+</ns2:menuchoice>
+							</ns2:para>
+                            <ns2:figure>
+<ns2:title>設定変更後のライブラリ一覧</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="png" fileref="ja/wsearch/images/wsearch_lib_setting_add_after.png"/>
+    </ns2:imageobject>
+    <ns2:textobject>
+        <ns2:phrase>設定変更後のライブラリ一覧</ns2:phrase>
+    </ns2:textobject>
+</ns2:mediaobject>
+                            </ns2:figure>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>依存性検索ウィザード画面にて依存性検索で利用する移行先ライブラリを確認します。検索したいリソース上で右クリックし、以下のメニューを選択します。
+							</ns2:para>
+                            <ns2:para>
+								<ns2:menuchoice>
+    <ns2:guimenuitem>tubame</ns2:guimenuitem>
+    <ns2:guimenuitem>依存性検索</ns2:guimenuitem>
+</ns2:menuchoice>
+							</ns2:para>
+                            <ns2:note>
+<ns2:para>本例の場合は、struts2-libを設定したので、移行先ライブラリに"struts2-lib"が表示されていることを確認します。
+								</ns2:para>
+<ns2:figure>
+    <ns2:title>依存性検索ウィザード画面</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject condition="web">
+            <ns2:imagedata format="png" fileref="ja/wsearch/images/wsearch_lib_setting_add_after_search.png"/>
+        </ns2:imageobject>
+        <ns2:textobject>
+            <ns2:phrase>依存性検索ウィザード画面</ns2:phrase>
+        </ns2:textobject>
+    </ns2:mediaobject>
+</ns2:figure>
+                            </ns2:note>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_53">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section xml:id="searchTargetSetting">
+                    <ns2:para>検索対象設定では、依存性検索の検索対象をフィルターすることができます。</ns2:para>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>プリファレンスページより、検索対象設定の設定を行います。</ns2:para>
+                            <ns2:para>
+								<ns2:menuchoice>
+    <ns2:guimenu>Window</ns2:guimenu>
+    <ns2:guimenuitem>Preferences</ns2:guimenuitem>
+    <ns2:guimenuitem>依存性検索ツール</ns2:guimenuitem>
+    <ns2:guimenuitem>検索対象設定</ns2:guimenuitem>
+</ns2:menuchoice>
+							</ns2:para>
+                            <ns2:figure>
+<ns2:title>検索対象設定画面</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="png" fileref="ja/wsearch/images/wsearch_target.png"/>
+    </ns2:imageobject>
+    <ns2:textobject>
+        <ns2:phrase>検索対象設定画面</ns2:phrase>
+    </ns2:textobject>
+</ns2:mediaobject>
+                            </ns2:figure>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>検索対象設定を行います</ns2:para>
+                            <ns2:note>
+<ns2:para>
+									以下の項目の設定変更が可能です。
+									<ns2:itemizedlist>
+        <ns2:listitem>
+            <ns2:para>検索対象設定</ns2:para>
+            <ns2:para>検索対象の拡張子を変更できます。</ns2:para>
+        </ns2:listitem>
+        <ns2:listitem>
+            <ns2:para>詳細設定</ns2:para>
+            <ns2:itemizedlist>
+                <ns2:listitem>
+                    <ns2:para>java</ns2:para>
+                    <ns2:para>packageを除去対象として追加できます</ns2:para>
+                </ns2:listitem>
+                <ns2:listitem>
+                    <ns2:para>jsp</ns2:para>
+                    <ns2:para>package及び、jspで参照しているスキーマ定義を、除去対象として追加できます
+													</ns2:para>
+                </ns2:listitem>
+                <ns2:listitem>
+                    <ns2:para>xml</ns2:para>
+                    <ns2:para>xmlで参照しているスキーマ定義を、除去対象として追加できます</ns2:para>
+                </ns2:listitem>
+            </ns2:itemizedlist>
+        </ns2:listitem>
+    </ns2:itemizedlist>
+								</ns2:para>
+                            </ns2:note>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_54">
             <ns2:article>
                 <ns2:info>
                     <ns2:title>body</ns2:title>
@@ -895,228 +1265,125 @@
                 </ns2:section>
             </ns2:article>
         </DocBook>
-        <DocBook articleId="knowhowDetail_38">
+        <DocBook articleId="knowhowDetail_55">
             <ns2:article>
                 <ns2:info>
                     <ns2:title>body</ns2:title>
                 </ns2:info>
                 <ns2:section>
-                    <ns2:para xml:id="librarySetting">検索に関わる移行先ライブラリの追加登録を行います。本例では、移行先ライブラリとして、Strut2のライブラリをstrut2-libとして追加登録し、利用する方法について示します。
-					</ns2:para>
-                    <ns2:orderedlist>
-                        <ns2:listitem>
-                            <ns2:para>
-								プリファレンスページより、移行先ライブラリの設定を行います。
-							</ns2:para>
-                            <ns2:para>
-								<ns2:menuchoice>
-    <ns2:guimenu>Window</ns2:guimenu>
-    <ns2:guimenuitem>Preferences</ns2:guimenuitem>
-    <ns2:guimenuitem>依存性検索ツール</ns2:guimenuitem>
-    <ns2:guimenuitem>ライブラリ設定</ns2:guimenuitem>
-</ns2:menuchoice>
+                    <ns2:para xml:id="packageFilter">
+						パッケージフィルタの手順を実施します。
 
-							</ns2:para>
-                            <ns2:note>
+						<ns2:itemizedlist>
+                            <ns2:listitem>
+<ns2:para>パッケージフィルタ画面の起動</ns2:para>
 <ns2:para>
-									ライブラリ設定では、以下の情報が設定できます。
+									Viewメニューより
+									<ns2:menuchoice>
+        <ns2:guimenuitem>パッケージフィルタ</ns2:guimenuitem>
+    </ns2:menuchoice>
+									を選択します。
+								</ns2:para>
+<ns2:figure>
+    <ns2:title>パッケージフィルタメニュー</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject condition="web">
+            <ns2:imagedata format="png" fileref="images/wsearch_csv_menu.png"/>
+        </ns2:imageobject>
+        <ns2:textobject>
+            <ns2:phrase>依存性検索メニュー画面</ns2:phrase>
+        </ns2:textobject>
+    </ns2:mediaobject>
+</ns2:figure>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+									パッケージフィルタ画面よりフィルタ条件を設定。
 									<ns2:itemizedlist>
         <ns2:listitem>
             <ns2:para>
-												ライブラリ設定
+												表示項目リスト
 											</ns2:para>
             <ns2:para>
-												検索の際に使用するライブラリ情報を管理します。チェックボックスが有効なライブラリが、移植先で利用可能なライブラリとみなされて検索されます。
-											</ns2:para>
-            <ns2:para>
-
+												<ns2:guilabel>追加</ns2:guilabel>
+												、
+												<ns2:guilabel>除去</ns2:guilabel>
+												ボタン等を利用して、表示対象のパッケージを追加してください。
 											</ns2:para>
         </ns2:listitem>
         <ns2:listitem>
             <ns2:para>
-												キャッシュ
+												非表示項目リスト
+
 											</ns2:para>
             <ns2:para>
-												ライブラリ情報の抽出は、実際には検索開始後に実施されます。やや重い処理となるため、検索結果のキャッシュ機能が備わっています。そのキャッシュを利用するかを設定します。初めて検索する際はキャッシュが存在しないため、キャッシュを有効にしていてもライブラリ情報の抽出処理は実行されます。
+												<ns2:guilabel>追加</ns2:guilabel>
+												、
+												<ns2:guilabel>除去</ns2:guilabel>
+												ボタン等を利用して、非表示対象のパッケージを追加してください。
 											</ns2:para>
         </ns2:listitem>
     </ns2:itemizedlist>
 								</ns2:para>
 <ns2:figure>
-    <ns2:title>ライブラリ設定画面</ns2:title>
+    <ns2:title>パッケージフィルタの設定</ns2:title>
     <ns2:mediaobject>
         <ns2:imageobject condition="web">
-            <ns2:imagedata format="png" fileref="images/wsearch_lib_setting.png"/>
+            <ns2:imagedata format="png" fileref="images/wsearch_package_filter.png"/>
         </ns2:imageobject>
         <ns2:textobject>
-            <ns2:phrase>ライブラリ設定画面</ns2:phrase>
+            <ns2:phrase>パッケージフィルタ設定</ns2:phrase>
         </ns2:textobject>
     </ns2:mediaobject>
 </ns2:figure>
-                            </ns2:note>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>ライブラリ設定画面の追加ボタンより、移行先ライブラリを新規追加します</ns2:para>
-                            <ns2:note>
-<ns2:para>設定項目は以下となります。</ns2:para>
-<ns2:itemizedlist>
-    <ns2:listitem>
-        <ns2:para>
-											<ns2:guilabel>名前</ns2:guilabel>
-										</ns2:para>
-        <ns2:para>画面表示名称。任意の名前を入力します。</ns2:para>
-    </ns2:listitem>
-    <ns2:listitem>
-        <ns2:para>
-											<ns2:guilabel>ライブラリ種別</ns2:guilabel>
-										</ns2:para>
-        <ns2:para>ライブラリが圧縮ファイル (Zip 形式 ) かディレクトリ形式かを選択します。</ns2:para>
-    </ns2:listitem>
-    <ns2:listitem>
-        <ns2:para>
-											<ns2:guilabel>パス</ns2:guilabel>
-										</ns2:para>
-        <ns2:para>ライブラリへのパスを設定します。</ns2:para>
-    </ns2:listitem>
-    <ns2:listitem>
-        <ns2:para>
-											<ns2:guilabel>タイプ</ns2:guilabel>
-										</ns2:para>
-        <ns2:para>ライブラリが Maven リポジトリ形式の場合はチェックを有効にします。</ns2:para>
-    </ns2:listitem>
-    <ns2:listitem>
-        <ns2:para>
-											<ns2:guilabel>説明</ns2:guilabel>
-										</ns2:para>
-        <ns2:para>ライブラリに関する説明を入力します。</ns2:para>
-    </ns2:listitem>
-</ns2:itemizedlist>
-<ns2:figure>
-    <ns2:title>新規ライブラリリポジトリ画面</ns2:title>
-    <ns2:mediaobject>
-        <ns2:imageobject condition="web">
-            <ns2:imagedata format="png" fileref="images/wsearch_lib_setting_add.png"/>
-        </ns2:imageobject>
-        <ns2:textobject>
-            <ns2:phrase>新規ライブラリリポジトリ画面</ns2:phrase>
-        </ns2:textobject>
-    </ns2:mediaobject>
-</ns2:figure>
-                            </ns2:note>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>ライブラリ設定画面のライブラリ一覧より、依存性検索で利用するライブラリをチェックします。</ns2:para>
-                            <ns2:para>
-								利用する移行先ライブラリをチェック後に、以下を実施します。
-								<ns2:menuchoice>
-    <ns2:guimenu>Apply</ns2:guimenu>
-    <ns2:guimenuitem>OK</ns2:guimenuitem>
-</ns2:menuchoice>
-							</ns2:para>
-                            <ns2:figure>
-<ns2:title>設定変更後のライブラリ一覧</ns2:title>
-<ns2:mediaobject>
-    <ns2:imageobject condition="web">
-        <ns2:imagedata format="png" fileref="images/wsearch_lib_setting_add_after.png"/>
-    </ns2:imageobject>
-    <ns2:textobject>
-        <ns2:phrase>設定変更後のライブラリ一覧</ns2:phrase>
-    </ns2:textobject>
-</ns2:mediaobject>
-                            </ns2:figure>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>依存性検索ウィザード画面にて依存性検索で利用する移行先ライブラリを確認します。検索したいリソース上で右クリックし、以下のメニューを選択します。
-							</ns2:para>
-                            <ns2:para>
-								<ns2:menuchoice>
-    <ns2:guimenuitem>tubame</ns2:guimenuitem>
-    <ns2:guimenuitem>依存性検索</ns2:guimenuitem>
-</ns2:menuchoice>
-							</ns2:para>
-                            <ns2:note>
-<ns2:para>本例の場合は、struts2-libを設定したので、移行先ライブラリに"struts2-lib"が表示されていることを確認します。
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>フィルタ適用</ns2:para>
+<ns2:para>
+									<ns2:menuchoice>
+        <ns2:guimenuitem>OK</ns2:guimenuitem>
+    </ns2:menuchoice>
+									ボタンを実行し、フィルタを適用します。
 								</ns2:para>
 <ns2:figure>
-    <ns2:title>依存性検索ウィザード画面</ns2:title>
+    <ns2:title>フィルタ適用後の依存性検索結果ビュー</ns2:title>
     <ns2:mediaobject>
         <ns2:imageobject condition="web">
-            <ns2:imagedata format="png" fileref="images/wsearch_lib_setting_add_after_search.png"/>
+            <ns2:imagedata format="png" fileref="images/wsearch_package_filter_confirm.png"/>
         </ns2:imageobject>
         <ns2:textobject>
-            <ns2:phrase>依存性検索ウィザード画面</ns2:phrase>
+            <ns2:phrase>フィルタ適用後の依存性検索結果ビュー</ns2:phrase>
         </ns2:textobject>
     </ns2:mediaobject>
 </ns2:figure>
-                            </ns2:note>
-                        </ns2:listitem>
-                    </ns2:orderedlist>
+                            </ns2:listitem>
+                        </ns2:itemizedlist>
+					</ns2:para>
                 </ns2:section>
             </ns2:article>
         </DocBook>
-        <DocBook articleId="knowhowDetail_39">
+        <DocBook articleId="knowhowDetail_56">
             <ns2:article>
                 <ns2:info>
                     <ns2:title>body</ns2:title>
                 </ns2:info>
-                <ns2:section xml:id="searchTargetSetting">
-                    <ns2:para>検索対象設定では、依存性検索の検索対象をフィルターすることができます。</ns2:para>
-                    <ns2:orderedlist>
-                        <ns2:listitem>
-                            <ns2:para>プリファレンスページより、検索対象設定の設定を行います。</ns2:para>
-                            <ns2:para>
-								<ns2:menuchoice>
-    <ns2:guimenu>Window</ns2:guimenu>
-    <ns2:guimenuitem>Preferences</ns2:guimenuitem>
-    <ns2:guimenuitem>依存性検索ツール</ns2:guimenuitem>
-    <ns2:guimenuitem>検索対象設定</ns2:guimenuitem>
-</ns2:menuchoice>
-							</ns2:para>
-                            <ns2:figure>
-<ns2:title>検索対象設定画面</ns2:title>
-<ns2:mediaobject>
-    <ns2:imageobject condition="web">
-        <ns2:imagedata format="png" fileref="images/wsearch_target.png"/>
-    </ns2:imageobject>
-    <ns2:textobject>
-        <ns2:phrase>検索対象設定画面</ns2:phrase>
-    </ns2:textobject>
-</ns2:mediaobject>
-                            </ns2:figure>
-                        </ns2:listitem>
-                        <ns2:listitem>
-                            <ns2:para>検索対象設定を行います</ns2:para>
-                            <ns2:note>
+                <ns2:section>
+                    <ns2:para xml:id="csvout2">
+						CSV出力の手順を実施します。
+
+						<ns2:itemizedlist>
+                            <ns2:listitem>
+<ns2:para>CSV出力</ns2:para>
 <ns2:para>
-									以下の項目の設定変更が可能です。
-									<ns2:itemizedlist>
-        <ns2:listitem>
-            <ns2:para>検索対象設定</ns2:para>
-            <ns2:para>検索対象の拡張子を変更できます。</ns2:para>
-        </ns2:listitem>
-        <ns2:listitem>
-            <ns2:para>詳細設定</ns2:para>
-            <ns2:itemizedlist>
-                <ns2:listitem>
-                    <ns2:para>java</ns2:para>
-                    <ns2:para>packageを除去対象として追加できます</ns2:para>
-                </ns2:listitem>
-                <ns2:listitem>
-                    <ns2:para>jsp</ns2:para>
-                    <ns2:para>package及び、jspで参照しているスキーマ定義を、除去対象として追加できます
-													</ns2:para>
-                </ns2:listitem>
-                <ns2:listitem>
-                    <ns2:para>xml</ns2:para>
-                    <ns2:para>xmlで参照しているスキーマ定義を、除去対象として追加できます</ns2:para>
-                </ns2:listitem>
-            </ns2:itemizedlist>
-        </ns2:listitem>
-    </ns2:itemizedlist>
+									Viewメニューより
+									<ns2:menuchoice>
+        <ns2:guimenuitem>CSVに出力</ns2:guimenuitem>
+    </ns2:menuchoice>
+									を選択し、ファイルダイアログより、ファイルを保存する。
 								</ns2:para>
-                            </ns2:note>
-                        </ns2:listitem>
-                    </ns2:orderedlist>
+                            </ns2:listitem>
+                        </ns2:itemizedlist>
+					</ns2:para>
                 </ns2:section>
             </ns2:article>
         </DocBook>
