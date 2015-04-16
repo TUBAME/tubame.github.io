@@ -136,12 +136,12 @@
                 </ns2:info>
                 <ns2:section>
                     <ns2:para>
-			移植性検討レポートを作成するにあたり、TUBAMEを利用した以下の検索機能のいづれかが完了している必要があります。
+			移植性検討レポートを作成するにあたり、TUBAMEを利用した以下の検索機能のいずれかが完了している必要があります。
 
 			<ns2:itemizedlist>
                             <ns2:listitem>
 <ns2:para>ナレッジベース検索</ns2:para>
-<ns2:para>ナレッジベース検索の出力であるjbmファイルが必要となります。</ns2:para>
+<ns2:para>ナレッジベース検索の出力である<ns2:filename>jbm</ns2:filename>ファイルが必要となります。</ns2:para>
 <ns2:note>
     <ns2:para>ナレッジベース検索ツールの作業状況ビューで示されているタスクがすべて完了していない場合でも、レポート生成可能ですが、
 							基本的には作業ビューで示されているタスクがすべて完了してから、レポート作成を行ってください。
@@ -162,7 +162,7 @@
                             </ns2:listitem>
                             <ns2:listitem>
 <ns2:para>依存性検索</ns2:para>
-<ns2:para>依存性検索の出力であるgjbmファイルが必要となります。</ns2:para>
+<ns2:para>依存性検索の出力である<ns2:filename>gjbm</ns2:filename>ファイルが必要となります。</ns2:para>
                             </ns2:listitem>
                         </ns2:itemizedlist>
 		</ns2:para>
@@ -426,7 +426,12 @@
 			<ns2:warning>
                             <ns2:itemizedlist>
 <ns2:listitem>
-    <ns2:para>プロジェクトには、ナレッジベース検索または、依存性検索で出力されるjbmファイル、またはgjbmファイルが存在することを確認してください。
+    <ns2:para>
+							プロジェクトには、ナレッジベース検索または、依存性検索で出力される
+							<ns2:filename>jbm</ns2:filename>
+							ファイル、または
+							<ns2:filename>gjbm</ns2:filename>
+							ファイルが存在することを確認してください。
 						</ns2:para>
 </ns2:listitem>
 <ns2:listitem>
@@ -438,7 +443,10 @@
                 <ns2:para>ナレッジベース検索</ns2:para>
                 <ns2:orderedlist>
                     <ns2:listitem>
-                        <ns2:para>jbmファイル</ns2:para>
+                        <ns2:para>
+												<ns2:filename>jbm</ns2:filename>
+												ファイル
+											</ns2:para>
                     </ns2:listitem>
                     <ns2:listitem>
                         <ns2:para>.checkListInformation_ja.xml</ns2:para>
@@ -449,7 +457,10 @@
                 <ns2:para>依存性検索</ns2:para>
                 <ns2:orderedlist>
                     <ns2:listitem>
-                        <ns2:para>gjbmファイル</ns2:para>
+                        <ns2:para>
+												<ns2:filename>gjbm</ns2:filename>
+												ファイル
+											</ns2:para>
                     </ns2:listitem>
                 </ns2:orderedlist>
             </ns2:listitem>

@@ -68,27 +68,55 @@
 <dd>
 <dl>
 <dt>
-<span class="2.1.5."><a href="#tubame_2.1.5.">2.1.5.ビューメニューの操作</a></span>
+<span class="2.1.5."><a href="#tubame_2.1.5.">2.1.5.結果の編集</a></span>
 </dt>
 </dl>
 </dd>
 <dd>
 <dl>
 <dt>
-<span class="2.1.6."><a href="#tubame_2.1.6.">2.1.6.プリファレンス設定</a></span>
+<span class="2.1.6."><a href="#tubame_2.1.6.">2.1.6.その他</a></span>
 </dt>
 <dd>
 <dl>
 <dt>
-<span class="2.1.6.1."><a href="#tubame_2.1.6.1.">2.1.6.1.移行先ライブラリ設定</a></span>
+<span class="2.1.6.1."><a href="#tubame_2.1.6.1.">2.1.6.1.ビューメニューの操作</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="2.1.6.1.1."><a href="#tubame_2.1.6.1.1.">2.1.6.1.1.パッケージフィルタ</a></span>
 </dt>
 </dl>
 </dd>
 <dd>
 <dl>
 <dt>
-<span class="2.1.6.2."><a href="#tubame_2.1.6.2.">2.1.6.2.検索対象設定</a></span>
+<span class="2.1.6.1.2."><a href="#tubame_2.1.6.1.2.">2.1.6.1.2.CSV出力</a></span>
 </dt>
+</dl>
+</dd>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="2.1.6.2."><a href="#tubame_2.1.6.2.">2.1.6.2.プリファレンス設定</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="2.1.6.2.1."><a href="#tubame_2.1.6.2.1.">2.1.6.2.1.移行先ライブラリ設定</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="2.1.6.2.2."><a href="#tubame_2.1.6.2.2.">2.1.6.2.2.検索対象設定</a></span>
+</dt>
+</dl>
+</dd>
 </dl>
 </dd>
 </dl>
@@ -124,7 +152,7 @@
 
 						</p>
 <div class="table">
-<a name="N10258"></a>
+<a name="N102DE"></a>
 <p class="title">
 <b>Table&nbsp;1.&nbsp;検索対象となるリソース</b>
 </p>
@@ -152,7 +180,8 @@
 </tr>
 <tr>
 <td>XML ファイル</td><td>XML の DTD や XSD 情報と、移植先で使用可能な DTD や XSD
-											情報とを比較し、移植が必要な XML ファイルを抽出します。</td>
+											情報とを比較し、移植が必要な XML ファイルを抽出します。
+										</td>
 </tr>
 </tbody>
 </table>
@@ -271,7 +300,8 @@
 <tr>
 <td valign="top" align="left">
 <p>配置するソースファイルは、 Java で扱える名称であればディレクトリ名、ファイル名は問いません。逆に、
-										Java で扱えない名称が含まれる(ハイフンなど)場合は検索に失敗する場合があります。</p>
+										Java で扱えない名称が含まれる(ハイフンなど)場合は検索に失敗する場合があります。
+									</p>
 </td>
 </tr>
 </table>
@@ -306,7 +336,7 @@
 <li class="listitem">
 <p>検索対象設定</p>
 <p>
-								検索対象設定を事前にフィルタすることができます。本資料ではフィルター設定は実施しません。検索対象設定を変更する場合は、
+								検索対象設定を事前にフィルタすることができます。本資料ではフィルタ設定は実施しません。検索対象設定を変更する場合は、
 								<span class="command"><strong><a class="command" href="#searchTargetSetting" title="1.&nbsp;">検索対象設定</a></strong></span>
 								を参考に設定変更してください。
 							</p>
@@ -334,7 +364,7 @@
 								
 </p>
 <div class="figure">
-<a name="N103CE"></a>
+<a name="N10454"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;依存性検索メニュー画面</b>
 </p>
@@ -357,7 +387,7 @@
 <table border="0" summary="Simple list" class="simplelist">
 <tr>
 <td>
-										<span class="guilabel">結果出力先</span>
+										<span class="guilabel">結果ファイルの結果出力先</span>
 										: 検索結果の出力先として
 										<code class="filename">gjbm</code>
 										ファイルを指定します。
@@ -369,7 +399,7 @@
 								
 </p>
 <div class="figure">
-<a name="N103EA"></a>
+<a name="N10470"></a>
 <p class="title">
 <b>Figure&nbsp;2.&nbsp;依存性検索ウィザード画面</b>
 </p>
@@ -413,7 +443,7 @@
 
 						</p>
 <div class="figure">
-<a name="N10414"></a>
+<a name="N1049A"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;依存性検索結果ビュー</b>
 </p>
@@ -432,7 +462,7 @@
 						の各表示項目の説明を以下に記載します。
 					</p>
 <div class="table">
-<a name="N10426"></a>
+<a name="N104AC"></a>
 <p class="title">
 <b>Table&nbsp;1.&nbsp;依存性検索結果ビュー表示項目</b>
 </p>
@@ -599,8 +629,133 @@
 </div>
 <br>
 <br>
-<a name="tubame_2.1.5." id="category_36"></a>
-<h3 class="title">2.1.5.ビューメニューの操作</h3>
+<a name="tubame_2.1.5." id="category_43"></a>
+<h3 class="title">2.1.5.結果の編集</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>依存性検索ツールでは出力結果のエディター機能による結果の編集はできないため、Viewが提供するフィルタ機能及び、CSV出力機能を
+			利用して編集を行います。
+		</p>
+<p>
+			以下の手順で実施します。
+			</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>依存性検索ツールの結果をフィルタします。</p>
+<p>
+						Viewメニューより
+						<span class="guilabel">結果フィルタ</span>
+						、
+						<span class="guilabel">カテゴリフィルタ</span>
+						、
+						<span class="guilabel">パッケージフィルタ</span>
+						を利用して、レポート作成にむけて結果をフィルタします。
+
+						フィルタは、結果(Error,Warn)、カテゴリ(Java,jsp,xml)、パッケージでフィルタが適用できます。
+						フィルタの例として、パッケージフィルタを行う。
+						手順は
+						<span class="command"><strong><a class="command" href="#packageFilter">パッケージフィルタ</a></strong></span>
+						を参照
+					</p>
+</li>
+<li class="listitem">
+<p>
+						フィルタを適用した状態でCSV出力します。
+					</p>
+<p>
+						手順は
+						<span class="command"><strong><a class="command" href="#csvout2">CSV出力</a></strong></span>
+						を参照
+
+
+					</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+							
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>拡張子をgjbmに変更したファイルは、依存性検索結果ビューで利用することができます。
+									</p>
+</li>
+<li class="listitem">
+<p>以下の「報告書の出力」にある手順に従って、レポートを自動生成する場合は、拡張子を<code class="filename">gjbm</code>に変更したファイルをEclipseのプロジェクトに保存してください。
+
+									</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>レポートを自動生成する際、Eclipseのプロジェクト内に<code class="filename">gjbm</code>ファイルが複数存在場合、意図しない<code class="filename">gjbm</code>ファイルを検知して、レポート生成する可能性がありますので、ご注意ください。
+										</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ul>
+</div>
+<p>
+						
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>報告書の出力します</p>
+<p>
+						TUBAMEでは以下の機能のいずれかを利用して、レポート生成を行います。
+						</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>レポート自動生成</p>
+<p>
+									レポート生成機能を利用して、移植性検討レポートを生成します。詳細は、
+									<span class="command"><strong><a class="command" href="http://tubame.github.io/ja/reportgen/reportgen.html" target="_top">移植性検討レポート生成ガイド</a></strong></span>
+									を参照。
+								</p>
+</li>
+<li class="listitem">
+<p>CSV出力(レポート手動生成)</p>
+<p>
+									CSV出力したものを手動で集計して頂き、レポート生成を行う。
+								</p>
+</li>
+</ul>
+</div>
+<p>
+					
+</p>
+</li>
+</ol>
+</div>
+<p>
+		
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_2.1.6." id="category_59"></a>
+<h3 class="title">2.1.6.その他</h3>
+<br>
+<br>
+<a name="tubame_2.1.6.1." id="category_63"></a>
+<h3 class="title">2.1.6.1.ビューメニューの操作</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
@@ -611,7 +766,7 @@
 
 						</p>
 <div class="figure">
-<a name="N104BF"></a>
+<a name="N1068B"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;依存性検索結果ビューメニュー</b>
 </p>
@@ -625,7 +780,7 @@
 					
 </p>
 <div class="table">
-<a name="N104CC"></a>
+<a name="N10698"></a>
 <p class="title">
 <b>Table&nbsp;1.&nbsp;ビューメニュー項目</b>
 </p>
@@ -682,12 +837,146 @@
 </div>
 <br>
 <br>
-<a name="tubame_2.1.6." id="category_40"></a>
-<h3 class="title">2.1.6.プリファレンス設定</h3>
+<a name="tubame_2.1.6.1.1." id="category_64"></a>
+<h3 class="title">2.1.6.1.1.パッケージフィルタ</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+<a name="packageFilter"></a>
+						パッケージフィルタの手順を実施します。
+
+						</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>パッケージフィルタ画面の起動</p>
+<p>
+									Viewメニューより
+									<span class="guimenuitem">パッケージフィルタ</span>
+									を選択します。
+								</p>
+<div class="figure">
+<a name="N106ED"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;パッケージフィルタメニュー</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/wsearch_csv_menu.png" alt="依存性検索メニュー画面"></div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+<li class="listitem">
+<p>
+									パッケージフィルタ画面よりフィルタ条件を設定。
+									</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: circle; ">
+<li class="listitem">
+<p>
+												表示項目リスト
+											</p>
+<p>
+												
+<span class="guilabel">追加</span>
+												、
+												<span class="guilabel">除去</span>
+												ボタン等を利用して、表示対象のパッケージを追加してください。
+											</p>
+</li>
+<li class="listitem">
+<p>
+												非表示項目リスト
+
+											</p>
+<p>
+												
+<span class="guilabel">追加</span>
+												、
+												<span class="guilabel">除去</span>
+												ボタン等を利用して、非表示対象のパッケージを追加してください。
+											</p>
+</li>
+</ul>
+</div>
+<p>
+								
+</p>
+<div class="figure">
+<a name="N10714"></a>
+<p class="title">
+<b>Figure&nbsp;2.&nbsp;パッケージフィルタの設定</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/wsearch_package_filter.png" alt="パッケージフィルタ設定"></div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+<li class="listitem">
+<p>フィルタ適用</p>
+<p>
+									
+<span class="guimenuitem">OK</span>
+									ボタンを実行し、フィルタを適用します。
+								</p>
+<div class="figure">
+<a name="N10729"></a>
+<p class="title">
+<b>Figure&nbsp;3.&nbsp;フィルタ適用後の依存性検索結果ビュー</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<img src="images/wsearch_package_filter_confirm.png" alt="フィルタ適用後の依存性検索結果ビュー"></div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+</ul>
+</div>
+<p>
+					
+</p>
+</div>
 <br>
 <br>
-<a name="tubame_2.1.6.1." id="category_41"></a>
-<h3 class="title">2.1.6.1.移行先ライブラリ設定</h3>
+<a name="tubame_2.1.6.1.2." id="category_65"></a>
+<h3 class="title">2.1.6.1.2.CSV出力</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+<a name="csvout2"></a>
+						CSV出力の手順を実施します。
+
+						</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>CSV出力</p>
+<p>
+									Viewメニューより
+									<span class="guimenuitem">CSVに出力</span>
+									を選択し、ファイルダイアログより、ファイルを保存する。
+								</p>
+</li>
+</ul>
+</div>
+<p>
+					
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_2.1.6.2." id="category_60"></a>
+<h3 class="title">2.1.6.2.プリファレンス設定</h3>
+<br>
+<br>
+<a name="tubame_2.1.6.2.1." id="category_61"></a>
+<h3 class="title">2.1.6.2.1.移行先ライブラリ設定</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
@@ -744,13 +1033,13 @@
 								
 </p>
 <div class="figure">
-<a name="N10538"></a>
+<a name="N105BB"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;ライブラリ設定画面</b>
 </p>
 <div class="figure-contents">
 <div class="mediaobject">
-<img src="images/wsearch_lib_setting.png" alt="ライブラリ設定画面"></div>
+<img src="ja/wsearch/images/wsearch_lib_setting.png" alt="ライブラリ設定画面"></div>
 </div>
 </div>
 <br class="figure-break">
@@ -814,13 +1103,13 @@
 </ul>
 </div>
 <div class="figure">
-<a name="N10573"></a>
+<a name="N105F6"></a>
 <p class="title">
 <b>Figure&nbsp;2.&nbsp;新規ライブラリリポジトリ画面</b>
 </p>
 <div class="figure-contents">
 <div class="mediaobject">
-<img src="images/wsearch_lib_setting_add.png" alt="新規ライブラリリポジトリ画面"></div>
+<img src="ja/wsearch/images/wsearch_lib_setting_add.png" alt="新規ライブラリリポジトリ画面"></div>
 </div>
 </div>
 <br class="figure-break">
@@ -837,13 +1126,13 @@
 							
 </p>
 <div class="figure">
-<a name="N1058A"></a>
+<a name="N1060D"></a>
 <p class="title">
 <b>Figure&nbsp;3.&nbsp;設定変更後のライブラリ一覧</b>
 </p>
 <div class="figure-contents">
 <div class="mediaobject">
-<img src="images/wsearch_lib_setting_add_after.png" alt="設定変更後のライブラリ一覧"></div>
+<img src="ja/wsearch/images/wsearch_lib_setting_add_after.png" alt="設定変更後のライブラリ一覧"></div>
 </div>
 </div>
 <br class="figure-break">
@@ -866,13 +1155,13 @@
 <p>本例の場合は、struts2-libを設定したので、移行先ライブラリに"struts2-lib"が表示されていることを確認します。
 								</p>
 <div class="figure">
-<a name="N105A4"></a>
+<a name="N10627"></a>
 <p class="title">
 <b>Figure&nbsp;4.&nbsp;依存性検索ウィザード画面</b>
 </p>
 <div class="figure-contents">
 <div class="mediaobject">
-<img src="images/wsearch_lib_setting_add_after_search.png" alt="依存性検索ウィザード画面"></div>
+<img src="ja/wsearch/images/wsearch_lib_setting_add_after_search.png" alt="依存性検索ウィザード画面"></div>
 </div>
 </div>
 <br class="figure-break">
@@ -886,8 +1175,8 @@
 </div>
 <br>
 <br>
-<a name="tubame_2.1.6.2." id="category_42"></a>
-<h3 class="title">2.1.6.2.検索対象設定</h3>
+<a name="tubame_2.1.6.2.2." id="category_62"></a>
+<h3 class="title">2.1.6.2.2.検索対象設定</h3>
 <br>
 <div class="section">
 <div class="titlepage"></div>
@@ -902,13 +1191,13 @@
 							
 </p>
 <div class="figure">
-<a name="N105CD"></a>
+<a name="N10650"></a>
 <p class="title">
 <b>Figure&nbsp;1.&nbsp;検索対象設定画面</b>
 </p>
 <div class="figure-contents">
 <div class="mediaobject">
-<img src="images/wsearch_target.png" alt="検索対象設定画面"></div>
+<img src="ja/wsearch/images/wsearch_target.png" alt="検索対象設定画面"></div>
 </div>
 </div>
 <br class="figure-break">
