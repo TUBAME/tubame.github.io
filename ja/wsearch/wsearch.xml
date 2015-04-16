@@ -630,7 +630,7 @@
                         <ns2:listitem>
                             <ns2:para>移行先ライブラリ</ns2:para>
                             <ns2:para>
-								移行先ライブラリは、デフォルトでJBossEAP6.2(eap6.2)、Tomcat8(tomcat8)、SpringMVC4(springmvc4)が組み込まれています。
+								移行先ライブラリは、デフォルトでJBossEAP6.2(eap6.2)、Tomcat8(tomcat8)、SpringMVC4(springmvc4)が組み込まています。
 								本資料では、JBossEAP6.2(eap6.2)を利用する方法について説明します。移行先ライブラリ情報を追加登録する場合は、
 								<ns2:command ns3:href="#librarySetting">移行先ライブラリ設定</ns2:command>
 								を参考に設定変更してください。
@@ -684,7 +684,7 @@
 
 								<ns2:simplelist>
     <ns2:member>
-										<ns2:guilabel>結果ファイルの出力先指定</ns2:guilabel>
+										<ns2:guilabel>結果ファイルの結果出力先</ns2:guilabel>
 										: 検索結果の出力先として
 										<ns2:filename>gjbm</ns2:filename>
 										ファイルを指定します。
@@ -1130,7 +1130,7 @@
                     <ns2:para>検索対象設定では、依存性検索の検索対象をフィルターすることができます。</ns2:para>
                     <ns2:orderedlist>
                         <ns2:listitem>
-                            <ns2:para>プリファレンスページより、検索対象設定を行います。</ns2:para>
+                            <ns2:para>プリファレンスページより、検索対象設定の設定を行います。</ns2:para>
                             <ns2:para>
 								<ns2:menuchoice>
     <ns2:guimenu>Window</ns2:guimenu>
