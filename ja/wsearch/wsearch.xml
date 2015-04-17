@@ -1013,7 +1013,7 @@
     <ns2:title>ライブラリ設定画面</ns2:title>
     <ns2:mediaobject>
         <ns2:imageobject condition="web">
-            <ns2:imagedata format="png" fileref="ja/wsearch/images/wsearch_lib_setting.png"/>
+            <ns2:imagedata format="png" fileref="images/wsearch_lib_setting.png"/>
         </ns2:imageobject>
         <ns2:textobject>
             <ns2:phrase>ライブラリ設定画面</ns2:phrase>
@@ -1062,7 +1062,7 @@
     <ns2:title>新規ライブラリリポジトリ画面</ns2:title>
     <ns2:mediaobject>
         <ns2:imageobject condition="web">
-            <ns2:imagedata format="png" fileref="ja/wsearch/images/wsearch_lib_setting_add.png"/>
+            <ns2:imagedata format="png" fileref="images/wsearch_lib_setting_add.png"/>
         </ns2:imageobject>
         <ns2:textobject>
             <ns2:phrase>新規ライブラリリポジトリ画面</ns2:phrase>
@@ -1084,7 +1084,7 @@
 <ns2:title>設定変更後のライブラリ一覧</ns2:title>
 <ns2:mediaobject>
     <ns2:imageobject condition="web">
-        <ns2:imagedata format="png" fileref="ja/wsearch/images/wsearch_lib_setting_add_after.png"/>
+        <ns2:imagedata format="png" fileref="images/wsearch_lib_setting_add_after.png"/>
     </ns2:imageobject>
     <ns2:textobject>
         <ns2:phrase>設定変更後のライブラリ一覧</ns2:phrase>
@@ -1108,7 +1108,7 @@
     <ns2:title>依存性検索ウィザード画面</ns2:title>
     <ns2:mediaobject>
         <ns2:imageobject condition="web">
-            <ns2:imagedata format="png" fileref="ja/wsearch/images/wsearch_lib_setting_add_after_search.png"/>
+            <ns2:imagedata format="png" fileref="images/wsearch_lib_setting_add_after_search.png"/>
         </ns2:imageobject>
         <ns2:textobject>
             <ns2:phrase>依存性検索ウィザード画面</ns2:phrase>
@@ -1143,7 +1143,7 @@
 <ns2:title>検索対象設定画面</ns2:title>
 <ns2:mediaobject>
     <ns2:imageobject condition="web">
-        <ns2:imagedata format="png" fileref="ja/wsearch/images/wsearch_target.png"/>
+        <ns2:imagedata format="png" fileref="images/wsearch_target.png"/>
     </ns2:imageobject>
     <ns2:textobject>
         <ns2:phrase>検索対象設定画面</ns2:phrase>
