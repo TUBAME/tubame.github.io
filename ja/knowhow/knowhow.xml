@@ -711,7 +711,7 @@ Windows 上で zip を解凍する場合、パス長の制限により解凍に�
         <ns3:tbody>
             <ns3:row>
                 <ns3:entry>カテゴリ</ns3:entry>
-                <ns3:entry>ドキュメント構成の章・節にタイトルに相当するアイテムです。タイトル情報のみ保持します。
+                <ns3:entry>ドキュメント構成の章・節のタイトルに相当するアイテムです。タイトル情報のみ保持します。
 									</ns3:entry>
             </ns3:row>
             <ns3:row>
@@ -1284,7 +1284,7 @@ Windows 上で zip を解凍する場合、パス長の制限により解凍に�
                 </ns3:info>
                 <ns3:section>
                     <ns3:para>
-			現行のTUBAMEでは複数行にまたがる検索が行えない。
+			現行のTUBAMEでは複数行にまたがる検索が行えません。
 			<ns3:figure>
                             <ns3:title>複数行検索例</ns3:title>
                             <ns3:programlisting language="text">
@@ -1293,13 +1293,13 @@ Windows 上で zip を解凍する場合、パス長の制限により解凍に�
 </ns3:textobject>
 				</ns3:programlisting>
                         </ns3:figure>
-			正規表現としては「log[\s]*\(」とすることで上記のlogメソッドを検索することは出来るはずであるが、
-			現行のTUBAMEでは複数行にまたがる検索が行えないため、このような正規表現を用いて検索することは出来ない。
+			正規表現としては「log[\s]*\(」とすることで上記のlogメソッドを検索することが出来ますが、
+			現行のTUBAMEでは複数行にまたがる検索が行えないため、このような正規表現を用いて検索することは出来ません。
 		</ns3:para>
-                    <ns3:para>Eclipseのフォーマット機能を利用することで「log」の後ろに「(」が来るようにすることもできるが、
-			「log」の後ろにコメントが入っている場合はフォーマット処理は行われない。
+                    <ns3:para>Eclipseのフォーマット機能を利用することで「log」の後ろに「(」が来るようにすることもできますが、
+			「log」の後ろにコメントが入っている場合はフォーマット処理は行われません。
 			したがって、事前にCheckstyleなどの静的解析ツールを利用して、このようなコードが無いかチェックをし、
-			そのうえでフォーマット機能を利用するようにした方が良いと考えられる。
+			そのうえでフォーマット機能を利用するようにした方が良いと考えられます。
 		</ns3:para>
                 </ns3:section>
             </ns3:article>
@@ -1311,14 +1311,14 @@ Windows 上で zip を解凍する場合、パス長の制限により解凍に�
                 </ns3:info>
                 <ns3:section>
                     <ns3:para>検索条件として、検索キーワード１にFQCN、検索キーワード２にメソッドや定数を指定した場合に、
-			前方一致してしまう別クラスを検出してしまう問題がある。
+			前方一致してしまう別クラスを検出してしまう問題があります。
 		</ns3:para>
                     <ns3:para>例えば、javax.servlet.http.HttpSessionクラスのgetValue()メソッドを検索する場合、
 			検索キーワード１に「javax\.servlet\.http\.HttpSession」、
 			検索キーワード２に「getValue\(」を設定していると、
 			javax.servlet.http.HttpSessionBindingEventクラスのgetValue()メソッドを利用してい
-			る場合に検出されてしまうと問題がある。本問題については、「HttpSession」の後ろに英数字が入らないような形での
-			キーワード指定「javax\.servlet\.http\.HttpSession[^0-9a-zA-Z]」と指定するなどが考えられる。
+			る場合に検出されてしまうと問題があります。本問題については、「HttpSession」の後ろに英数字が入らないような形での
+			キーワード指定「javax\.servlet\.http\.HttpSession[^0-9a-zA-Z]」と指定するなどが考えられます。
 		</ns3:para>
                 </ns3:section>
             </ns3:article>
@@ -1330,13 +1330,13 @@ Windows 上で zip を解凍する場合、パス長の制限により解凍に�
                 </ns3:info>
                 <ns3:section>
                     <ns3:para>検索条件として検索キーワード１にFQCN、検索キーワード２にメソッドや定数を指定した場合に、
-			検索対象ではないクラスの同名メソッドを検出してしまう問題がある。
+			検索対象ではないクラスの同名メソッドを検出してしまう問題があります。
 		</ns3:para>
                     <ns3:para>例えば、javax.servlet.ServletContextクラスのlog(Exception,
 			String)メソッドを検索す る場合、
 			検索キーワード１に「javax\.servlet\.ServletContext」、検索キーワード２に「log\(」を設定していると、クラス内で定義された同名のメソッドが検出されたり、log(Exception,
-			String)メソッドではなく、 log(String, Throwable)メソッドが検出されてしまう問題がある。
-			なお、本問題については現在キーワードでの防止策は確認できていないため、目視によるチェックで対応する必要がある。
+			String)メソッドではなく、 log(String, Throwable)メソッドが検出されてしまう問題があります。
+			なお、本問題については現在キーワードでの防止策は確認できていないため、目視によるチェックで対応する必要があります。
 		</ns3:para>
                 </ns3:section>
             </ns3:article>
@@ -1347,7 +1347,7 @@ Windows 上で zip を解凍する場合、パス長の制限により解凍に�
                     <ns3:title>body</ns3:title>
                 </ns3:info>
                 <ns3:section>
-                    <ns3:para>ここでは実際にナレッジを作成する際に注意すべき事や工夫すべき事について記述する。</ns3:para>
+                    <ns3:para>ここでは実際にナレッジを作成する際に注意すべき事や工夫すべき事について記述します。</ns3:para>
                 </ns3:section>
             </ns3:article>
         </DocBook>
