@@ -1886,7 +1886,7 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 								<ns2:itemizedlist>
                 <ns2:listitem>
                     <ns2:para>低1</ns2:para>
-                    <ns2:para>置換レベルで対応できる軽微な修正項目</ns2:para>
+                    <ns2:para>置き換えで対応できる軽微な修正項目</ns2:para>
                 </ns2:listitem>
                 <ns2:listitem>
                     <ns2:para>低2</ns2:para>
@@ -2215,7 +2215,7 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 					</ns2:para>
                             </ns2:listitem>
                             <ns2:listitem>
-<ns2:para>「use local pyton」をtrueにし、pythonのパスを指定指定する</ns2:para>
+<ns2:para>「use local python」」をtrueにし、pythonのパスを指定指定する</ns2:para>
                             </ns2:listitem>
                         </ns2:itemizedlist>
 
