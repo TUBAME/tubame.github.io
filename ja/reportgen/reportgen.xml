@@ -295,7 +295,7 @@
                     <ns2:title>body</ns2:title>
                 </ns2:info>
                 <ns2:section>
-                    <ns2:para>本マニュアルはTUBAMEを利用して、移植性検討レポートを作成する手順ついて、説明したマニュアルです。</ns2:para>
+                    <ns2:para>本マニュアルはTUBAMEを利用して、移植性検討レポートを作成する手順について、説明したマニュアルです。</ns2:para>
                 </ns2:section>
             </ns2:article>
         </DocBook>
@@ -395,7 +395,7 @@
                             </ns2:listitem>
                             <ns2:listitem>
 <ns2:para>出力されたレポートの確認</ns2:para>
-<ns2:para>作際されたレポートのHTMLファイルは、Eclipse上のWebBrowserでは表示が崩れてしまうため、Firefoxや、ChromeなどのWebブラウザで表示してください。
+<ns2:para>作成されたレポートのHTMLファイルは、Eclipse上のWebBrowserでは表示が崩れてしまうため、Firefoxや、ChromeなどのWebブラウザで表示してください。
 					</ns2:para>
 <ns2:note>
     <ns2:figure>
@@ -421,7 +421,7 @@
                 </ns2:info>
                 <ns2:section>
                     <ns2:para>
-			移植性検討レポート作成するために、ナレッジベース検索、依存性検索を実施したプロジェクトを選択します。
+			移植性検討レポートを作成するために、ナレッジベース検索、依存性検索を実施したプロジェクトを選択します。
 
 			<ns2:warning>
                             <ns2:itemizedlist>
