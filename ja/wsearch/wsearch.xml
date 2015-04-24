@@ -660,12 +660,12 @@
                             <ns2:para>検索リソースの選択</ns2:para>
                             <ns2:para>検索したいリソース上で右クリックし、以下のメニューを選択します。</ns2:para>
                             <ns2:para>
-								<ns2:menuchoice>
+					<ns2:menuchoice>
     <ns2:guimenuitem>tubame</ns2:guimenuitem>
     <ns2:guimenuitem>依存性検索</ns2:guimenuitem>
 </ns2:menuchoice>
 
-								<ns2:figure>
+					<ns2:figure>
     <ns2:title>依存性検索メニュー画面</ns2:title>
     <ns2:mediaobject>
         <ns2:imageobject condition="web">
@@ -676,22 +676,20 @@
         </ns2:textobject>
     </ns2:mediaobject>
 </ns2:figure>
-							</ns2:para>
+				</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>検索条件の設定</ns2:para>
                             <ns2:para>
 
-								<ns2:simplelist>
+					<ns2:simplelist>
     <ns2:member>
-										<ns2:guilabel>結果ファイルの結果出力先</ns2:guilabel>
-										: 検索結果の出力先として
-										<ns2:filename>gjbm</ns2:filename>
-										ファイルを指定します。
-									</ns2:member>
+							<ns2:guilabel>結果ファイルの出力先指定</ns2:guilabel>
+							: 検索結果の出力ディレクトリを指定します。検索結果は出力ディレクトリに<ns2:filename>gjbm</ns2:filename>ファイルを作成します。
+						</ns2:member>
 </ns2:simplelist>
 
-								<ns2:figure>
+					<ns2:figure>
     <ns2:title>依存性検索ウィザード画面</ns2:title>
     <ns2:mediaobject>
         <ns2:imageobject condition="web">
@@ -702,14 +700,14 @@
         </ns2:textobject>
     </ns2:mediaobject>
 </ns2:figure>
-							</ns2:para>
+				</ns2:para>
                         </ns2:listitem>
                         <ns2:listitem>
                             <ns2:para>検索の実行</ns2:para>
                             <ns2:para>
-								<ns2:guimenuitem>Finish</ns2:guimenuitem>
-								をクリックすると検索が開始されます。
-							</ns2:para>
+					<ns2:guimenuitem>Finish</ns2:guimenuitem>
+					をクリックすると検索が開始されます。
+				</ns2:para>
                         </ns2:listitem>
                     </ns2:orderedlist>
                 </ns2:section>
