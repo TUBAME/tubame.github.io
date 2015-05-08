@@ -59,14 +59,20 @@ font-weight: bold;
 }
 </style>
 <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+(function(i, s, o, g, r, a, m) {
+i['GoogleAnalyticsObject'] = r;
+i[r] = i[r] || function() {
+(i[r].q = i[r].q || []).push(arguments)
+}, i[r].l = 1 * new Date();
+a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+a.async = 1;
+a.src = g;
+m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js',
+'ga');
 
 ga('create', 'UA-56818328-2', 'auto');
 ga('send', 'pageview');
-
 </script>
 </head>
 <body>
@@ -147,7 +153,81 @@ ga('send', 'pageview');
 <div class="container">
 <div class="row">
 <div class="col-xs-12 col-md-8 col-md-offset-2">
-<iframe width="840" height="472" src="" frameborder="0" allowfullscreen></iframe>
+<iframe width="840" height="472" src="https://www.youtube.com/embed/tcv0bJRdkjE" frameborder="0" allowfullscreen></iframe>
+</div>
+</div>
+<div class="row">
+<div class="col-xs-12 col-md-10 col-md-offset-1">
+<dl>
+<hr />
+<dt class="menuLine">TUBAMEとは？</dt>
+<dd>TUBAMEはJavaアプリケーションのマイグレーション時に必要となる、修正箇所の抽出や難易度や、工数算出及び、移植方法までを提供する移植支援ツールです。</dd>
+<hr />
+<dt class="menuLine">TUBAMEはなぜ必要か？</dt>
+<dd>商用製品からOSS製品へのマイグレーションやOSS製品のバージョンアップにおいて、既存アプリケーションが移行後の環境へ移行可能かどうか、修正が必要な場合にどの程度の工数が必要になるか、各移植項目の難易度や移植方法の調査などの事前検討が必要です。</dd>
+<dd>しかし、こうした検討作業は移行後の環境で使用するOSS製品に関する知識が必須となります。</dd>
+<dd>これらのエンジニアがいない場合は、どうしても、移行後で利用するOSS製品の調査稼働が発生し、移植検討自体で多くの工数自体が必要になります。</dd>
+<dd>TUBAMEでは、修正箇所を自動で検索するためのツールを提供しています。</dd>
+<dd>また、ツール本体とは別に、修正箇所を検索するためのキーワードや修正工数、修正難易度、移植方法などをまとめたマイグレーションナレッジを提供しています。</dd>
+<dd>このマイグレーションナレッジを利用することで、移行後の環境で使用するOSS製品に関する知識がない場合でも、移植検討できるように支援するのがTUBAMEです。</dd>
+<hr />
+<dt class="menuLine">マイグレーションナレッジの種類は？</dt>
+<dd>
+<a href="http://tubame.github.io/ja/knowledge/knowledge.html">KNOWLEDGES</a>に現在公開中のマイグレーションナレッジの一覧があります。
+</dd>
+<hr />
+<dt class="menuLine">マイグレーションナレッジ（KNOWLEDGE）とマイグレーションガイド（GUIDE）の違いは？</dt>
+<dd>マイグレーションナレッジはXMLファイルで、ツール本体がナレッジベース検索時に利用するファイルです。</dd>
+<dd>マイグレーションガイドはHTMLファイルで、ユーザが移植方法を確認するために利用できます。</dd>
+<dd>マイグレーションガイドはツール検索結果から参照できるほか、
+<a href="http://tubame.github.io/ja/knowledge/knowledge.html">KNOWLEDGESページ</a>でも公開しています。
+</dd>
+<hr />
+<dt class="menuLine">インストール方法は？</dt>
+<dd>
+<a href="http://tubame.github.io/ja/quickstart/quickstart.html">QUICKSTART</a>の「インストール」を参考にしてください。
+</dd>
+<hr />
+<dt class="menuLine">移植箇所の検索方法は？</dt>
+<dd>
+<a href="http://tubame.github.io/ja/quickstart/quickstart.html">QUICKSTART</a>の「ナレッジベース検索」「依存性検索」や
+<a href="http://tubame.github.io/ja/docs/docs.html">GUIDES</a>を参考にしてください。
+</dd>
+<hr />
+<dt class="menuLine">ナレッジベース検索と依存性検索の違いは？</dt>
+<dd>ナレッジベース検索はマイグレーションナレッジ（XMLファイル）を使用して検索を実行します。</dd>
+<dd>修正項目毎に移植難易度や修正工数を表わすことができ、修正ガイドライン（マイグレーションガイド）を参照することで修正方法が確認できます。</dd>
+<dd>
+<img src="images/knowledge-base-future.png" class="img-responsive center-block img-thumbnail" alt="Responsive image" width="512" />
+</dd>
+<dd>依存性検索は移行先の環境(ミドルウェア)で利用できないJavaパッケージやクラス情報を自動で抽出します。</dd>
+<dd>マイグレーションナレッジに記載されていない移植項目が存在する場合には本ツールを利用することで、APIレベルでの移行先で利用できないものを抽出し、移植検討漏れがないようすることができます。</dd>
+<dd>
+<img src="images/dependcy-future.png" class="img-responsive center-block img-thumbnail" alt="Responsive image" width="512" />
+</dd>
+<dd>ナレッジベース検索と依存性検索の検索結果は移植作業の各フェーズで以下のように活用することができます。
+<img src="images/portability.png" class="img-responsive center-block img-thumbnail" alt="Responsive image" width="768" />
+<img src="images/make.png" class="img-responsive center-block img-thumbnail" alt="Responsive image" width="768" />
+<hr />
+<dt class="menuLine">マイグレーションナレッジに含まれないノウハウを見つけた場合は？</dt>
+<dd>
+<a href="https://groups.google.com/forum/#!forum/tubame-users">フォーラム</a>にノウハウを提供してください。
+</dd>
+<dd>TUBAMEコミッタによってマイグレーションナレッジに追加します。</dd>
+<hr />
+<dt class="menuLine">検索結果をレポート出力したい場合は？</dt>
+<dd>
+<a href="http://tubame.github.io/ja/quickstart/quickstart.html">QUICKSTART</a>の「レポート生成機能」や
+<a href="http://tubame.github.io/ja/docs/docs.html">GUIDES</a>を参考にしてください。
+</dd>
+<hr />
+<dt class="menuLine">分からないこと、質問したいことがある場合は？</dt>
+<dd>
+<a href="https://groups.google.com/forum/#!forum/tubame-users">フォーラム</a>でトピックを作成して質問してください。
+</dd>
+<dd>コミュニティメンバが随時回答します。</dd>
+<hr />
+</dl>
 </div>
 </div>
 </div>

@@ -59,14 +59,20 @@ font-weight: bold;
 }
 </style>
 <script>
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+(function(i, s, o, g, r, a, m) {
+i['GoogleAnalyticsObject'] = r;
+i[r] = i[r] || function() {
+(i[r].q = i[r].q || []).push(arguments)
+}, i[r].l = 1 * new Date();
+a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+a.async = 1;
+a.src = g;
+m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js',
+'ga');
 
 ga('create', 'UA-56818328-2', 'auto');
 ga('send', 'pageview');
-
 </script>
 </head>
 <body>
@@ -181,50 +187,62 @@ ga('send', 'pageview');
 </div>
 <div class="container">
 <div class="row">
-<div class="col-xs-12 col-md-12">
-<div class="row">
-<div class="col-xs-12 col-md-10 col-md-offset-1">
-<h2 class="menuTab">TUBAMEってなに？</h2>
-<p>TUBAMEはJavaアプリケーションのマイグレーション時に必要となる、修正箇所の抽出や修正工数の算出を自動で行うためのツールです。</p>
-<p>自動化により作業工数の削減や人的ミスの防止が可能となり、加えてコミュニティで蓄積されたマイグレーションに関わるノウハウを提供しているため作業精度の向上にも役立ちます。</p>
-<br />
-</div>
-<div class="col-xs-12 col-md-10 col-md-offset-1">
-<h2 class="menuTab">TUBAMEを使うメリットは？</h2>
-<p>商用製品からOSS製品へのマイグレーションや製品のバージョンアップを検討する作業は高い精度の見積りが重要です。</p>
-<p>TUBAMEではアプリケーションのソースコードや設定ファイルを入力として、マイグレーション先の環境では利用できない箇所を自動で抽出します。</p>
-<p>さらに、移植に必要なノウハウ(修正工数や修正方法などの情報)を提供しているため、見積り時の精度向上に役立ちます。</p>
-<img src="images/migration-process.png" class="img-responsive center-block" alt="Responsive image" />
-<br />
-</div>
-<div class="col-xs-12 col-md-10 col-md-offset-1">
-<h2 class="menuTab">どうやって修正箇所を探すの？</h2>
-<p>TUBAMEは修正箇所を自動で検索するためのツール本体とは別に、修正箇所を検索するためのキーワードや修正工数、修正難易度などをまとめたマイグレーションナレッジを提供しています。</p>
-<p>ナレッジを切替えることにより、多様な移行パターンに対応することができます。</p>
-<p>現在、コミュニティで提供しているナレッジの一覧を 
-<a href="http://tubame.github.io/ja/knowledge/knowledge.html">こちら</a>で確認できます。
-</p>
-<br />
-</div>
-<div class="col-xs-12 col-md-10 col-md-offset-1">
-<h2 class="menuTab">実際に実行するときのインプット／アウトプットは？</h2>
-</div>
-<div class="col-xs-12 col-md-6 col-md-offset-1">
-<p>TUBAMEはツール本体とマイグレーションナレッジを使用して修正箇所の抽出や修正工数の算出を行います。</p>
-<p>移行元のJavaアプリケーションを入力情報として検索を実行すると、修正項目の一覧が得られます。</p>
-<p>また、修正方法や修正方針などをまとめた修正ガイドラインを修正項目一覧から参照できたり、レポートを自動で生成することができます。</p>
+<div class="col-xs-12 col-md-8">
+<dl>
+<dt class="menuTab">TUBAMEとは？</dt>
+<dd>TUBAMEはJavaアプリケーションのマイグレーション時に必要となる、修正箇所の抽出や修正工数の算出を自動で行うためのツールです。
+</dd>
+<dd>自動化により作業工数の削減や人的ミスの防止が可能となり、加えてコミュニティで蓄積されたマイグレーションに関わるノウハウを提供しているため作業精度の向上にも役立ちます。
+</dd>
+<hr />
+<dt class="menuTab">TUBAMEを使うメリットは？</dt>
+<dd>商用製品からOSS製品へのマイグレーションや製品のバージョンアップを検討する作業は高い精度の見積りが重要です。
+</dd>
+<dd>TUBAMEではアプリケーションのソースコードや設定ファイルを入力として、マイグレーション先の環境では利用できない箇所を自動で抽出します。
+</dd>
+<dd>さらに、移植に必要なノウハウ(修正工数や修正方法などの情報)を提供しているため、見積り時の精度向上に役立ちます。
+</dd>
+<dd>
+<img src="images/migration-process.png" class="img-responsive center-block" alt="Responsive image" width="512" />
+</dd>
+<hr />
+<dt class="menuTab">より詳しく知りたい！</dt>
+<dd>本コミュニティページにはTUBAMEについてやツールの使い方まで各種コンテンツが用意してあります。
+</dd>
+<dd>各ページにアクセスしてTUBAMEの良さを知ってください！
+</dd>
+</dd>
+<hr />
+</dl>
 </div>
 <div class="col-xs-12 col-md-4">
-<img src="images/tubame-description.png" class="img-responsive center-block" alt="Responsive image" />
-<br />
+<p class="menuLine">Relese Infomation</p>
+<div class="list-group" style="height: 500px; overflow-y: scroll;">
+<a href="https://github.com/TUBAME/migration-knowledge/releases/tag/struts1tospringmvcja" class="list-group-item">
+<h4 class="list-group-item-heading">Struts1 ->SpringMVC Migration Knowledge Released</h4>
+<p class="list-group-item-text" style="font-size: 12px;">Struts1からSpringMVCへのマイグレーションナレッジが2015年3月15日にリリースされました。</p>
+</a>
+<a href="https://github.com/TUBAME/migration-tool/releases/tag/v1.0.3" class="list-group-item">
+<h4 class="list-group-item-heading">TUBAME 1.0.3 Released</h4>
+<p class="list-group-item-text" style="font-size: 12px;">TUBAME 1.0.3 が2014年7月31日にリリースされました。</p>
+</a>
+<a href="https://github.com/TUBAME/migration-knowledge/releases/tag/jbosseap4.3to6ja" class="list-group-item">
+<h4 class="list-group-item-heading">JBossEAP4.3 ->JBossEAP6 Migration Knowledge Released</h4>
+<p class="list-group-item-text" style="font-size: 12px;">JBossEP4.3からJBossEAP6へのマイグレーションナレッジがリリースされています。</p>
+</a>
+<a href="https://github.com/TUBAME/migration-knowledge/releases/tag/tomcat7.0to8.0ja" class="list-group-item">
+<h4 class="list-group-item-heading">Tomcat7.0 ->Tomcat8.0 Migration Knowledge Released</h4>
+<p class="list-group-item-text" style="font-size: 12px;">Tomcat7.0からTomcat8.0へのマイグレーションナレッジがリリースされています。</p>
+</a>
+<a href="https://github.com/TUBAME/migration-knowledge/releases/tag/was6tojbosseap6ja" class="list-group-item">
+<h4 class="list-group-item-heading">WebLogic9 ->JBossEAP6 Migration Knowledge Released</h4>
+<p class="list-group-item-text" style="font-size: 12px;">WebSphere6からJBossEAP6へのマイグレーションナレッジがリリースされています。</p>
+</a>
+<a href="https://github.com/TUBAME/migration-knowledge/releases/tag/wls9tojbosseap6ja" class="list-group-item">
+<h4 class="list-group-item-heading">WebLogic9 ->JBossEAP6 Migration Knowledge Released</h4>
+<p class="list-group-item-text" style="font-size: 12px;">WebLogic9からJBossEAP6へのマイグレーションナレッジがリリースされています。</p>
+</a>
 </div>
-<div class="col-xs-12 col-md-10 col-md-offset-1">
-<h2 class="menuTab">もっと詳しくわかりやすく教えて！</h2>
-<p>
-<a href="http://tubame.github.io/ja/tutorial/tutorial.html">チュートリアル</a>や
-<a href="http://tubame.github.io/ja/quickstart/quickstart.html">クイックスタート</a>を観て、TUBAMEの良さを知ってください！
-</p>
-<br />
 </div>
 </div>
 </div>
