@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<title>TUBAME Documentations</title>
+<title>TUBAME's GUIDES</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="">
 <meta name="author" content="">
@@ -21,56 +21,170 @@ body {
 margin: 0;
 font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", Osaka, "メイリオ",
 Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
-font-size: 14px;
+font-size: 16px;
 line-height: 20px;
 color: #333333;
 background-color: #ffffff;
-min-height:0px
+min-height: 0px;
+padding-top: 66px;
 }
-.navbar-default {
-background-color: #7b4f9d;
-border-color: #7b4f9d;
+
+.navbar {
+min-height: 66px;
 }
-a {
-display: block;
-width: 100%;
-height: 100%;
-text-decoration:none;
+
+.menuTab {
+margin: 0 0 10px 0;
+padding: 2px 8px;
+border-width: 0 0 0 5px;
+border-color: #ccbe2e;
+border-style: solid;
+background: #2e8bcc;
+color: #EBF7FA;
+line-height: 140%;
+font-weight: bold;
 }
-a:hover {
-text-decoration: none;
+
+.menuLine {
+margin: 0 0 10px 0;
+padding: 2px 8px;
+border-width: 0 0 5px 0;
+border-color: #ccbe2e;
+border-style: solid;
+background: #2e8bcc;
+color: #EBF7FA;
+line-height: 140%;
+font-weight: bold;
+}
 }
 </style>
+<script>
+(function(i, s, o, g, r, a, m) {
+i['GoogleAnalyticsObject'] = r;
+i[r] = i[r] || function() {
+(i[r].q = i[r].q || []).push(arguments)
+}, i[r].l = 1 * new Date();
+a = s.createElement(o), m = s.getElementsByTagName(o)[0];
+a.async = 1;
+a.src = g;
+m.parentNode.insertBefore(a, m)
+})(window, document, 'script', '//www.google-analytics.com/analytics.js',
+'ga');
+
+ga('create', 'UA-56818328-2', 'auto');
+ga('send', 'pageview');
+</script>
 </head>
 <body>
-<!-- Static navbar -->
-<div class="navbar navbar-default navbar-static-top bsnavbar">
+<nav class="navbar navbar-default navbar-fixed-top">
 <div class="container">
 <div class="navbar-header">
-<div class="navbar-brand">
-<h1>DOCS</h1>
+<button type="button" class="navbar-toggle collapsed"
+data-toggle="collapse" data-target="#navbar-collapse">
+<span class="sr-only">Toggle navigation</span> <span
+class="icon-bar"></span> <span class="icon-bar"></span> <span
+class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="http://tubame.github.io/en/index/">
+<img style="max-width: 80px; margin-top: -10px;"
+src="images/TUBAME.png">
+</a>
+</div>
+<div class="collapse navbar-collapse" id="navbar-collapse">
+<ul class="nav navbar-nav">
+<li><a
+href="http://tubame.github.io/en/tutorial/tutorial.html">
+<h4>TUTORIAL</h4>
+</a></li>
+<li><a
+href="http://tubame.github.io/en/quickstart/quickstart.html">
+<h4>QUICKSTART</h4>
+</a></li>
+<li><a href="http://tubame.github.io/en/docs/docs.html">
+<h4>GUIDES</h4>
+</a></li>
+<li><a
+href="http://tubame.github.io/en/knowledge/knowledge.html">
+<h4>KNOWLEDGES</h4>
+</a></li>
+</ul>
+<ul class="nav navbar-nav navbar-right">
+<li><a href="https://github.com/TUBAME/migration-tool"
+class="fa-links"> <i class="fa fa-github fa-2x"></i>
+</a></li>
+<li><a
+href="https://groups.google.com/forum/#!forum/tubame-users"
+class="fa-links"> <i class="fa fa-group fa-2x"></i>
+</a></li>
+<li class="dropdown"><a href="#" class="dropdown-toggle"
+data-toggle="dropdown"> <i class="fa fa-globe fa-2x"></i> <b
+class="caret"></b>
+</a>
+<ul class="dropdown-menu">
+<li><a href="http://tubame.github.io/ja/index/">Japanese</a>
+</li>
+<li><a href="http://tubame.github.io/en/index/">English</a>
+</li>
+</ul></li>
+</ul>
 </div>
 </div>
-<div class="collapse navbar-collapse">
-<div class="navbar-right"></div>
-</div>
-</div>
-</div>
-<div class="container bs-docs-container">
-<div class="row">
-<div class="col-md-12" role="main">
-<!-- ===== Dropdowns ===== -->
-<div class="bs-docs-section">
-<h1>Comming soon</h1>
-</div>
-</div>
-<!-- bs-docs-section end-->
-<!-- ===== Footer ===== -->
-<footer class="bs-footer" role="contentinfo">
+</nav>
+<div class="page-header">
 <div class="container">
-<a href="http://tubame.github.io/ja" target="_self">TUBAME Community page</a>
+<div class="row">
+<div class="col-xs-12 col-md-10 col-md-offset-1">
+<h1>GUIDES</h1>
 </div>
-</footer>
+</div>
+</div>
+</div>
+
+<div class="container">
+<div class="row">
+<div class="col-xs-12 col-md-10 col-md-offset-1">
+<div class="panel panel-default">
+<table class="table table-hover">
+<tr>
+<td><a
+href="http://tubame.github.io/en/portability/portability.html"
+style="display: block; width: 100%; height: 100%; text-decoration: none;"
+target="_brunk">Knowledge-Based Search's Guide</a></td>
+</tr>
+
+<tr>
+<td><a
+href="http://tubame.github.io/en/wsearch/wsearch.html"
+style="display: block; width: 100%; height: 100%; text-decoration: none;"
+target="_brunk">Dependency Search's Guide</a></td>
+</tr>
+
+<tr>
+<td><a
+href="http://tubame.github.io/en/knowhow/knowhow.html"
+style="display: block; width: 100%; height: 100%; text-decoration: none;"
+target="_brunk">Knowledge Manager's Guide</a></td>
+</tr>
+
+<tr>
+<td><a
+href="http://tubame.github.io/en/reportgen/reportgen.html"
+style="display: block; width: 100%; height: 100%; text-decoration: none;"
+target="_brunk">TUBAME's Migration assesment report's Guide</a>
+</td>
+</tr>
+
+<tr>
+<td><a
+href="http://tubame.github.io/en/post_knowledge/post_knowledge.html"
+style="display: block; width: 100%; height: 100%; text-decoration: none;"
+target="_brunk">How to contribute knowledge</a></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+</div>
 <!-- JS and analytics only. -->
 <!-- ===== Bootstrap core JavaScript ===== -->
 <!-- Placed at the end of the document so the pages load faster -->
@@ -81,16 +195,5 @@ text-decoration: none;
 <script type="text/javascript" src="js/jquery.validate.unobtrusive.js"></script>
 <script type="text/javascript" src="js/jquery.unobtrusive-ajax.js"></script>
 <script type="text/javascript" src="js/metro-docs.js"></script>
-<script type="text/javascript">
-(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-56818328-1', 'auto');
-ga('send', 'pageview');
-</script>
-</div>
-</div>
-</div>
 </body>
 </html>
