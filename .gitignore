@@ -28,3 +28,6 @@ work/
 
 # Windows's files #
 Thumbs.db
+
+# MSOffice's files #
+*.ppt*
