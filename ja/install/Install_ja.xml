@@ -1,0 +1,377 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PortabilityKnowhow xmlns="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:ns2="http://docbook.org/ns/docbook" xmlns:ns3="http://www.w3.org/1999/xlink">
+    <PortabilityKnowhowTitle>TUBAMEインストールガイド</PortabilityKnowhowTitle>
+    <EntryViewList>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_1</EntryCategoryRefKey>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_2</EntryCategoryRefKey>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_3</EntryCategoryRefKey>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_5</EntryCategoryRefKey>
+        </EntryCategory>
+    </EntryViewList>
+    <ChapterList>
+        <Chapter>
+            <ChapterNo>1.</ChapterNo>
+            <ChapterName>はじめに</ChapterName>
+            <ChildChapter>
+                <ChildCapterNo>1.1.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_1</ChapterCategoryRefKey>
+            </ChildChapter>
+        </Chapter>
+        <Chapter>
+            <ChapterNo>2.</ChapterNo>
+            <ChapterName>動作環境</ChapterName>
+            <ChildChapter>
+                <ChildCapterNo>2.1.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_2</ChapterCategoryRefKey>
+            </ChildChapter>
+        </Chapter>
+        <Chapter>
+            <ChapterNo>3.</ChapterNo>
+            <ChapterName>インストール</ChapterName>
+            <ChildChapter>
+                <ChildCapterNo>3.1.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_3</ChapterCategoryRefKey>
+            </ChildChapter>
+            <ChildChapter>
+                <ChildCapterNo>3.2.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_5</ChapterCategoryRefKey>
+            </ChildChapter>
+        </Chapter>
+    </ChapterList>
+    <CategoryList>
+        <Category categoryId="category_1" appropriate="true">
+            <CategoryName>本ドキュメンについて</CategoryName>
+            <KnowhowRefKey>knowhow_2</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_2" appropriate="true">
+            <CategoryName>ソフトウェア要件</CategoryName>
+            <KnowhowRefKey>knowhow_3</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_3" appropriate="true">
+            <CategoryName>自動インストール</CategoryName>
+            <KnowhowRefKey>knowhow_1</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_5" appropriate="true">
+            <CategoryName>手動インストール</CategoryName>
+            <KnowhowRefKey>knowhow_4</KnowhowRefKey>
+        </Category>
+    </CategoryList>
+    <KnowhowList>
+        <KnowhowInfomation knowhowId="knowhow_2" knowhowDetailRefKey="knowhowDetail_2">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_3" knowhowDetailRefKey="knowhowDetail_3">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_1" knowhowDetailRefKey="knowhowDetail_1">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_4" knowhowDetailRefKey="knowhowDetail_4">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+    </KnowhowList>
+    <DocBookList>
+        <DocBook articleId="knowhowDetail_1">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			自動インストールはTUBME（Eclipse Plugin)をインターネットを利用して、Eclipseに自動でインストール方法です。
+			ソフトウェア要件にあるソフトウェアがインストールされていることを確認し、以下の手順を実施する。
+
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>Eclipe起動</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+						Eclipseのメニューより
+						<ns2:menuchoice>
+        <ns2:guimenu>Help</ns2:guimenu>
+        <ns2:guimenuitem>Install New Software...</ns2:guimenuitem>
+    </ns2:menuchoice>
+						を選択し、Install画面起動。起動後にADDボタンを押下する
+
+
+					</ns2:para>
+<ns2:figure>
+    <ns2:title>Install画面</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject condition="web">
+            <ns2:imagedata format="jpg" fileref="images/WS000000.JPG" width="800"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>AddReposiry画面にて以下項目を入力し、OKボタンを押下する
+					</ns2:para>
+<ns2:table frame="all">
+    <ns2:title>AddReposiry画面入力項目</ns2:title>
+    <ns2:tgroup cols="2">
+        <ns2:thead>
+            <ns2:row>
+                <ns2:entry>Name</ns2:entry>
+                <ns2:entry>Location</ns2:entry>
+            </ns2:row>
+        </ns2:thead>
+        <ns2:tbody>
+            <ns2:row>
+                <ns2:entry>TUBAME</ns2:entry>
+                <ns2:entry>http://dl.bintray.com/tubame-developers/tubame-release/
+									</ns2:entry>
+            </ns2:row>
+        </ns2:tbody>
+    </ns2:tgroup>
+</ns2:table>
+<ns2:figure>
+    <ns2:title>AddReposiry画面</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject condition="web">
+            <ns2:imagedata format="jpg" fileref="images/WS000002.JPG" width="800"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>
+						インストール画面に表示される「TUBAME」チェックボックスをチェックし、「Next」ボタンを押下する
+
+						<ns2:figure>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/WS000004.JPG" width="800"/>
+            </ns2:imageobject>
+            <ns2:textobject>
+                <ns2:phrase>インストール画面</ns2:phrase>
+            </ns2:textobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>インストール詳細画面が表示されるので、「Next」ボタンを押下する
+					</ns2:para>
+<ns2:figure>
+    <ns2:mediaobject>
+        <ns2:imageobject condition="web">
+            <ns2:imagedata format="jpg" fileref="images/WS000005.JPG" width="800"/>
+        </ns2:imageobject>
+        <ns2:textobject>
+            <ns2:phrase>インストール詳細画面</ns2:phrase>
+        </ns2:textobject>
+    </ns2:mediaobject>
+</ns2:figure>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>ライセンスレビュー画面が表示されるので、「I accept ...」をチェックし、「Finish」ボタンを押下する。
+					</ns2:para>
+<ns2:figure>
+    <ns2:mediaobject>
+        <ns2:imageobject condition="web">
+            <ns2:imagedata format="jpg" fileref="images/WS000006.JPG" width="70%"/>
+        </ns2:imageobject>
+        <ns2:textobject>
+            <ns2:phrase>ライセンスレビュー画面</ns2:phrase>
+        </ns2:textobject>
+    </ns2:mediaobject>
+</ns2:figure>
+<ns2:note>
+    <ns2:para>
+							インストール完了後は、Eclipseを再起動する。再起動は以下を実施しTUBAME Eclipse
+							Pluginがインストールされていることを確認してください。
+						</ns2:para>
+    <ns2:para>
+							Eclipseのメニューより
+							<ns2:menuchoice>
+            <ns2:guimenu>Help</ns2:guimenu>
+            <ns2:guimenuitem>Install Details</ns2:guimenuitem>
+        </ns2:menuchoice>
+							を選択し、Install
+							Details画面にて、Pluginsタブを選択し、「tubame」を入力して、3つのpluginが表示されることを確認する
+
+							<ns2:figure>
+            <ns2:title>Install Details画面</ns2:title>
+            <ns2:mediaobject>
+                <ns2:imageobject condition="web">
+                    <ns2:imagedata format="jpg" fileref="images/WS000008.JPG" width="70%"/>
+                </ns2:imageobject>
+                <ns2:textobject>
+                    <ns2:phrase>Install Details画面</ns2:phrase>
+                </ns2:textobject>
+            </ns2:mediaobject>
+        </ns2:figure>
+						</ns2:para>
+</ns2:note>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_2">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>TUBAMEマイグレーションツールをインストールする手順を示す。
+        
+        
+        </ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_3">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>TUBAMEマイグレーションツールは、Eclipse Pluginとして動作する。以下のソフトウェア環境が必要となる。
+        
+        	<ns2:table frame="all">
+                            <ns2:title>ソフトウェア要件</ns2:title>
+                            <ns2:tgroup cols="2">
+<ns2:thead>
+    <ns2:row>
+        <ns2:entry>項目</ns2:entry>
+        <ns2:entry>要件</ns2:entry>
+    </ns2:row>
+</ns2:thead>
+<ns2:tbody>
+    <ns2:row>
+        <ns2:entry>OS</ns2:entry>
+        <ns2:entry>Windows,MacOS</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Java</ns2:entry>
+        <ns2:entry>Oracle JRE1.6以上</ns2:entry>
+    </ns2:row>
+    <ns2:row>
+        <ns2:entry>Eclipse</ns2:entry>
+        <ns2:entry>Eclipse3系 またはEclipse4系</ns2:entry>
+    </ns2:row>
+</ns2:tbody>
+                            </ns2:tgroup>
+                        </ns2:table>
+        
+        </ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_4">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>手動インストールはTUBMEコミュニティより、TUBAME(Eclipse Plugins)をインターネットより取得し、Eclipseに手動でTUBAMEをインストールする方法です。
+			ソフトウェア要件にあるソフトウェアがインストールされていることを確認し、以下の手順を実施する。
+
+
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>TUBAMEダウンロード</ns2:para>
+<ns2:para>
+						<ns2:command ns3:href="https://github.com/TUBAME/migration-tool/releases/download/v1.1.0/tubame_110.zip">https://github.com/TUBAME/migration-tool/releases/download/v1.1.0/tubame_110.zip
+						</ns2:command>
+						<ns2:note>
+        <ns2:para>
+								上記URLは2016/02/18時点の最新版であるTUBAME1.1.0の例です。以下より最新版を確認して、最新版をインストールしてください。
+
+								<ns2:itemizedlist>
+                <ns2:listitem>
+                    <ns2:para>
+            <ns2:command ns3:href="https://github.com/TUBAME/migration-tool/releases/latest">https://github.com/TUBAME/migration-tool/releases/latest</ns2:command>
+        </ns2:para>
+                </ns2:listitem>
+            </ns2:itemizedlist>
+							</ns2:para>
+    </ns2:note>
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>Tubame Eclipse Pluginsのインストール
+					</ns2:para>
+<ns2:para>
+						ダウンロードファイルを展開するとpluginsフォルダ配下に3つフォルダが存在する。
+
+						<ns2:itemizedlist>
+        <ns2:listitem>
+            <ns2:para>tubame.knowhow_*</ns2:para>
+        </ns2:listitem>
+        <ns2:listitem>
+            <ns2:para>tubame.portability_*</ns2:para>
+        </ns2:listitem>
+        <ns2:listitem>
+            <ns2:para>tubame.wsearch_*</ns2:para>
+        </ns2:listitem>
+    </ns2:itemizedlist>
+
+						この３つのフォルダをコピーして、Eclipseをインストールしたディレクトリ配下にあるpluginsディレクトリ配下に配置する。
+
+						<ns2:figure>
+        <ns2:title>Eclipseのpluginsディレクトリ</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/WS000009.JPG" width="800"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+					</ns2:para>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+
+			インストールは上記で完了です。
+			<ns2:note>
+                            <ns2:para>
+					インストール完了後は、Eclipseを再起動する。再起動は以下を実施しTUBAME Eclipse
+					Pluginがインストールされていることを確認してください。
+				</ns2:para>
+                            <ns2:para>
+					Eclipseのメニューより
+					<ns2:menuchoice>
+    <ns2:guimenu>Help</ns2:guimenu>
+    <ns2:guimenuitem>Install Details</ns2:guimenuitem>
+</ns2:menuchoice>
+					を選択し、Install
+					Details画面にて、Pluginsタブを選択し、「tubame」を入力して、3つのpluginが表示されることを確認する
+
+					<ns2:figure>
+    <ns2:title>Install Details画面</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject condition="web">
+            <ns2:imagedata format="jpg" fileref="images/WS000008.JPG" width="70%"/>
+        </ns2:imageobject>
+        <ns2:textobject>
+            <ns2:phrase>Install Details画面</ns2:phrase>
+        </ns2:textobject>
+    </ns2:mediaobject>
+</ns2:figure>
+				</ns2:para>
+                        </ns2:note>
+
+
+
+
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+    </DocBookList>
+    <SearchInfomationList/>
+</PortabilityKnowhow>
