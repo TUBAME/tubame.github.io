@@ -1,0 +1,478 @@
+<HTML xmlns:knowhow="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:doc="http://docbook.org/ns/docbook">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>TUBAMEインストールガイド</title>
+<link href="css/knowhow.css" type="text/css" rel="stylesheet">
+<meta content="DocBook XSL Stylesheets V1.78.1" name="generator">
+</HEAD>
+<BODY>
+<H1 class="title">TUBAMEインストールガイド</H1>
+<div class="toc">
+<p>
+<b>Index</b>
+</p>
+<dl class="toc">
+<dt>
+<span class="1."><a href="#tubame_1.">1.はじめに</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="1.1."><a href="#tubame_1.1.">1.1.本ドキュメンについて</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="2."><a href="#tubame_2.">2.動作環境</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="2.1."><a href="#tubame_2.1.">2.1.ソフトウェア要件</a></span>
+</dt>
+</dl>
+</dd>
+<dt>
+<span class="3."><a href="#tubame_3.">3.インストール</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="3.1."><a href="#tubame_3.1.">3.1.自動インストール</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="3.2."><a href="#tubame_3.2.">3.2.手動インストール</a></span>
+</dt>
+</dl>
+</dd>
+</dl>
+</div>
+<HR>
+<a name="tubame_1."></a>
+<h2 class="title">1.はじめに</h2>
+<br>
+<a name="tubame_1.1." id="category_1"></a>
+<h3 class="title">1.1.本ドキュメンについて</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>TUBAMEマイグレーションツールをインストールする手順を示す。
+        
+        
+        </p>
+</div>
+<br>
+<br>
+<a name="tubame_2."></a>
+<h2 class="title">2.動作環境</h2>
+<br>
+<a name="tubame_2.1." id="category_2"></a>
+<h3 class="title">2.1.ソフトウェア要件</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>TUBAMEマイグレーションツールは、Eclipse Pluginとして動作する。以下のソフトウェア環境が必要となる。
+        
+        	</p>
+<div class="table">
+<a name="N10164"></a>
+<p class="title">
+<b>Table&nbsp;1.&nbsp;ソフトウェア要件</b>
+</p>
+<div class="table-contents">
+<table summary="ソフトウェア要件" border="1">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th>項目</th><th>要件</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>OS</td><td>Windows,MacOS</td>
+</tr>
+<tr>
+<td>Java</td><td>Oracle JRE1.6以上</td>
+</tr>
+<tr>
+<td>Eclipse</td><td>Eclipse3系 またはEclipse4系</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<p>
+<br class="table-break">
+        
+        
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_3."></a>
+<h2 class="title">3.インストール</h2>
+<br>
+<a name="tubame_3.1." id="category_3"></a>
+<h3 class="title">3.1.自動インストール</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+			自動インストールはTUBME（Eclipse Plugin)をインターネットを利用して、Eclipseに自動でインストール方法です。
+			ソフトウェア要件にあるソフトウェアがインストールされていることを確認し、以下の手順を実施する。
+
+			</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>Eclipe起動</p>
+</li>
+<li class="listitem">
+<p>
+						Eclipseのメニューより
+						<span class="guimenu">Help</span> &rarr; <span class="guimenuitem">Install New Software...</span>
+						を選択し、Install画面起動。起動後にADDボタンを押下する
+
+
+					</p>
+<div class="figure">
+<a name="N100DE"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;Install画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="800">
+<tr>
+<td><img src="images/WS000000.JPG" width="800" alt="Install画面"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+<li class="listitem">
+<p>AddReposiry画面にて以下項目を入力し、OKボタンを押下する
+					</p>
+<div class="table">
+<a name="N100EB"></a>
+<p class="title">
+<b>Table&nbsp;1.&nbsp;AddReposiry画面入力項目</b>
+</p>
+<div class="table-contents">
+<table summary="AddReposiry画面入力項目" border="1">
+<colgroup>
+<col>
+<col>
+</colgroup>
+<thead>
+<tr>
+<th>Name</th><th>Location</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>TUBAME</td><td>http://dl.bintray.com/tubame-developers/tubame-release/
+									</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<br class="table-break">
+<div class="figure">
+<a name="N100FD"></a>
+<p class="title">
+<b>Figure&nbsp;2.&nbsp;AddReposiry画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="800">
+<tr>
+<td><img src="images/WS000002.JPG" width="800" alt="AddReposiry画面"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+<li class="listitem">
+<p>
+						インストール画面に表示される「TUBAME」チェックボックスをチェックし、「Next」ボタンを押下する
+
+						</p>
+<div class="figure">
+<a name="N1010A"></a>
+<p class="title">
+<b>Figure&nbsp;3.&nbsp;</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="800">
+<tr>
+<td><img src="images/WS000004.JPG" width="800" alt="インストール画面"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<p>
+<br class="figure-break">
+					
+</p>
+</li>
+<li class="listitem">
+<p>インストール詳細画面が表示されるので、「Next」ボタンを押下する
+					</p>
+<div class="figure">
+<a name="N10119"></a>
+<p class="title">
+<b>Figure&nbsp;4.&nbsp;</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="800">
+<tr>
+<td><img src="images/WS000005.JPG" width="800" alt="インストール詳細画面"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+<li class="listitem">
+<p>ライセンスレビュー画面が表示されるので、「I accept ...」をチェックし、「Finish」ボタンを押下する。
+					</p>
+<div class="figure">
+<a name="N10127"></a>
+<p class="title">
+<b>Figure&nbsp;5.&nbsp;</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="70%">
+<tr>
+<td><img src="images/WS000006.JPG" width="100%" alt="ライセンスレビュー画面"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+							インストール完了後は、Eclipseを再起動する。再起動は以下を実施しTUBAME Eclipse
+							Pluginがインストールされていることを確認してください。
+						</p>
+<p>
+							Eclipseのメニューより
+							<span class="guimenu">Help</span> &rarr; <span class="guimenuitem">Install Details</span>
+							を選択し、Install
+							Details画面にて、Pluginsタブを選択し、「tubame」を入力して、3つのpluginが表示されることを確認する
+
+							</p>
+<div class="figure">
+<a name="N1013D"></a>
+<p class="title">
+<b>Figure&nbsp;6.&nbsp;Install Details画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="70%">
+<tr>
+<td><img src="images/WS000008.JPG" width="100%" alt="Install Details画面"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<p>
+<br class="figure-break">
+						
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ol>
+</div>
+<p>
+		
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_3.2." id="category_5"></a>
+<h3 class="title">3.2.手動インストール</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>手動インストールはTUBMEコミュニティより、TUBAME(Eclipse Plugins)をインターネットより取得し、Eclipseに手動でTUBAMEをインストールする方法です。
+			ソフトウェア要件にあるソフトウェアがインストールされていることを確認し、以下の手順を実施する。
+
+
+			</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>TUBAMEダウンロード</p>
+<p>
+						
+<span class="command"><strong><a class="command" href="https://github.com/TUBAME/migration-tool/releases/download/v1.1.0/tubame_110.zip" target="_top">https://github.com/TUBAME/migration-tool/releases/download/v1.1.0/tubame_110.zip
+						</a></strong></span>
+						
+</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+								上記URLは2016/02/18時点の最新版であるTUBAME1.1.0の例です。以下より最新版を確認して、最新版をインストールしてください。
+
+								</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>
+            
+<span class="command"><strong><a class="command" href="https://github.com/TUBAME/migration-tool/releases/latest" target="_top">https://github.com/TUBAME/migration-tool/releases/latest</a></strong></span>
+        
+</p>
+</li>
+</ul>
+</div>
+<p>
+							
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+					
+</p>
+</li>
+<li class="listitem">
+<p>Tubame Eclipse Pluginsのインストール
+					</p>
+<p>
+						ダウンロードファイルを展開するとpluginsフォルダ配下に3つフォルダが存在する。
+
+						</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>tubame.knowhow_*</p>
+</li>
+<li class="listitem">
+<p>tubame.portability_*</p>
+</li>
+<li class="listitem">
+<p>tubame.wsearch_*</p>
+</li>
+</ul>
+</div>
+<p>
+
+						この３つのフォルダをコピーして、Eclipseをインストールしたディレクトリ配下にあるpluginsディレクトリ配下に配置する。
+
+						</p>
+<div class="figure">
+<a name="N101B4"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;Eclipseのpluginsディレクトリ</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="800">
+<tr>
+<td><img src="images/WS000009.JPG" width="800" alt="Eclipseのpluginsディレクトリ"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<p>
+<br class="figure-break">
+					
+</p>
+</li>
+</ol>
+</div>
+<p>
+
+			インストールは上記で完了です。
+			</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+					インストール完了後は、Eclipseを再起動する。再起動は以下を実施しTUBAME Eclipse
+					Pluginがインストールされていることを確認してください。
+				</p>
+<p>
+					Eclipseのメニューより
+					<span class="guimenu">Help</span> &rarr; <span class="guimenuitem">Install Details</span>
+					を選択し、Install
+					Details画面にて、Pluginsタブを選択し、「tubame」を入力して、3つのpluginが表示されることを確認する
+
+					</p>
+<div class="figure">
+<a name="N101CB"></a>
+<p class="title">
+<b>Figure&nbsp;2.&nbsp;Install Details画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="70%">
+<tr>
+<td><img src="images/WS000008.JPG" width="100%" alt="Install Details画面"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<p>
+<br class="figure-break">
+				
+</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+
+
+
+
+		
+</p>
+</div>
+<br>
+<br>
+</BODY>
+</HTML>
