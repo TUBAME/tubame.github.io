@@ -89,6 +89,9 @@
         <EntryCategory>
             <EntryCategoryRefKey>category_47</EntryCategoryRefKey>
             <ChildEntry>
+                <EntryCategoryRefKey>category_53</EntryCategoryRefKey>
+            </ChildEntry>
+            <ChildEntry>
                 <EntryCategoryRefKey>category_48</EntryCategoryRefKey>
                 <ChildEntry>
                     <EntryCategoryRefKey>category_49</EntryCategoryRefKey>
@@ -195,20 +198,24 @@
             <ChapterName>FAQ</ChapterName>
             <ChildChapter>
                 <ChildCapterNo>3.1.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_53</ChapterCategoryRefKey>
+            </ChildChapter>
+            <ChildChapter>
+                <ChildCapterNo>3.2.</ChildCapterNo>
                 <ChapterCategoryRefKey>category_48</ChapterCategoryRefKey>
                 <ChildChapter>
-                    <ChildCapterNo>3.1.1.</ChildCapterNo>
+                    <ChildCapterNo>3.2.1.</ChildCapterNo>
                     <ChapterCategoryRefKey>category_49</ChapterCategoryRefKey>
                     <ChildChapter>
-                        <ChildCapterNo>3.1.1.1.</ChildCapterNo>
+                        <ChildCapterNo>3.2.1.1.</ChildCapterNo>
                         <ChapterCategoryRefKey>category_50</ChapterCategoryRefKey>
                     </ChildChapter>
                     <ChildChapter>
-                        <ChildCapterNo>3.1.1.2.</ChildCapterNo>
+                        <ChildCapterNo>3.2.1.2.</ChildCapterNo>
                         <ChapterCategoryRefKey>category_51</ChapterCategoryRefKey>
                     </ChildChapter>
                     <ChildChapter>
-                        <ChildCapterNo>3.1.1.3.</ChildCapterNo>
+                        <ChildCapterNo>3.2.1.3.</ChildCapterNo>
                         <ChapterCategoryRefKey>category_52</ChapterCategoryRefKey>
                     </ChildChapter>
                 </ChildChapter>
@@ -330,6 +337,10 @@
         </Category>
         <Category categoryId="category_47" appropriate="true">
             <CategoryName>FAQ</CategoryName>
+        </Category>
+        <Category categoryId="category_53" appropriate="true">
+            <CategoryName>ナレッジの手動ダウンロードについて</CategoryName>
+            <KnowhowRefKey>knowhow_51</KnowhowRefKey>
         </Category>
         <Category categoryId="category_48" appropriate="true">
             <CategoryName>Pythonのインストールについて</CategoryName>
@@ -462,6 +473,10 @@
             <KnowhowName>body</KnowhowName>
         </KnowhowInfomation>
         <KnowhowInfomation knowhowId="knowhow_28" knowhowDetailRefKey="knowhowDetail_28">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_51" knowhowDetailRefKey="knowhowDetail_51">
             <KnowhowNo>1</KnowhowNo>
             <KnowhowName>body</KnowhowName>
         </KnowhowInfomation>
@@ -996,7 +1011,7 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 
 					<ns2:itemizedlist>
     <ns2:listitem>
-        <ns2:para>
+        <ns2:para xml:id="knowledge_import">
 								ナレッジXMLファイル選択
 							</ns2:para>
         <ns2:para>
@@ -1007,10 +1022,26 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 
 								<ns2:note>
                 <ns2:para>
-										プルダウンメニューより表示されたナレッジは、ナレッジ自動インポート機能でダウンロードされたナレッジ群を表示しています。
-										任意のナレッジXMLを利用する場合は、
-										<ns2:guilabel>参照</ns2:guilabel>
-										ボタンより指定します。
+
+										<ns2:itemizedlist>
+                        <ns2:listitem>
+                            <ns2:para>
+													プルダウンメニューより表示されたナレッジは、ナレッジ自動インポート機能でダウンロードされたナレッジ群を表示しています。
+													任意のナレッジXMLを利用する場合は、
+													<ns2:guilabel>参照</ns2:guilabel>
+													ボタンより指定します。
+												</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>
+													インターネット接続ができない場合は、インポートボタンは表示されません。この場合は手動でナレッジを取得する必要があるため、
+													<ns2:command ns3:href="#manual_knowledge_install">ナレッジの手動ダウンロードについて</ns2:command>
+													を参考に手動でナレッジを取得してください。
+
+												</ns2:para>
+                        </ns2:listitem>
+                    </ns2:itemizedlist>
+
 
 									</ns2:para>
             </ns2:note>
@@ -1040,7 +1071,9 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
 							</ns2:para>
         <ns2:para>
 								<ns2:guilabel>参照</ns2:guilabel>
-								ボタンを実行し、出力先(<ns2:filename>jbm</ns2:filename>ファイル)を指定してださい。
+								ボタンを実行し、出力先(
+								<ns2:filename>jbm</ns2:filename>
+								ファイル)を指定してださい。
 							</ns2:para>
     </ns2:listitem>
 </ns2:itemizedlist>
@@ -2241,7 +2274,7 @@ PYTHON_RUNTIME_PATH=C:/Python27/python.exe
                     <ns2:title>body</ns2:title>
                 </ns2:info>
                 <ns2:section>
-                    <ns2:para>
+                    <ns2:para xml:id="guide_setting">
 			ナレッジベース検索ツールでは、移植方法の参照機能を提供しています。
 
 			このマイグレーションガイド設定では、マイグレーションガイドの参照先を変更できます。
@@ -2413,6 +2446,110 @@ $ su -
                 </ns2:info>
                 <ns2:section>
                     <ns2:para>個別にインストールしたPythonを利用する場合、<ns2:command ns3:href="#pyInstallPath">Python設定</ns2:command>より、Pythonのパス設定を行ってください。</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_51">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para xml:id="manual_knowledge_install">
+			検索機能ではナレッジ(修正箇所を検索するためのキーワードや修正工数、修正難易度、移植方法などを含むXML)を利用して、検索を実施します。
+			ナレッジの取得は、TUBAMEの実行環境が、インターネットに接続できる状態であれば、
+			<ns2:command ns3:href="#knowledge_import">ナレッジ選択</ns2:command>
+			のインポートより、自動でTUBAMEコミュニティよりインポートできます。
+		</ns2:para>
+                    <ns2:para>
+			TUBAMEの実行環境が、インターネットに接続できない場合は、ナレッジを手動で取得する必要があるため、
+			以下の手順にしたがい、TUBAMEコミュニティよりナレッジを取得してください。
+
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>TUBAMEコミュニティのmigration-knowledgeリポジトリより、最新版のアーカイブを取得する。
+					</ns2:para>
+<ns2:para>
+						<ns2:command ns3:href="https://github.com/TUBAME/migration-knowledge/archive/master.zip">https://github.com/TUBAME/migration-knowledge/archive/master.zip
+						</ns2:command>
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>利用するナレッジのコピー</ns2:para>
+<ns2:para>
+						ダウンロードしたmigration-knowledge-master.zipを展開すると、TUBAMEコミュニティで管理しているナレッジ(XML)がすべて同梱されているため、利用対象のナレッジをEclipseのプロジェクトにコピーする。
+
+					</ns2:para>
+<ns2:para>
+						本例では、migration-knowledge-master.zipを展開したStruts1ToSpringMVCフォルダをEclipseプロジェクトにコピーする
+
+						<ns2:figure>
+        <ns2:title>migration-knowledge-masterイメージ</ns2:title>
+        <ns2:programlisting language="txt">
+								<ns2:textobject>
+                <ns2:textdata fileref="programlisting/repos-image.txt"/>
+            </ns2:textobject>
+							</ns2:programlisting>
+    </ns2:figure>
+
+						<ns2:figure>
+        <ns2:title>Struts1ToSpringMVCフォルダをコピーしたEclipseプロジェクト</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/WS000015.JPG" width="700"/>
+            </ns2:imageobject>
+            <ns2:textobject>
+                <ns2:phrase>This image does not a meaning in the image</ns2:phrase>
+            </ns2:textobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+
+					</ns2:para>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+
+			<ns2:note>
+                            <ns2:para>
+
+					<ns2:itemizedlist>
+    <ns2:listitem>
+        <ns2:para>
+								Eclipseプロジェクトにインポートしたナレッジは、
+								<ns2:command ns3:href="#knowledge_import">ナレッジ選択</ns2:command>
+								にて、ダウンロードしたナレッジ(XML)を指定して利用してください。
+							</ns2:para>
+        <ns2:figure>
+            <ns2:title>ナレッジ選択画面</ns2:title>
+            <ns2:mediaobject>
+                <ns2:imageobject condition="web">
+                    <ns2:imagedata format="jpg" fileref="images/WS000016.JPG" width="700"/>
+                </ns2:imageobject>
+            </ns2:mediaobject>
+        </ns2:figure>
+        <ns2:figure>
+            <ns2:title>ナレッジXMLの選択画面</ns2:title>
+            <ns2:mediaobject>
+                <ns2:imageobject condition="web">
+                    <ns2:imagedata format="jpg" fileref="images/WS000017.JPG" width="700"/>
+                </ns2:imageobject>
+            </ns2:mediaobject>
+        </ns2:figure>
+    </ns2:listitem>
+</ns2:itemizedlist>
+
+					<ns2:warning>
+    <ns2:para>
+							Eclipseのプロジェクトに手動でナレッジをインポートする場合、
+							<ns2:command ns3:href="#guide_setting">マイグレーションガイド設定</ns2:command>
+							より、TUBAMEコミュニティより取得したマイグレーションガイドHTMLを指定してください。
+							本例の場合は、migration-knowledge-master.zip展開ディレクトリ/migration-knowledge-master/framework/ja/Struts1ToSpringMVC/index.htmlを指定する。
+						</ns2:para>
+</ns2:warning>
+				</ns2:para>
+                        </ns2:note>
+
+
+		</ns2:para>
                 </ns2:section>
             </ns2:article>
         </DocBook>

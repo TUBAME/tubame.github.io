@@ -1,0 +1,21 @@
+
+migration-knowledge-master
+ - apserver(APサーバ移行)
+    -en
+    -ja
+      - JBossEAP4.3toJBossEAP6
+         |- *.xml(JBossEAP4.3toJBossEAP6のナレッジXML)
+         |- index.html (JBossEAP4.3toJBossEAP6のマイグレーションガイドHTML)  
+      - WLS9toJBossEAP6
+         |- *.xml (ナレッジXML)
+         |- index.html (マイグレーションガイドHTML)
+      - Tomcat5.5to6.0
+         |- *.xml (ナレッジXML)
+         |- index.html (マイグレーションガイドHTML)
+      - Tomcat...(以降省略)
+ - framework(フレームワーク移行)
+    -en
+    -ja
+      - Struts1ToSpringMVC
+         |- *.xml (ナレッジXML)
+         |- index.html (マイグレーションガイドHTML)
