@@ -1,0 +1,1918 @@
+<HTML xmlns:knowhow="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:doc="http://docbook.org/ns/docbook">
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Tubame Hands-on</title>
+<link href="css/knowhow.css" type="text/css" rel="stylesheet">
+<meta content="DocBook XSL Stylesheets V1.78.1" name="generator">
+</HEAD>
+<BODY>
+<H1 class="title">Tubame Hands-on</H1>
+<div class="toc">
+<p>
+<b>Index</b>
+</p>
+<dl class="toc">
+<dt>
+<span class="1."><a href="#tubame_1.">1.はじめに</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="1.1."><a href="#tubame_1.1.">1.1.Hands-on Goal</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="1.2."><a href="#tubame_1.2.">1.2.Prerequisite for hands-on</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="1.3."><a href="#tubame_1.3.">1.3.What we are doing?</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="1.3.1."><a href="#tubame_1.3.1.">1.3.1.part1 ナレッジベース検索</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="1.3.2."><a href="#tubame_1.3.2.">1.3.2.part2 依存性検索</a></span>
+</dt>
+</dl>
+</dd>
+</dl>
+</dd>
+<dt>
+<span class="2."><a href="#tubame_2.">2.Let's get started</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="2.1."><a href="#tubame_2.1.">2.1.part1 ナレッジベース検索</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="2.1.1."><a href="#tubame_2.1.1.">2.1.1.Hands-on-Task1.ナレッジベース検索を実行</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="2.1.2."><a href="#tubame_2.1.2.">2.1.2.Hands-on-Task2.ナレッジベース検索結果より、移植項目を確認する</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="2.1.3."><a href="#tubame_2.1.3.">2.1.3.Hands-on-Task3.目視確認作業</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="2.1.4."><a href="#tubame_2.1.4.">2.1.4.Hands-on-Task4.ヒアリング確認作業</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="2.1.5."><a href="#tubame_2.1.5.">2.1.5.Hands-on-Task5.ライン数の手動算出設定作業</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="2.1.6."><a href="#tubame_2.1.6.">2.1.6.Hands-on-Task6.ナレッジベース検索のレポート作成</a></span>
+</dt>
+</dl>
+</dd>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="2.2."><a href="#tubame_2.2.">2.2.part2 依存性検索</a></span>
+</dt>
+<dd>
+<dl>
+<dt>
+<span class="2.2.1."><a href="#tubame_2.2.1.">2.2.1.Hands-on-Task7.移行先環境設定</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="2.2.2."><a href="#tubame_2.2.2.">2.2.2.Hands-on-Task8.依存性検索を実行</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="2.2.3."><a href="#tubame_2.2.3.">2.2.3.Hands-on-Task9.依存性検索結果を確認</a></span>
+</dt>
+</dl>
+</dd>
+<dd>
+<dl>
+<dt>
+<span class="2.2.4."><a href="#tubame_2.2.4.">2.2.4.Hands-on-Task10.依存性検索のレポート作成</a></span>
+</dt>
+</dl>
+</dd>
+</dl>
+</dd>
+</dl>
+</div>
+<HR>
+<a name="tubame_1."></a>
+<h2 class="title">1.はじめに</h2>
+<br>
+<a name="tubame_1.1." id="category_1"></a>
+<h3 class="title">1.1.Hands-on Goal</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>struts1に依存したアプリケーションを例に、TUBAMEを利用した移植性検討（struts1からSpringMVCへの移植検討）を行います。
+TUBAMEのナレッジベース検索機能より、移植項目の抽出、移植概算規模の算出を行います。TUBAMEの依存性検索では、業務アプリケーションが依存する情報から、移行後の環境で利用できないものを抽出し、可視化します。
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_1.2." id="category_19"></a>
+<h3 class="title">1.2.Prerequisite for hands-on</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+			このHands-onで必要なものは以下があります。あらかじめご準備ください。
+			</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>Java</p>
+</li>
+<li class="listitem">
+<p>Eclipse</p>
+</li>
+<li class="listitem">
+<p>TUBAME(Eclipse plugin)</p>
+<p>
+						
+<span class="command"><strong><a class="command" href="http://tubame.github.io/ja/quickstart/quickstart.html" target="_top">http://tubame.github.io/ja/quickstart/quickstart.html
+						</a></strong></span>
+					
+</p>
+</li>
+<li class="listitem">
+<p>検索対象の資材</p>
+<p>
+						
+<span class="command"><strong><a class="command" href="http://osdn.jp/projects/terasoluna/downloads/63023/terasoluna-server4jweb-tutorial_2.0.5.3.zip/" target="_top">http://osdn.jp/projects/terasoluna/downloads/63023/terasoluna-server4jweb-tutorial_2.0.5.3.zip/
+						</a></strong></span>
+					
+</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>zipにある「tutorial-thin」をEclipseにインポートしてください。</p>
+<p>Eclipseにインポート時は、Eclipseのワークスペースにインポートしてください</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>
+<a name="getKnowHowXml"></a>ナレッジベース検索で利用する「Struts1からSpringMVCへの移行ナレッジ」</p>
+<p>
+						TUBAMEご利用の環境がインターネットに接続できない場合のみ、以下URLより手動で取得してください。TUBAMEご利用の環境がインターネット接続可能な場合は取得不要です。
+
+
+						<span class="command"><strong><a class="command" href="https://github.com/TUBAME/migration-knowledge/releases/download/struts1tospringmvcja/Struts1ToSpringMVC.zip" target="_top">https://github.com/TUBAME/migration-knowledge/releases/download/struts1tospringmvcja/Struts1ToSpringMVC.zip
+						</a></strong></span>
+
+						
+</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>zipにある「Struts1ToSpringMVC」フォルダを、Eclipseにインポートした「tutorial-thin」プロジェクトにtubame-knowledgeフォルダを作成し、tubame-knowledgeフォルダ配下に配置してください
+							</p>
+<pre class="programlisting">
+tutorial-thin
+	|-tubame-knowledge
+		|-Struts1ToSpringMVC
+			|- Struts1ToSpringMVC.xml
+			|- index.html
+			|- js
+			|-　css
+			|- images
+
+							</pre>
+</td>
+</tr>
+</table>
+</div>
+<p>
+					
+</p>
+</li>
+</ul>
+</div>
+<p>
+
+		
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_1.3." id="category_2"></a>
+<h3 class="title">1.3.What we are doing?</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+			struts1に依存したアプリケーションを例に、TUBAMEの以下の機能を実行します。
+			</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>part1 ナレッジベース検索</p>
+<p>Struts1からSpringMVCへの移行ナレッジを利用して、ナレッジベース検索実行を実施し、移植項目の確認を行い、移植概算規模を算出する。
+					</p>
+</li>
+<li class="listitem">
+<p>part2 依存性検索</p>
+<p>移行先環境にspringMVCを設定し、依存性検索を実施する。依存性検索では、業務アプリケーションの依存性情報を抽出し、移行先環境で利用できない情報を出力されるので、検索結果を確認する。
+					</p>
+</li>
+</ul>
+</div>
+<p>
+		
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_1.3.1." id="category_3"></a>
+<h3 class="title">1.3.1.part1 ナレッジベース検索</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+			ナレッジベース検索については、本Hands-onでは以下を実施する。
+
+			</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>
+<a name="knowledgeBaseSearch-Hands-on-Step1"></a>ナレッジXMLを利用したナレッジベース検索を行う。</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning: Hands-on-Task1.">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Hands-on-Task1.</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+        
+<span class="command"><strong><a class="command" href="#knowledgeBaseSearch-Hands-on-Task1">ナレッジベース検索を実行</a></strong></span>
+    
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>
+<a name="knowledgeBaseSearch-Hands-on-Step2"></a>移植項目を確認する。</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning: Hands-on-Task2.">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Hands-on-Task2.</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+        
+<span class="command"><strong><a class="command" href="#knowledgeBaseSearch-Hands-on-Task2">ナレッジベース検索結果を確認する</a></strong></span>
+    
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>
+<a name="knowledgeBaseSearch-Hands-on-Step3"></a>移植規模の概算を行う</p>
+<p>
+						
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning: Hands-on-Task3.">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Hands-on-Task3.</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+                    
+<span class="command"><strong><a class="command" href="#knowledgeBaseSearch-Hands-on-Task3">目視確認作業を行う</a></strong></span>
+                
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning: Hands-on-Task4.">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Hands-on-Task4.</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+                    
+<span class="command"><strong><a class="command" href="#knowledgeBaseSearch-Hands-on-Task4">ヒアリング確認作業を行う</a></strong></span>
+                
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning: Hands-on-Task5.">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Hands-on-Task5.</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+                    
+<span class="command"><strong><a class="command" href="#knowledgeBaseSearch-Hands-on-Task5">ライン数の手動算出設定作業を行う</a></strong></span>
+                
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ul>
+</div>
+<p>
+					
+</p>
+</li>
+<li class="listitem">
+<p>
+<a name="knowledgeBaseSearch-Hands-on-Step4"></a>レポート生成を行う。</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning: Hands-on-Task6.">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Hands-on-Task6.</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+        
+<span class="command"><strong><a class="command" href="#knowledgeBaseSearch-Hands-on-Task6">ナレッジベース検索のレポートを作成する</a></strong></span>
+    
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ol>
+</div>
+<p>
+
+		
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_1.3.2." id="category_4"></a>
+<h3 class="title">1.3.2.part2 依存性検索</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>依存性検索については、本Hands-onでは以下を実施する。
+			</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>移行先環境を設定し、依存性検索を行う。</p>
+<p>
+						
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning: Hands-on-Task7.">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Hands-on-Task7.</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+        
+<span class="command"><strong><a class="command" href="#depencySearch-Hands-on-Task7">移行先環境を設定する</a></strong></span>
+    
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning: Hands-on-Task8.">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Hands-on-Task8.</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+                    
+<span class="command"><strong><a class="command" href="#depencySearch-Hands-on-Task8">依存性検索を実行する</a></strong></span>
+                
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ul>
+</div>
+<p>
+					
+</p>
+</li>
+<li class="listitem">
+<p>依存性検索結果を確認する。</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning: Hands-on-Task9.">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Hands-on-Task9.</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+        
+<span class="command"><strong><a class="command" href="#depencySearch-Hands-on-Task9">依存性検索結果を確認する</a></strong></span>
+    
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>移行先環境で利用できないAPIを可視化する</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning: Hands-on-Task10.">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Hands-on-Task10.</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+        
+<span class="command"><strong><a class="command" href="#depencySearch-Hands-on-Task10">依存性検索のレポートを作成する</a></strong></span>
+    
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ol>
+</div>
+<p>
+
+
+		
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_2."></a>
+<h2 class="title">2.Let's get started</h2>
+<br>
+<a name="tubame_2.1." id="category_6"></a>
+<h3 class="title">2.1.part1 ナレッジベース検索</h3>
+<br>
+<br>
+<a name="tubame_2.1.1." id="category_7"></a>
+<h3 class="title">2.1.1.Hands-on-Task1.ナレッジベース検索を実行</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<div class="orderedlist">
+<a name="knowledgeBaseSearch-Hands-on-Task1"></a>
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>ナレッジベース検索ウィザードの起動</p>
+<p>
+					プロジェクトを右クリックし、以下のメニューを選択する。
+					<span class="guimenuitem">tubame</span> &rarr; <span class="guimenuitem">ナレッジベース検索</span>
+				
+</p>
+<div class="figure">
+<a name="N10366"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;ナレッジベース検索のメニュー選択</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="800">
+<tr>
+<td><img src="images/part1/WS000100.JPG" width="800" alt="ナレッジベース検索のメニュー選択"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+<li class="listitem">
+<p>マイグレーションナレッジの選択</p>
+<p>
+					ナレッジベース検索ウィザードが表示されたら、
+					<span class="guibutton">インポート</span>
+					ボタンをクリックし、
+					<span class="guilabel">FrameworkMigration_Struts1_To_SpringMVC4</span>
+					を選択する。
+					</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+							インターネット接続ができない環境の場合は、
+							<span class="command"><strong><a class="command" href="#getKnowHowXml">ナレッジベース検索で利用する「Struts1からSpringMVCへの移行ナレッジ」
+							</a></strong></span>
+							を参考に、手動でマイグレーションナレッジを取得してください。
+							取得後は、
+							<span class="guibutton">参照</span>
+							ボタンをクリックし、ファイルの選択ダイアログで利用するマイグレーションナレッジ（本Hands-onでは「tubame-knowledge/Struts1ToSpringMVC/Struts1ToSpringMVC.xml」）を選択する。
+						</p>
+<div class="figure">
+<a name="N10385"></a>
+<p class="title">
+<b>Figure&nbsp;2.&nbsp;ナレッジベース検索ウィザード</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="800">
+<tr>
+<td><img src="images/part1/WS000101.JPG" width="800" alt="ナレッジベース検索ウィザード"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+<div class="figure">
+<a name="N1038F"></a>
+<p class="title">
+<b>Figure&nbsp;3.&nbsp;ナレッジベース検索ウィザードのファイル選択ダイアログ</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="500">
+<tr>
+<td><img src="images/part1/WS000102.JPG" width="500" alt="ナレッジベース検索ウィザードのファイル選択ダイアログ"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+<p>
+
+				
+</p>
+</li>
+<li class="listitem">
+<p>ナレッジベース検索の実行</p>
+<p>
+					検索実行ダイアログの
+					<span class="guibutton">Finish</span>
+					ボタンをクリックする。
+
+				</p>
+<div class="figure">
+<a name="N103A2"></a>
+<p class="title">
+<b>Figure&nbsp;4.&nbsp;ナレッジベース検索の実行</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="800">
+<tr>
+<td><img src="images/part1/WS000103.JPG" width="800" alt="ナレッジベース検索の実行"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+</ol>
+</div>
+</div>
+<br>
+<br>
+<a name="tubame_2.1.2." id="category_8"></a>
+<h3 class="title">2.1.2.Hands-on-Task2.ナレッジベース検索結果より、移植項目を確認する</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+<a name="knowledgeBaseSearch-Hands-on-Task2"></a>
+			Hands-on-Task2.ナレッジベース検索結果より、移植項目を確認する
+
+			</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>ナレッジベース検索結果より、移植項目を確認する</p>
+<p>
+						ナレッジベース検索の実行結果（result.jbm）ファイルがプロジェクト配下に作成され、ファイルの内容が
+						<span class="guilabel">jbmファイルエディタ</span>
+						で表示されます。
+						修正項目一覧が表示され、抽出された各修正項目の修正難易度や修正ライン数、修正対象ファイルなどの情報が表示されます
+
+
+						</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+								
+<span class="guilabel">jbmファイルエディタ</span>
+								がオープンしていない場合は、プロジェクト配下に作成されているresult.jbmファイルをダブルクリックしてください
+							</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+						
+</p>
+<div class="figure">
+<a name="N103C9"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;jbmファイルエディタ(ナレッジベース検索パースペクティブ)</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1200">
+<tr>
+<td><img src="images/WS000000.JPG" width="1200" alt="jbmファイルエディタ(ナレッジベース検索パースペクティブ)"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<p>
+<br class="figure-break">
+
+
+					
+</p>
+<div class="note" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Note">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Note]" src="images/note.png"></td><th align="left">Note</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+							ナレッジベース検索のGUI(パースペクティブ）の構成は、jbmファイルエディタ以外に以下が存在します。
+
+							</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>チェックリスト情報ビュー</p>
+<p>検索条件などの情報が表示される。目視/ヒアリング確認する内容も表示される</p>
+</li>
+<li class="listitem">
+<p>作業状況ビュー</p>
+<p>移植規模を算出するために必要なタスク(目視/ヒアリング確認項目の状況)の表示。</p>
+</li>
+<li class="listitem">
+<p>HTMLガイドビュー</p>
+<p>
+
+										
+<span class="guilabel">jbmファイルエディタ</span>
+										の
+										<span class="guilabel">ガイド章番号</span>
+										をクリックすると、該当項目の修正方法を表示する
+									</p>
+</li>
+<li class="listitem">
+<p>ソースコードビュー</p>
+<p>
+										
+<span class="guilabel">jbmファイルエディタ</span>
+										で表示される
+										<span class="guilabel">行</span>
+										にカーソルを合わせ、右クリック
+										<span class="guibutton">ソースコードビューを開く</span>
+										をクリックすると、検索ヒット箇所がViewで表示される
+
+										</p>
+<div class="figure">
+<a name="N103FB"></a>
+<p class="title">
+<b>Figure&nbsp;2.&nbsp;ソースコードビューを選択</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000001.JPG" width="1000" alt="ソースコードビューを選択"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<p>
+<br class="figure-break">
+										
+										
+</p>
+<div class="figure">
+<a name="N10406"></a>
+<p class="title">
+<b>Figure&nbsp;3.&nbsp;ソースコードビュー</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000002.JPG" width="1000" alt="ソースコードビュー"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<p>
+<br class="figure-break">
+									
+</p>
+</li>
+</ul>
+</div>
+<p>
+						
+</p>
+</td>
+</tr>
+</table>
+</div>
+<div class="important" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Important">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Important]" src="images/important.png"></td><th align="left">Important</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+							jbmファイルエディタはナレッジXMLにあるチェックポイントで設定された検索条件で検索した結果を一覧表示しています。
+
+							</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>
+										どんな検索をおこなっているかは、
+										<span class="guilabel">チェックリスト情報ビュー</span>
+										より検索手順等を確認することできます。
+									</p>
+</li>
+<li class="listitem">
+<p>
+										検索該当箇所は、
+										<span class="guilabel">ソースコードビュー</span>
+										より確認することができます。
+									</p>
+</li>
+<li class="listitem">
+<p>
+										移植方法については、<span class="guilabel">jbmファイルエディタ</span>
+										のガイド章番号をクリックして、
+										<span class="guilabel">HTMlガイドビュー</span>
+										より確認することができます。
+									</p>
+</li>
+<li class="listitem">
+<p>
+										全体的な修正項目を確認したい場合、
+										<span class="guilabel">jbmファイルエディタ</span>
+										の
+										<span class="guilabel">列No</span>
+										にカーソルを合わせ、右クリックで
+										<span class="guibutton">全アイテムを折りたたむ</span>
+										を表示します。
+										<span class="guilabel">jbmファイルエディタ</span>
+										の
+										<span class="guilabel">大項目</span>
+										及び
+										<span class="guilabel">中項目</span>
+										を確認することで、どんな移植項目が存在するかわかります。
+
+									</p>
+</li>
+</ul>
+</div>
+<p>
+						
+</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ol>
+</div>
+<p>
+
+
+
+		
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_2.1.3." id="category_9"></a>
+<h3 class="title">2.1.3.Hands-on-Task3.目視確認作業</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+<a name="knowledgeBaseSearch-Hands-on-Task3"></a>
+			移植規模を算出するためには、
+			<span class="guilabel">jbmファイルエディタ</span>
+			の
+			<span class="guimenuitem">目視状況</span>
+			及び
+			<span class="guimenuitem">ヒアリング状況</span>
+			が
+			<span class="guilabel">未</span>
+			となっている修正項目について、
+			移植要否を全て確定する必要があります。
+
+			</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>作業状況ビューを確認する。</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+							
+<span class="guilabel">作業状況ビュー</span>
+							より、
+							<span class="guimenuitem">現在の目視確認</span>
+							を確認し、目視確認項目が１件存在することを確認してください。
+						</p>
+<div class="figure">
+<a name="N10468"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;目視確認項目の残数確認(残1件)</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000003.JPG" width="1000" alt="目視確認項目の残数確認(残1件)"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>目視確認を行う</p>
+<p>
+						
+<span class="guilabel">jbmファイルエディタ</span>
+						の
+						<span class="guimenuitem">目視確認項目</span>
+						に対して、
+						<span class="guilabel">チェックリスト情報ビュー</span>
+						の
+						<span class="guimenuitem">目視確認項目</span>
+						を確認する。
+					</p>
+</li>
+<li class="listitem">
+<p>目視確認項目の特定。</p>
+<p>目視確認項目は、jbmファイルエディタの列「目視状況」をクリックして、「未」と表示されているものが対象となります。
+						「未」と表示されている行をクリックし、チェックリスト情報ビューの目視確認内容を確認します。
+					</p>
+</li>
+<li class="listitem">
+<p>目視確認項目を移植不要とする</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>本Hands-onでは、目視確認項目は移植不要とします。jbmファイルエディタの列「目視状況」が「未確認」と表示されている部分にカーソルを合わせ、
+						右クリックメニューより、「目視確認済み（移植不要）」を選択。</p>
+<div class="figure">
+<a name="N1048E"></a>
+<p class="title">
+<b>Figure&nbsp;2.&nbsp;目視確認項目に対する移植可否判定</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000004.JPG" width="1000" alt="目視確認項目に対する移植可否判定"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>jbmファイルのセーブ</p>
+<p>作業後は、Ctrl+Sでセーブしてください。</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>セーブ後は、作業状況ビューを確認し、目視確認状況の残数が0になることを確認します。</p>
+<div class="figure">
+<a name="N104A0"></a>
+<p class="title">
+<b>Figure&nbsp;3.&nbsp;目視確認項目の残数確認(残0件)</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000005.JPG" width="1000" alt="目視確認項目の残数確認(残0件)"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ol>
+</div>
+<p>
+
+		
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_2.1.4." id="category_10"></a>
+<h3 class="title">2.1.4.Hands-on-Task4.ヒアリング確認作業</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+<a name="knowledgeBaseSearch-Hands-on-Task4"></a>
+			移植規模を算出するためには、
+			<span class="guilabel">jbmファイルエディタ</span>
+			の
+			<span class="guimenuitem">目視状況</span>
+			及び
+			<span class="guimenuitem">ヒアリング状況</span>
+			が
+			<span class="guilabel">未</span>
+			となっている修正項目について、
+			移植要否を全て確定する必要があります。
+
+			</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>作業状況ビューを確認する。</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+							
+<span class="guilabel">作業状況ビュー</span>
+							より、
+							<span class="guimenuitem">ヒアリング確認状況</span>
+							を確認し、ヒアリング確認状況が３件存在することを確認してください。
+						</p>
+<div class="figure">
+<a name="N104D1"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;ヒアリング確認項目の確認(残3件)</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000006.JPG" width="1000" alt="ヒアリング確認項目の確認(残3件)"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>ヒアリング確認項目の特定。</p>
+<p>ヒアリング項目は、jbmファイルエディタの列「ヒアリング状況」をクリックして、「未」と表示されているものが対象となります。
+						「未」と表示されている行をクリックし、チェックリスト情報ビューの目視確認内容を確認します。
+					</p>
+</li>
+<li class="listitem">
+<p>ヒアリング確認項目を移植要とする</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>本Hands-onでは、ヒアリング項目は移植要とします。jbmファイルエディタの列「ヒアリング状況」が「未確認」と表示されている部分にカーソルを合わせ、
+						右クリックメニューより、「ヒアリング確認済み（移植要）」を選択。
+					</p>
+<div class="figure">
+<a name="N104E6"></a>
+<p class="title">
+<b>Figure&nbsp;2.&nbsp;ヒアリング確認項目の移植可否判定</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000007.JPG" width="1000" alt="ヒアリング確認項目の移植可否判定"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>jbmファイルのセーブ</p>
+<p>作業後は、Ctrl+Sでセーブしてください。</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>セーブ後は、作業状況ビューを確認し、ヒアリング確認状況の残数が0になることを確認します。</p>
+<div class="figure">
+<a name="N104F8"></a>
+<p class="title">
+<b>Figure&nbsp;3.&nbsp;ヒアリング確認項目の確認(残0件)</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000008.JPG" width="1000" alt="ヒアリング確認項目の確認(残0件)"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ol>
+</div>
+<p>
+
+		
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_2.1.5." id="category_11"></a>
+<h3 class="title">2.1.5.Hands-on-Task5.ライン数の手動算出設定作業</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+<a name="knowledgeBaseSearch-Hands-on-Task5"></a>
+			移植規模を算出するためには、
+			移植項目でjbmファイルエディタの列ステップ数が「TODO:SE
+			手動算出」となっている項目はすべてステップ数を入力する必要があります。
+
+
+			</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>作業状況ビューを確認する。</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+							
+<span class="guilabel">作業状況ビュー</span>
+							より、
+							<span class="guimenuitem">SE手動算出項目修正状況</span>
+							を確認し、確認項目が8件存在することを確認してください。
+						</p>
+<div class="figure">
+<a name="N1051D"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;SE手動算出項目の確認(残8件)</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000010.JPG" width="1000" alt="SE手動算出項目の確認(残8件)"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>SE手動算出項目の特定。</p>
+<p>SE手動算出項目は、jbmファイルエディタの列「ステップ数」をクリックして、ステップ数が「TODO:SE
+						手動算出」と表示されているものが対象となります。
+
+					</p>
+</li>
+<li class="listitem">
+<p>SE手動算出項目に対してステップ数を入力する。</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>本デモでは、難易度が高(High)のものは、500を入力し、難易度が中(Middle)は、ステップ数を50を入力してください。すべてのSE手動算出項目に対してステップ数を入力してください。
+						</p>
+<div class="figure">
+<a name="N10532"></a>
+<p class="title">
+<b>Figure&nbsp;2.&nbsp;SE手動算出項目に対してステップ数を入力。</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000011.JPG" width="1000" alt="SE手動算出項目に対してステップ数を入力。"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>jbmファイルのセーブ</p>
+<p>作業後は、Ctrl+Sでセーブしてください。</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>セーブ後は、作業状況ビューを確認し、SE手動算出項目修正状況の残数が0になることを確認します。</p>
+<div class="figure">
+<a name="N10544"></a>
+<p class="title">
+<b>Figure&nbsp;3.&nbsp;SE手動算出項目の確認(残0件)</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000012.JPG" width="1000" alt="This image does not a meaning in the image"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ol>
+</div>
+<p>
+
+		
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_2.1.6." id="category_12"></a>
+<h3 class="title">2.1.6.Hands-on-Task6.ナレッジベース検索のレポート作成</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+<a name="knowledgeBaseSearch-Hands-on-Task6"></a>
+
+
+			
+</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>作業状況ビューを確認する。</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>
+							
+<span class="guilabel">作業状況ビュー</span>
+							より、
+							<span class="guimenuitem">確認項目作業が完了しました</span>
+							と表示されていることを確認する。
+						</p>
+<div class="figure">
+<a name="N1056C"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;作業状況ビューの確認</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000013.JPG" width="1000" alt="作業状況ビューの確認"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>チェック済みの移植不要項目の削除</p>
+<p>エディタのアクションメニューより「チェック済みの移植不要項目の削除」をクリックする。
+
+					</p>
+<div class="figure">
+<a name="N1057B"></a>
+<p class="title">
+<b>Figure&nbsp;2.&nbsp;チェック済みの移植不要項目の削除</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000014.JPG" width="1000" alt="チェック済みの移植不要項目の削除"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+<li class="listitem">
+<p>レポート生成ウィザードを起動する。
+                    プロジェクトを右クリックし、以下のメニューを選択する。
+					<span class="guimenuitem">tubame</span> &rarr; <span class="guimenuitem">ナレッジベース検索</span>
+                    
+</p>
+<div class="figure">
+<a name="N1058E"></a>
+<p class="title">
+<b>Figure&nbsp;3.&nbsp;レポート生成ウィザード画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000015.JPG" width="1000" alt="レポート生成ウィザード画面"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+<li class="listitem">
+<p>レポートテンプレートを選択及びレポート生成実行。</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>本Hands-onでは「レポートテンプレート」はMVCフレームワークテンプレートを選択し、<span class="guilabel">Finish</span>をクリックしてください。</p>
+<div class="figure">
+<a name="N105A1"></a>
+<p class="title">
+<b>Figure&nbsp;4.&nbsp;レポート生成ウィザードのレポートテンプレート選択画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000016.JPG" width="1000" alt="レポート生成ウィザードのレポートテンプレート選択画面"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>レポート生成完了</p>
+<div class="figure">
+<a name="N105AE"></a>
+<p class="title">
+<b>Figure&nbsp;5.&nbsp;レポート生成完了画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000017.JPG" width="1000" alt="レポート生成完了画面"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+</ol>
+</div>
+<p>
+
+		
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_2.2." id="category_13"></a>
+<h3 class="title">2.2.part2 依存性検索</h3>
+<br>
+<br>
+<a name="tubame_2.2.1." id="category_14"></a>
+<h3 class="title">2.2.1.Hands-on-Task7.移行先環境設定</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+<a name="depencySearch-Hands-on-Task7"></a>Eclipseのプリファレンス設定で移行先環境を設定します。
+		</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>移行先環境は、デフォルトでeap6.2(JBossEAP6.2)、tomcat8(Tomcat8)、springmvc4(springMVC4)が選択可能になっており、デフォルトはeap6.2が有効となっています。
+				本Hands-onでは、springmvc4を移行先環境とするため、デフォルトで有効になっているeap6.2のチェックを解除し、springmvc4をチェックします。
+			</p>
+</td>
+</tr>
+</table>
+</div>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>Eclipseプリファレンス設定の起動</p>
+<div class="figure">
+<a name="N105CD"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;プリファレンス設定の起動メニュー</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/part2/WS000200.JPG" width="1000" alt="プリファレンス設定の起動メニュー"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+<li class="listitem">
+<p>Eclipseプリファレンス設定</p>
+<div class="figure">
+<a name="N105DA"></a>
+<p class="title">
+<b>Figure&nbsp;2.&nbsp;Eclipseプリファレンス設定画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="600">
+<tr>
+<td><img src="images/part2/WS000201.JPG" width="600" alt="Eclipseプリファレンス設定画面"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+<li class="listitem">
+<p>TUBAMEライブラリ設定の確認</p>
+<p>
+					
+<span class="guimenuitem">TUBAME</span> &rarr; <span class="guimenuitem">依存性検索ツール</span> &rarr; <span class="guimenuitem">ライブラリ設定</span>
+				
+</p>
+<div class="figure">
+<a name="N105F1"></a>
+<p class="title">
+<b>Figure&nbsp;3.&nbsp;TUBAMEライブラリ設定の確認</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="600">
+<tr>
+<td><img src="images/part2/WS000202.JPG" width="600" alt="TUBAMEライブラリ設定の確認"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+<li class="listitem">
+<p>ライブラリ設定の変更。本Hands-onでは、springmvc4を移行先環境とするため、デフォルトで有効になっているeap6.2のチェックを解除し、springmvc4をチェックします。</p>
+<div class="figure">
+<a name="N105FE"></a>
+<p class="title">
+<b>Figure&nbsp;4.&nbsp;TUBAMEライブラリ設定の変更後画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="600">
+<tr>
+<td><img src="images/part2/WS000203.JPG" width="600" alt="TUBAMEライブラリ設定の変更後画面"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+</ol>
+</div>
+</div>
+<br>
+<br>
+<a name="tubame_2.2.2." id="category_15"></a>
+<h3 class="title">2.2.2.Hands-on-Task8.依存性検索を実行</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+<a name="depencySearch-Hands-on-Task8"></a>
+			依存性検索を実行します。
+
+			</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>依存性検索ウィザードを起動します。プロジェクトを右クリックし以下を実行します。</p>
+<p>
+						
+<span class="guimenuitem">tubame</span> &rarr; <span class="guimenuitem">依存性検索ツール</span>
+						
+</p>
+<div class="figure">
+<a name="N10621"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;依存性検索ウィザードの起動メニュー</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/part2/WS000204.JPG" width="1000" alt="依存性検索ウィザードの起動メニュー"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<p>
+<br class="figure-break">
+					
+</p>
+</li>
+<li class="listitem">
+<p>依存性検索ウィザードでライブラリ設定を確認します。移行先環境ライブラリにspringmvc4が存在することを確認します。
+					</p>
+<div class="figure">
+<a name="N1062F"></a>
+<p class="title">
+<b>Figure&nbsp;2.&nbsp;依存性検索ウィザードのライブラリ設定(移行先ライブラリ)</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="600">
+<tr>
+<td><img src="images/part2/WS000205.JPG" width="600" alt="依存性検索ウィザードのライブラリ設定(移行先ライブラリ)"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+<li class="listitem">
+<p>依存性検索の実行します。依存性検索ウィザードの<span class="guibutton">Finish</span>ボタンをクリックします。</p>
+</li>
+</ol>
+</div>
+<p>
+
+		
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_2.2.3." id="category_16"></a>
+<h3 class="title">2.2.3.Hands-on-Task9.依存性検索結果を確認</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+<a name="depencySearch-Hands-on-Task9"></a>依存性検索の実行結果（result.gjbm）ファイルがプロジェクト配下に作成され、ファイル内容が依存性検索結果ビューに上に表示されます。
+		</p>
+<p>
+			このビューでは、業務アプリケーションのJava,Jsp,XMLを対象に、移行先環境(本Hands-onの場合はspringmvc4を設定)で利用できない情報をエラーとして表示します。
+
+			</p>
+<div class="figure">
+<a name="N1064F"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;依存性検索結果ビュー</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/part2/WS000211.JPG" width="1000" alt="依存性検索結果ビュー"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<p>
+<br class="figure-break">
+			
+</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: disc; ">
+<li class="listitem">
+<p>java</p>
+<p>
+						業務アプリケーションが移行先環境で利用できないクラスを利用している場合、エラー（移行先に存在しません）として表示します。依存性検索結果ビューでは以下の内容が確認できます。
+
+						
+						</p>
+<div class="itemizedlist">
+<ul class="itemizedlist" style="list-style-type: circle; ">
+<li class="listitem">
+<p>移行先環境で利用できないクラス名及びクラスが所属するパッケージ</p>
+</li>
+<li class="listitem">
+<p>移行先環境で利用できないクラスを業務アプリケーションがどれくらい利用しているか、業務アプリケーションクラス毎の利用箇所や、利用箇所数の合計を表示します
+								</p>
+</li>
+</ul>
+</div>
+<p>
+					
+</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>本Hands-onの場合は、telasolunaフレームワークが提供するパッケージを利用している(依存していること)がわかります。また
+							パッケージ情報として、strutsが提供するAPIのパッケージ情報(org.apache.struts.*)はなく、すべてtesolunaでフレームワークで、strutsをラップしていることもわかります。
+						</p>
+<div class="figure">
+<a name="N1066B"></a>
+<p class="title">
+<b>Figure&nbsp;2.&nbsp;依存性検索結果ビュー(Java)</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1100">
+<tr>
+<td><img src="images/part2/WS000212.JPG" width="1100" alt="依存性検索結果ビュー(Java)"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>xml</p>
+<p>
+						xmlファイルでスキーマファイルの定義で、dtdファイルが指定されている場合、該当ファイルが移行先環境に存在するか確認し、存在しない場合はエラー（移行先に存在しません）として表示します。
+
+						
+					</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>本Hands-onの場合は、業務アプリケーションに含まれるXMLで、telasolunaフレームワークが提供するタグライブラリ(blogic-io,reset)のdtdファイルへの参照や、
+							そのほかにstruts、ibatis、commons-validator及びspringのdtdファイルへの参照が存在していることがわかります。
+						</p>
+<div class="figure">
+<a name="N1067D"></a>
+<p class="title">
+<b>Figure&nbsp;3.&nbsp;依存性検索結果ビュー(Java)</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1100">
+<tr>
+<td><img src="images/part2/WS000213.JPG" width="1100" alt="依存性検索結果ビュー(Java)"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>jsp</p>
+<p>jspはjspファイルでタグライブラリの利用宣言(taglibのuri属性）で拡張子がdtdの場合に、移行先環境に該当のdtdファイルが存在するか確認する。
+						dtdファイルが移行先環境に存在しない場合に、エラー（移行先に存在しません）として表示します。
+					</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>本Hands-onの場合は、jspのエラーは存在せず、taglibのuri属性がdtd指定でなかったため、チェックをスキップした旨のWarnメッセージが出力されている。
+						</p>
+</td>
+</tr>
+</table>
+</div>
+</li>
+</ul>
+</div>
+<p>
+		
+</p>
+</div>
+<br>
+<br>
+<a name="tubame_2.2.4." id="category_17"></a>
+<h3 class="title">2.2.4.Hands-on-Task10.依存性検索のレポート作成</h3>
+<br>
+<div class="section">
+<div class="titlepage"></div>
+<p>
+<a name="depencySearch-Hands-on-Task10"></a>
+			依存性検索のレポートを行うには、依存性検索の結果ファイルであるgjbmファイルが必要となります。
+			</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>本Hands-onではプロジェクトの直下にgjbmファイル及びナレッジベース検索結果ファイルであるjbmファイルが存在することを確認してください。</p>
+</td>
+</tr>
+</table>
+</div>
+<p>
+			
+</p>
+<div class="orderedlist">
+<ol class="orderedlist" type="1">
+<li class="listitem">
+<p>レポート生成ウィザードを起動する。
+                    プロジェクトを右クリックし、以下のメニューを選択する。
+					<span class="guimenuitem">tubame</span> &rarr; <span class="guimenuitem">ナレッジベース検索</span>
+                    
+</p>
+<div class="figure">
+<a name="N106AB"></a>
+<p class="title">
+<b>Figure&nbsp;1.&nbsp;レポート生成ウィザード画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000015.JPG" width="1000" alt="レポート生成ウィザード画面"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+<li class="listitem">
+<p>レポートテンプレートを選択及びレポート生成実行。</p>
+<div class="warning" style="margin-left: 0.5in; margin-right: 0.5in;">
+<table border="0" summary="Warning">
+<tr>
+<td valign="top" align="center" rowspan="2" width="25"><img alt="[Warning]" src="images/warning.png"></td><th align="left">Warning</th>
+</tr>
+<tr>
+<td valign="top" align="left">
+<p>本Hands-onでは「レポートテンプレート」はMVCフレームワークテンプレートを選択し、<span class="guilabel">Finish</span>をクリックしてください。</p>
+<div class="figure">
+<a name="N106BE"></a>
+<p class="title">
+<b>Figure&nbsp;2.&nbsp;レポート生成ウィザードのレポートテンプレート選択画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000016.JPG" width="1000" alt="レポート生成ウィザードのレポートテンプレート選択画面"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</td>
+</tr>
+</table>
+</div>
+</li>
+<li class="listitem">
+<p>レポート生成完了</p>
+<div class="figure">
+<a name="N106CB"></a>
+<p class="title">
+<b>Figure&nbsp;3.&nbsp;レポート生成完了画面</b>
+</p>
+<div class="figure-contents">
+<div class="mediaobject">
+<table border="0" summary="manufactured viewport for HTML img" style="cellpadding: 0; cellspacing: 0;" width="1000">
+<tr>
+<td><img src="images/WS000017.JPG" width="1000" alt="レポート生成完了画面"></td>
+</tr>
+</table>
+</div>
+</div>
+</div>
+<br class="figure-break">
+</li>
+</ol>
+</div>
+<p>
+
+		
+</p>
+</div>
+<br>
+<br>
+</BODY>
+</HTML>
