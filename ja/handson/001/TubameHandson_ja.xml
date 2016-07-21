@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<PortabilityKnowhow xmlns="http://generated.model.biz.knowhow.tubame/knowhow" xmlns:ns2="http://docbook.org/ns/docbook" xmlns:ns3="http://www.w3.org/1999/xlink">
+    <PortabilityKnowhowTitle>Tubame Hands-on</PortabilityKnowhowTitle>
+    <EntryViewList>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_1</EntryCategoryRefKey>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_2</EntryCategoryRefKey>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_3</EntryCategoryRefKey>
+            </ChildEntry>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_4</EntryCategoryRefKey>
+            </ChildEntry>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_5</EntryCategoryRefKey>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_6</EntryCategoryRefKey>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_7</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_8</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_9</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_10</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_11</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_12</EntryCategoryRefKey>
+                </ChildEntry>
+            </ChildEntry>
+            <ChildEntry>
+                <EntryCategoryRefKey>category_13</EntryCategoryRefKey>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_14</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_15</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_16</EntryCategoryRefKey>
+                </ChildEntry>
+                <ChildEntry>
+                    <EntryCategoryRefKey>category_17</EntryCategoryRefKey>
+                </ChildEntry>
+            </ChildEntry>
+        </EntryCategory>
+        <EntryCategory>
+            <EntryCategoryRefKey>category_19</EntryCategoryRefKey>
+        </EntryCategory>
+    </EntryViewList>
+    <ChapterList>
+        <Chapter>
+            <ChapterNo>1.</ChapterNo>
+            <ChapterName>はじめに</ChapterName>
+            <ChildChapter>
+                <ChildCapterNo>1.1.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_1</ChapterCategoryRefKey>
+            </ChildChapter>
+            <ChildChapter>
+                <ChildCapterNo>1.2.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_19</ChapterCategoryRefKey>
+            </ChildChapter>
+            <ChildChapter>
+                <ChildCapterNo>1.3.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_2</ChapterCategoryRefKey>
+                <ChildChapter>
+                    <ChildCapterNo>1.3.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_3</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>1.3.2.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_4</ChapterCategoryRefKey>
+                </ChildChapter>
+            </ChildChapter>
+        </Chapter>
+        <Chapter>
+            <ChapterNo>2.</ChapterNo>
+            <ChapterName>Let's get started</ChapterName>
+            <ChildChapter>
+                <ChildCapterNo>2.1.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_6</ChapterCategoryRefKey>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_7</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.2.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_8</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.3.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_9</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.4.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_10</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.5.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_11</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.1.6.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_12</ChapterCategoryRefKey>
+                </ChildChapter>
+            </ChildChapter>
+            <ChildChapter>
+                <ChildCapterNo>2.2.</ChildCapterNo>
+                <ChapterCategoryRefKey>category_13</ChapterCategoryRefKey>
+                <ChildChapter>
+                    <ChildCapterNo>2.2.1.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_14</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.2.2.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_15</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.2.3.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_16</ChapterCategoryRefKey>
+                </ChildChapter>
+                <ChildChapter>
+                    <ChildCapterNo>2.2.4.</ChildCapterNo>
+                    <ChapterCategoryRefKey>category_17</ChapterCategoryRefKey>
+                </ChildChapter>
+            </ChildChapter>
+        </Chapter>
+    </ChapterList>
+    <CategoryList>
+        <Category categoryId="category_1" appropriate="true">
+            <CategoryName>Hands-on Goal</CategoryName>
+            <KnowhowRefKey>knowhow_1</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_2" appropriate="true">
+            <CategoryName>What we are doing?</CategoryName>
+            <KnowhowRefKey>knowhow_2</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_3" appropriate="true">
+            <CategoryName>part1 ナレッジベース検索</CategoryName>
+            <KnowhowRefKey>knowhow_3</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_4" appropriate="true">
+            <CategoryName>part2 依存性検索</CategoryName>
+            <KnowhowRefKey>knowhow_4</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_5" appropriate="true">
+            <CategoryName>Let's get started!</CategoryName>
+        </Category>
+        <Category categoryId="category_6" appropriate="true">
+            <CategoryName>part1 ナレッジベース検索</CategoryName>
+        </Category>
+        <Category categoryId="category_7" appropriate="true">
+            <CategoryName>Hands-on-Task1.ナレッジベース検索を実行</CategoryName>
+            <KnowhowRefKey>knowhow_5</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_8" appropriate="true">
+            <CategoryName>Hands-on-Task2.ナレッジベース検索結果より、移植項目を確認する</CategoryName>
+            <KnowhowRefKey>knowhow_6</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_9" appropriate="true">
+            <CategoryName>Hands-on-Task3.目視確認作業</CategoryName>
+            <KnowhowRefKey>knowhow_7</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_10" appropriate="true">
+            <CategoryName>Hands-on-Task4.ヒアリング確認作業</CategoryName>
+            <KnowhowRefKey>knowhow_9</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_11" appropriate="true">
+            <CategoryName>Hands-on-Task5.ライン数の手動算出設定作業</CategoryName>
+            <KnowhowRefKey>knowhow_10</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_12" appropriate="true">
+            <CategoryName>Hands-on-Task6.ナレッジベース検索のレポート作成</CategoryName>
+            <KnowhowRefKey>knowhow_11</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_13" appropriate="true">
+            <CategoryName>part2 依存性検索</CategoryName>
+        </Category>
+        <Category categoryId="category_14" appropriate="true">
+            <CategoryName>Hands-on-Task7.移行先環境設定</CategoryName>
+            <KnowhowRefKey>knowhow_12</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_15" appropriate="true">
+            <CategoryName>Hands-on-Task8.依存性検索を実行</CategoryName>
+            <KnowhowRefKey>knowhow_13</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_16" appropriate="true">
+            <CategoryName>Hands-on-Task9.依存性検索結果を確認</CategoryName>
+            <KnowhowRefKey>knowhow_14</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_17" appropriate="true">
+            <CategoryName>Hands-on-Task10.依存性検索のレポート作成</CategoryName>
+            <KnowhowRefKey>knowhow_15</KnowhowRefKey>
+        </Category>
+        <Category categoryId="category_19" appropriate="true">
+            <CategoryName>Prerequisite for hands-on</CategoryName>
+            <KnowhowRefKey>knowhow_16</KnowhowRefKey>
+        </Category>
+    </CategoryList>
+    <KnowhowList>
+        <KnowhowInfomation knowhowId="knowhow_1" knowhowDetailRefKey="knowhowDetail_1">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_2" knowhowDetailRefKey="knowhowDetail_2">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_3" knowhowDetailRefKey="knowhowDetail_3">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_4" knowhowDetailRefKey="knowhowDetail_4">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_5" knowhowDetailRefKey="knowhowDetail_5">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_6" knowhowDetailRefKey="knowhowDetail_6">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_7" knowhowDetailRefKey="knowhowDetail_7">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_9" knowhowDetailRefKey="knowhowDetail_9">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_10" knowhowDetailRefKey="knowhowDetail_10">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_11" knowhowDetailRefKey="knowhowDetail_11">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_12" knowhowDetailRefKey="knowhowDetail_12">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_13" knowhowDetailRefKey="knowhowDetail_13">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_14" knowhowDetailRefKey="knowhowDetail_14">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_15" knowhowDetailRefKey="knowhowDetail_15">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+        <KnowhowInfomation knowhowId="knowhow_16" knowhowDetailRefKey="knowhowDetail_16">
+            <KnowhowNo>1</KnowhowNo>
+            <KnowhowName>body</KnowhowName>
+        </KnowhowInfomation>
+    </KnowhowList>
+    <DocBookList>
+        <DocBook articleId="knowhowDetail_1">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>struts1に依存したアプリケーションを例に、TUBAMEを利用した移植性検討（struts1からSpringMVCへの移植検討）を行います。
+TUBAMEのナレッジベース検索機能より、移植項目の抽出、移植概算規模の算出を行います。TUBAMEの依存性検索では、業務アプリケーションが依存する情報から、移行後の環境で利用できないものを抽出し、可視化します。
+</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_2">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			struts1に依存したアプリケーションを例に、TUBAMEの以下の機能を実行します。
+			<ns2:itemizedlist>
+                            <ns2:listitem>
+<ns2:para>part1 ナレッジベース検索</ns2:para>
+<ns2:para>Struts1からSpringMVCへの移行ナレッジを利用して、ナレッジベース検索実行を実施し、移植項目の確認を行い、移植概算規模を算出する。
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>part2 依存性検索</ns2:para>
+<ns2:para>移行先環境にspringMVCを設定し、依存性検索を実施する。依存性検索では、業務アプリケーションの依存性情報を抽出し、移行先環境で利用できない情報を出力されるので、検索結果を確認する。
+					</ns2:para>
+                            </ns2:listitem>
+                        </ns2:itemizedlist>
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_3">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			ナレッジベース検索については、本Hands-onでは以下を実施する。
+
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para xml:id="knowledgeBaseSearch-Hands-on-Step1">ナレッジXMLを利用したナレッジベース検索を行う。</ns2:para>
+<ns2:warning>
+    <ns2:title>Hands-on-Task1.</ns2:title>
+    <ns2:para>
+        <ns2:command ns3:href="#knowledgeBaseSearch-Hands-on-Task1">ナレッジベース検索を実行</ns2:command>
+    </ns2:para>
+</ns2:warning>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para xml:id="knowledgeBaseSearch-Hands-on-Step2">移植項目を確認する。</ns2:para>
+<ns2:warning>
+    <ns2:title>Hands-on-Task2.</ns2:title>
+    <ns2:para>
+        <ns2:command ns3:href="#knowledgeBaseSearch-Hands-on-Task2">ナレッジベース検索結果を確認する</ns2:command>
+    </ns2:para>
+</ns2:warning>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para xml:id="knowledgeBaseSearch-Hands-on-Step3">移植規模の概算を行う</ns2:para>
+<ns2:para>
+						<ns2:itemizedlist>
+        <ns2:listitem>
+            <ns2:warning>
+                <ns2:title>Hands-on-Task3.</ns2:title>
+                <ns2:para>
+                    <ns2:command ns3:href="#knowledgeBaseSearch-Hands-on-Task3">目視確認作業を行う</ns2:command>
+                </ns2:para>
+            </ns2:warning>
+        </ns2:listitem>
+        <ns2:listitem>
+            <ns2:warning>
+                <ns2:title>Hands-on-Task4.</ns2:title>
+                <ns2:para>
+                    <ns2:command ns3:href="#knowledgeBaseSearch-Hands-on-Task4">ヒアリング確認作業を行う</ns2:command>
+                </ns2:para>
+            </ns2:warning>
+        </ns2:listitem>
+        <ns2:listitem>
+            <ns2:warning>
+                <ns2:title>Hands-on-Task5.</ns2:title>
+                <ns2:para>
+                    <ns2:command ns3:href="#knowledgeBaseSearch-Hands-on-Task5">ライン数の手動算出設定作業を行う</ns2:command>
+                </ns2:para>
+            </ns2:warning>
+        </ns2:listitem>
+    </ns2:itemizedlist>
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para xml:id="knowledgeBaseSearch-Hands-on-Step4">レポート生成を行う。</ns2:para>
+<ns2:warning>
+    <ns2:title>Hands-on-Task6.</ns2:title>
+    <ns2:para>
+        <ns2:command ns3:href="#knowledgeBaseSearch-Hands-on-Task6">ナレッジベース検索のレポートを作成する</ns2:command>
+    </ns2:para>
+</ns2:warning>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_4">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>依存性検索については、本Hands-onでは以下を実施する。
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>移行先環境を設定し、依存性検索を行う。</ns2:para>
+<ns2:para>
+						<ns2:itemizedlist>
+        <ns2:listitem>
+            <ns2:warning>
+                <ns2:title>Hands-on-Task7.</ns2:title>
+                <ns2:para>
+        <ns2:command ns3:href="#depencySearch-Hands-on-Task7">移行先環境を設定する</ns2:command>
+    </ns2:para>
+            </ns2:warning>
+        </ns2:listitem>
+        <ns2:listitem>
+            <ns2:warning>
+                <ns2:title>Hands-on-Task8.</ns2:title>
+                <ns2:para>
+                    <ns2:command ns3:href="#depencySearch-Hands-on-Task8">依存性検索を実行する</ns2:command>
+                </ns2:para>
+            </ns2:warning>
+        </ns2:listitem>
+    </ns2:itemizedlist>
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>依存性検索結果を確認する。</ns2:para>
+<ns2:warning>
+    <ns2:title>Hands-on-Task9.</ns2:title>
+    <ns2:para>
+        <ns2:command ns3:href="#depencySearch-Hands-on-Task9">依存性検索結果を確認する</ns2:command>
+    </ns2:para>
+</ns2:warning>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>移行先環境で利用できないAPIを可視化する</ns2:para>
+<ns2:warning>
+    <ns2:title>Hands-on-Task10.</ns2:title>
+    <ns2:para>
+        <ns2:command ns3:href="#depencySearch-Hands-on-Task10">依存性検索のレポートを作成する</ns2:command>
+    </ns2:para>
+</ns2:warning>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+
+
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_5">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:orderedlist xml:id="knowledgeBaseSearch-Hands-on-Task1">
+                        <ns2:listitem>
+                            <ns2:para>ナレッジベース検索ウィザードの起動</ns2:para>
+                            <ns2:para>
+					プロジェクトを右クリックし、以下のメニューを選択する。
+					<ns2:menuchoice>
+    <ns2:guimenuitem>tubame</ns2:guimenuitem>
+    <ns2:guimenuitem>ナレッジベース検索</ns2:guimenuitem>
+</ns2:menuchoice>
+				</ns2:para>
+                            <ns2:figure>
+<ns2:title>ナレッジベース検索のメニュー選択</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="jpg" fileref="images/part1/WS000100.JPG" width="800"/>
+    </ns2:imageobject>
+</ns2:mediaobject>
+                            </ns2:figure>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>マイグレーションナレッジの選択</ns2:para>
+                            <ns2:para>
+					ナレッジベース検索ウィザードが表示されたら、
+					<ns2:guibutton>インポート</ns2:guibutton>
+					ボタンをクリックし、
+					<ns2:guilabel>FrameworkMigration_Struts1_To_SpringMVC4</ns2:guilabel>
+					を選択する。
+					<ns2:warning>
+    <ns2:para>
+							インターネット接続ができない環境の場合は、
+							<ns2:command ns3:href="#getKnowHowXml">ナレッジベース検索で利用する「Struts1からSpringMVCへの移行ナレッジ」
+							</ns2:command>
+							を参考に、手動でマイグレーションナレッジを取得してください。
+							取得後は、
+							<ns2:guibutton>参照</ns2:guibutton>
+							ボタンをクリックし、ファイルの選択ダイアログで利用するマイグレーションナレッジ（本Hands-onでは「tubame-knowledge/Struts1ToSpringMVC/Struts1ToSpringMVC.xml」）を選択する。
+						</ns2:para>
+    <ns2:figure>
+        <ns2:title>ナレッジベース検索ウィザード</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/part1/WS000101.JPG" width="800"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+    <ns2:figure>
+        <ns2:title>ナレッジベース検索ウィザードのファイル選択ダイアログ</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/part1/WS000102.JPG" width="500"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+</ns2:warning>
+
+				</ns2:para>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>ナレッジベース検索の実行</ns2:para>
+                            <ns2:para>
+					検索実行ダイアログの
+					<ns2:guibutton>Finish</ns2:guibutton>
+					ボタンをクリックする。
+
+				</ns2:para>
+                            <ns2:figure>
+<ns2:title>ナレッジベース検索の実行</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="jpg" fileref="images/part1/WS000103.JPG" width="800"/>
+    </ns2:imageobject>
+</ns2:mediaobject>
+                            </ns2:figure>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_6">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para xml:id="knowledgeBaseSearch-Hands-on-Task2">
+			Hands-on-Task2.ナレッジベース検索結果より、移植項目を確認する
+
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>ナレッジベース検索結果より、移植項目を確認する</ns2:para>
+<ns2:para>
+						ナレッジベース検索の実行結果（result.jbm）ファイルがプロジェクト配下に作成され、ファイルの内容が
+						<ns2:guilabel>jbmファイルエディタ</ns2:guilabel>
+						で表示されます。
+						修正項目一覧が表示され、抽出された各修正項目の修正難易度や修正ライン数、修正対象ファイルなどの情報が表示されます
+
+
+						<ns2:warning>
+        <ns2:para>
+								<ns2:guilabel>jbmファイルエディタ</ns2:guilabel>
+								がオープンしていない場合は、プロジェクト配下に作成されているresult.jbmファイルをダブルクリックしてください
+							</ns2:para>
+    </ns2:warning>
+						<ns2:figure>
+        <ns2:title>jbmファイルエディタ(ナレッジベース検索パースペクティブ)</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/WS000000.JPG" width="1200"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+
+
+					</ns2:para>
+<ns2:note>
+    <ns2:para>
+							ナレッジベース検索のGUI(パースペクティブ）の構成は、jbmファイルエディタ以外に以下が存在します。
+
+							<ns2:itemizedlist>
+            <ns2:listitem>
+                <ns2:para>チェックリスト情報ビュー</ns2:para>
+                <ns2:para>検索条件などの情報が表示される。目視/ヒアリング確認する内容も表示される</ns2:para>
+            </ns2:listitem>
+            <ns2:listitem>
+                <ns2:para>作業状況ビュー</ns2:para>
+                <ns2:para>移植規模を算出するために必要なタスク(目視/ヒアリング確認項目の状況)の表示。</ns2:para>
+            </ns2:listitem>
+            <ns2:listitem>
+                <ns2:para>HTMLガイドビュー</ns2:para>
+                <ns2:para>
+
+										<ns2:guilabel>jbmファイルエディタ</ns2:guilabel>
+										の
+										<ns2:guilabel>ガイド章番号</ns2:guilabel>
+										をクリックすると、該当項目の修正方法を表示する
+									</ns2:para>
+            </ns2:listitem>
+            <ns2:listitem>
+                <ns2:para>ソースコードビュー</ns2:para>
+                <ns2:para>
+										<ns2:guilabel>jbmファイルエディタ</ns2:guilabel>
+										で表示される
+										<ns2:guilabel>行</ns2:guilabel>
+										にカーソルを合わせ、右クリック
+										<ns2:guibutton>ソースコードビューを開く</ns2:guibutton>
+										をクリックすると、検索ヒット箇所がViewで表示される
+
+										<ns2:figure>
+                        <ns2:title>ソースコードビューを選択</ns2:title>
+                        <ns2:mediaobject>
+                            <ns2:imageobject condition="web">
+<ns2:imagedata format="jpg" fileref="images/WS000001.JPG" width="1000"/>
+                            </ns2:imageobject>
+                        </ns2:mediaobject>
+                    </ns2:figure>
+										
+										<ns2:figure>
+                        <ns2:title>ソースコードビュー</ns2:title>
+                        <ns2:mediaobject>
+                            <ns2:imageobject condition="web">
+<ns2:imagedata format="jpg" fileref="images/WS000002.JPG" width="1000"/>
+                            </ns2:imageobject>
+                        </ns2:mediaobject>
+                    </ns2:figure>
+									</ns2:para>
+            </ns2:listitem>
+        </ns2:itemizedlist>
+						</ns2:para>
+</ns2:note>
+<ns2:important>
+    <ns2:para>
+							jbmファイルエディタはナレッジXMLにあるチェックポイントで設定された検索条件で検索した結果を一覧表示しています。
+
+							<ns2:itemizedlist>
+            <ns2:listitem>
+                <ns2:para>
+										どんな検索をおこなっているかは、
+										<ns2:guilabel>チェックリスト情報ビュー</ns2:guilabel>
+										より検索手順等を確認することできます。
+									</ns2:para>
+            </ns2:listitem>
+            <ns2:listitem>
+                <ns2:para>
+										検索該当箇所は、
+										<ns2:guilabel>ソースコードビュー</ns2:guilabel>
+										より確認することができます。
+									</ns2:para>
+            </ns2:listitem>
+            <ns2:listitem>
+                <ns2:para>
+										移植方法については、<ns2:guilabel>jbmファイルエディタ</ns2:guilabel>
+										のガイド章番号をクリックして、
+										<ns2:guilabel>HTMlガイドビュー</ns2:guilabel>
+										より確認することができます。
+									</ns2:para>
+            </ns2:listitem>
+            <ns2:listitem>
+                <ns2:para>
+										全体的な修正項目を確認したい場合、
+										<ns2:guilabel>jbmファイルエディタ</ns2:guilabel>
+										の
+										<ns2:guilabel>列No</ns2:guilabel>
+										にカーソルを合わせ、右クリックで
+										<ns2:guibutton>全アイテムを折りたたむ</ns2:guibutton>
+										を表示します。
+										<ns2:guilabel>jbmファイルエディタ</ns2:guilabel>
+										の
+										<ns2:guilabel>大項目</ns2:guilabel>
+										及び
+										<ns2:guilabel>中項目</ns2:guilabel>
+										を確認することで、どんな移植項目が存在するかわかります。
+
+									</ns2:para>
+            </ns2:listitem>
+        </ns2:itemizedlist>
+						</ns2:para>
+</ns2:important>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+
+
+
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_7">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para xml:id="knowledgeBaseSearch-Hands-on-Task3">
+			移植規模を算出するためには、
+			<ns2:guilabel>jbmファイルエディタ</ns2:guilabel>
+			の
+			<ns2:guimenuitem>目視状況</ns2:guimenuitem>
+			及び
+			<ns2:guimenuitem>ヒアリング状況</ns2:guimenuitem>
+			が
+			<ns2:guilabel>未</ns2:guilabel>
+			となっている修正項目について、
+			移植要否を全て確定する必要があります。
+
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>作業状況ビューを確認する。</ns2:para>
+<ns2:warning>
+    <ns2:para>
+							<ns2:guilabel>作業状況ビュー</ns2:guilabel>
+							より、
+							<ns2:guimenuitem>現在の目視確認</ns2:guimenuitem>
+							を確認し、目視確認項目が１件存在することを確認してください。
+						</ns2:para>
+    <ns2:figure>
+        <ns2:title>目視確認項目の残数確認(残1件)</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/WS000003.JPG" width="1000"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+</ns2:warning>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>目視確認を行う</ns2:para>
+<ns2:para>
+						<ns2:guilabel>jbmファイルエディタ</ns2:guilabel>
+						の
+						<ns2:guimenuitem>目視確認項目</ns2:guimenuitem>
+						に対して、
+						<ns2:guilabel>チェックリスト情報ビュー</ns2:guilabel>
+						の
+						<ns2:guimenuitem>目視確認項目</ns2:guimenuitem>
+						を確認する。
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>目視確認項目の特定。</ns2:para>
+<ns2:para>目視確認項目は、jbmファイルエディタの列「目視状況」をクリックして、「未」と表示されているものが対象となります。
+						「未」と表示されている行をクリックし、チェックリスト情報ビューの目視確認内容を確認します。
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>目視確認項目を移植不要とする</ns2:para>
+<ns2:warning>
+    <ns2:para>本Hands-onでは、目視確認項目は移植不要とします。jbmファイルエディタの列「目視状況」が「未確認」と表示されている部分にカーソルを合わせ、
+						右クリックメニューより、「目視確認済み（移植不要）」を選択。</ns2:para>
+    <ns2:figure>
+        <ns2:title>目視確認項目に対する移植可否判定</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/WS000004.JPG" width="1000"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+</ns2:warning>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>jbmファイルのセーブ</ns2:para>
+<ns2:para>作業後は、Ctrl+Sでセーブしてください。</ns2:para>
+<ns2:warning>
+    <ns2:para>セーブ後は、作業状況ビューを確認し、目視確認状況の残数が0になることを確認します。</ns2:para>
+    <ns2:figure>
+        <ns2:title>目視確認項目の残数確認(残0件)</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/WS000005.JPG" width="1000"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+</ns2:warning>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_9">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para xml:id="knowledgeBaseSearch-Hands-on-Task4">
+			移植規模を算出するためには、
+			<ns2:guilabel>jbmファイルエディタ</ns2:guilabel>
+			の
+			<ns2:guimenuitem>目視状況</ns2:guimenuitem>
+			及び
+			<ns2:guimenuitem>ヒアリング状況</ns2:guimenuitem>
+			が
+			<ns2:guilabel>未</ns2:guilabel>
+			となっている修正項目について、
+			移植要否を全て確定する必要があります。
+
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>作業状況ビューを確認する。</ns2:para>
+<ns2:warning>
+    <ns2:para>
+							<ns2:guilabel>作業状況ビュー</ns2:guilabel>
+							より、
+							<ns2:guimenuitem>ヒアリング確認状況</ns2:guimenuitem>
+							を確認し、ヒアリング確認状況が３件存在することを確認してください。
+						</ns2:para>
+    <ns2:figure>
+        <ns2:title>ヒアリング確認項目の確認(残3件)</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/WS000006.JPG" width="1000"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+</ns2:warning>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>ヒアリング確認項目の特定。</ns2:para>
+<ns2:para>ヒアリング項目は、jbmファイルエディタの列「ヒアリング状況」をクリックして、「未」と表示されているものが対象となります。
+						「未」と表示されている行をクリックし、チェックリスト情報ビューの目視確認内容を確認します。
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>ヒアリング確認項目を移植要とする</ns2:para>
+<ns2:warning>
+    <ns2:para>本Hands-onでは、ヒアリング項目は移植要とします。jbmファイルエディタの列「ヒアリング状況」が「未確認」と表示されている部分にカーソルを合わせ、
+						右クリックメニューより、「ヒアリング確認済み（移植要）」を選択。
+					</ns2:para>
+    <ns2:figure>
+        <ns2:title>ヒアリング確認項目の移植可否判定</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/WS000007.JPG" width="1000"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+</ns2:warning>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>jbmファイルのセーブ</ns2:para>
+<ns2:para>作業後は、Ctrl+Sでセーブしてください。</ns2:para>
+<ns2:warning>
+    <ns2:para>セーブ後は、作業状況ビューを確認し、ヒアリング確認状況の残数が0になることを確認します。</ns2:para>
+    <ns2:figure>
+        <ns2:title>ヒアリング確認項目の確認(残0件)</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/WS000008.JPG" width="1000"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+</ns2:warning>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_10">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para xml:id="knowledgeBaseSearch-Hands-on-Task5">
+			移植規模を算出するためには、
+			移植項目でjbmファイルエディタの列ステップ数が「TODO:SE
+			手動算出」となっている項目はすべてステップ数を入力する必要があります。
+
+
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>作業状況ビューを確認する。</ns2:para>
+<ns2:warning>
+    <ns2:para>
+							<ns2:guilabel>作業状況ビュー</ns2:guilabel>
+							より、
+							<ns2:guimenuitem>SE手動算出項目修正状況</ns2:guimenuitem>
+							を確認し、確認項目が8件存在することを確認してください。
+						</ns2:para>
+    <ns2:figure>
+        <ns2:title>SE手動算出項目の確認(残8件)</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/WS000010.JPG" width="1000"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+</ns2:warning>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>SE手動算出項目の特定。</ns2:para>
+<ns2:para>SE手動算出項目は、jbmファイルエディタの列「ステップ数」をクリックして、ステップ数が「TODO:SE
+						手動算出」と表示されているものが対象となります。
+
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>SE手動算出項目に対してステップ数を入力する。</ns2:para>
+<ns2:warning>
+    <ns2:para>本デモでは、難易度が高(High)のものは、500を入力し、難易度が中(Middle)は、ステップ数を50を入力してください。すべてのSE手動算出項目に対してステップ数を入力してください。
+						</ns2:para>
+    <ns2:figure>
+        <ns2:title>SE手動算出項目に対してステップ数を入力。</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/WS000011.JPG" width="1000"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+</ns2:warning>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>jbmファイルのセーブ</ns2:para>
+<ns2:para>作業後は、Ctrl+Sでセーブしてください。</ns2:para>
+<ns2:warning>
+    <ns2:para>セーブ後は、作業状況ビューを確認し、SE手動算出項目修正状況の残数が0になることを確認します。</ns2:para>
+    <ns2:figure>
+        <ns2:title>SE手動算出項目の確認(残0件)</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/WS000012.JPG" width="1000"/>
+            </ns2:imageobject>
+            <ns2:textobject>
+                <ns2:phrase>This image does not a meaning in the image</ns2:phrase>
+            </ns2:textobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+</ns2:warning>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_11">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para xml:id="knowledgeBaseSearch-Hands-on-Task6">
+
+
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>作業状況ビューを確認する。</ns2:para>
+<ns2:warning>
+    <ns2:para>
+							<ns2:guilabel>作業状況ビュー</ns2:guilabel>
+							より、
+							<ns2:guimenuitem>確認項目作業が完了しました</ns2:guimenuitem>
+							と表示されていることを確認する。
+						</ns2:para>
+    <ns2:figure>
+        <ns2:title>作業状況ビューの確認</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/WS000013.JPG" width="1000"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+</ns2:warning>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>チェック済みの移植不要項目の削除</ns2:para>
+<ns2:para>エディタのアクションメニューより「チェック済みの移植不要項目の削除」をクリックする。
+
+					</ns2:para>
+<ns2:figure>
+    <ns2:title>チェック済みの移植不要項目の削除</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject condition="web">
+            <ns2:imagedata format="jpg" fileref="images/WS000014.JPG" width="1000"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>レポート生成ウィザードを起動する。
+                    プロジェクトを右クリックし、以下のメニューを選択する。
+					<ns2:menuchoice>
+        <ns2:guimenuitem>tubame</ns2:guimenuitem>
+        <ns2:guimenuitem>ナレッジベース検索</ns2:guimenuitem>
+    </ns2:menuchoice>
+                    </ns2:para>
+<ns2:figure>
+    <ns2:title>レポート生成ウィザード画面</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject condition="web">
+            <ns2:imagedata format="jpg" fileref="images/WS000015.JPG" width="1000"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>レポートテンプレートを選択及びレポート生成実行。</ns2:para>
+<ns2:warning>
+    <ns2:para>本Hands-onでは「レポートテンプレート」はMVCフレームワークテンプレートを選択し、<ns2:guilabel>Finish</ns2:guilabel>をクリックしてください。</ns2:para>
+    <ns2:figure>
+        <ns2:title>レポート生成ウィザードのレポートテンプレート選択画面</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/WS000016.JPG" width="1000"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+</ns2:warning>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>レポート生成完了</ns2:para>
+<ns2:figure>
+    <ns2:title>レポート生成完了画面</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject condition="web">
+            <ns2:imagedata format="jpg" fileref="images/WS000017.JPG" width="1000"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_12">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para xml:id="depencySearch-Hands-on-Task7">Eclipseのプリファレンス設定で移行先環境を設定します。
+		</ns2:para>
+                    <ns2:warning>
+                        <ns2:para>移行先環境は、デフォルトでeap6.2(JBossEAP6.2)、tomcat8(Tomcat8)、springmvc4(springMVC4)が選択可能になっており、デフォルトはeap6.2が有効となっています。
+				本Hands-onでは、springmvc4を移行先環境とするため、デフォルトで有効になっているeap6.2のチェックを解除し、springmvc4をチェックします。
+			</ns2:para>
+                    </ns2:warning>
+                    <ns2:orderedlist>
+                        <ns2:listitem>
+                            <ns2:para>Eclipseプリファレンス設定の起動</ns2:para>
+                            <ns2:figure>
+<ns2:title>プリファレンス設定の起動メニュー</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="jpg" fileref="images/part2/WS000200.JPG" width="1000"/>
+    </ns2:imageobject>
+</ns2:mediaobject>
+                            </ns2:figure>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>Eclipseプリファレンス設定</ns2:para>
+                            <ns2:figure>
+<ns2:title>Eclipseプリファレンス設定画面</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="jpg" fileref="images/part2/WS000201.JPG" width="600"/>
+    </ns2:imageobject>
+</ns2:mediaobject>
+                            </ns2:figure>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>TUBAMEライブラリ設定の確認</ns2:para>
+                            <ns2:para>
+					<ns2:menuchoice>
+    <ns2:guimenuitem>TUBAME</ns2:guimenuitem>
+    <ns2:guimenuitem>依存性検索ツール</ns2:guimenuitem>
+    <ns2:guimenuitem>ライブラリ設定</ns2:guimenuitem>
+</ns2:menuchoice>
+				</ns2:para>
+                            <ns2:figure>
+<ns2:title>TUBAMEライブラリ設定の確認</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="jpg" fileref="images/part2/WS000202.JPG" width="600"/>
+    </ns2:imageobject>
+</ns2:mediaobject>
+                            </ns2:figure>
+                        </ns2:listitem>
+                        <ns2:listitem>
+                            <ns2:para>ライブラリ設定の変更。本Hands-onでは、springmvc4を移行先環境とするため、デフォルトで有効になっているeap6.2のチェックを解除し、springmvc4をチェックします。</ns2:para>
+                            <ns2:figure>
+<ns2:title>TUBAMEライブラリ設定の変更後画面</ns2:title>
+<ns2:mediaobject>
+    <ns2:imageobject condition="web">
+        <ns2:imagedata format="jpg" fileref="images/part2/WS000203.JPG" width="600"/>
+    </ns2:imageobject>
+</ns2:mediaobject>
+                            </ns2:figure>
+                        </ns2:listitem>
+                    </ns2:orderedlist>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_13">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para xml:id="depencySearch-Hands-on-Task8">
+			依存性検索を実行します。
+
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>依存性検索ウィザードを起動します。プロジェクトを右クリックし以下を実行します。</ns2:para>
+<ns2:para>
+						<ns2:menuchoice>
+        <ns2:guimenuitem>tubame</ns2:guimenuitem>
+        <ns2:guimenuitem>依存性検索ツール</ns2:guimenuitem>
+    </ns2:menuchoice>
+						<ns2:figure>
+        <ns2:title>依存性検索ウィザードの起動メニュー</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/part2/WS000204.JPG" width="1000"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>依存性検索ウィザードでライブラリ設定を確認します。移行先環境ライブラリにspringmvc4が存在することを確認します。
+					</ns2:para>
+<ns2:figure>
+    <ns2:title>依存性検索ウィザードのライブラリ設定(移行先ライブラリ)</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject condition="web">
+            <ns2:imagedata format="jpg" fileref="images/part2/WS000205.JPG" width="600"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>依存性検索の実行します。依存性検索ウィザードの<ns2:guibutton>Finish</ns2:guibutton>ボタンをクリックします。</ns2:para>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_14">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para xml:id="depencySearch-Hands-on-Task9">依存性検索の実行結果（result.gjbm）ファイルがプロジェクト配下に作成され、ファイル内容が依存性検索結果ビューに上に表示されます。
+		</ns2:para>
+                    <ns2:para>
+			このビューでは、業務アプリケーションのJava,Jsp,XMLを対象に、移行先環境(本Hands-onの場合はspringmvc4を設定)で利用できない情報をエラーとして表示します。
+
+			<ns2:figure>
+                            <ns2:title>依存性検索結果ビュー</ns2:title>
+                            <ns2:mediaobject>
+<ns2:imageobject condition="web">
+    <ns2:imagedata format="jpg" fileref="images/part2/WS000211.JPG" width="1000"/>
+</ns2:imageobject>
+                            </ns2:mediaobject>
+                        </ns2:figure>
+			<ns2:itemizedlist>
+                            <ns2:listitem>
+<ns2:para>java</ns2:para>
+<ns2:para>
+						業務アプリケーションが移行先環境で利用できないクラスを利用している場合、エラー（移行先に存在しません）として表示します。依存性検索結果ビューでは以下の内容が確認できます。
+
+						
+						<ns2:itemizedlist>
+        <ns2:listitem>
+            <ns2:para>移行先環境で利用できないクラス名及びクラスが所属するパッケージ</ns2:para>
+        </ns2:listitem>
+        <ns2:listitem>
+            <ns2:para>移行先環境で利用できないクラスを業務アプリケーションがどれくらい利用しているか、業務アプリケーションクラス毎の利用箇所や、利用箇所数の合計を表示します
+								</ns2:para>
+        </ns2:listitem>
+    </ns2:itemizedlist>
+					</ns2:para>
+<ns2:warning>
+    <ns2:para>本Hands-onの場合は、telasolunaフレームワークが提供するパッケージを利用している(依存していること)がわかります。また
+							パッケージ情報として、strutsが提供するAPIのパッケージ情報(org.apache.struts.*)はなく、すべてtesolunaでフレームワークで、strutsをラップしていることもわかります。
+						</ns2:para>
+    <ns2:figure>
+        <ns2:title>依存性検索結果ビュー(Java)</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/part2/WS000212.JPG" width="1100"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+</ns2:warning>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>xml</ns2:para>
+<ns2:para>
+						xmlファイルでスキーマファイルの定義で、dtdファイルが指定されている場合、該当ファイルが移行先環境に存在するか確認し、存在しない場合はエラー（移行先に存在しません）として表示します。
+
+						
+					</ns2:para>
+<ns2:warning>
+    <ns2:para>本Hands-onの場合は、業務アプリケーションに含まれるXMLで、telasolunaフレームワークが提供するタグライブラリ(blogic-io,reset)のdtdファイルへの参照や、
+							そのほかにstruts、ibatis、commons-validator及びspringのdtdファイルへの参照が存在していることがわかります。
+						</ns2:para>
+    <ns2:figure>
+        <ns2:title>依存性検索結果ビュー(Java)</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/part2/WS000213.JPG" width="1100"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+</ns2:warning>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>jsp</ns2:para>
+<ns2:para>jspはjspファイルでタグライブラリの利用宣言(taglibのuri属性）で拡張子がdtdの場合に、移行先環境に該当のdtdファイルが存在するか確認する。
+						dtdファイルが移行先環境に存在しない場合に、エラー（移行先に存在しません）として表示します。
+					</ns2:para>
+<ns2:warning>
+    <ns2:para>本Hands-onの場合は、jspのエラーは存在せず、taglibのuri属性がdtd指定でなかったため、チェックをスキップした旨のWarnメッセージが出力されている。
+						</ns2:para>
+</ns2:warning>
+                            </ns2:listitem>
+                        </ns2:itemizedlist>
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_15">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para xml:id="depencySearch-Hands-on-Task10">
+			依存性検索のレポートを行うには、依存性検索の結果ファイルであるgjbmファイルが必要となります。
+			<ns2:warning>
+                            <ns2:para>本Hands-onではプロジェクトの直下にgjbmファイル及びナレッジベース検索結果ファイルであるjbmファイルが存在することを確認してください。</ns2:para>
+                        </ns2:warning>
+			<ns2:orderedlist>
+                            <ns2:listitem>
+<ns2:para>レポート生成ウィザードを起動する。
+                    プロジェクトを右クリックし、以下のメニューを選択する。
+					<ns2:menuchoice>
+        <ns2:guimenuitem>tubame</ns2:guimenuitem>
+        <ns2:guimenuitem>ナレッジベース検索</ns2:guimenuitem>
+    </ns2:menuchoice>
+                    </ns2:para>
+<ns2:figure>
+    <ns2:title>レポート生成ウィザード画面</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject condition="web">
+            <ns2:imagedata format="jpg" fileref="images/WS000015.JPG" width="1000"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>レポートテンプレートを選択及びレポート生成実行。</ns2:para>
+<ns2:warning>
+    <ns2:para>本Hands-onでは「レポートテンプレート」はMVCフレームワークテンプレートを選択し、<ns2:guilabel>Finish</ns2:guilabel>をクリックしてください。</ns2:para>
+    <ns2:figure>
+        <ns2:title>レポート生成ウィザードのレポートテンプレート選択画面</ns2:title>
+        <ns2:mediaobject>
+            <ns2:imageobject condition="web">
+                <ns2:imagedata format="jpg" fileref="images/WS000016.JPG" width="1000"/>
+            </ns2:imageobject>
+        </ns2:mediaobject>
+    </ns2:figure>
+</ns2:warning>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>レポート生成完了</ns2:para>
+<ns2:figure>
+    <ns2:title>レポート生成完了画面</ns2:title>
+    <ns2:mediaobject>
+        <ns2:imageobject condition="web">
+            <ns2:imagedata format="jpg" fileref="images/WS000017.JPG" width="1000"/>
+        </ns2:imageobject>
+    </ns2:mediaobject>
+</ns2:figure>
+                            </ns2:listitem>
+                        </ns2:orderedlist>
+
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+        <DocBook articleId="knowhowDetail_16">
+            <ns2:article>
+                <ns2:info>
+                    <ns2:title>body</ns2:title>
+                </ns2:info>
+                <ns2:section>
+                    <ns2:para>
+			このHands-onで必要なものは以下があります。あらかじめご準備ください。
+			<ns2:itemizedlist>
+                            <ns2:listitem>
+<ns2:para>Java</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>Eclipse</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>TUBAME(Eclipse plugin)</ns2:para>
+<ns2:para>
+						<ns2:command ns3:href="http://tubame.github.io/ja/quickstart/quickstart.html">http://tubame.github.io/ja/quickstart/quickstart.html
+						</ns2:command>
+					</ns2:para>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para>検索対象の資材</ns2:para>
+<ns2:para>
+						<ns2:command ns3:href="http://osdn.jp/projects/terasoluna/downloads/63023/terasoluna-server4jweb-tutorial_2.0.5.3.zip/">http://osdn.jp/projects/terasoluna/downloads/63023/terasoluna-server4jweb-tutorial_2.0.5.3.zip/
+						</ns2:command>
+					</ns2:para>
+<ns2:note>
+    <ns2:para>zipにある「tutorial-thin」をEclipseにインポートしてください。</ns2:para>
+    <ns2:para>Eclipseにインポート時は、Eclipseのワークスペースにインポートしてください</ns2:para>
+</ns2:note>
+                            </ns2:listitem>
+                            <ns2:listitem>
+<ns2:para xml:id="getKnowHowXml">ナレッジベース検索で利用する「Struts1からSpringMVCへの移行ナレッジ」</ns2:para>
+<ns2:para>
+						TUBAMEご利用の環境がインターネットに接続できない場合のみ、以下URLより手動で取得してください。TUBAMEご利用の環境がインターネット接続可能な場合は取得不要です。
+
+
+						<ns2:command ns3:href="https://github.com/TUBAME/migration-knowledge/releases/download/struts1tospringmvcja/Struts1ToSpringMVC.zip">https://github.com/TUBAME/migration-knowledge/releases/download/struts1tospringmvcja/Struts1ToSpringMVC.zip
+						</ns2:command>
+
+						<ns2:note>
+        <ns2:para>zipにある「Struts1ToSpringMVC」フォルダを、Eclipseにインポートした「tutorial-thin」プロジェクトにtubame-knowledgeフォルダを作成し、tubame-knowledgeフォルダ配下に配置してください
+							</ns2:para>
+        <ns2:programlisting>
+tutorial-thin
+	|-tubame-knowledge
+		|-Struts1ToSpringMVC
+			|- Struts1ToSpringMVC.xml
+			|- index.html
+			|- js
+			|-　css
+			|- images
+
+							</ns2:programlisting>
+    </ns2:note>
+					</ns2:para>
+                            </ns2:listitem>
+                        </ns2:itemizedlist>
+
+		</ns2:para>
+                </ns2:section>
+            </ns2:article>
+        </DocBook>
+    </DocBookList>
+    <SearchInfomationList/>
+</PortabilityKnowhow>
