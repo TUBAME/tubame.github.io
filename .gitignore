@@ -20,8 +20,6 @@ target/
 *.manifest
 jbmst/
 
-plugins/
-
 # TUBAME's ignore files #
 work/
 
