@@ -2,7 +2,6 @@
 
 # Java's ignore files #
 *.class
-*.jar
 *.war
 *.ear
 
